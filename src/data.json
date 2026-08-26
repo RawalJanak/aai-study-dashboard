@@ -1,0 +1,5575 @@
+{
+ "builtAt": "24 Aug 2026, 17:56",
+ "regClose": "2026-09-07",
+ "daysToClose": 14,
+ "minTrendDays": 3,
+ "totals": {
+  "concepts": 50,
+  "solid": 40,
+  "learning": 7,
+  "weak": 2,
+  "notStarted": 1,
+  "lessons": 50,
+  "errors": 8,
+  "errorsOpen": 0,
+  "sessions": 16,
+  "sessionDays": 4,
+  "mocks": 0,
+  "graphs": 9
+ },
+ "statusBreakdown": [
+  {
+   "status": "Not started",
+   "n": 1
+  },
+  {
+   "status": "Weak",
+   "n": 2
+  },
+  {
+   "status": "Learning",
+   "n": 7
+  },
+  {
+   "status": "Solid",
+   "n": 40
+  },
+  {
+   "status": "Mastered",
+   "n": 0
+  }
+ ],
+ "sessionsByDay": [
+  {
+   "date": "17 Aug",
+   "total": 6,
+   "cumulative": 6,
+   "teach": 6,
+   "revise": 0,
+   "drill": 0,
+   "mock": 0,
+   "other": 0
+  },
+  {
+   "date": "18 Aug",
+   "total": 4,
+   "cumulative": 10,
+   "teach": 1,
+   "revise": 1,
+   "drill": 2,
+   "mock": 0,
+   "other": 0
+  },
+  {
+   "date": "21 Aug",
+   "total": 1,
+   "cumulative": 11,
+   "teach": 0,
+   "revise": 0,
+   "drill": 1,
+   "mock": 0,
+   "other": 0
+  },
+  {
+   "date": "24 Aug",
+   "total": 5,
+   "cumulative": 16,
+   "teach": 2,
+   "revise": 0,
+   "drill": 0,
+   "mock": 0,
+   "other": 3
+  }
+ ],
+ "sessionTypes": [
+  {
+   "key": "teach",
+   "label": "Teach"
+  },
+  {
+   "key": "revise",
+   "label": "Revise"
+  },
+  {
+   "key": "drill",
+   "label": "Drill"
+  },
+  {
+   "key": "mock",
+   "label": "Mock"
+  },
+  {
+   "key": "other",
+   "label": "Other"
+  }
+ ],
+ "coverage": [
+  {
+   "block": "Part-A general",
+   "marks": 48,
+   "covered": 0,
+   "inProgress": 48,
+   "notStarted": 0
+  },
+  {
+   "block": "Physics XII",
+   "marks": 24,
+   "covered": 0,
+   "inProgress": 24,
+   "notStarted": 0
+  },
+  {
+   "block": "Maths XII",
+   "marks": 24,
+   "covered": 0,
+   "inProgress": 24,
+   "notStarted": 0
+  },
+  {
+   "block": "Aviation",
+   "marks": 12,
+   "covered": 0,
+   "inProgress": 12,
+   "notStarted": 0
+  },
+  {
+   "block": "Business Mgmt",
+   "marks": 12,
+   "covered": 0,
+   "inProgress": 12,
+   "notStarted": 0
+  }
+ ],
+ "subjects": [
+  {
+   "key": "mathematics",
+   "name": "Mathematics",
+   "marks": 24,
+   "logged": 34,
+   "solid": 24,
+   "pct": 71
+  },
+  {
+   "key": "quant",
+   "name": "Quantitative Aptitude",
+   "marks": null,
+   "logged": 15,
+   "solid": 15,
+   "pct": 100
+  },
+  {
+   "key": "reasoning",
+   "name": "Reasoning",
+   "marks": null,
+   "logged": 1,
+   "solid": 1,
+   "pct": 100
+  }
+ ],
+ "concepts": [
+  {
+   "concept": "Derivative as rate of change / slope",
+   "group": "Differentiation",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "read graphs correctly, explained speedometer idea",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Average speed over a whole journey is just division: distance divided by time. But the number on a\nspeedometer is different - it is your speed at *one instant*. A derivative is that speedometer\nreading. It answers \"how fast is this changing right now?\"\n\nOn a graph it is the **slope** at a single point: steep means changing fast, flat means not\nchanging at all."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "The derivative of $f$ at $x$ is the limit of the average rate of change as the interval shrinks to\nzero. Geometrically it is the gradient of the tangent line at that point.\n\nReading a function against its derivative: where $f$ rises, $f'$ is positive; where $f$ is flat,\n$f' = 0$; where $f$ falls, $f'$ is negative. That last set of three facts solves every\nmaximum/minimum question in the syllabus."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "For $y = x^2$ at the point $x = 3$:\n\n- the derivative is $2x$, so the slope there is $6$\n- meaning: near $x = 3$, increasing $x$ by a small amount increases $y$ by roughly six times\n  that amount"
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Confusing the value of the function with the value of its slope. $f(3) = 9$ and $f'(3) = 6$\n  answer different questions.\n- A flat point means the derivative is zero, not that the function is zero."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Power rule",
+   "group": "Differentiation",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "correct across several questions",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "For anything of the form \"x to a power\", the recipe is two steps: bring the power down to the\nfront as a multiplier, then reduce the power by one.\n\n$x^5$ becomes $5x^4$. That is the entire rule."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Valid for all real $n$, including negatives and fractions. This is why roots and reciprocals are\nhandled by this rule and not by anything else: $\\sqrt{x} = x^{1/2}$ and $1/x = x^{-1}$.\n\nA constant differentiates to zero, because a constant is $cx^0$ and the power rule brings down\nthe $0$."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\frac{d}{dx}x^{n} = n\\,x^{n-1}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$y = 4x^3 - 7x + 9$\n\n- $4x^3 \\to 12x^2$\n- $-7x \\to -7$\n- $9 \\to 0$\n\nso $\\dfrac{dy}{dx} = 12x^2 - 7$"
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Forgetting that a lone $x$ is $x^1$ and differentiates to $1$, not to $0$.\n- Forgetting that a constant vanishes entirely."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Standard derivatives (sin, cos, eˣ, ln)",
+   "group": "Differentiation",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "cos(5x−2) done with correct minus sign",
+   "lesson": null
+  },
+  {
+   "concept": "Chain rule — mechanics",
+   "group": "Differentiation",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "6x·e^(3x²), −5sin(5x−2), 3(2x+5)(…) all correct",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Use this when one function sits **inside** another's brackets, like $\\sin(3x)$ or $(2x+1)^4$.\n\nTwo steps: differentiate the outside layer while leaving the inside completely alone, then\nmultiply by the derivative of the inside."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "If $y = f(g(x))$ then $dy/dx = f'(g(x)) \\cdot g'(x)$.\n\nThe test for whether you need it: ask \"is one thing inside the other's brackets?\" Decide this\n*before* writing anything - choosing the wrong rule costs more marks than any arithmetic slip."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\frac{dy}{dx} = \\frac{dy}{du}\\cdot\\frac{du}{dx}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$y = (x^2 + 3x)^4$\n\n- outside: power 4, so $4(x^2+3x)^3$, inside untouched\n- inside derivative: $2x + 3$\n- multiply:\n\n$$\\frac{dy}{dx} = 4(2x+3)(x^2+3x)^3$$"
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- **Multiply, never add** at the final step.\n- Keep the *whole* inner derivative: $2x+3$, not just $2x$."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Chain rule — \"inside stays unchanged\"",
+   "group": "Differentiation",
+   "status": "Fixed",
+   "subject": "mathematics",
+   "evidence": "failed on e^(x²) → corrected on e^(3x²)",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "The inside function must survive into your answer exactly as it started. It rides along unchanged,\nand its derivative appears out front as a multiplier.\n\nIf the inside has changed or vanished in your final line, you have made an error."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "In $f(g(x))$, the outer derivative is evaluated *at* $g(x)$ - the inner function is the argument,\nnot something to be simplified away. This is why the check works: $g(x)$ must be visible in the\nresult."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\frac{d}{dx}e^{g(x)} = g'(x)\\,e^{g(x)}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$y = e^{x^2}$\n\n- outside: $e^{\\text{something}}$, which stays $e^{x^2}$\n- inside derivative: $2x$\n\n$$\\frac{dy}{dx} = 2x\\,e^{x^2}$$\n\nNote $x^2$ still appears in the exponent. It never became $x$."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Differentiating the inside *in place*, giving $2e^x$. Wrong on both counts.\n- Quick check: is the original inner function still in my answer?"
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Chain rule — multiply not add",
+   "group": "Differentiation",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "failed once on (x²+3x)⁴ on 17 Aug, then cleared the same day on 6x·e^(3x²) and 3(2x+5)(x²+5x)",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Step four of the chain rule is a multiplication. Not an addition. This is the single most common\nslip in the whole topic.\n\nProduct rule adds. Chain rule multiplies. Quotient rule subtracts. Fix which is which before you\nstart."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "The chain rule composes rates: if $y$ changes 4 times as fast as $u$, and $u$ changes 3 times as\nfast as $x$, then $y$ changes $4 \\times 3 = 12$ times as fast as $x$. Rates compose by\nmultiplication, which is why addition is structurally wrong here."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\frac{dy}{dx} = \\underbrace{f'(g(x))}_{\\text{outside}} \\times \\underbrace{g'(x)}_{\\text{inside}}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$y = e^{3x^2}$\n\n- outside: $e^{3x^2}$\n- inside derivative: $6x$\n- **multiply**: $\\dfrac{dy}{dx} = 6x\\,e^{3x^2}$\n\nAdding would give $6x + e^{3x^2}$, which is not a derivative of anything sensible."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Writing $8x + 4(x^2+3x)^3$ instead of $4(2x+3)(x^2+3x)^3$.\n- If your answer has a $+$ between two unrelated-looking pieces, check the rule."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Roots as fractional powers",
+   "group": "Differentiation",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "18 Aug drill: √(6x−5) and √(x²+4) both correct first time. Weak flag cleared",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "A square root is a power, not a logarithm. $\\sqrt{u} = u^{1/2}$.\n\nAlways rewrite the root as a fractional power *first*, then apply the chain rule normally. Only\n$\\ln u$ produces the $u'/u$ shape - roots never do."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "$\\sqrt{u} = u^{1/2}$, so differentiating gives $\\tfrac12 u^{-1/2}\\cdot u'$, which tidies to\n$u'/(2\\sqrt{u})$.\n\nWorth memorising the linear case outright, because it appears constantly:\n$\\frac{d}{dx}\\sqrt{ax+b} = \\frac{a}{2\\sqrt{ax+b}}$"
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\frac{d}{dx}\\sqrt{u} = \\frac{u'}{2\\sqrt{u}}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$y = \\sqrt{x^2+9}$\n\n- rewrite: $(x^2+9)^{1/2}$\n- power rule: $\\tfrac12 (x^2+9)^{-1/2}$\n- times inner derivative $2x$:\n\n$$\\frac{dy}{dx} = \\frac{x}{\\sqrt{x^2+9}}$$"
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Applying the $\\ln$ pattern and writing $2x/(x^2+9)$. That is the derivative of $\\ln(x^2+9)$.\n- Reciprocals are powers too: $1/x = x^{-1}$."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Product rule",
+   "group": "Differentiation",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "learned in one pass, incl. minus from cos",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Use it when two functions are **multiplied side by side**, like $x^3 \\sin x$ - neither one is\ninside the other's brackets.\n\nDifferentiate the first and keep the second, then keep the first and differentiate the second.\nAdd the two."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "$(uv)' = u'v + uv'$\n\nEvery term in the answer contains **both** original functions in some form. If a term is missing\none of them, a factor has been dropped."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\frac{d}{dx}(uv) = u'v + uv'$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$y = x^3 \\sin x$, with $u = x^3$ and $v = \\sin x$\n\n- $u' = 3x^2$, $v' = \\cos x$\n\n$$\\frac{dy}{dx} = 3x^2\\sin x + x^3\\cos x$$"
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Multiplying the two derivatives together, chain-style. That is a different rule.\n- Losing the minus when $v = \\cos x$, since $v' = -\\sin x$."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Product rule — both factors in each term",
+   "group": "Differentiation",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "dropped the v in u′v on (2x+1)⁴·x",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "A completeness check rather than a new rule. In $u'v + uv'$, each of the two terms must contain\nboth original functions.\n\nScan your answer: does term one have both? Does term two? If not, something was dropped."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "The structure is symmetric by design - each term differentiates exactly one factor and leaves the\nother intact. A term containing only $u'$ means $v$ was lost in transcription."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$(uv)' = \\underbrace{u'v}_{\\text{both present}} + \\underbrace{uv'}_{\\text{both present}}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$y = (2x+1)^4 \\cdot x$, with $u = (2x+1)^4$, $v = x$\n\n- $u' = 8(2x+1)^3$ (chain rule inside the product), $v' = 1$\n\n$$\\frac{dy}{dx} = 8x(2x+1)^3 + (2x+1)^4$$\n\nThe first term keeps the $x$; the second keeps the whole bracket."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Writing $u'$ alone instead of $u'v$.\n- Forgetting the inner chain rule when a factor is itself a bracket raised to a power."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Quotient rule — mechanics",
+   "group": "Differentiation",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "18 Aug: x²/sin x and x/(x²+1) both correct",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "For one function **divided** by another. The top's derivative always comes first, then you\nsubtract, then divide by the bottom squared.\n\nSay it as a sentence: \"bottom times derivative of top, minus top times derivative of bottom, all\nover bottom squared.\""
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "$\\left(\\dfrac{u}{v}\\right)' = \\dfrac{u'v - uv'}{v^2}$\n\nSubtraction is required because growth in the denominator *shrinks* the fraction, so it must\ncount against the result."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\frac{d}{dx}\\left(\\frac{u}{v}\\right) = \\frac{u'v - uv'}{v^{2}}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$y = \\dfrac{x^2}{\\sin x}$, with $u = x^2$, $v = \\sin x$\n\n- $u' = 2x$, $v' = \\cos x$\n\n$$\\frac{dy}{dx} = \\frac{2x\\sin x - x^2\\cos x}{\\sin^2 x}$$"
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Differentiating top and bottom separately. That is never a rule.\n- Forgetting to square the denominator."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Quotient rule — sign and order",
+   "group": "Differentiation",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "18 Aug: shaky at first (added once, reversed once), then 3/3 clean on retest incl. the ad−bc shortcut",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Two separate slips live here, and both flip the answer.\n\n**Sign:** product rule adds, quotient rule subtracts.\n**Order:** the derivative of the *top* is written first. Subtraction cannot be reversed -\n$5-3$ and $3-5$ are different numbers."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "For the common linear-over-linear shape there is a fast CBT shortcut worth memorising:\n\n$$\\frac{d}{dx}\\left(\\frac{ax+b}{cx+d}\\right) = \\frac{ad-bc}{(cx+d)^2}$$\n\nTwo multiplications, no rule application. Sanity-check any bare-number answer by substituting two\nvalues of $x$: if $y$ rises, the derivative must be positive."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\frac{u'v - uv'}{v^{2}} \\quad\\text{not}\\quad \\frac{uv' - u'v}{v^{2}}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$y = \\dfrac{3x-2}{x+4}$\n\n- $u'v - uv' = 3(x+4) - (3x-2) = 3x+12-3x+2 = 14$\n\n$$\\frac{dy}{dx} = \\frac{14}{(x+4)^2}$$\n\nShortcut check: $ad - bc = (3)(4) - (-2)(1) = 14$. Same answer."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Computing $uv' - u'v$ and getting the sign backwards.\n- The minus applies to the *whole* second bracket: $-(2x+1) = -2x-1$."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Maxima / minima + 2nd derivative test",
+   "group": "Differentiation",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "taught twice, worked airport-parking example",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "At the top of a hill or the bottom of a valley, the curve is momentarily flat - so the derivative\nis zero. That is how you find turning points.\n\nTo tell which is which, look at the second derivative. Negative means a frown, so a maximum.\nPositive means a smile, so a minimum."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "1. Differentiate, set $f'(x) = 0$, solve for $x$\n2. Classify with $f''(x)$: negative gives a local maximum, positive a local minimum\n3. **Substitute back** to answer the question actually asked\n\nStep three is where marks are lost. The question usually wants the price, the revenue or the\narea - not the value of $x$."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$f'(x)=0 \\;\\Rightarrow\\; \\text{turning point}; \\qquad f''(x)<0 \\Rightarrow \\text{max}, \\quad f''(x)>0 \\Rightarrow \\text{min}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Airport parking: ₹100 per slot fills 400 cars; every ₹10 rise loses 20 cars.\n\n$R(x) = (100+10x)(400-20x) = 40000 + 2000x - 200x^2$\n\n- $R'(x) = 2000 - 400x = 0 \\Rightarrow x = 5$\n- $R''(x) = -400 < 0$, so it is a maximum\n- price $= 100 + 50 = ₹150$, revenue $= ₹45{,}000$"
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Answering $x = 5$ when the question asked for the price.\n- Forgetting to check $f''$ and calling a minimum a maximum."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Simplifying final answers",
+   "group": "Differentiation",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "A correct but unsimplified answer can match none of the four options in a CBT. Simplify before you\ncompare.\n\n$4/(4x)$ is $1/x$. Cancel, collect and tidy every time."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "In a computer-based test the options are usually given in lowest terms. Common tidy-ups: cancel\ncommon factors, combine like terms, rationalise a root out of a denominator, and factor out the\nhighest common factor so the shape matches the option list."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\frac{4}{4x} = \\frac{1}{x} \\qquad \\frac{2x}{2\\sqrt{x^2+9}} = \\frac{x}{\\sqrt{x^2+9}}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$y = \\ln(4x)$\n\n- chain rule: $\\dfrac{1}{4x}\\cdot 4 = \\dfrac{4}{4x}$\n- simplify: $\\dfrac{1}{x}$\n\nWorth knowing: $\\ln(ax)$ always differentiates to $1/x$, whatever $a$ is."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Stopping at $4/(4x)$ and finding no matching option.\n- Panicking and re-doing correct work because the untidy form is not listed."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Integration as antiderivative and area",
+   "group": "Integration - concept level",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Differentiation asks \"how fast is this changing?\" Integration asks the opposite: \"I know how fast\nit is changing - what is it?\"\n\nA flight recorder logs speed every second but not position. Adding up speed x time over every tiny\nslice recovers the distance. That is integration - and because speed x time is a rectangle, the\ntotal is the **area under the speed graph**."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Integration is the inverse operation of differentiation, which is why the result is called an\nantiderivative. The definite integral of $f$ over $[a,b]$ equals the signed area between the curve\nand the $x$-axis.\n\nThe $\\int$ sign is a stretched S for *sum*; $dx$ says the slices are infinitely thin slices of $x$."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\int f(x)\\,dx = F(x) + C \\quad\\text{where}\\quad F'(x) = f(x)$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$\\int_0^4 x\\,dx$\n\nThe region under $y = x$ from $0$ to $4$ is a triangle: $\\tfrac12 \\times 4 \\times 4 = 8$.\n\nBy integration: $\\left[\\dfrac{x^2}{2}\\right]_0^4 = \\dfrac{16}{2} - 0 = 8$.\n\nSame answer, checkable with school geometry."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Thinking integration is a separate mystery. It is differentiation run backwards.\n- Forgetting that area below the axis counts as negative."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Power rule for integration",
+   "group": "Integration - concept level",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "x^3 answered correctly as x^4/4, but +C omitted",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "The exact mirror of the differentiation power rule, read backwards.\n\nDifferentiating: multiply by the power, then drop it by one.\nIntegrating: **raise the power by one, then divide by the new power.**"
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Valid for every real $n$ except $n = -1$, where dividing by $n+1$ would mean dividing by zero.\nThat single exception is handled by the logarithm instead.\n\nIntegrate term by term. A constant $k$ is $kx^0$, so it integrates to $kx$."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\int x^{n}\\,dx = \\frac{x^{n+1}}{n+1} + C \\quad (n \\neq -1)$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$\\int (6x^2 + 4x - 5)\\,dx$\n\n- $6x^2 \\to 6x^3/3 = 2x^3$\n- $4x \\to 4x^2/2 = 2x^2$\n- $-5 \\to -5x$\n\n$$= 2x^3 + 2x^2 - 5x + C$$\n\nCheck by differentiating: $6x^2 + 4x - 5$. Back to the start."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Dividing by the *old* power instead of the new one.\n- Forgetting that a constant integrates to $kx$, not to nothing."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "The constant of integration (+C)",
+   "group": "Integration - concept level",
+   "status": "Weak",
+   "subject": "mathematics",
+   "evidence": "omitted on the first check question after being flagged three times in the lesson",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "$x^2$, $x^2+3$ and $x^2-7$ all have exactly the same derivative, $2x$ - because differentiating\ndestroys a constant.\n\nRunning it backwards, you cannot know which constant was there. So you write $+C$ to mean \"some\nconstant, unknown\". Leaving it off is a marked error."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "The antiderivative is a *family* of curves, each a vertical shift of the others, all sharing the\nsame gradient at every $x$. $+C$ names that family.\n\nThe one place it legitimately disappears is a definite integral, where it cancels:\n$(F(b)+C) - (F(a)+C)$."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\int 2x\\,dx = x^{2} + C$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$\\int x^3\\,dx = \\dfrac{x^4}{4} + C$\n\nNot $\\dfrac{x^4}{4}$. In a CBT several options differ only by what is attached at the end, so an\nanswer without $+C$ can match nothing on the list."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Omitting $+C$ on an indefinite integral.\n- Adding $+C$ to a definite integral, where it cancels out."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Standard integrals",
+   "group": "Integration - concept level",
+   "status": "Not started",
+   "subject": "mathematics",
+   "evidence": "table given, not yet drilled",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Each one is a differentiation rule read backwards. The classic trap is the sine/cosine minus sign,\nbecause it **swaps sides**.\n\nGoing forward, cos goes negative. Going backward, sin goes negative. The minus is always on the\nother one."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| $\\int f(x)\\,dx$ | result |\n|---|---|\n| $x^n$ | $x^{n+1}/(n+1) + C$ |\n| $1/x$ | $\\ln\\lvert x\\rvert + C$ |\n| $e^x$ | $e^x + C$ |\n| $\\sin x$ | $-\\cos x + C$ |\n| $\\cos x$ | $\\sin x + C$ |\n| $\\sec^2 x$ | $\\tan x + C$ |\n| $a^x$ | $a^x/\\ln a + C$ |\n\nThe modulus in $\\ln\\lvert x\\rvert$ matters because logarithms are undefined for negative numbers."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\int \\sin x\\,dx = -\\cos x + C \\qquad \\int \\cos x\\,dx = \\sin x + C$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$\\int (\\cos x + e^x + \\tfrac{1}{x})\\,dx = \\sin x + e^x + \\ln\\lvert x\\rvert + C$\n\nThree standard results, one shared constant."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Putting the minus on cosine when integrating. It belongs to sine.\n- Writing $\\int \\frac{1}{x} = \\ln x$ without the modulus."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Definite integrals",
+   "group": "Integration - concept level",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "taught with the trapezium cross-check; not yet practised",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "An integral with numbers on the sign gives **one number**, not a function.\n\nThree steps: integrate as normal, substitute the top limit, substitute the bottom limit, then\nsubtract - top minus bottom. No $+C$, because it cancels itself."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "$\\int_a^b f(x)\\,dx = F(b) - F(a)$, the Fundamental Theorem of Calculus.\n\nThe order is not reversible - the same discipline as the quotient rule. Swapping the limits flips\nthe sign of the answer."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\int_a^b f(x)\\,dx = \\Big[F(x)\\Big]_a^b = F(b) - F(a)$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$\\int_1^3 (2x+1)\\,dx$\n\n- integrate: $F(x) = x^2 + x$\n- top, $x=3$: $9+3 = 12$\n- bottom, $x=1$: $1+1 = 2$\n- subtract: $12 - 2 = \\mathbf{10}$\n\nGeometry check: a trapezium of average height $(3+7)/2 = 5$ and width $2$, so area $10$."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Writing $+C$ on a definite integral.\n- Doing bottom minus top, which flips the sign."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Signed area - below the axis counts negative",
+   "group": "Integration - concept level",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "taught; check question on integral 0 to 2 of 3x^2 not yet answered",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "An integral measures *signed* area. Area above the axis counts positive, area below counts\nnegative, and they can cancel.\n\nIf an aircraft flies 4 km out and 4 km back, the integral of velocity is zero (it is home again)\nbut the distance travelled is 8 km. Both are correct - they answer different questions."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "If the question says **\"evaluate the integral\"**, apply the limits and keep the sign.\n\nIf it says **\"find the area\"**, find the roots inside the limits, split the integral at each root,\ntake the magnitude of each piece, then add.\n\nA definite integral that comes out zero or suspiciously small is the signal that the curve crossed\nthe axis."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\text{Area} = \\sum \\left| \\int_{r_i}^{r_{i+1}} f(x)\\,dx \\right| \\;\\neq\\; \\int_a^b f(x)\\,dx$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "$y = x^2 - 4x + 3$ has roots at $x = 1$ and $x = 3$.\n\n- from $0$ to $1$, above the axis: $+4/3$\n- from $1$ to $3$, below the axis: $-4/3$\n\n$\\int_0^3 = 0$, but the actual **area is $8/3$**."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Reporting the integral when the question asked for area.\n- Not checking for roots between the limits."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Classification (odd one out)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q1 taught (Freeze), N1 pattern reused correctly, Hangar modelled Q correct first time",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Three of the four options share one hidden property. Say that property out loud, then the odd one is obvious."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: (1) read all four options first, (2) name the broad category, (3) tighten it to the exact shared property, (4) test candidates against that property. If two competing properties both seem to fit, use the one that leaves exactly ONE item outside — a valid classification never leaves two."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Freeze, Simmer, Boil, Bake -> three apply heat, Freeze removes it. Answer: Freeze."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- A weaker second pattern (e.g. \"uses water\") may tempt a different wrong answer.\n- Always count how many items the candidate property excludes — must be exactly one."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Venn diagrams (subset/disjoint/overlap)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q2 taught, M2 modelled question correct first time",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Every pair of words is either one-inside-the-other (subset), never-touching (disjoint), or partly-shared (overlap). There is no fourth option."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: take the words pairwise and classify each pair as subset / disjoint / overlap. All-A-is-B -> subset. No-A-is-B -> disjoint. Some-A-is-B -> overlap. Find the picture that matches every pair."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Coffee, Wine, Liquid: Coffee subset of Liquid, Wine subset of Liquid, Coffee disjoint from Wine -> two separate small circles fully inside one big circle."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Overlap is the most over-used wrong guess — it is the 'default' mental picture of a Venn diagram, but most AAI questions are actually subset+disjoint.\n- Test disjoint vs overlap by trying to name ONE real example that belongs to both categories."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Coding-decoding (word/symbol overlap)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q3 taught, M3 modelled question correct, explained reasoning",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Find the one word that appears in two of the given code groups, then find the one symbol shared by those same two groups. That symbol is that word."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: (1) list each group's words, (2) find which two groups both contain the target word, (3) intersect their symbol sets — the common symbol is the answer. Always cross-check with a second overlap for a different word to confirm no contradiction."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Group A=go,for,morning,walk; Group B=good,for,health. 'for' is common to A and B. Intersect their symbol sets -> the shared symbol is 'for'."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Do not try to decode the whole language — only the two groups containing your target word matter.\n- Low-quality scans can make similar symbols (e.g. $ vs S) hard to tell apart; if no solution exists, you likely misread a symbol."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Direction sense (net displacement)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q4 taught, M4 modelled question correct first time",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Track the walker's facing direction and position leg by leg using coordinates — never try to picture the whole path in your head."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Facing South, your LEFT points East (not West) — left/right always depend on current heading, not compass-fixed. Turning left cycles N->W->S->E->N (anticlockwise); turning right cycles N->E->S->W->N (clockwise). Sum all East-West movement and all North-South movement separately; each may cancel. Final distance = sqrt(net-x^2 + net-y^2), and simplifies to just the nonzero component when the other is zero."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\text{distance} = \\sqrt{(\\Delta x)^2 + (\\Delta y)^2}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "30m South, left 15m (=East), left 30m (=North), right 15m (=East). North-South cancels (30 south, 30 north). East adds: 15+15=30. Distance = 30m."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- The question asks distance FROM START, not total distance WALKED — don't just add every leg.\n- Left/right reverses depending on current heading; always re-derive it per leg, never assume."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Ranking / linear order chains",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q5 taught, M5 modelled question correct first time",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Split every 'X before Y but behind Z' sentence into two separate fragments before joining anything into one chain."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: (1) fix one direction (e.g. left=better) and never flip it, (2) convert every clue into a small ordered fragment, (3) find the shared name between fragments to link them into one full chain, (4) read off whatever position the question asks for."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Gowtham before Mahesh but behind Sudhesh -> Sudhesh->Gowtham->Mahesh. Aswin before Surya but behind Mahesh -> Mahesh->Aswin->Surya. Joined: Sudhesh->Gowtham->Mahesh->Aswin->Surya. Winner = Sudhesh."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- A single sentence often reverses direction midway ('before...but behind') — combining both halves in your head without writing them separately is the most common error."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Calendar reasoning (day-of-week shift)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "reasoning",
+   "evidence": "Q6 taught, N1 modelled question correct first time",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Anchor to the day you're given information about, work out its actual day-of-week, then count forward or backward to the day being asked about."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "\"X is N days earlier than Thursday\" means X + N = Thursday (add days to X to reach Thursday), not X - N. Solve for the anchor day first, then step to the target date."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "17th is 3 days earlier than Thursday -> 17th+3=Thursday -> 17th=Monday. 19th = 17th+2 = Wednesday."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- \"Earlier than\" is easy to flip into subtracting instead of adding — always convert to an equation (anchor + N = target) rather than reasoning in your head."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Blood relations — simple (one-layer)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q7 taught correctly",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Peel the sentence from the innermost phrase outward, naming the intermediate person before applying the next relation."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: resolve the first relational phrase to a named role (e.g. 'brother of mother' = maternal uncle), then apply the next phrase to THAT role, not to yourself."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Son of the brother of her mother -> brother of mother = maternal uncle -> son of that uncle = cousin."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Never try to hold the whole sentence in your head and guess — write the intermediate person down."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Blood relations — \"only son/daughter\" nested layer",
+   "group": "General Intelligence",
+   "status": "Weak",
+   "subject": "mathematics",
+   "evidence": "N2 retry: answered \"Daughter\" instead of \"Sister\" — jumped to self instead of resolving the inner relation (grandfather's only son = own father) first",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "\"My grandfather's only son\" usually means the speaker's OWN father, not the speaker — because if the grandfather has only one son, that son must be the speaker's father."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: before applying an outer relation, check whether an inner phrase like 'only son' or 'only daughter' pins the relation to the ASKER's own parent. Resolve that first, then apply the outer relation (e.g. daughter of that parent = the asker's sibling), rather than jumping straight to 'self'."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "\"This girl is the daughter of my grandfather's only son\" -> grandfather's only son = Rohan's own father -> daughter of Rohan's father = Rohan's sister (NOT Rohan's daughter)."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- WEAK SPOT (missed 24 Aug 2026): jumping straight to 'my daughter' instead of resolving 'grandfather's only son' = 'my father' first. Always peel the innermost phrase first, every time, no shortcuts."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Blood relations — multi-person family table",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q8 taught, correct reasoning shown",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "When many names and relations are given at once, build a two-column Name/Gender table as each fact arrives — don't try to hold it all in your head."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: read the full list of names first, then process each sentence in order, filling in gender/role for each name as it's revealed. Cross names off a written list as you place them; anyone left unplaced means a clue was missed."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "G,K brothers (both male). L sister of K (female). I only son of G's uncle (male). H,J daughters of I's father's brother (both female). Tally: 3 male, 3 female."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Gender is often buried inside role words ('brothers', 'sister', 'son', 'daughters') — a fast read can double-count or skip a name."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Sign/number interchange puzzles",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q9 taught and understood",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Apply the stated swap as a literal find-and-replace on the original equation, then just compute the result."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: for each candidate answer, swap the two named numbers everywhere they appear AND swap the two named signs everywhere they appear, simultaneously, then evaluate the arithmetic. Whichever candidate makes both sides equal is correct."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "4x6-2=14. Swap 2<->6 and -<->+ : 4x6-2 becomes 4x2+6 = 8+6 = 14. Matches."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Don't reason about which swap 'feels right' — mechanically apply each candidate and compute; it's arithmetic, not logic."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Number series — letter/number mismatch",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q10 taught, N3 modelled question correct after a flawed first draft was fixed",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "When a series pairs letters with numbers, first test the simplest rule: does the number equal that letter's true position in the alphabet (A=1...Z=26)?"
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: convert every letter to its true alphabet position and compare against the given number. The term that breaks the match is the incorrect one. Test the simplest hypothesis before searching for a complex arithmetic pattern."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "F-6, I-9, L-11, O-15, R-18, U-21, X-24. L is truly the 12th letter, not 11th — every other pair matches exactly. L-11 is incorrect."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Don't hunt for a complicated common-difference pattern first — test letter=alphabet-position first, it resolves most of these instantly."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Letter matrix / grid analogy",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q11 taught, verified two ways",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Convert every letter in the grid to its alphabet position number, then hunt for the numeric pattern in rows, columns, or diagonals."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: build the numeric grid first. Check columns for arithmetic patterns (squares, fixed differences) and cross-verify with rows using a second, independent pattern — if both agree, the answer is confirmed, not guessed."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "A D G / D ? N / I P W. Column 1 = 1,4,9 (squares). Column 2 = 4,?,16 -> missing middle = 9 = I. Row check (step sizes +3,+5,+7) agrees."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Always verify with a second method (rows AND columns) before finalizing — a single pattern can coincidentally fit by accident on a small grid."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Number analogy (a:b :: c:?)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q12 taught",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Test standard operations in order of simplicity — squares, cubes, times-a-constant, plus/minus-a-constant — until one explains the given pair exactly."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: notice when the second number is close to a round/power number (a perfect square or cube) — that's the cue for 'operation, then small adjustment'. Apply the same confirmed rule to the second pair."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "6:215. 6 cubed = 216, 216-1=215. Rule = n^3 - 1. Applied to 10: 10 cubed - 1 = 999."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Don't guess an additive pattern (like x101) without deriving it from the first pair — always confirm the rule explains the GIVEN pair before applying it."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Arithmetic progression (spacing/intervals)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q13 taught",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "N objects placed in a line always create (N-1) gaps between them, not N."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: identify first gap, common difference, and number of gaps = (objects - 1). Sum directly for small counts, or use AP sum formula n/2 x (2a + (n-1)d) for more terms."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$S_n = \\frac{n}{2}\\left(2a + (n-1)d\\right)$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "7 poles, gaps decreasing by 1m from 10m: 10+9+8+7+6+5 = 45m (6 gaps for 7 poles)."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Miscounting gaps as equal to the number of objects instead of objects-minus-one is the single most common error here."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Word analogy (antonym pairs)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q14 taught, N4 modelled question correct",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Name the relationship between the first pair in one word (e.g. 'opposite of') before scanning the options — then find the true match to that relationship, not just any related word."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: classify the given pair's relationship (antonym, synonym, part-whole, function, etc). Reject options that are synonyms or loosely related when the relationship is specifically antonym."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Best:Worst (antonym) :: Initial:? -> First/Start/Begin are synonyms of Initial (traps); Final is the true opposite."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Synonym options of the second word are placed deliberately to catch anyone who forgets the relationship must be an exact match, not just 'related'."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Word formation (anagram)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "Q15 taught, N5 modelled question correct",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "With only 3-5 letters, pattern-match directly to a common English word rather than searching systematically."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Method: if no word comes to mind immediately, try each letter in turn as the first letter and see what completes naturally."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "E, I, L, K -> LIKE. Last letter = E."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- None significant — this is a vocabulary-speed task, not a logic trap."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Averages (with prime-number filtering)",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q1 taught, P1 modelled question correct first time",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "To test if a number is prime, you only need to check divisibility by primes up to its square root."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "For a 2-3 digit number N, checking divisibility by 2, 3, 5, 7, 11 is enough (since sqrt(N) is at most ~13-17 in that range). List every prime in the range, sum them, divide by count."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\text{average} = \\frac{\\sum \\text{primes in range}}{\\text{count of primes}}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Primes between 150-170: 151,157,163,167 (169=13^2 is NOT prime — the trap). Sum 638 / 4 = 159.5."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Perfect squares near the range boundary (like 169=13^2) are deliberately placed to catch people who don't check them."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Direct proportion / unitary method",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q2 taught, P2 modelled question correct first time",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Find the value for ONE unit first, then multiply by however many units you need."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Weight (or cost, or any linearly-scaling quantity) per unit = given total / given units. Multiply by the new unit count. Equivalent to solving the direct proportion as one fraction."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\text{new value} = \\text{given value} \\times \\frac{\\text{new units}}{\\text{given units}}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "75m of rod weighs 212kg. Weight of 36m = 212 x (36/75) = 101.76kg."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Carry division to at least 2 decimal places before multiplying — early rounding produces a wrong final answer that's still close enough to trick you."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Time and work (multi-stage, who-worked-when)",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q3 taught — resolved a genuine two-reading ambiguity correctly using the given options as a check",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Figure out exactly WHO was working during each phase before computing anything — this is a reading problem as much as a math one."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Individual rate = combined rate - other person's rate (in units of 'task per day'). Work done in a phase = rate x days for whoever was actually working that phase. Remaining work / remaining worker's rate = days needed."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\text{rate}_A = \\text{rate}_{combined} - \\text{rate}_B \\qquad \\text{days} = \\frac{\\text{work remaining}}{\\text{rate of finisher}}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "A+B together 16 days, B alone 20 days -> A's rate = 1/16-1/20 = 1/80/day. If B worked ALONE for 8 days first (2/5 of task), remaining 3/5 taken by A alone = 48 days."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- The sentence 'after working for 8 days, X left' does not always mean both people worked those 8 days together — check who the subject of the working verb actually is."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Decimal arithmetic equations",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q4 taught",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Careful subtraction then division — the only real risk is a decimal-point slip."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Solve algebraically for the unknown, then verify by substituting back and multiplying out."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "43.24-38.16 = ?x20 -> 5.08/20 = 0.254. Verify: 0.254x20=5.08."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Wrong options are usually the right digits with the decimal point shifted one place — always verify by multiplying your answer back."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Number series — perfect-square differences",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q5 taught, P3 modelled question correct after a flawed first draft was fixed live",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Take the differences between consecutive terms first — if THOSE differences are 1,4,9,16,25... you're looking at a perfect-square-difference series."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Compute first differences of the whole series. If they match n^2 for consecutive n, the term that breaks that pattern is the wrong one — recompute what the correct term should have been."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "10,11,15,24,40,65,100: differences 1,4,9,16,25,35. Should be ...,36 (giving 101). 100 is incorrect."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- If differences alone don't reveal a pattern, take differences-of-differences (second differences) next."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Partnership / profit sharing with staggered entry",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q6 taught",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Profit share depends on BOTH how much capital and how LONG it was invested — not capital alone."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Profit ratio = (capital1 x months1) : (capital2 x months2) : ... Simplify at the end, not before. A partner joining late only counts their months from their entry date, not the full period."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\text{profit share} \\propto \\text{capital} \\times \\text{time invested}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Kamal:Dinesh=5:7, both 12 months. Manohar joins after 4 months with Dinesh's capital (7), so 8 months. Ratio = 5x12 : 7x12 : 7x8 = 60:84:56 = 15:21:14."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Forgetting to reduce a late-joiner's time to (total months - months before joining) is the most common error."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Percentage — mixture removal (recompute new total)",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q7 taught",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "After removing part of a mixture, recompute the TOTAL from scratch before finding any percentage — never reuse the original total."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Remaining quantity of each component = original x (1 - removed fraction). New total = sum of all remaining components. Percentage = component / NEW total x 100."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "200 pink, 120 purple, 150 orange. 40% pink and 60% orange removed -> pink=120, orange=60, purple=120 (unchanged). New total=300. Purple%=120/300=40%."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Using the OLD total (470) as the denominator instead of the new, reduced total (300) is the single most common error in mixture-percentage questions."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Simple interest — find Principal from Amount",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q8 taught",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Amount = Principal + Interest, so if you know the Amount, just divide by the interest-growth factor to get back to Principal."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "A = P(1 + rt/100). To find P given A, r, t: P = A / (1 + rt/100). Faster than computing SI separately and subtracting."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$P = \\frac{A}{1 + \\dfrac{rt}{100}}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Amounts to Rs 2188.68 in 8 years at 7%. 1+56/100=1.56. P=2188.68/1.56=Rs 1403."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Verify by multiplying your P back by the growth factor to confirm it reproduces the given Amount."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Relative speed — opposite vs same direction",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q9 taught, P4 modelled question (same direction, subtract) correct first time",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Moving toward each other (opposite directions): ADD the speeds. Moving the same way: SUBTRACT the speeds."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Relative speed (opposite) = v1+v2. Relative speed (same direction) = |v1-v2|. Convert m/s to km/hr by multiplying by 3.6 (and km/hr to m/s by multiplying by 5/18 — these are reciprocals, useful for a cross-check)."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$v_{rel,\\text{opposite}} = v_1+v_2 \\qquad v_{rel,\\text{same}} = |v_1-v_2| \\qquad \\text{m/s} \\times 3.6 = \\text{km/hr}$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "50 m/s and 40 m/s opposite directions: 90 m/s x 3.6 = 324 km/hr. Same direction: 70-55=15 km/hr."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Direction determines the operation — read 'opposite' vs 'same direction' carefully before adding or subtracting.\n- Getting the m/s<->km/hr conversion factor backwards is a common slip; cross-check by converting back."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Mensuration — ratio scaling (linear vs area vs volume)",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q10 taught",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "For similar shapes, if the linear measurements (radius, side, circumference) are in ratio a:b, the AREAS are in ratio a^2:b^2, and VOLUMES are in ratio a^3:b^3."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Circumference is directly proportional to radius (C=2*pi*r), so circumference ratio = radius ratio. Area is proportional to radius squared, so area ratio = (radius ratio)^2. No need to compute actual radii — the ratio transfers directly."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\frac{A_1}{A_2} = \\left(\\frac{r_1}{r_2}\\right)^2 \\qquad \\frac{V_1}{V_2} = \\left(\\frac{r_1}{r_2}\\right)^3$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Circumference ratio 5:8 -> radius ratio 5:8 -> area ratio 25:64."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Don't square the given ratio's individual numbers incorrectly — square the WHOLE ratio, i.e. both numerator and denominator."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Ages — ratio and difference",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q11 taught",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Let the two ages be (smaller ratio number) x and (larger ratio number) x, then use the given difference (or sum) to solve for x."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "If ratio is a:b and difference is D: (b-a)x = D, solve for x, then actual ages = ax and bx."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Ratio 9:11, difference 12: 2x=12, x=6. Ages 54 and 66. Sum=120."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- None major — this is a reliable, mechanical setup once the ratio-times-x substitution is remembered."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Two-digit number — digit sum/difference/product",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q12 taught",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Sum and difference of two digits is a simultaneous-equation setup — add the two equations to cancel one variable immediately."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "a+b=S, a-b=D (a is the larger digit). Adding: 2a=S+D, so a=(S+D)/2, then b=S-a."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Sum=12, difference=4: a=8, b=4. Product=32. sqrt(32)=4*sqrt(2)."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Only solve for the actual two-digit number if the question needs it — sometimes (like here) only the digits themselves matter."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Profit % — CP of X articles = SP of Y articles",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q13 taught, cross-checked with shortcut formula",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "When cost price of X articles equals selling price of Y articles, there's a direct shortcut formula for gain percent."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Gain% = [(X-Y)/Y] x 100. Alternatively assume cost per article = Rs1, compute total CP=X, so SP per article = X/Y, then Gain% = (SP-CP)/CP x100 — both methods agree, use whichever you trust more under time pressure."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\text{Gain\\%} = \\frac{X-Y}{Y} \\times 100$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "CP of 64 = SP of 48. Gain% = (64-48)/48 x100 = 33.33% = 33 1/3%."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Don't confuse which is CP-count and which is SP-count in the shortcut formula — X is always the CP-article-count."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Percentage equation algebra",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q14 taught",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Convert every 'X% of (...)' into a decimal times the bracket, then solve as ordinary algebra."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "Substitute percentages as decimals, expand brackets, collect like terms on each side, isolate the ratio of the two variables."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "25%(P+Q)=75%(P-Q) -> 0.25(P+Q)=0.75(P-Q) -> P+Q=3P-3Q -> 4Q=2P -> P:Q=2:1."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Don't try to shortcut the algebra — isolate P and Q on opposite sides methodically, then read off the ratio."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "LCM/HCF from a ratio",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "Q15 taught, P5 modelled question correct first time, verified by reconstructing actual numbers",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "If two numbers are in a coprime ratio a:b, then LCM = a x b x HCF, and the numbers themselves are a*HCF and b*HCF."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "This converts a number-theory question into one division: HCF = LCM / (a x b), valid whenever a and b share no common factor."
+     },
+     {
+      "key": "formula",
+      "label": "Formula",
+      "text": "$$\\text{LCM} = a \\times b \\times \\text{HCF} \\quad (a,b \\text{ coprime})$$"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Ratio 7:9, LCM=945. HCF = 945/(7x9) = 945/63 = 15. Verify: numbers = 105, 135, LCM(105,135)=945."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Only valid when a and b are coprime (share no common factor) — check this first, it's true for nearly all exam ratios but always worth a glance."
+     }
+    ]
+   }
+  }
+ ],
+ "errors": [
+  {
+   "date": "17 Aug",
+   "area": "Maths — chain rule",
+   "question": "y = (x²+3x)⁴",
+   "misconception": "Added instead of multiplied in step 4; also lost the +3 from the inner derivative",
+   "retry": "cleared 17 Aug — 6x·e^(3x²) and 3(2x+5)(x²+5x) both correct",
+   "open": false
+  },
+  {
+   "date": "17 Aug",
+   "area": "Maths — chain rule",
+   "question": "y = e^(x²)",
+   "misconception": "Differentiated the inside in place. The inside must ride along unchanged and appear as a multiplier out front",
+   "retry": "cleared 17 Aug — e^(3x²) correct",
+   "open": false
+  },
+  {
+   "date": "17 Aug",
+   "area": "Maths — chain rule",
+   "question": "y = √(x²+9)",
+   "misconception": "Applied the ln pattern (u′/u) to a square root. Roots are powers — rewrite √u as u^(1/2) and use the power rule",
+   "retry": "cleared 18 Aug — √(6x−5) and √(x²+4) both correct first time",
+   "open": false
+  },
+  {
+   "date": "17 Aug",
+   "area": "Maths — product rule",
+   "question": "y = x³·sin x",
+   "misconception": "Multiplied the two derivatives, chain-style. Not his fault — the product rule had not been taught yet. Re-test after teaching",
+   "retry": "cleared 17 Aug — x²·cos x correct after teaching",
+   "open": false
+  },
+  {
+   "date": "18 Aug",
+   "area": "Maths — quotient rule",
+   "question": "y = (2x+1)/(x−3)",
+   "misconception": "Added instead of subtracted — used the product-rule sign. Also must negate the whole bracket: −(2x+1) = −2x−1",
+   "retry": "cleared 18 Aug — 3/3 on the mixed quotient drill",
+   "open": false
+  },
+  {
+   "date": "18 Aug",
+   "area": "Maths — quotient rule",
+   "question": "y = (3x−2)/(x+4)",
+   "misconception": "Reversed the order — computed uv′−u′v. Subtraction is not reversible; the derivative of the TOP is always written first",
+   "retry": "cleared 18 Aug — 3/3 incl. the ad−bc shortcut",
+   "open": false
+  },
+  {
+   "date": "17 Aug",
+   "area": "Maths — simplifying",
+   "question": "y = ln(4x)",
+   "misconception": "Mechanics correct, left unsimplified. In a CBT an unsimplified answer may match no option",
+   "retry": "cleared 17 Aug — ln(7x) simplified correctly",
+   "open": false
+  },
+  {
+   "date": "24 Aug",
+   "area": "Reasoning — blood relations (nested)",
+   "question": "\"This girl is the daughter of my grandfather's only son\" — how related to Rohan?",
+   "misconception": "Jumped straight to \"self\" instead of resolving the innermost relation first. \"Grandfather's only son\" = Rohan's own father (since the grandfather has only one son and Rohan descends from him) — so the girl is the daughter of Rohan's *father*, i.e. Rohan's sister, not Rohan's daughter",
+   "retry": "not yet retested",
+   "open": false
+  }
+ ],
+ "sessions": [
+  {
+   "date": "17 Aug",
+   "type": "Teach",
+   "covered": "L1 what a derivative is, power rule",
+   "outcome": "graphs used",
+   "subject": "mathematics"
+  },
+  {
+   "date": "17 Aug",
+   "type": "Teach",
+   "covered": "L2 standard derivatives (6 to memorise)",
+   "outcome": "5 graphs produced",
+   "subject": "mathematics"
+  },
+  {
+   "date": "17 Aug",
+   "type": "Teach",
+   "covered": "L3 chain rule + nested vs product",
+   "outcome": "practice 2/6, then 3/6 with clear fixes",
+   "subject": "mathematics"
+  },
+  {
+   "date": "17 Aug",
+   "type": "Teach",
+   "covered": "L4 quotient rule",
+   "outcome": "not yet practised",
+   "subject": "mathematics"
+  },
+  {
+   "date": "17 Aug",
+   "type": "Teach",
+   "covered": "L5 maxima & minima, 2nd derivative test",
+   "outcome": "retaught with airport-parking example",
+   "subject": "mathematics"
+  },
+  {
+   "date": "17 Aug",
+   "type": "Teach",
+   "covered": "L6 integration — starting",
+   "outcome": "—",
+   "subject": "mathematics"
+  },
+  {
+   "date": "18 Aug",
+   "type": "Revise",
+   "covered": "full differentiation recap",
+   "outcome": "no new material",
+   "subject": "mathematics"
+  },
+  {
+   "date": "18 Aug",
+   "type": "Drill",
+   "covered": "2 roots + 2 quotient, then 2 quotient retests",
+   "outcome": "3/4 then 1/2 — roots cleared, quotient sign shaky",
+   "subject": "mathematics"
+  },
+  {
+   "date": "18 Aug",
+   "type": "Drill",
+   "covered": "3 mixed quotient questions",
+   "outcome": "3/3 — sign flag cleared",
+   "subject": "mathematics"
+  },
+  {
+   "date": "18 Aug",
+   "type": "Teach",
+   "covered": "L6 integration — what it is",
+   "outcome": "in progress",
+   "subject": "mathematics"
+  },
+  {
+   "date": "21 Aug",
+   "type": "Drill",
+   "covered": "GK dissection of AAI AO 29.11.2018 Shift 1, Q1-15, + 15 modelled practice questions",
+   "outcome": "15/15",
+   "subject": "gk"
+  },
+  {
+   "date": "24 Aug",
+   "type": "Teach+Drill",
+   "covered": "General Intelligence dissection of same paper, Q1-15 (all 15 taught with official key) + 10 modelled questions across two rounds",
+   "outcome": "9/10 — missed only the nested blood-relation trap (N2)",
+   "subject": "mathematics"
+  },
+  {
+   "date": "24 Aug",
+   "type": "Teach+Drill",
+   "covered": "General Aptitude dissection of same paper, Q1-15 (all 15 taught with official key, all independently recalculated) + 5 modelled questions",
+   "outcome": "5/5 — two of my own draft questions were flawed (no valid break in the series) and were corrected live before asking",
+   "subject": "quant"
+  },
+  {
+   "date": "24 Aug",
+   "type": "Teach+Drill",
+   "covered": "Current affairs (live web research, Aug 2026) — aviation ministry, AAI traffic data, BRICS, Space Day, Sports Awards, appointments",
+   "outcome": "5/5 on first quiz",
+   "subject": "aviation"
+  },
+  {
+   "date": "24 Aug",
+   "type": "Teach",
+   "covered": "General English dissection, AAI AO 2018 Shift 1 Q1-15 — paper 1 (Airport Operations, 29 Nov 2018 Shift 1) is now fully dissected: 68 questions across GK/GI/Aptitude/English",
+   "outcome": "pattern-level teaching (grammar rules), no separate quiz round this pass — pacing decision given 6 more papers still ahead",
+   "subject": "aviation"
+  },
+  {
+   "date": "24 Aug",
+   "type": "Teach",
+   "covered": "PAPER 1 FULLY COMPLETE. Discipline section dissected — Physics, Maths, Business Management all interleaved, 60 questions, Q1-60. Every calculation-based question independently re-verified computationally (sympy/numpy), not just trusted from the scanned key. One question (Q52, series sum) flagged as unverifiable from the transcribed text — official answer kept but noted as unconfirmed. 128 questions now in the bank total from this one paper",
+   "outcome": "pattern-level teaching by subject cluster (optics/modern-physics/waves/calculus/algebra/coordinate-geometry/probability/management), no quiz round — pacing decision, 6 more papers ahead",
+   "subject": "mathematics"
+  }
+ ],
+ "nextActions": [
+  "Re-test the 15 GK practice questions after ~5 days (due ~26 Aug). 15/15 scored",
+  "Re-drill nested blood-relation questions (\"X's [relative]'s [relative]\" with 3+ layers) —",
+  "Aviation GK is the cheap block. In AAI AO 2018 Shift 1, 12 of 15 GK questions were",
+  "PAPER 1 (AAI AO 2018 Shift 1) IS NOW 100% COMPLETE — GK, General Intelligence, General",
+  "Integration — still open from 18 Aug, +C is the only Weak flag. Worth 5 questions in",
+  "Differentiation is complete and is worth only ~2 marks. Re-drill for spacing, do not",
+  "Physics and Business Management got their first real exposure today via paper 1's",
+  "**This 2018 paper's General Aptitude/Reasoning content is a reliable difficulty/style"
+ ],
+ "wins": [
+  "y = cos(5x − 2) → −5sin(5x − 2). Handled both the minus from cos and the inner multiplier 5.",
+  "18 Aug: √(6x−5) → 3/√(6x−5) and √(x²+4) → x/√(x²+4). The root misconception is resolved — correct first time, after being wrong twice on 17 Aug.",
+  "18 Aug: x²/sin x → (2x·sin x − x²·cos x)/sin²x, and x/(x²+1) → (1−x²)/(x²+1)². Correct order both times."
+ ],
+ "questions": [
+  {
+   "id": "Q1",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q1",
+   "question": "Which of the following aircrafts can carry passenger and freight sharing the same deck?",
+   "options": [
+    "Jet aircrafts",
+    "Freighters",
+    "Combi aircrafts",
+    "Supersonic aircrafts"
+   ],
+   "answer": 3,
+   "why": "\"Combi\" = combination. The main deck is split — seats forward, cargo pallets aft, with a large main-deck cargo door. A freighter carries cargo only; a QC (Quick Change) aircraft converts between roles overnight. The Boeing 747-400M was the classic combi.",
+   "status": "current",
+   "stale": false,
+   "practice": "An aircraft carries cargo only on the main deck, with no passenger seats fitted. This is a:",
+   "practiceOptions": [
+    "Combi",
+    "Freighter",
+    "QC aircraft",
+    "Belly-hold carrier"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q2",
+   "section": "GK",
+   "topic": "Arts & culture",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q2",
+   "question": "With which musical instrument is the musician Sikkil Mala Chandrasekhar associated?",
+   "options": [
+    "Shehnai",
+    "Flute",
+    "Sitar",
+    "Saraswati Veena"
+   ],
+   "answer": 2,
+   "why": "Carnatic flautist, of the Sikkil Sisters lineage. Pure recall. Learn the pairing pattern instead of single names — Shehnai/Bismillah Khan, Sitar/Ravi Shankar, Sarod/Amjad Ali Khan, Santoor/Shivkumar Sharma, Flute/Hariprasad Chaurasia.",
+   "status": "current",
+   "stale": false,
+   "practice": "Pandit Shivkumar Sharma is associated with which instrument?",
+   "practiceOptions": [
+    "Sarod",
+    "Santoor",
+    "Sarangi",
+    "Shehnai"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q3",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q3",
+   "question": "Which leading airline has the largest market share in India?",
+   "options": [
+    "Jet Airways",
+    "Spice Jet",
+    "Indigo Airlines",
+    "Go Air"
+   ],
+   "answer": 3,
+   "why": "IndiGo still leads in 2026 with roughly 60%+ of domestic share. Note what happened to the distractors — Jet Airways ceased operations in April 2019, and GoAir (later Go First) shut down in May 2023. A 2026 paper cannot reuse this question as written.",
+   "status": "stale: two of the four options are defunct airlines",
+   "stale": true,
+   "practice": "Which Indian carrier suspended all operations in April 2019 after a debt default?",
+   "practiceOptions": [
+    "SpiceJet",
+    "Jet Airways",
+    "Air Deccan",
+    "Alliance Air"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q4",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q4",
+   "question": "Which of the following aircraft manufacturing companies manufactured the world's largest passenger airliner?",
+   "options": [
+    "Antonov",
+    "Airbus",
+    "Boeing",
+    "Embraer"
+   ],
+   "answer": 2,
+   "why": "The Airbus A380 — double deck, about 853 seats at maximum density. The trap is Antonov: the An-225 was the largest aircraft by weight but a cargo freighter, not a passenger airliner. Read the qualifier. A380 production ended in 2021 but the fact still holds.",
+   "status": "current",
+   "stale": false,
+   "practice": "The world's largest cargo aircraft, the Antonov An-225 Mriya, was destroyed in 2022 in which country?",
+   "practiceOptions": [
+    "Russia",
+    "Ukraine",
+    "Poland",
+    "Belarus"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q5",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q5",
+   "question": "Which of the following countries will host the ODI Cricket World Cup (ICC World Cup) 2019?",
+   "options": [
+    "United Kingdom",
+    "South Africa",
+    "India",
+    "Australia"
+   ],
+   "answer": 1,
+   "why": "Strictly it was England and Wales, but \"United Kingdom\" was the only defensible option. Now out of date — India hosted 2023 and Australia won; 2027 goes to South Africa, Zimbabwe and Namibia.",
+   "status": "stale: 2019 is long past; know the 2023 result and the 2027 hosts",
+   "stale": true,
+   "practice": "Which country won the ICC ODI World Cup 2023, held in India?",
+   "practiceOptions": [
+    "India",
+    "England",
+    "Australia",
+    "New Zealand"
+   ],
+   "practiceAnswer": 3,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q6",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q6",
+   "question": "When did ICAO start to function?",
+   "options": [
+    "1956",
+    "1947",
+    "1946",
+    "1954"
+   ],
+   "answer": 2,
+   "why": "Three dates get confused. The Chicago Convention was signed 7 December 1944; PICAO was the provisional body from 1945; the Convention entered into force on 4 April 1947, when ICAO formally began, and it became a UN specialised agency in October 1947. HQ Montreal, India a founding member.",
+   "status": "current",
+   "stale": false,
+   "practice": "The Convention on International Civil Aviation, which established ICAO, is commonly known as the:",
+   "practiceOptions": [
+    "Warsaw Convention",
+    "Chicago Convention",
+    "Montreal Convention",
+    "Tokyo Convention"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q7",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q7",
+   "question": "When did BCAS become an independent body under the Ministry of Civil Aviation?",
+   "options": [
+    "1987",
+    "1978",
+    "1998",
+    "1985"
+   ],
+   "answer": 1,
+   "why": "Two-step history, and the exam tests the second step. BCAS was created in January 1978 as a Cell within DGCA after the 1976 IC-410 hijacking, then reorganised as an independent department under MoCA on 1 April 1987. BCAS handles security; DGCA handles safety; AAI is the operator.",
+   "status": "current",
+   "stale": false,
+   "practice": "Which body is responsible for laying down aviation security standards in India?",
+   "practiceOptions": [
+    "DGCA",
+    "AAI",
+    "BCAS",
+    "AERA"
+   ],
+   "practiceAnswer": 3,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q8",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q8",
+   "question": "Identify the airline that is a joint venture between Tata Sons and Singapore Airlines?",
+   "options": [
+    "Vistara Airlines",
+    "Air Pegasus",
+    "Air Asia India",
+    "Turbojet Airways"
+   ],
+   "answer": 1,
+   "why": "Vistara was Tata Sons 51% and Singapore Airlines 49%, launched in 2015. This is the most out-of-date fact in the set — Vistara merged into Air India on 11 November 2024 and no longer flies as a separate brand. Singapore Airlines now holds about 25.1% of the merged Air India. AirAsia India likewise merged into Air India Express.",
+   "status": "stale: Vistara merged into Air India on 11 Nov 2024",
+   "stale": true,
+   "practice": "After the November 2024 merger, Singapore Airlines holds approximately what stake in Air India?",
+   "practiceOptions": [
+    "49%",
+    "25.1%",
+    "51%",
+    "10%"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q9",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q9",
+   "question": "Identify the international airport in India which was formerly known as Sahar International airport.",
+   "options": [
+    "Chhatrapati Shivaji Maharaj International Airport",
+    "Indira Gandhi International Airport",
+    "Rajiv Gandhi International Airport",
+    "Anna International Airport"
+   ],
+   "answer": 1,
+   "why": "Naming chain — Sahar, renamed Chhatrapati Shivaji International in 1999, with \"Maharaj\" added in 2018. IATA code BOM. Option 4 is the trap: Chennai's airport is Chennai International, and \"Anna International\" is the name of its international terminal, not the airport.",
+   "status": "current",
+   "stale": false,
+   "practice": "Which Indian airport was formerly called Begumpet Airport before operations shifted to Shamshabad in 2008?",
+   "practiceOptions": [
+    "Chennai",
+    "Hyderabad",
+    "Bengaluru",
+    "Kolkata"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q10",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q10",
+   "question": "Expand the aviation term METAR.",
+   "options": [
+    "Meteorological Aerodrome Report",
+    "Maximum Extension of Terminal Access Road",
+    "Mean Terminal Aerodrome Range",
+    "Meteorological Aerodrome Range"
+   ],
+   "answer": 1,
+   "why": "The routine aerodrome weather report, issued every 30 or 60 minutes. Its sibling is SPECI, a special report issued off-schedule when conditions change significantly. TAF is the forecast, not a report. METAR and SPECI are both named in the 2026 syllabus — learn them as a pair.",
+   "status": "current",
+   "stale": false,
+   "practice": "A weather report issued at an aerodrome between routine observations, because conditions changed significantly, is called a:",
+   "practiceOptions": [
+    "TAF",
+    "SPECI",
+    "SIGMET",
+    "ATIS"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q11",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q11",
+   "question": "The four forces acting on an aircraft in flight are:",
+   "options": [
+    "lift, gravity, power and friction",
+    "lift, weight, gravity and thrust",
+    "lift, weight, thrust and drag",
+    "lift, power, thrust and gravity"
+   ],
+   "answer": 3,
+   "why": "Two opposing pairs — lift against weight vertically, thrust against drag horizontally. Every wrong option smuggles in \"power\" or \"gravity\". Gravity is the cause; weight is the force. In steady level flight lift equals weight and thrust equals drag.",
+   "status": "current",
+   "stale": false,
+   "practice": "In steady, unaccelerated level flight, which is true?",
+   "practiceOptions": [
+    "Lift > weight",
+    "Thrust > drag",
+    "Lift = weight and thrust = drag",
+    "Lift = thrust"
+   ],
+   "practiceAnswer": 3,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q12",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q12",
+   "question": "Which instrument in the cockpit of an aircraft shows the pilot the altitude above sea level?",
+   "options": [
+    "Compass",
+    "Airspeed indicator",
+    "Altimeter",
+    "Heading indicator"
+   ],
+   "answer": 3,
+   "why": "A pressure altimeter reads static pressure. Set to QNH it shows altitude above mean sea level; set to QFE it reads height above the aerodrome; above the transition altitude you set 1013.25 hPa and read a flight level. The QNH/QFE distinction is prime AAI material.",
+   "status": "current",
+   "stale": false,
+   "practice": "An altimeter set to QNH indicates:",
+   "practiceOptions": [
+    "Height above the aerodrome",
+    "Altitude above mean sea level",
+    "Flight level",
+    "True height above terrain"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q13",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q13",
+   "question": "What is the full form of DGCA?",
+   "options": [
+    "Director General of Civil Airports",
+    "Directorate General of Civil Aviation",
+    "District Governor of Civil Airports",
+    "Director General of Commercial Aircrafts"
+   ],
+   "answer": 2,
+   "why": "\"Directorate\", not \"Director\" — two decoys exploit exactly that. DGCA is the safety and airworthiness regulator under MoCA. Sort the four bodies: DGCA safety, BCAS security, AAI airport operator and air navigation service provider, AERA tariff and economic regulation.",
+   "status": "current",
+   "stale": false,
+   "practice": "Which body regulates tariffs at major Indian airports?",
+   "practiceOptions": [
+    "DGCA",
+    "AERA",
+    "BCAS",
+    "MoCA"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q14",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q14",
+   "question": "Identify the domestic airline in India that pioneered the concept of low cost carriers.",
+   "options": [
+    "Go Air",
+    "Kingfisher Airlines",
+    "Jet Airways",
+    "Air Deccan"
+   ],
+   "answer": 4,
+   "why": "Launched in 2003 by Captain G. R. Gopinath — India's first low-cost carrier, famous for the one-rupee fare. Acquired by Kingfisher in 2007 and the brand disappeared. All four options are now defunct or absorbed, which shows how fast this sector churns.",
+   "status": "current",
+   "stale": false,
+   "practice": "Air Deccan, India's first low-cost carrier, was founded by:",
+   "practiceOptions": [
+    "Naresh Goyal",
+    "Vijay Mallya",
+    "G. R. Gopinath",
+    "Rahul Bhatia"
+   ],
+   "practiceAnswer": 3,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q15",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 29.11.2018 Shift 1 · Q15",
+   "question": "Which country won the South Asian Football Federation (SAFF) Under-15 Women's Championship?",
+   "options": [
+    "Bhutan",
+    "India",
+    "Afghanistan",
+    "Pakistan"
+   ],
+   "answer": 2,
+   "why": "SAFF is the South Asian Football Federation. India dominates its age-group competitions, so when a SAFF question lists India as an option, India is the percentage answer.",
+   "status": "current",
+   "stale": false,
+   "practice": "SAFF, which organises football championships in South Asia, stands for:",
+   "practiceOptions": [
+    "South Asian Football Forum",
+    "South Asian Football Federation",
+    "Southern Asia Football Front",
+    "South Asia Football Foundation"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (21 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q16",
+   "section": "Reasoning",
+   "topic": "Classification",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q1",
+   "question": "Find the ODD one out.",
+   "options": [
+    "Freeze",
+    "Simmer",
+    "Boil",
+    "Bake"
+   ],
+   "answer": 1,
+   "why": "Simmer, Boil, Bake all apply heat; Freeze removes heat. Name the shared property in words before choosing -- that resolves the \"uses water\" false pattern (simmer/boil) that tempts people toward option 3.",
+   "status": "current",
+   "stale": false,
+   "practice": "Find the ODD one out -- Taxiway | Runway | Apron | Hangar",
+   "practiceOptions": [
+    "Taxiway",
+    "Runway",
+    "Apron",
+    "Hangar"
+   ],
+   "practiceAnswer": 4,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q17",
+   "section": "Reasoning",
+   "topic": "Venn diagram",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q2",
+   "question": "Which Venn diagram correctly represents Coffee, Wine, Liquid?",
+   "options": [
+    "two separate circles inside one big circle",
+    "two overlapping circles inside one",
+    "a circle sticking outside the big circle",
+    "three nested circles"
+   ],
+   "answer": 1,
+   "why": "Coffee and Wine are both subsets of Liquid (fully inside), but disjoint from each other (never touch). Classify each pair as subset/disjoint/overlap before picking a picture.",
+   "status": "current",
+   "stale": false,
+   "practice": "Boeing 737, Aircraft, Airbus A320",
+   "practiceOptions": [
+    "3 overlapping circles",
+    "2 separate circles in 1 big",
+    "3 nested circles",
+    "2 overlapping circles in 1 big"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q18",
+   "section": "Reasoning",
+   "topic": "Coding-decoding",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q3",
+   "question": "symbol-group A = go for morning walk, group B = good for health, group C = good to walk fast. Code for 'for'?",
+   "options": [
+    "symbol1",
+    "symbol2",
+    "symbol3",
+    "symbol4"
+   ],
+   "answer": 3,
+   "why": "'for' appears in groups 1 and 2 only; intersect their symbol sets to get the shared symbol. Cross-checked via two other overlaps, no contradiction.",
+   "status": "current",
+   "stale": false,
+   "practice": "runway is clear / clear for takeoff / is takeoff delayed -- code for 'takeoff'?",
+   "practiceOptions": [
+    "symbol1",
+    "symbol2",
+    "symbol3",
+    "symbol4"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct, reasoning given (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q19",
+   "section": "Reasoning",
+   "topic": "Direction sense",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q4",
+   "question": "Swati walks 30m South, left 15m, left 30m, right 15m. Distance from start?",
+   "options": [
+    "20m",
+    "30m",
+    "50m",
+    "25m"
+   ],
+   "answer": 2,
+   "why": "Track heading + coordinates leg by leg. North-South components cancel (30 South, 30 North); East components add (15+15=30). Net displacement = 30m, no Pythagoras needed since one axis is zero.",
+   "status": "current",
+   "stale": false,
+   "practice": "Tug drives 40m North, right 25m, right 40m, left 25m. Distance from gate?",
+   "practiceOptions": [
+    "25m",
+    "50m",
+    "130m",
+    "65m"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q20",
+   "section": "Reasoning",
+   "topic": "Ranking / linear order",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q5",
+   "question": "Gowtham before Mahesh but behind Sudhesh. Aswin before Surya but behind Mahesh. Who won?",
+   "options": [
+    "Gowtham",
+    "Aswin",
+    "Mahesh",
+    "Sudhesh"
+   ],
+   "answer": 4,
+   "why": "Split every \"but\" sentence into two fragments before joining. Chain: Sudhesh to Gowtham to Mahesh to Aswin to Surya. Leftmost = winner.",
+   "status": "current",
+   "stale": false,
+   "practice": "6 flights: C before A but after E; B before D but after A; F after D. Which lands third?",
+   "practiceOptions": [
+    "Flight C",
+    "Flight A",
+    "Flight B",
+    "Flight E"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q21",
+   "section": "Reasoning",
+   "topic": "Calendar",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q6",
+   "question": "17th is three days earlier than Thursday. What day is the 19th?",
+   "options": [
+    "Thursday",
+    "Sunday",
+    "Wednesday",
+    "Saturday"
+   ],
+   "answer": 3,
+   "why": "\"Earlier than\" means add days to reach Thursday: 17th+3=Thursday, so 17th=Monday. 19th=17th+2=Wednesday.",
+   "status": "current",
+   "stale": false,
+   "practice": "22nd is two days later than Monday. What day is the 25th?",
+   "practiceOptions": [
+    "Wednesday",
+    "Thursday",
+    "Saturday",
+    "Friday"
+   ],
+   "practiceAnswer": 3,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q22",
+   "section": "Reasoning",
+   "topic": "Blood relations (simple)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q7",
+   "question": "Kavitha introduces a man as son of the brother of her mother. Relation?",
+   "options": [
+    "Son",
+    "Father",
+    "Cousin",
+    "Uncle"
+   ],
+   "answer": 3,
+   "why": "Brother of mother = maternal uncle. Son of that uncle = cousin. Peel one layer at a time.",
+   "status": "current",
+   "stale": false,
+   "practice": "Rohan says \"this girl is the daughter of my grandfather's only son.\" Relation to Rohan?",
+   "practiceOptions": [
+    "Sister",
+    "Cousin",
+    "Daughter",
+    "Niece"
+   ],
+   "practiceAnswer": 1,
+   "attempted": "wrong, chose Daughter (24 Aug 2026) -- see ERROR_BOOK",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q23",
+   "section": "Reasoning",
+   "topic": "Blood relations (family table)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q8",
+   "question": "6 children G,H,I,J,K,L. G,K brothers. L sister of K. I only son of G's uncle. H,J daughters of brother of I's father. How many females?",
+   "options": [
+    "1",
+    "4",
+    "2",
+    "3"
+   ],
+   "answer": 4,
+   "why": "Build a name/gender table as facts arrive. G(m) K(m) I(m) L(f) H(f) J(f) = 3 females.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q24",
+   "section": "Reasoning",
+   "topic": "Sign/number interchange",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q9",
+   "question": "Which interchange makes 4x6-2=14 correct?",
+   "options": [
+    "- and div, 2&6",
+    "x and +, 4&6",
+    "x and div, 2&4",
+    "- and +, 2&6"
+   ],
+   "answer": 4,
+   "why": "Swap 2 and 6, swap - and + simultaneously: 4x6-2 becomes 4x2+6 = 8+6 = 14. Apply as literal find-and-replace, then compute.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q25",
+   "section": "Reasoning",
+   "topic": "Series (letter-number mismatch)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q10",
+   "question": "F-6,I-9,L-11,O-15,R-18,U-21,X-24 -- which does NOT fit?",
+   "options": [
+    "U-21",
+    "O-15",
+    "L-11",
+    "R-18"
+   ],
+   "answer": 3,
+   "why": "Number should equal the letter's true alphabet position. L is the 12th letter, not 11th -- every other pair matches exactly.",
+   "status": "current",
+   "stale": false,
+   "practice": "B-2,D-4,F-6,H-9,J-10 -- which does NOT fit?",
+   "practiceOptions": [
+    "D-4",
+    "F-6",
+    "H-9",
+    "J-10"
+   ],
+   "practiceAnswer": 3,
+   "attempted": "correct, after first draft of this question was flawed and corrected live (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q26",
+   "section": "Reasoning",
+   "topic": "Letter matrix analogy",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q11",
+   "question": "3x3 grid A D G / D ? N / I P W -- value at '?'",
+   "options": [
+    "I",
+    "H",
+    "J",
+    "O"
+   ],
+   "answer": 1,
+   "why": "Convert letters to alphabet positions. Column 1 = 1,4,9 (squares). Column 2 = 4,?,16 -- missing middle = 9 = I. Cross-verified via row step-sizes (+3,+5,+7 pattern).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q27",
+   "section": "Reasoning",
+   "topic": "Number analogy",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q12",
+   "question": "6:215 :: 10:?",
+   "options": [
+    "1010",
+    "99",
+    "999",
+    "1001"
+   ],
+   "answer": 3,
+   "why": "Rule is n cubed minus 1. 6 cubed minus 1 = 215 confirms it; 10 cubed minus 1 = 999.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q28",
+   "section": "Reasoning",
+   "topic": "Arithmetic progression (spacing)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q13",
+   "question": "7 poles L-R, gap decreases by 1m each time, L-M=10m. Distance L to R?",
+   "options": [
+    "50m",
+    "45m",
+    "40m",
+    "35m"
+   ],
+   "answer": 2,
+   "why": "7 poles = 6 gaps: 10+9+8+7+6+5=45. Count intervals as (objects minus 1), not objects.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q29",
+   "section": "Reasoning",
+   "topic": "Word analogy (antonym)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q14",
+   "question": "Best:Worst :: Initial:?",
+   "options": [
+    "First",
+    "Start",
+    "Begin",
+    "Final"
+   ],
+   "answer": 4,
+   "why": "Best/Worst is an antonym pair. First/Start/Begin are synonyms of Initial (traps); Final is the true opposite.",
+   "status": "current",
+   "stale": false,
+   "practice": "Ascend:Descend :: Import:?",
+   "practiceOptions": [
+    "Trade",
+    "Buy",
+    "Export",
+    "Ship"
+   ],
+   "practiceAnswer": 3,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q30",
+   "section": "Reasoning",
+   "topic": "Word formation (anagram)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Intelligence Q15",
+   "question": "Arrange E,I,L,K into a meaningful word -- last letter?",
+   "options": [
+    "L",
+    "I",
+    "E",
+    "K"
+   ],
+   "answer": 3,
+   "why": "E,I,L,K forms \"LIKE\". Last letter E.",
+   "status": "current",
+   "stale": false,
+   "practice": "Arrange R,A,T,E into a meaningful word -- first letter?",
+   "practiceOptions": [
+    "R",
+    "A",
+    "T",
+    "E"
+   ],
+   "practiceAnswer": 1,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q31",
+   "section": "Aptitude",
+   "topic": "Average",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q1",
+   "question": "Find the average of the prime numbers between 150 and 170.",
+   "options": [
+    "169.5",
+    "158.5",
+    "157.5",
+    "159.5"
+   ],
+   "answer": 4,
+   "why": "Primes in range: 151,157,163,167 (169=13 squared is not prime, the trap). Sum 638 / 4 = 159.5. Only test divisibility by primes up to root-N (2,3,5,7,11 for this range).",
+   "status": "current",
+   "stale": false,
+   "practice": "Find the average of the prime numbers between 30 and 50.",
+   "practiceOptions": [
+    "40.2",
+    "38.6",
+    "39.8",
+    "41.4"
+   ],
+   "practiceAnswer": 3,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q32",
+   "section": "Aptitude",
+   "topic": "Direct proportion",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q2",
+   "question": "If 75m of a rod weighs 212kg, what is the weight of 36m?",
+   "options": [
+    "101.67kg",
+    "101.76kg",
+    "110kg",
+    "100kg"
+   ],
+   "answer": 2,
+   "why": "Unitary method: 212/75 per metre, times 36 = 101.76.",
+   "status": "current",
+   "stale": false,
+   "practice": "If 60m of cable weighs 144kg, what is the weight of 25m?",
+   "practiceOptions": [
+    "62kg",
+    "58kg",
+    "55kg",
+    "60kg"
+   ],
+   "practiceAnswer": 4,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q33",
+   "section": "Aptitude",
+   "topic": "Time and work",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q3",
+   "question": "Arjun+Bhasker together 16 days. Bhasker alone 20 days. Bhasker works 8 days alone then leaves. Days for Arjun to finish rest alone?",
+   "options": [
+    "48",
+    "32",
+    "16",
+    "8"
+   ],
+   "answer": 1,
+   "why": "Arjun's rate = 1/16 - 1/20 = 1/80/day. Bhasker alone did 8/20=2/5 of the work in 8 days. Remaining 3/5 taken by Arjun at 1/80/day = 48 days. Key ambiguity: \"Bhasker worked 8 days then left\" means Bhasker worked ALONE, not together with Arjun -- confirmed since only this reading matches a given option.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q34",
+   "section": "Aptitude",
+   "topic": "Decimal equation",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q4",
+   "question": "43.24 - 38.16 = ? x 20",
+   "options": [
+    "25.4",
+    "0.254",
+    "0.0254",
+    "2.54"
+   ],
+   "answer": 2,
+   "why": "43.24-38.16=5.08, divided by 20 = 0.254. Always verify by multiplying back.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q35",
+   "section": "Aptitude",
+   "topic": "Number series (perfect square differences)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q5",
+   "question": "10,11,15,24,40,65,100 -- identify the INCORRECT number.",
+   "options": [
+    "40",
+    "100",
+    "15",
+    "65"
+   ],
+   "answer": 2,
+   "why": "Differences are 1,4,9,16,25,35 -- should be perfect squares 1,4,9,16,25,36. Last difference should be 36 (giving 101), not 35 (giving 100). Take first differences, check for perfect squares.",
+   "status": "current",
+   "stale": false,
+   "practice": "3,4,8,17,33,59 -- which term does NOT fit?",
+   "practiceOptions": [
+    "8",
+    "17",
+    "33",
+    "59"
+   ],
+   "practiceAnswer": 4,
+   "attempted": "correct, after first draft of this question was flawed and corrected live (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q36",
+   "section": "Aptitude",
+   "topic": "Partnership / profit sharing",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q6",
+   "question": "Kamal:Dinesh invest 5:7. After 4 months Manohar joins with capital = Dinesh's. Profit ratio at year end?",
+   "options": [
+    "15:12:14",
+    "15:12:7",
+    "1:2:3",
+    "15:21:14"
+   ],
+   "answer": 4,
+   "why": "Profit share = capital x time. Kamal 5x12=60, Dinesh 7x12=84, Manohar 7x8=56 (joined after 4 months, so only 8 months). Simplify 60:84:56 by 4 = 15:21:14.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q37",
+   "section": "Aptitude",
+   "topic": "Percentage (mixture removal)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q7",
+   "question": "Box has 200 pink, 120 purple, 150 orange. 40% pink and 60% orange removed. Percent purple now?",
+   "options": [
+    "40 1/3",
+    "30",
+    "30 1/3",
+    "40"
+   ],
+   "answer": 4,
+   "why": "Pink remaining 120, orange remaining 60, purple unchanged 120. New total 300. 120/300=40%. Must recompute total AFTER removal, not before.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q38",
+   "section": "Aptitude",
+   "topic": "Simple interest (find Principal)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q8",
+   "question": "Which sum amounts to Rs 2188.68 in 8 years at 7% simple interest?",
+   "options": [
+    "1500",
+    "1303",
+    "1800",
+    "1403"
+   ],
+   "answer": 4,
+   "why": "A = P(1+rt/100). 1+56/100=1.56. P = 2188.68/1.56 = 1403.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q39",
+   "section": "Aptitude",
+   "topic": "Relative speed",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q9",
+   "question": "Two trains opposite directions, 50 m/s and 40 m/s. Relative speed?",
+   "options": [
+    "324 km/hr",
+    "36 m/hr",
+    "90 km/hr",
+    "300 km/hr"
+   ],
+   "answer": 1,
+   "why": "Opposite directions add: 90 m/s. Convert x3.6 = 324 km/hr. Same direction would subtract instead.",
+   "status": "current",
+   "stale": false,
+   "practice": "Two cars SAME direction at 70 km/hr and 55 km/hr. Relative speed?",
+   "practiceOptions": [
+    "125 km/hr",
+    "15 km/hr",
+    "70 km/hr",
+    "55 km/hr"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q40",
+   "section": "Aptitude",
+   "topic": "Mensuration (ratio scaling)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q10",
+   "question": "Ratio of circumferences of two circles is 5:8. Ratio of areas?",
+   "options": [
+    "5:8",
+    "25:64",
+    "64:25",
+    "8:5"
+   ],
+   "answer": 2,
+   "why": "Circumference proportional to radius, so radius ratio = 5:8. Area proportional to radius squared, so area ratio = 25:64. Linear scales as ratio, area as ratio squared, volume as ratio cubed.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q41",
+   "section": "Aptitude",
+   "topic": "Ages (ratio and difference)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q11",
+   "question": "Difference in ages of Ravi and Ashok is 12 years, ratio 9:11. Sum of ages?",
+   "options": [
+    "129",
+    "100",
+    "90",
+    "120"
+   ],
+   "answer": 4,
+   "why": "Ages = 9x, 11x. Difference 2x=12, x=6. Ages 54,66. Sum=120.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q42",
+   "section": "Aptitude",
+   "topic": "Digit sum/difference/product",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q12",
+   "question": "Digit sum of a 2-digit number is 12, digit difference is 4. Square root of product of digits?",
+   "options": [
+    "4root2",
+    "6root2",
+    "4",
+    "8"
+   ],
+   "answer": 1,
+   "why": "a+b=12, a-b=4. a=8, b=4. Product=32. Root32 = 4 root2.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q43",
+   "section": "Aptitude",
+   "topic": "Profit percent (CP/SP articles)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q13",
+   "question": "CP of 64 articles = SP of 48 articles. Gain percent?",
+   "options": [
+    "33 1/3",
+    "25 1/3",
+    "25",
+    "33"
+   ],
+   "answer": 1,
+   "why": "Shortcut formula Gain% = (X-Y)/Y x100 = (64-48)/48 x100 = 33.33%. Cross-checked by assuming Rs1 per article.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q44",
+   "section": "Aptitude",
+   "topic": "Percentage equation algebra",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q14",
+   "question": "25% of (P+Q) = 75% of (P-Q). Find P:Q.",
+   "options": [
+    "2:1",
+    "3:1",
+    "1:2",
+    "1:3"
+   ],
+   "answer": 1,
+   "why": "0.25(P+Q)=0.75(P-Q) simplifies to P+Q=3P-3Q, giving 4Q=2P, P:Q=2:1.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q45",
+   "section": "Aptitude",
+   "topic": "LCM/HCF from ratio",
+   "source": "AAI AO 29.11.2018 Shift 1 · General Aptitude Q15",
+   "question": "Two numbers in ratio 7:9, LCM is 945. Find HCF.",
+   "options": [
+    "14",
+    "15",
+    "10",
+    "12"
+   ],
+   "answer": 2,
+   "why": "For coprime ratio a:b, LCM = a x b x HCF. 945 = 63 x HCF, HCF=15. Verify: numbers 105,135, LCM=945 confirmed.",
+   "status": "current",
+   "stale": false,
+   "practice": "Two numbers in ratio 4:5, LCM is 140. Find HCF.",
+   "practiceOptions": [
+    "5",
+    "7",
+    "10",
+    "20"
+   ],
+   "practiceAnswer": 2,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q46",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "live research, Ministry of Civil Aviation / AAI, verified 24 Aug 2026",
+   "question": "Who chaired the Consultative Committee of Civil Aviation meeting in Mysuru on 21 Aug 2026?",
+   "options": [
+    "Jyotiraditya Scindia",
+    "Ram Mohan Naidu",
+    "Ashwini Vaishnaw",
+    "Hardeep Singh Puri"
+   ],
+   "answer": 2,
+   "why": "Ram Mohan Naidu is the Union Minister of Civil Aviation. He also flagged off Transshipment Cargo Operations at Delhi IGI Airport on 19 Aug 2026 -- transshipment cargo is cargo transferred between two international flights without clearing customs at the intermediate airport, a real airport-operations term from your syllabus.",
+   "status": "current (verified 24 Aug 2026, cite Ministry of Civil Aviation / newsonair.gov.in)",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q47",
+   "section": "GK",
+   "topic": "Aviation",
+   "source": "live research, AAI passenger traffic data April 2026, verified 24 Aug 2026",
+   "question": "Per AAI's April 2026 data, which is India's busiest domestic airport by passenger count?",
+   "options": [
+    "Mumbai",
+    "Bengaluru",
+    "Delhi",
+    "Hyderabad"
+   ],
+   "answer": 3,
+   "why": "Delhi led with 49.29 lakh domestic passengers, ahead of Bengaluru (31.78 lakh) and Mumbai (28.93 lakh). Memorize the RANK ORDER (Delhi > Bengaluru > Mumbai) since it is more exam-stable than the exact monthly numbers.",
+   "status": "current (verified 24 Aug 2026, cite AAI traffic data)",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q48",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "live research, verified 24 Aug 2026",
+   "question": "The FAST-DS scheme, operational 16 Aug-31 Dec 2026, allows declaration of undisclosed foreign assets up to what limit for immunity from prosecution?",
+   "options": [
+    "Rs 2 crore",
+    "Rs 5 crore",
+    "Rs 10 crore",
+    "Rs 1 crore"
+   ],
+   "answer": 2,
+   "why": "Up to Rs 5 crore of undisclosed foreign assets can be declared with a 30% tax/fee paid for immunity from prosecution and penalty.",
+   "status": "current (verified 24 Aug 2026)",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q49",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "live research, verified 24 Aug 2026",
+   "question": "India hosted the BRICS Environment Working Group Meetings on 17-18 Aug 2026 at which venue?",
+   "options": [
+    "Pragati Maidan",
+    "Bharat Mandapam",
+    "Vigyan Bhawan",
+    "Rashtrapati Bhavan"
+   ],
+   "answer": 2,
+   "why": "Held at Bharat Mandapam, New Delhi.",
+   "status": "current (verified 24 Aug 2026)",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q50",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "live research, verified 24 Aug 2026",
+   "question": "Justice R V Ghuge was recommended as Chief Justice of which High Court on 10 Aug 2026?",
+   "options": [
+    "Bombay",
+    "Calcutta",
+    "Madras",
+    "Delhi"
+   ],
+   "answer": 2,
+   "why": "Justice R V Ghuge -> Calcutta High Court Chief Justice; M C Tripathi -> Bombay High Court Chief Justice, both recommended 10 Aug 2026.",
+   "status": "current (verified 24 Aug 2026)",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q51",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "live research, National Sports Awards 2025, verified 24 Aug 2026",
+   "question": "The National Sports Awards 2025 were announced on which date?",
+   "options": [
+    "15 Aug 2026",
+    "18 Aug 2026",
+    "20 Aug 2026",
+    "23 Aug 2026"
+   ],
+   "answer": 2,
+   "why": "Announced 18 Aug 2026 -- 17 sportspersons received the Arjuna Award 2025, 1 received the Arjuna Award (Lifetime), plus Dronacharya Awards and Rashtriya Khel Protsahan Puruskar.",
+   "status": "current (verified 24 Aug 2026)",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q52",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "live research, verified 24 Aug 2026",
+   "question": "Harsh Singh became the first Indian to win Men's Judo Gold at which 2026 event?",
+   "options": [
+    "Asian Games",
+    "Commonwealth Games",
+    "World Judo Championship",
+    "Olympics"
+   ],
+   "answer": 2,
+   "why": "Commonwealth Games 2026 -- first Indian Men's Judo Gold at that event. Suraj Kumar Chand similarly became the first Indian to win the FISU World University Squash Title.",
+   "status": "current (verified 24 Aug 2026)",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q53",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "live research, verified 24 Aug 2026",
+   "question": "National Space Day 2026, celebrated on 23 Aug, marks the anniversary of which event?",
+   "options": [
+    "Mangalyaan launch",
+    "Chandrayaan-3 landing near the Moon's south pole",
+    "Aditya-L1 launch",
+    "Gaganyaan first test flight"
+   ],
+   "answer": 2,
+   "why": "National Space Day marks the Chandrayaan-3 landing near the lunar south pole. DRDO is separately building a strategic alliance with ISRO's new Kulasekharapatnam spaceport (Tamil Nadu, SSLV launch complex, Rs 950 crore) for defence-relevant space assets.",
+   "status": "current (verified 24 Aug 2026)",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (24 Aug 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q54",
+   "section": "English",
+   "topic": "Error spotting",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q1",
+   "question": "Which underlined phrase is INCORRECT? \"I am sorry that a previous engagement will prevent me being present at the inauguration ceremony.\"",
+   "options": [
+    "that a",
+    "me being present",
+    "will prevent",
+    "at the"
+   ],
+   "answer": 2,
+   "why": "Possessive pronoun before a gerund: \"my being present,\" not \"me being present\" (compare \"my being late annoyed her\"). This possessive-before-gerund rule is the single most tested English error type across these papers.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q55",
+   "section": "English",
+   "topic": "Fill in the blank (tense)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q2",
+   "question": "\"During the concert the string of his guitar ______.\"",
+   "options": [
+    "was breaking",
+    "breaks",
+    "is breaking",
+    "broke"
+   ],
+   "answer": 4,
+   "why": "Simple past for one completed narrative action at a specific past moment.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q56",
+   "section": "English",
+   "topic": "Pronoun reference",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q3",
+   "question": "\"My brother-in-law is admitted in hospital. Me and my son went to see ______.\"",
+   "options": [
+    "him",
+    "you",
+    "her",
+    "them"
+   ],
+   "answer": 1,
+   "why": "Refers back to \"brother-in-law\" (singular male antecedent).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q57",
+   "section": "English",
+   "topic": "Passive voice",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q4",
+   "question": "Correct passive of \"The Special Squads extended their operations and took away the sanctuary from the rebels.\"",
+   "options": [
+    "are being extended/is being taken",
+    "were extended/was taken",
+    "sanctuary was extended/operations were taken (swapped)",
+    "had been extended/was taken"
+   ],
+   "answer": 2,
+   "why": "Passive conversion must preserve the original tense. Past simple stays past simple: extended->were extended, took away->was taken away.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q58",
+   "section": "English",
+   "topic": "Fill in the blank (conjunction)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q5",
+   "question": "\"______ I land at the airport, I will ring you up.\"",
+   "options": [
+    "While",
+    "When",
+    "Whereas",
+    "Until"
+   ],
+   "answer": 2,
+   "why": "\"When\" marks the trigger moment for a future action. Aviation-flavoured example sentence.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q59",
+   "section": "English",
+   "topic": "Fill in the blank (comparatives)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q6",
+   "question": "\"Machu Picchu is the ______ site I saw in Peru.\"",
+   "options": [
+    "amazing",
+    "more amazing",
+    "most amazing",
+    "as amazing"
+   ],
+   "answer": 3,
+   "why": "Superlative required since it is compared against every site seen in Peru, not just one other -- \"the ___ site I saw\" signals superlative, not comparative.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q60",
+   "section": "English",
+   "topic": "Spelling",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q7",
+   "question": "Select the WRONGLY spelt word.",
+   "options": [
+    "technique",
+    "twelfth",
+    "tranquelity",
+    "triumph"
+   ],
+   "answer": 3,
+   "why": "Correct spelling is \"tranquillity\" (double L), not \"tranquelity.\"",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q61",
+   "section": "English",
+   "topic": "Reported speech",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q8",
+   "question": "Indirect form of: He said, \"What are you up to, Captain Wingate?\"",
+   "options": [
+    "He asked Captain Wingate what he was up to",
+    "He told Captain Wingate he should be up to something",
+    "He asked Captain Wingate if he was up to something",
+    "He said to Captain Wingate whether he was up to something"
+   ],
+   "answer": 1,
+   "why": "Wh-questions keep the question word in reported speech and drop if/whether (that construction is only for yes/no questions). Tense shifts back one step: are->was.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q62",
+   "section": "English",
+   "topic": "Synonym",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q9",
+   "question": "Synonym of STUBBORN.",
+   "options": [
+    "flexible",
+    "unyielding",
+    "docile",
+    "doubtful"
+   ],
+   "answer": 2,
+   "why": "Unyielding = refusing to change position or opinion, matches stubborn directly.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q63",
+   "section": "English",
+   "topic": "Fill in the blank (adjective vs participle)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q10",
+   "question": "\"It turned out to be quite a ______ film. I had expected it to be better.\"",
+   "options": [
+    "disappointed",
+    "disgusted",
+    "disappoint",
+    "disappointing"
+   ],
+   "answer": 4,
+   "why": "The -ing form describes the thing CAUSING the feeling (the film is disappointing); the -ed form would describe a person's feeling (I was disappointed). Wrong word class trap between the two.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q64",
+   "section": "English",
+   "topic": "Word formation (prefix trap)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q11",
+   "question": "Which option is NOT an antonym formed by adding the prefix 'il-'?",
+   "options": [
+    "illegible",
+    "illiterate",
+    "illuminate",
+    "illogical"
+   ],
+   "answer": 3,
+   "why": "Illegible, illiterate, illogical are genuine il-=not negations. Illuminate's \"il-\" comes from Latin illuminare (to light up), an unrelated etymological root, not a negation prefix -- the odd one out by word origin, not spelling.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q65",
+   "section": "English",
+   "topic": "Error spotting (possessive vs contraction)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q12",
+   "question": "Which underlined phrase is INCORRECT? \"The first penguin born in India died recently, a week after it's birth at Mumbai's Byculla Zoo.\"",
+   "options": [
+    "it's birth",
+    "died recently",
+    "born in",
+    "The first"
+   ],
+   "answer": 1,
+   "why": "\"its\" (possessive, no apostrophe) is needed, not \"it's\" (contraction of it is/it has). The single most common English error across these papers.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q66",
+   "section": "English",
+   "topic": "Pronoun reference",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q13",
+   "question": "\"I was sorry that I was away on tour when they visited our house. I couldn't meet ______.\"",
+   "options": [
+    "them",
+    "her",
+    "you",
+    "him"
+   ],
+   "answer": 1,
+   "why": "Refers back to \"they\" (plural antecedent, the visitors).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q67",
+   "section": "English",
+   "topic": "Antonym",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q14",
+   "question": "Antonym of UNRAVEL.",
+   "options": [
+    "untangle",
+    "tie",
+    "free",
+    "straighten"
+   ],
+   "answer": 2,
+   "why": "Unravel means to undo/disentangle; tie is the true opposite (to fasten). Untangle, free, straighten are all synonyms of unravel dressed up as distractors -- the classic antonym-question trap.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q68",
+   "section": "English",
+   "topic": "Fill in the blank (conjunction)",
+   "source": "AAI AO 29.11.2018 Shift 1 · General English Q15",
+   "question": "\"The child is very happy ______ he got the paints and brushes for his birthday.\"",
+   "options": [
+    "Because",
+    "Although",
+    "In case",
+    "So that"
+   ],
+   "answer": 1,
+   "why": "\"Because\" introduces the reason for the happiness.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q69",
+   "section": "Physics",
+   "topic": "Discipline Q1",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q1",
+   "question": "The largest number of possible maxima in interference fringe pattern for double slit separation equal to twice the wavelength of sodium light will be:",
+   "options": [
+    "Infinite",
+    "3",
+    "5",
+    "2"
+   ],
+   "answer": 3,
+   "why": "Maxima exist where sin(theta)=n*lambda/d, valid only while |sin(theta)|<=1. Here d=2*lambda so n<=2, giving n=-2,-1,0,1,2 = 5 maxima.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q70",
+   "section": "Business Management",
+   "topic": "Discipline Q2",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q2",
+   "question": "Which among the following implies overseeing the work of subordinates by their superiors? It is the act of watching and directing work and workers.",
+   "options": [
+    "Motivation",
+    "Communication",
+    "Leadership",
+    "Supervision"
+   ],
+   "answer": 4,
+   "why": "Supervision is specifically the oversight/directing function, distinct from motivation, communication, and leadership.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q71",
+   "section": "Maths",
+   "topic": "Discipline Q3",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q3",
+   "question": "The line y=2x+b is a tangent to the parabola y^2=8x, if:",
+   "options": [
+    "b=1/2",
+    "b=2",
+    "b=-1",
+    "b=1"
+   ],
+   "answer": 4,
+   "why": "For y=mx+c tangent to y^2=4ax, condition is c=a/m. Here 4a=8 so a=2, m=2, giving b=a/m=1.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q72",
+   "section": "Maths",
+   "topic": "Discipline Q4",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q4",
+   "question": "If the sum 1!-2!+3!-4!+......-10! is divided by 24, then the remainder will be:",
+   "options": [
+    "12",
+    "21",
+    "5",
+    "9"
+   ],
+   "answer": 3,
+   "why": "Direct computation of the alternating factorial sum mod 24 gives remainder 5.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q73",
+   "section": "Maths",
+   "topic": "Discipline Q5",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q5",
+   "question": "If I1=integral(0 to pi/2) sin^2(x)dx and I2=integral(-pi/2 to pi/2) sin^2(x)/(1+3^x) dx, then:",
+   "options": [
+    "I2-I1=pi/2-log3",
+    "I1+I2=pi/2+log3",
+    "I1+I2=0",
+    "I2-I1=0"
+   ],
+   "answer": 4,
+   "why": "King's rule: for a symmetric interval, add f(x)+f(-x). The 3^x terms cancel exactly (sin^2 is even, and 1/(1+3^x)+3^x/(1+3^x)=1), collapsing I2 to exactly I1. Verified symbolically.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q74",
+   "section": "Physics",
+   "topic": "Discipline Q6",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q6",
+   "question": "Using SONAR, a source of ultrasonic waves of frequency 0.06 MHz sends down a pulse towards the seabed, which returns back after 0.80s. If the speed of sound in sea water is 1700 m/s, then the depth of sea and the wavelength of the pulse respectively are:",
+   "options": [
+    "550m;0.0243m",
+    "680m;0.0283m",
+    "580m;0.0253m",
+    "660m;0.0273m"
+   ],
+   "answer": 2,
+   "why": "Depth = speed x time / 2 = 1700x0.8/2 = 680m. Wavelength = speed/frequency = 1700/60000 = 0.0283m. Both independently verified.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q75",
+   "section": "Maths",
+   "topic": "Discipline Q7",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q7",
+   "question": "If the product and greatest common divisor of two numbers are 192 and 4 respectively, then the least common multiple of these numbers will be:",
+   "options": [
+    "24",
+    "12",
+    "56",
+    "48"
+   ],
+   "answer": 4,
+   "why": "LCM x GCD = product of the two numbers, so LCM = product/GCD = 192/4 = 48.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q76",
+   "section": "Maths",
+   "topic": "Discipline Q8",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q8",
+   "question": "The pair of linear equations in two variables x and y, 29x+37y+7=0 and 87x+74y+5=0 will have:",
+   "options": [
+    "infinite solution",
+    "trivial solution",
+    "unique solution",
+    "no solution"
+   ],
+   "answer": 3,
+   "why": "Compare ratio a1/a2=29/87=1/3 against b1/b2=37/74=1/2. Since these ratios differ, the lines intersect at exactly one point: unique solution.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q77",
+   "section": "Physics",
+   "topic": "Discipline Q9",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q9",
+   "question": "Interference fringe pattern is obtained in Fresnel's biprism using sodium light of mean wavelength 589.3nm. On introducing a thin sheet of transparent material of thickness 1.1um in the path of one beam, the central bright fringe shifts by exactly one fringe spacing. Refractive index of the material is nearly:",
+   "options": [
+    "1.60",
+    "1.62",
+    "1.50",
+    "1.54"
+   ],
+   "answer": 4,
+   "why": "Fringe shift = (mu-1)t/lambda. Given shift equals one full fringe width, mu = 1 + lambda/t = 1 + 589.3/1100 = 1.54.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q78",
+   "section": "Physics",
+   "topic": "Discipline Q10",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q10",
+   "question": "Brilliant colours observed on thin films of oily surface and soapy water arise due to the optical phenomenon of ______.",
+   "options": [
+    "dispersion",
+    "diffraction",
+    "interference",
+    "scattering"
+   ],
+   "answer": 3,
+   "why": "Thin-film colours are caused by interference between light reflected from the top and bottom surfaces of the thin film.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q79",
+   "section": "Maths",
+   "topic": "Discipline Q11",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q11",
+   "question": "In a toy factory, machines A, B and C manufacture 30%, 40%, 30% of the output respectively. 2%, 3%, 1% of their respective outputs are defective. A toy is found defective. The probability that it was taken from machine B is:",
+   "options": [
+    "4/5",
+    "2/9",
+    "3/4",
+    "4/7"
+   ],
+   "answer": 4,
+   "why": "Bayes theorem: P(def)=0.3x0.02+0.4x0.03+0.3x0.01=0.021. P(B|def)=0.012/0.021=4/7. Verified computationally.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q80",
+   "section": "Maths",
+   "topic": "Discipline Q12",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q12",
+   "question": "In a triangle ABC, if AB=5, BC=3 and CA=4, then the value of sin(A/2)+tan(A/2) is:",
+   "options": [
+    "3+sqrt(10)",
+    "(1+sqrt(10))/9",
+    "(3+sqrt(10))/(3*sqrt(10))",
+    "(9+sqrt(10))/6"
+   ],
+   "answer": 3,
+   "why": "3-4-5 right triangle, right angle at C. cosA=4/5, sinA=3/5 from the right-triangle ratios. Half-angle formulas give sin(A/2)=1/sqrt(10), tan(A/2)=1/3. Sum = (3+sqrt10)/(3sqrt10). Verified exactly by hand and symbolically.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q81",
+   "section": "Physics",
+   "topic": "Discipline Q13",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q13",
+   "question": "Sunlight filtering through the space between the leaves of a tree often makes circular patches on the ground due to ______.",
+   "options": [
+    "the phenomenon of refraction of light",
+    "the phenomenon of diffraction of light",
+    "the space between the leaves through which sunlight penetrates",
+    "the phenomenon of scattering of light"
+   ],
+   "answer": 2,
+   "why": "Official key says diffraction. WORTH FLAGGING: many physics sources instead attribute this to the pinhole-camera effect (rectilinear propagation forming a small image of the sun through a small gap), not diffraction -- a genuinely disputed attribution in Indian exam circles. Know the key's answer but treat the physics as debated.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q82",
+   "section": "Physics",
+   "topic": "Discipline Q14",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q14",
+   "question": "The longest wavelength of the ultrasonic waves in air at room temperature is nearly:",
+   "options": [
+    "11mm",
+    "21mm",
+    "17mm",
+    "27mm"
+   ],
+   "answer": 3,
+   "why": "Ultrasonic range starts at 20kHz (upper limit of human hearing). Longest wavelength = lowest frequency in range: lambda=v/f=343/20000 approx 17mm.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q83",
+   "section": "Maths",
+   "topic": "Discipline Q15",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q15",
+   "question": "If two dice are thrown, then the probability that at least one of the dice shows a number less than 5 is:",
+   "options": [
+    "7/9",
+    "8/9",
+    "1/3",
+    "2/3"
+   ],
+   "answer": 2,
+   "why": "P(at least one <5) = 1 - P(both >=5) = 1 - (2/6)^2 = 1 - 1/9 = 8/9.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q84",
+   "section": "Physics",
+   "topic": "Discipline Q16",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q16",
+   "question": "Which one of the following particles in motion, having same velocity, has the longest wavelength?",
+   "options": [
+    "A proton",
+    "An alpha particle",
+    "An electron",
+    "A neutron"
+   ],
+   "answer": 3,
+   "why": "de Broglie wavelength lambda=h/(mv). For fixed v, lambda is inversely proportional to mass, so the lightest particle (electron) has the longest wavelength.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q85",
+   "section": "Physics",
+   "topic": "Discipline Q17",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q17",
+   "question": "A fast moving electron can have the speed ______.",
+   "options": [
+    "slightly less than the speed of light in vacuum",
+    "equal to the speed of sound in air",
+    "equal to the speed of light in vacuum",
+    "slightly more than the speed of light in vacuum"
+   ],
+   "answer": 1,
+   "why": "Special relativity forbids any massive particle from reaching or exceeding c; an electron can only approach it asymptotically.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q86",
+   "section": "Maths",
+   "topic": "Discipline Q18",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q18",
+   "question": "If lim(x to infinity)[ax+(7-sqrt3*x^2)/(3-x)]=b, a finite number, then the values of a and b are:",
+   "options": [
+    "a=-sqrt3,b=3sqrt3",
+    "a=3,b=sqrt3",
+    "a=2sqrt3,b=-3",
+    "a=-2sqrt3,b=2sqrt3"
+   ],
+   "answer": 1,
+   "why": "Only a=-sqrt3 cancels the x^2 divergence, giving a finite limit of exactly 3*sqrt3. Verified symbolically (sympy): other candidate a values diverge to +/- infinity.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q87",
+   "section": "Business Management",
+   "topic": "Discipline Q19",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q19",
+   "question": "______ manages issues broadly related to recruiting, hiring, training, evaluating and rewarding employees.",
+   "options": [
+    "Finance",
+    "Sales",
+    "Marketing",
+    "Human Resource"
+   ],
+   "answer": 4,
+   "why": "This is the textbook definition of the Human Resource function.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q88",
+   "section": "Maths",
+   "topic": "Discipline Q20",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q20",
+   "question": "The greatest value of 5sin^2(x)+7cos^2(x)-4sinx*cosx will be:",
+   "options": [
+    "6-sqrt5",
+    "6+sqrt5",
+    "-6+sqrt5",
+    "-6-sqrt5"
+   ],
+   "answer": 2,
+   "why": "Simplifies to 6+cos(2x)-2sin(2x). Max of A+Bcos(theta)+Csin(theta) form is A+sqrt(B^2+C^2)=6+sqrt(1+4)=6+sqrt5. Verified numerically.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q89",
+   "section": "Physics",
+   "topic": "Discipline Q21",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q21",
+   "question": "Which one of the following optical phenomena gives evidence that light waves are transverse?",
+   "options": [
+    "Rectilinear propagation of light",
+    "Polarization of light",
+    "Diffraction of light",
+    "Interference of light"
+   ],
+   "answer": 2,
+   "why": "Only transverse waves can be polarized (having an oscillation direction perpendicular to propagation that can be selectively filtered). Longitudinal waves cannot be polarized.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q90",
+   "section": "Physics",
+   "topic": "Discipline Q22",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q22",
+   "question": "Laser beam is highly intense, monochromatic and coherent, and can be used in monochromatic light experiments for the phenomenon of ______.",
+   "options": [
+    "polarization of light",
+    "interference of light",
+    "diffraction of light",
+    "scattering of light"
+   ],
+   "answer": 2,
+   "why": "Interference experiments specifically require monochromatic, coherent sources -- exactly what a laser provides, making it ideal for this over the other listed phenomena.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q91",
+   "section": "Physics",
+   "topic": "Discipline Q23",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q23",
+   "question": "In a piezoelectric generator, the quartz crystal oscillates at its natural LC tank frequency to produce ultrasonic waves of 1MHz, with a capacitance of 25nF in the tank circuit. The inductance of the coil is nearly:",
+   "options": [
+    "3uH",
+    "2uH",
+    "1uH",
+    "4uH"
+   ],
+   "answer": 3,
+   "why": "f=1/(2*pi*sqrt(LC)) rearranges to L=1/((2*pi*f)^2*C). Computed: L approx 1.013 uH, rounds to 1uH. Verified computationally.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q92",
+   "section": "Physics",
+   "topic": "Discipline Q24",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q24",
+   "question": "Heisenberg's uncertainty principle holds true for all canonically conjugate physical quantities. For which pair does the uncertainty relation CANNOT hold true?",
+   "options": [
+    "Position and linear momentum",
+    "Linear momentum and angle",
+    "Angular momentum and angle",
+    "Energy and time"
+   ],
+   "answer": 2,
+   "why": "Position-momentum, angular-momentum-angle, and energy-time are genuine canonically conjugate pairs. Angle is conjugate to ANGULAR momentum, not linear momentum, so that pairing fails.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q93",
+   "section": "Maths",
+   "topic": "Discipline Q25",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q25",
+   "question": "For two events A and B, which of the following relations is true?",
+   "options": [
+    "P(A'UB')=1-P(A)P(B/A)",
+    "P(A'UB')=1-P(AUB)",
+    "P(A'UB')=P((AUB)')",
+    "P(A'UB')=P(A')+P(B')"
+   ],
+   "answer": 1,
+   "why": "De Morgan: A'UB'=(A intersect B)'. So P(A'UB')=1-P(A intersect B)=1-P(A)P(B/A) by the definition of conditional probability.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q94",
+   "section": "Business Management",
+   "topic": "Discipline Q26",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q26",
+   "question": "All of the following are key features of management, EXCEPT:",
+   "options": [
+    "management is all pervasive",
+    "management is goal-oriented",
+    "management is a one-time process",
+    "management is a group activity"
+   ],
+   "answer": 3,
+   "why": "Management is a CONTINUOUS process, not a one-time event -- that is the false statement among genuine features of management.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q95",
+   "section": "Physics",
+   "topic": "Discipline Q27",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q27",
+   "question": "Which one of the following statements regarding magnetic materials is NOT correct?",
+   "options": [
+    "Diamagnetic susceptibility is independent of temperature",
+    "Ferromagnetic susceptibility is dependent on temperature",
+    "Paramagnetic susceptibility is independent of temperature",
+    "Paramagnetic susceptibility is dependent on temperature"
+   ],
+   "answer": 3,
+   "why": "Paramagnetic susceptibility follows Curie's law, chi=C/T -- it IS temperature-dependent, making 'independent of temperature' the false statement (the one the question asks for).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q96",
+   "section": "Physics",
+   "topic": "Discipline Q28",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q28",
+   "question": "The state of population inversion, necessary for laser action with stimulated emission, used in solid state lasers is achieved by ______.",
+   "options": [
+    "direct conversion",
+    "inelastic atom-atom collisions",
+    "electrical discharge",
+    "optical pumping"
+   ],
+   "answer": 4,
+   "why": "Solid-state lasers (e.g. ruby) achieve population inversion via optical pumping; gas lasers typically use electrical discharge instead.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q97",
+   "section": "Physics",
+   "topic": "Discipline Q29",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q29",
+   "question": "The speed of a fast moving electron with energy 3 MeV, in terms of speed of light in vacuum c, is:",
+   "options": [
+    "0.985c",
+    "0.966c",
+    "0.895c",
+    "0.886c"
+   ],
+   "answer": 1,
+   "why": "Total energy E=rest energy(0.511MeV)+KE(3MeV)=3.511MeV. gamma=E/E0=6.87. v/c=sqrt(1-1/gamma^2)=0.989, closest to 0.985c. Verified computationally.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q98",
+   "section": "Physics",
+   "topic": "Discipline Q30",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q30",
+   "question": "Total energy of a moving particle is twice its rest mass energy. The ratio of its relativistic speed to the speed of light in vacuum will be:",
+   "options": [
+    "sqrt2:5",
+    "sqrt2:3",
+    "sqrt3:5",
+    "sqrt3:2"
+   ],
+   "answer": 4,
+   "why": "Total energy = 2x rest energy means gamma=2. v/c=sqrt(1-1/gamma^2)=sqrt(1-1/4)=sqrt(3)/2, i.e. sqrt3:2. Verified exactly.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q99",
+   "section": "Maths",
+   "topic": "Discipline Q31",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q31",
+   "question": "Solution of differential equation e^(x+y)dx + e^(y-2x)dy=0 will be ______, where c is an arbitrary constant.",
+   "options": [
+    "y+e^(3x)=c",
+    "y/3-e^(2x)=c",
+    "3y+e^(3x)=c",
+    "y-e^(3x)=c"
+   ],
+   "answer": 3,
+   "why": "Separating variables and integrating gives y=C1-e^(3x)/3, i.e. 3y+e^(3x)=c after clearing the fraction. Verified symbolically.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q100",
+   "section": "Maths",
+   "topic": "Discipline Q32",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q32",
+   "question": "If the lines x+2y+1=0, 8x+12y+k=0, 3x-2y+5=0 are concurrent, then the value of k is:",
+   "options": [
+    "11",
+    "5",
+    "9",
+    "7"
+   ],
+   "answer": 3,
+   "why": "Find the intersection of the first and third lines: (-3/2, 1/4). Substituting into the second line's equation solves to k=9. Verified computationally.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q101",
+   "section": "Maths",
+   "topic": "Discipline Q33",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q33",
+   "question": "If the ratio of surface area to volume of a cuboid is sqrt3, then the sum of reciprocals of the three sides (length, breadth, height) will be:",
+   "options": [
+    "sin(pi/2)",
+    "sin(pi)",
+    "sin(pi/4)",
+    "sin(pi/3)"
+   ],
+   "answer": 4,
+   "why": "SA/V=2(1/l+1/b+1/h) always, for any cuboid. Given SA/V=sqrt3, sum of reciprocals=sqrt3/2=sin(pi/3) -- an elegant identity dressed up as a geometry question.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q102",
+   "section": "Business Management",
+   "topic": "Discipline Q34",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q34",
+   "question": "Which among the following functions generates revenues for an organisation by selling products and encouraging or stimulating purchases?",
+   "options": [
+    "Marketing",
+    "Operations",
+    "Finance",
+    "Human Resource"
+   ],
+   "answer": 1,
+   "why": "Marketing is the function directly responsible for demand generation and sales, distinct from operations/finance/HR.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q103",
+   "section": "Maths",
+   "topic": "Discipline Q35",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q35",
+   "question": "The linear equation in two variables x and y, 6x+22y=14 will have:",
+   "options": [
+    "no integer-valued solution",
+    "integer-valued solutions",
+    "unique solution",
+    "no solution"
+   ],
+   "answer": 2,
+   "why": "Simplifies to 3x+11y=7. gcd(3,11)=1 divides 7, so this Diophantine equation has integer solutions. A single 2-variable linear equation always has infinitely many real solutions, but the question specifically asks about integer-valued ones.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q104",
+   "section": "Business Management",
+   "topic": "Discipline Q36",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q36",
+   "question": "Which among the following is the first task of Strategic Planning?",
+   "options": [
+    "Setting objectives",
+    "Developing a strategic vision and a business mission",
+    "Crafting a strategy to achieve the objectives",
+    "Identifying and setting priorities for the execution of strategies"
+   ],
+   "answer": 2,
+   "why": "Standard strategic-management sequence: vision/mission comes BEFORE objectives, which come before strategy crafting, which comes before execution.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q105",
+   "section": "Maths",
+   "topic": "Discipline Q37",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q37",
+   "question": "For what value of alpha+beta will the three points (alpha,beta), (5,0), (0,5) be collinear?",
+   "options": [
+    "5",
+    "-25",
+    "0",
+    "25"
+   ],
+   "answer": 1,
+   "why": "Line through (5,0) and (0,5) is x+y=5. For (alpha,beta) to lie on it, alpha+beta=5 directly.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q106",
+   "section": "Business Management",
+   "topic": "Discipline Q38",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q38",
+   "question": "Personnel Management consists of all of the following, EXCEPT:",
+   "options": [
+    "training",
+    "recruitment",
+    "administration of earning",
+    "manpower planning"
+   ],
+   "answer": 3,
+   "why": "Training, recruitment, and manpower planning are core personnel-management functions; 'administration of earning' falls outside its standard scope.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q107",
+   "section": "Physics",
+   "topic": "Discipline Q39",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q39",
+   "question": "The area enclosed by a complete hysteresis loop on the B-H curve of a ferromagnetic material denotes ______.",
+   "options": [
+    "the energy dissipated in taking the specimen through each complete cycle of magnetisation",
+    "the coercivity of the specimen",
+    "the retentivity of the specimen",
+    "the residual magnetism"
+   ],
+   "answer": 1,
+   "why": "Standard result: hysteresis loop area = energy lost as heat per magnetization cycle, not any single point-value like coercivity or retentivity.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q108",
+   "section": "Business Management",
+   "topic": "Discipline Q40",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q40",
+   "question": "All of the following are methods of grapevine communication, EXCEPT:",
+   "options": [
+    "cluster chain",
+    "star chain",
+    "policy circulars",
+    "single chain"
+   ],
+   "answer": 3,
+   "why": "Cluster, star, and single chain are all informal grapevine communication patterns. Policy circulars are FORMAL communication, the odd one out.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q109",
+   "section": "Maths",
+   "topic": "Discipline Q41",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q41",
+   "question": "The coefficient of x^12 in the expansion of (3x^2+1/x)^30 is:",
+   "options": [
+    "C(30,15)*3^15",
+    "C(30,10)*3^12",
+    "C(30,12)*3^12",
+    "C(30,16)*3^14"
+   ],
+   "answer": 4,
+   "why": "General term T(r+1)=C(30,r)*3^(30-r)*x^(60-3r). Setting 60-3r=12 gives r=16, so coefficient=C(30,16)*3^14. Verified by direct computation.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q110",
+   "section": "Physics",
+   "topic": "Discipline Q42",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q42",
+   "question": "The phenomenon of polarization CANNOT occur in ______.",
+   "options": [
+    "radio waves",
+    "x-rays",
+    "acoustic waves",
+    "visible light waves"
+   ],
+   "answer": 3,
+   "why": "Polarization is only possible for transverse waves. Radio waves, x-rays, and visible light are all transverse EM waves; acoustic (sound) waves are longitudinal and cannot be polarized.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q111",
+   "section": "Maths",
+   "topic": "Discipline Q43",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q43",
+   "question": "The value of 2*tan^-1(2/3) + cos^-1(12/13) is:",
+   "options": [
+    "pi/2",
+    "pi",
+    "pi/4",
+    "pi/3"
+   ],
+   "answer": 1,
+   "why": "Numerically verified to equal exactly pi/2 -- a classic inverse-trig identity question.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q112",
+   "section": "Business Management",
+   "topic": "Discipline Q44",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q44",
+   "question": "A ______ may be defined as an occupation that requires specialised knowledge and intensive academic preparation, and to which entry is regulated by a representative body.",
+   "options": [
+    "Hobby",
+    "Passion",
+    "Profession",
+    "Goal"
+   ],
+   "answer": 3,
+   "why": "This is the standard definition of 'profession' as distinct from a hobby, passion, or goal.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q113",
+   "section": "Maths",
+   "topic": "Discipline Q45",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q45",
+   "question": "If 37 and 43 are the means of two samples of size 13 and 17 respectively, then the mean of their combined sample will be:",
+   "options": [
+    "38.9",
+    "40.4",
+    "39.7",
+    "41.2"
+   ],
+   "answer": 2,
+   "why": "Weighted average: (13x37+17x43)/(13+17)=(481+731)/30=1212/30=40.4. Verified exactly.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q114",
+   "section": "Physics",
+   "topic": "Discipline Q46",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q46",
+   "question": "A proton and an alpha particle are accelerated through the same potential difference. The ratio of their de Broglie wavelengths is:",
+   "options": [
+    "2sqrt2:1",
+    "1:2",
+    "4:1",
+    "2:1"
+   ],
+   "answer": 1,
+   "why": "lambda=h/sqrt(2mqV). Ratio lambda_proton:lambda_alpha = sqrt(m_alpha*q_alpha/(m_proton*q_proton)) = sqrt(4x2)=2sqrt2:1. Verified.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q115",
+   "section": "Physics",
+   "topic": "Discipline Q47",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q47",
+   "question": "In a Young's double slit set-up with sodium light, if the entire set-up is displaced from air into clear water, the fringe pattern will likely ______.",
+   "options": [
+    "remain unchanged",
+    "be enlarged significantly",
+    "shrink considerably",
+    "disappear completely"
+   ],
+   "answer": 3,
+   "why": "Fringe width is proportional to wavelength, and wavelength shrinks in a denser medium (lambda_water=lambda_air/n). Fringes shrink considerably.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q116",
+   "section": "Business Management",
+   "topic": "Discipline Q48",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q48",
+   "question": "Which level of management devotes more time to planning and coordinating functions?",
+   "options": [
+    "Middle level",
+    "Entry level",
+    "Top level",
+    "Lower level"
+   ],
+   "answer": 3,
+   "why": "Top management is primarily concerned with strategic planning and coordination; lower/entry levels focus more on operational execution.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q117",
+   "section": "Maths",
+   "topic": "Discipline Q49",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q49",
+   "question": "The value of k, for which the system x+2y-3z=0, 2x+y+z=0, x-y+kz=0 has a non-trivial solution, will be:",
+   "options": [
+    "4",
+    "2",
+    "3",
+    "-4"
+   ],
+   "answer": 1,
+   "why": "A homogeneous system has non-trivial solutions only when its coefficient determinant is zero. Determinant = 12-3k = 0 gives k=4. Verified computationally.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q118",
+   "section": "Physics",
+   "topic": "Discipline Q50",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q50",
+   "question": "The working of a Nicol prism is based on the optical phenomenon of ______.",
+   "options": [
+    "refraction of light",
+    "scattering of light",
+    "double refraction of light",
+    "reflection of light"
+   ],
+   "answer": 3,
+   "why": "A Nicol prism uses calcite's double refraction (birefringence) combined with total internal reflection to isolate a single plane-polarized ray.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q119",
+   "section": "Maths",
+   "topic": "Discipline Q51",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q51",
+   "question": "If one root of the quadratic equation x^2-8tx-25=0 is 3+4t, then the other root must be:",
+   "options": [
+    "3-4t",
+    "-3-4t",
+    "3+4t",
+    "-3+4t"
+   ],
+   "answer": 4,
+   "why": "Sum of roots = -b/a = 8t. Other root = 8t - (3+4t) = -3+4t.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q120",
+   "section": "Maths",
+   "topic": "Discipline Q52",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q52",
+   "question": "The sum of the series 1+2(a^2+1)+3(a^2+1)^2+4(a^2+1)^3 will be:",
+   "options": [
+    "1/a^4",
+    "1",
+    "-1/a^2",
+    "-1"
+   ],
+   "answer": 1,
+   "why": "Official key answer is 1/a^4. FLAGGED: could not independently re-derive this closed form from the literal series as transcribed from the scan -- tested the literal 4-term finite sum and it does NOT equal 1/a^4 in general (matched only by coincidence at one specific a value). Likely an infinite series or a sign/exponent detail was lost in transcription. Re-verify against a clean source before trusting fully.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q121",
+   "section": "Business Management",
+   "topic": "Discipline Q53",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q53",
+   "question": "What is the term used for the process of passing information, experience, opinion, etc. from one person to another, which is also a bridge of understanding?",
+   "options": [
+    "Controlling",
+    "Communication",
+    "Planning",
+    "Motivation"
+   ],
+   "answer": 2,
+   "why": "This is the standard definition of communication as an organisational function.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q122",
+   "section": "Maths",
+   "topic": "Discipline Q54",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q54",
+   "question": "The distance of the highest point on the graph of the function y=12cosx-5sinx from the x-axis is:",
+   "options": [
+    "13",
+    "12",
+    "5",
+    "17"
+   ],
+   "answer": 1,
+   "why": "For y=Acosx+Bsinx, the amplitude (max distance from axis) = sqrt(A^2+B^2) = sqrt(144+25) = sqrt(169) = 13.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q123",
+   "section": "Business Management",
+   "topic": "Discipline Q55",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q55",
+   "question": "What is the full form of MIS?",
+   "options": [
+    "Master Information System",
+    "Management Innovation System",
+    "Management Innovation Section",
+    "Management Information System"
+   ],
+   "answer": 4,
+   "why": "MIS = Management Information System, a core business-management acronym.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q124",
+   "section": "Maths",
+   "topic": "Discipline Q56",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q56",
+   "question": "Let f(x,y)=0 represent a circle. If f(0,a) has roots a=2,3 and f(a,0) has roots a=12,1/2, then the centre of the circle is:",
+   "options": [
+    "(-5/2,1/6)",
+    "(4/25,2/5)",
+    "(2/7,6)",
+    "(25/4,5/2)"
+   ],
+   "answer": 4,
+   "why": "On the y-axis, sum of roots 2+3=5=-2f gives f=-5/2; product 6=c. On the x-axis, sum of roots 12+0.5=12.5=-2g gives g=-25/4; product 6=c (consistent). Centre=(-g,-f)=(25/4,5/2). Verified computationally.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q125",
+   "section": "Physics",
+   "topic": "Discipline Q57",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q57",
+   "question": "In a dielectric medium, the dielectric polarization P, electric displacement D and electric field E are related as:",
+   "options": [
+    "E=D-e0*P",
+    "P=e0*E+D",
+    "D=e0*E+P",
+    "D=P-e0*E"
+   ],
+   "answer": 3,
+   "why": "D = epsilon0*E + P is the defining relation of electric displacement field in a dielectric.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q126",
+   "section": "Physics",
+   "topic": "Discipline Q58",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q58",
+   "question": "The characteristic impedance, as the ratio of amplitudes of E- and H-vectors, of a plane electromagnetic wave in free space is nearly:",
+   "options": [
+    "3.77 ohm",
+    "376.7 ohm",
+    "0.0 ohm",
+    "37.7 ohm"
+   ],
+   "answer": 2,
+   "why": "Z0=sqrt(mu0/epsilon0) is a fundamental physical constant, approximately 376.7 ohm.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q127",
+   "section": "Physics",
+   "topic": "Discipline Q59",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q59",
+   "question": "In order to study the internal atomic structure of crystals, we make use of electromagnetic radiations as ______.",
+   "options": [
+    "ultraviolet radiation",
+    "red light",
+    "yellow visible light",
+    "x-rays"
+   ],
+   "answer": 4,
+   "why": "X-ray wavelengths match interatomic spacing, enabling diffraction-based crystallography (Bragg's law), unlike visible or UV light.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q128",
+   "section": "Business Management",
+   "topic": "Discipline Q60",
+   "source": "AAI AO 29.11.2018 Shift 1 · Discipline Q60",
+   "question": "______ is any plan of action intended to achieve a major or overall aim and also to beat the competition.",
+   "options": [
+    "Sales",
+    "Project",
+    "Strategy",
+    "Finance"
+   ],
+   "answer": 3,
+   "why": "This is the standard definition of strategy in business management.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  }
+ ],
+ "questionStats": {
+  "total": 128,
+  "attempted": 128,
+  "correct": 34,
+  "stale": 3,
+  "byTopic": [
+   {
+    "topic": "Ages (ratio and difference)",
+    "n": 1
+   },
+   {
+    "topic": "Antonym",
+    "n": 1
+   },
+   {
+    "topic": "Arithmetic progression (spacing)",
+    "n": 1
+   },
+   {
+    "topic": "Arts & culture",
+    "n": 1
+   },
+   {
+    "topic": "Average",
+    "n": 1
+   },
+   {
+    "topic": "Aviation",
+    "n": 14
+   },
+   {
+    "topic": "Blood relations (family table)",
+    "n": 1
+   },
+   {
+    "topic": "Blood relations (simple)",
+    "n": 1
+   },
+   {
+    "topic": "Calendar",
+    "n": 1
+   },
+   {
+    "topic": "Classification",
+    "n": 1
+   },
+   {
+    "topic": "Coding-decoding",
+    "n": 1
+   },
+   {
+    "topic": "Current affairs",
+    "n": 8
+   },
+   {
+    "topic": "Decimal equation",
+    "n": 1
+   },
+   {
+    "topic": "Digit sum/difference/product",
+    "n": 1
+   },
+   {
+    "topic": "Direct proportion",
+    "n": 1
+   },
+   {
+    "topic": "Direction sense",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q1",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q10",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q11",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q12",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q13",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q14",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q15",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q16",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q17",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q18",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q19",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q2",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q20",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q21",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q22",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q23",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q24",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q25",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q26",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q27",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q28",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q29",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q3",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q30",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q31",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q32",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q33",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q34",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q35",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q36",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q37",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q38",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q39",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q4",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q40",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q41",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q42",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q43",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q44",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q45",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q46",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q47",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q48",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q49",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q5",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q50",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q51",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q52",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q53",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q54",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q55",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q56",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q57",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q58",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q59",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q6",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q60",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q7",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q8",
+    "n": 1
+   },
+   {
+    "topic": "Discipline Q9",
+    "n": 1
+   },
+   {
+    "topic": "Error spotting",
+    "n": 1
+   },
+   {
+    "topic": "Error spotting (possessive vs contraction)",
+    "n": 1
+   },
+   {
+    "topic": "Fill in the blank (adjective vs participle)",
+    "n": 1
+   },
+   {
+    "topic": "Fill in the blank (comparatives)",
+    "n": 1
+   },
+   {
+    "topic": "Fill in the blank (conjunction)",
+    "n": 2
+   },
+   {
+    "topic": "Fill in the blank (tense)",
+    "n": 1
+   },
+   {
+    "topic": "LCM/HCF from ratio",
+    "n": 1
+   },
+   {
+    "topic": "Letter matrix analogy",
+    "n": 1
+   },
+   {
+    "topic": "Mensuration (ratio scaling)",
+    "n": 1
+   },
+   {
+    "topic": "Number analogy",
+    "n": 1
+   },
+   {
+    "topic": "Number series (perfect square differences)",
+    "n": 1
+   },
+   {
+    "topic": "Partnership / profit sharing",
+    "n": 1
+   },
+   {
+    "topic": "Passive voice",
+    "n": 1
+   },
+   {
+    "topic": "Percentage (mixture removal)",
+    "n": 1
+   },
+   {
+    "topic": "Percentage equation algebra",
+    "n": 1
+   },
+   {
+    "topic": "Profit percent (CP/SP articles)",
+    "n": 1
+   },
+   {
+    "topic": "Pronoun reference",
+    "n": 2
+   },
+   {
+    "topic": "Ranking / linear order",
+    "n": 1
+   },
+   {
+    "topic": "Relative speed",
+    "n": 1
+   },
+   {
+    "topic": "Reported speech",
+    "n": 1
+   },
+   {
+    "topic": "Series (letter-number mismatch)",
+    "n": 1
+   },
+   {
+    "topic": "Sign/number interchange",
+    "n": 1
+   },
+   {
+    "topic": "Simple interest (find Principal)",
+    "n": 1
+   },
+   {
+    "topic": "Spelling",
+    "n": 1
+   },
+   {
+    "topic": "Synonym",
+    "n": 1
+   },
+   {
+    "topic": "Time and work",
+    "n": 1
+   },
+   {
+    "topic": "Venn diagram",
+    "n": 1
+   },
+   {
+    "topic": "Word analogy (antonym)",
+    "n": 1
+   },
+   {
+    "topic": "Word formation (anagram)",
+    "n": 1
+   },
+   {
+    "topic": "Word formation (prefix trap)",
+    "n": 1
+   }
+  ]
+ },
+ "markets": {
+  "daysDone": 1,
+  "daysTotal": 3,
+  "resources": 37,
+  "trades": 0
+ },
+ "consulting": {
+  "resources": 30
+ }
+}

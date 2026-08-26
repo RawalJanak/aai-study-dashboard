@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Study dashboard (React)
 
-## Getting Started
+The TOMORROW study dashboard, rendered with real [bklit UI](https://ui.bklit.com)
+chart components.
 
-First, run the development server:
+The markdown and xlsx files under `../` are still the only source of truth.
+This app never parses them: `../dashboard/build.py` does, and writes
+`src/data.json`, which is imported at build time and baked into the output.
+
+## Refresh after studying
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run refresh      # regenerate data.json, then rebuild out/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Or the two halves separately:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run data         # python ../dashboard/build.py --json
+npm run dev          # live at localhost:3000
+npm run build        # static export to out/
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`../dashboard/build.py` with no flags writes **both** the old single-file
+`index.html` and this app's `data.json`, so the two dashboards never drift.
 
-## Learn More
+## Viewing the build
 
-To learn more about Next.js, take a look at the following resources:
+`next.config.ts` sets `output: "export"`, so `npm run build` produces plain
+files in `out/`. They need to be *served*, not opened off the filesystem — the
+asset paths are absolute:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npx serve out          # or: python -m http.server -d out 8000
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To deploy, upload `out/` to any static host (Netlify, GitHub Pages, Vercel).
 
-## Deploy on Vercel
+## Charts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Card | Component | Why that form |
+|---|---|---|
+| Sessions logged, running total | bklit `AreaChart` | trend over time, one series |
+| Where the marks are | bklit `BarChart` stacked | part-to-whole per block, **ordinal** ramp |
+| Study activity | bklit `BarChart` stacked | distinct series per day, **categorical** |
+| Mastery by subject | bklit `RingChart` | ratio against a limit (a meter) |
+| Concept status mix | bklit `PieChart` | part-to-whole at a glance, ≤ 6 slices |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Colors come from CSS tokens in `src/app/globals.css`, not from hardcoded hex in
+components. They are the [dataviz skill](https://ui.bklit.com)'s validated
+categorical order (`--chart-1..5`) plus an ordinal blue ramp
+(`--ord-lo/mid/hi`), both re-run through `validate_palette.js` against this
+app's actual light (`#ffffff`) and dark (`#171717`) card surfaces.
+
+**Do not re-order `--chart-1..5` or add a sixth.** The slot ordering is what
+makes adjacent series distinguishable under colour-vision deficiency; a
+generated sixth hue fails every check. A sixth series folds into "Other" or
+the chart facets into small multiples.
+
+## Two things that will bite you
+
+1. **The bklit registry ships a broken import.** Re-adding any chart with
+   `shadcn add -o` rewrites `src/components/charts/chart-loading-label.tsx`
+   with `import ... from "../components/shimmering-text"`, which resolves to
+   `src/components/components/…` and does not exist. Change it back to
+   `@/components/shimmering-text`.
+
+2. **`BarYAxis` is not the value axis.** It renders the *band* scale — it is
+   the category axis for `orientation="horizontal"`. Vertical columns read
+   their values off plain `YAxis`.
