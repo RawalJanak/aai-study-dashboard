@@ -15,6 +15,13 @@
  * Marking: 1 mark per correct answer, 0 for wrong or skipped/timed-out - the
  * no-negative-marking baseline documented in past_papers/README.md. This is
  * an assumption stated to the user, not a verified 2026 CBT rule.
+ *
+ * Instant feedback (added 26 Aug 2026, on request): answering or explicitly
+ * skipping pauses the clock and reveals correct/wrong plus the Why text
+ * before advancing, so the drill teaches in the moment instead of only at
+ * the end. A running score stays visible in the header throughout. Timeout
+ * is the one exception - it stays silent and auto-advances, since that is
+ * a passive event, not an answer to react to.
  */
 
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -82,6 +89,7 @@ export function MockTest() {
   const [phase, setPhase] = useState<Phase>("idle");
   const [attempt, setAttempt] = useState<StoredAttempt | null>(null);
   const [resumeAvailable, setResumeAvailable] = useState<StoredAttempt | null>(null);
+  const [feedback, setFeedback] = useState<{ chosen: number | null } | null>(null);
   const tickRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
@@ -105,6 +113,7 @@ export function MockTest() {
     saveAttempt(start);
     setPhase("running");
     setResumeAvailable(null);
+    setFeedback(null);
   }
 
   function advance(prev: StoredAttempt, chosen: number | null) {
@@ -120,15 +129,25 @@ export function MockTest() {
     };
     setAttempt(next);
     saveAttempt(next);
+    setFeedback(null);
     if (next.index >= next.order.length) {
       setPhase("finished");
       clearAttempt();
     }
   }
 
+  // Selecting an option or explicitly skipping shows feedback first instead
+  // of advancing immediately - the clock is paused (see the interval guard
+  // below) so there is no rush to read it before moving on.
+  function reveal(chosen: number | null) {
+    setFeedback({ chosen });
+  }
+
   // Countdown - one interval per question, cleaned up on every index change.
+  // Paused while feedback is showing (feedback is only set by an active
+  // answer/skip, never by timeout, so this never blocks the timeout path).
   useEffect(() => {
-    if (phase !== "running" || !attempt) return;
+    if (phase !== "running" || !attempt || feedback) return;
     if (tickRef.current) clearInterval(tickRef.current);
     tickRef.current = setInterval(() => {
       setAttempt((cur) => {
@@ -147,7 +166,7 @@ export function MockTest() {
       if (tickRef.current) clearInterval(tickRef.current);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase, attempt?.index]);
+  }, [phase, attempt?.index, feedback]);
 
   if (phase === "idle") {
     return (
@@ -204,12 +223,29 @@ export function MockTest() {
     const pct = (attempt.remainingSeconds / SECONDS_PER_Q) * 100;
     const urgent = attempt.remainingSeconds <= 20;
 
+    // Live running score - every question already answered so far, judged
+    // against the bank's own answer key.
+    let scoreCorrect = 0;
+    let scoreAttempted = 0;
+    for (let i = 0; i < attempt.index; i++) {
+      const ans = attempt.answers[attempt.order[i]];
+      if (ans === null || ans === undefined) continue;
+      scoreAttempted += 1;
+      if (ans === byId.get(attempt.order[i])?.answer) scoreCorrect += 1;
+    }
+
+    const isCorrect = feedback && feedback.chosen === q.answer;
+
     return (
       <div className="grid gap-4">
         <Card>
           <div className="mb-4 flex items-center justify-between gap-4">
             <span className="text-[12px] font-medium text-muted-foreground">
               Question {attempt.index + 1} of {attempt.order.length}
+            </span>
+            <span className="text-[12px] font-medium text-muted-foreground">
+              Score: <span className="tabular-nums text-foreground">{scoreCorrect}</span>
+              <span className="tabular-nums">/{attempt.index}</span>
             </span>
             <span
               className={cn(
@@ -234,27 +270,73 @@ export function MockTest() {
           <p className="mb-4 text-[13px] leading-relaxed">{q.question}</p>
 
           <ol className="grid gap-1.5">
-            {q.options.map((o, i) => (
-              <li key={o}>
-                <button
-                  type="button"
-                  onClick={() => advance(attempt, i + 1)}
-                  className="flex w-full items-start gap-2 rounded-lg border border-transparent bg-muted/50 px-3 py-2 text-left text-[13px] text-foreground transition-colors hover:border-border hover:bg-muted"
-                >
-                  <span className="tabular-nums opacity-60">{i + 1}.</span>
-                  <span className="min-w-0">{o}</span>
-                </button>
-              </li>
-            ))}
+            {q.options.map((o, i) => {
+              const n = i + 1;
+              const isAnswer = n === q.answer;
+              const isChosen = feedback && n === feedback.chosen;
+              const showResult = !!feedback;
+              return (
+                <li key={o}>
+                  <button
+                    type="button"
+                    disabled={showResult}
+                    onClick={() => reveal(n)}
+                    className={cn(
+                      "flex w-full items-start gap-2 rounded-lg border px-3 py-2 text-left text-[13px] transition-colors",
+                      !showResult &&
+                        "border-transparent bg-muted/50 text-foreground hover:border-border hover:bg-muted",
+                      showResult && isAnswer &&
+                        "border-[var(--good)]/50 bg-[var(--good)]/10 font-medium text-[var(--good)]",
+                      showResult && isChosen && !isAnswer &&
+                        "border-[var(--critical)]/50 bg-[var(--critical)]/10 font-medium text-[var(--critical)]",
+                      showResult && !isAnswer && !isChosen &&
+                        "border-transparent bg-muted/30 text-muted-foreground"
+                    )}
+                  >
+                    <span className="tabular-nums opacity-60">{n}.</span>
+                    <span className="min-w-0">{o}</span>
+                    {showResult && isAnswer ? <span aria-hidden className="ml-auto">✓</span> : null}
+                    {showResult && isChosen && !isAnswer ? <span aria-hidden className="ml-auto">✗</span> : null}
+                  </button>
+                </li>
+              );
+            })}
           </ol>
 
-          <button
-            type="button"
-            onClick={() => advance(attempt, null)}
-            className="mt-3 text-[12px] font-medium text-muted-foreground transition-colors hover:text-foreground"
-          >
-            Skip this one
-          </button>
+          {feedback ? (
+            <div className="mt-4 border-t border-dashed border-border pt-4">
+              <p
+                className={cn(
+                  "mb-2 text-[13px] font-semibold",
+                  isCorrect ? "text-[var(--good)]" : "text-[var(--critical)]"
+                )}
+              >
+                {feedback.chosen === null
+                  ? "Skipped."
+                  : isCorrect
+                    ? "Correct."
+                    : "Wrong."}
+              </p>
+              <p className="mb-4 text-[13px] leading-relaxed text-muted-foreground">
+                {q.why}
+              </p>
+              <button
+                type="button"
+                onClick={() => advance(attempt, feedback.chosen)}
+                className="w-fit rounded-lg bg-foreground px-4 py-2 text-[13px] font-medium text-background transition-opacity hover:opacity-90"
+              >
+                Next question →
+              </button>
+            </div>
+          ) : (
+            <button
+              type="button"
+              onClick={() => reveal(null)}
+              className="mt-3 text-[12px] font-medium text-muted-foreground transition-colors hover:text-foreground"
+            >
+              Skip this one
+            </button>
+          )}
         </Card>
       </div>
     );
