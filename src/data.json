@@ -1,7 +1,7 @@
 {
- "builtAt": "24 Aug 2026, 17:56",
+ "builtAt": "29 Aug 2026, 22:45",
  "regClose": "2026-09-07",
- "daysToClose": 14,
+ "daysToClose": 9,
  "minTrendDays": 3,
  "totals": {
   "concepts": 50,
@@ -10,12 +10,12 @@
   "weak": 2,
   "notStarted": 1,
   "lessons": 50,
-  "errors": 8,
+  "errors": 13,
   "errorsOpen": 0,
-  "sessions": 16,
-  "sessionDays": 4,
+  "sessions": 18,
+  "sessionDays": 6,
   "mocks": 0,
-  "graphs": 9
+  "graphs": 11
  },
  "statusBreakdown": [
   {
@@ -79,6 +79,26 @@
    "drill": 0,
    "mock": 0,
    "other": 3
+  },
+  {
+   "date": "26 Aug",
+   "total": 1,
+   "cumulative": 17,
+   "teach": 0,
+   "revise": 0,
+   "drill": 0,
+   "mock": 0,
+   "other": 1
+  },
+  {
+   "date": "29 Aug",
+   "total": 1,
+   "cumulative": 18,
+   "teach": 0,
+   "revise": 0,
+   "drill": 0,
+   "mock": 0,
+   "other": 1
   }
  ],
  "sessionTypes": [
@@ -1050,7 +1070,7 @@
    "group": "General Intelligence",
    "status": "Weak",
    "subject": "mathematics",
-   "evidence": "N2 retry: answered \"Daughter\" instead of \"Sister\" — jumped to self instead of resolving the inner relation (grandfather's only son = own father) first",
+   "evidence": "N2 retry: answered \"Daughter\" instead of \"Sister\" — jumped to self instead of resolving the inner relation (grandfather's only son = own father) first. 26 Aug retest: 2/3 fresh variants — correct on mother's-only-daughter and grandmother's-only-daughter forms, but missed the same-generation form (\"father's only son\" = speaker himself → should be Daughter) by mechanically reapplying \"sister\" from the earlier fix instead of re-deriving. Genuine misconception, not cleared — needs one more rep distinguishing same-generation vs one-generation-up \"only son/daughter\" phrasing",
    "lesson": {
     "sections": [
      {
@@ -1902,6 +1922,46 @@
    "area": "Reasoning — blood relations (nested)",
    "question": "\"This girl is the daughter of my grandfather's only son\" — how related to Rohan?",
    "misconception": "Jumped straight to \"self\" instead of resolving the innermost relation first. \"Grandfather's only son\" = Rohan's own father (since the grandfather has only one son and Rohan descends from him) — so the girl is the daughter of Rohan's *father*, i.e. Rohan's sister, not Rohan's daughter",
+   "retry": "partially cleared 26 Aug — correct on 2 fresh variants (mother's-only-daughter, grandmother's-only-daughter), then reversed the fix and missed a same-generation variant, see below",
+   "open": false
+  },
+  {
+   "date": "26 Aug",
+   "area": "GK — arts & culture pairing",
+   "question": "Instrument associated with Hariprasad Chaurasia",
+   "misconception": "Swapped pairing — Santoor is Shivkumar Sharma, not Chaurasia",
+   "retry": "not yet retested",
+   "open": false
+  },
+  {
+   "date": "26 Aug",
+   "area": "GK — aviation (BCAS history)",
+   "question": "Year BCAS became independent body under MoCA",
+   "misconception": "Confused BCAS's two-step history — 1978 is when it was created as a Cell *under DGCA*; 1987 is when it became *independent* under MoCA. Question asked for independence, answered creation.",
+   "retry": "not yet retested",
+   "open": false
+  },
+  {
+   "date": "26 Aug",
+   "area": "GK — aviation (weather reports)",
+   "question": "Which report is issued off-schedule, between routine observations",
+   "misconception": "METAR is the *routine* interval report; SPECI is the off-schedule special one issued when conditions change significantly. Ruled out both real candidates and picked a third report (METAR) that doesn't fit the definition at all.",
+   "retry": "not yet retested",
+   "open": false
+  },
+  {
+   "date": "26 Aug",
+   "area": "GK — aviation (altimetry)",
+   "question": "What an altimeter set to QFE indicates",
+   "misconception": "Swapped QNH and QFE — QNH gives MSL altitude, QFE gives height above the aerodrome.",
+   "retry": "not yet retested",
+   "open": false
+  },
+  {
+   "date": "26 Aug",
+   "area": "Reasoning — blood relations (nested, reversed direction)",
+   "question": "\"This girl is the daughter of my father's only son\" — how related to speaker (male)?",
+   "misconception": "Applied the grandfather-generation fix mechanically without re-checking whose only son was named. \"Father's only son\" = the speaker's own generation (he IS his father's only son), so the girl is his own daughter — not one generation removed like the grandfather version. Confirms the rule isn't \"always sibling,\" it's \"identify whose only son/daughter first: same-generation-as-speaker → speaker's own child; one-generation-up → speaker's sibling.\"",
    "retry": "not yet retested",
    "open": false
   }
@@ -2013,6 +2073,20 @@
    "subject": "aviation"
   },
   {
+   "date": "26 Aug",
+   "type": "Revise+Drill",
+   "covered": "GK retention retest (15 fresh variants) + blood-relations redrill (3 fresh variants)",
+   "outcome": "GK 11/15 — 4 pairwise-confusion misses (BCAS date, SPECI/METAR, QNH/QFE, Chaurasia instrument). Blood relations 2/3 — same-generation \"only son\" trap resurfaced in reversed form (see error book)",
+   "subject": "gk"
+  },
+  {
+   "date": "29 Aug",
+   "type": "Teach+Drill",
+   "covered": "PAPER 2 (AAI AO 2016-09-17) started. GK section Q1-15 dissected, 15 Qs banked (Q129-143)",
+   "outcome": "1 knowledge check passed (President=head of state vs PM=head of government, after one re-explain). 3 stale officeholder facts, 1 suspect key (Parsi festival Q) flagged",
+   "subject": "gk"
+  },
+  {
    "date": "24 Aug",
    "type": "Teach",
    "covered": "PAPER 1 FULLY COMPLETE. Discipline section dissected — Physics, Maths, Business Management all interleaved, 60 questions, Q1-60. Every calculation-based question independently re-verified computationally (sympy/numpy), not just trusted from the scanned key. One question (Q52, series sum) flagged as unverifiable from the transcribed text — official answer kept but noted as unconfirmed. 128 questions now in the bank total from this one paper",
@@ -2021,14 +2095,15 @@
   }
  ],
  "nextActions": [
-  "Re-test the 15 GK practice questions after ~5 days (due ~26 Aug). 15/15 scored",
-  "Re-drill nested blood-relation questions (\"X's [relative]'s [relative]\" with 3+ layers) —",
+  "GK retested 26 Aug — 4 genuine gaps to re-drill in ~3-4 days: BCAS 1978 (creation, under",
+  "Blood relations still Weak after 26 Aug redrill (2/3) — the \"only son/daughter\" trap",
   "Aviation GK is the cheap block. In AAI AO 2018 Shift 1, 12 of 15 GK questions were",
   "PAPER 1 (AAI AO 2018 Shift 1) IS NOW 100% COMPLETE — GK, General Intelligence, General",
   "Integration — still open from 18 Aug, +C is the only Weak flag. Worth 5 questions in",
   "Differentiation is complete and is worth only ~2 marks. Re-drill for spacing, do not",
   "Physics and Business Management got their first real exposure today via paper 1's",
-  "**This 2018 paper's General Aptitude/Reasoning content is a reliable difficulty/style"
+  "**This 2018 paper's General Aptitude/Reasoning content is a reliable difficulty/style",
+  "PAPER 2 (AAI AO 2016-09-17) started 29 Aug — GK section (Q1-15) fully dissected, 15"
  ],
  "wins": [
   "y = cos(5x − 2) → −5sin(5x − 2). Handled both the minus from cos and the inner multiplier 5.",
@@ -5129,13 +5204,358 @@
    "attempted": "--",
    "done": true,
    "correct": false
+  },
+  {
+   "id": "Q129",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q1",
+   "question": "Which is the apex banking institution for providing finance for agriculture and rural development in India?",
+   "options": [
+    "RBI",
+    "SEBI",
+    "IBRD",
+    "NABARD"
+   ],
+   "answer": 4,
+   "why": "NABARD = National Bank for Agriculture and Rural Development. RBI is the central/monetary authority, SEBI regulates securities markets, IBRD is the World Bank's lending arm — none of them do agri/rural refinancing.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q130",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q2",
+   "question": "As per the 2011 Census, ______ has the highest percentage of households having electricity as a source of lighting and power.",
+   "options": [
+    "Maharashtra",
+    "Delhi",
+    "Lakshadweep",
+    "Daman and Diu"
+   ],
+   "answer": 3,
+   "why": "Small UTs with near-total household coverage often beat large states on percentage-based census metrics — don't default to the biggest/richest-sounding state.",
+   "status": "stale: check 2011 census figure currency before reusing",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q131",
+   "section": "GK",
+   "topic": "Arts & culture",
+   "source": "AAI AO 17.09.2016 · Q3",
+   "question": "Which of the following ancient poet wrote Abhijnanashakuntalam?",
+   "options": [
+    "Bhasa",
+    "Shudhraka",
+    "Aryabhat",
+    "Kalidasa"
+   ],
+   "answer": 4,
+   "why": "Kalidasa's best-known Sanskrit play. Aryabhat is a mathematician/astronomer (Aryabhatiya), a common wrong-pick when options mix poets and scientists.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q132",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q4",
+   "question": "What was Tauhid-i-Ilahi?",
+   "options": [
+    "A new religion set up by emperor Akbar",
+    "A religious tax imposed by Aurangazeb",
+    "A book written by Shahjahan",
+    "A Sufi epic poem"
+   ],
+   "answer": 1,
+   "why": "Akbar's syncretic faith blending elements of Islam, Hinduism, Zoroastrianism, and Christianity — not a tax (that's Jizya, reimposed by Aurangzeb) and not a book.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q133",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q5",
+   "question": "Which statement about the President of India is not correct?",
+   "options": [
+    "The President is the head of the government.",
+    "The President is the highest executive authority in the country.",
+    "The President appoints the Prime Minister.",
+    "The President of India enjoys only nominal powers."
+   ],
+   "answer": 1,
+   "why": "Trap pair — President is head of STATE, the Prime Minister is head of GOVERNMENT. Mixing these two up is the single most common civics confusion in Indian polity MCQs.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q134",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q6",
+   "question": "India has a ______ system.",
+   "options": [
+    "two-party",
+    "multi-party",
+    "single party",
+    "no party"
+   ],
+   "answer": 2,
+   "why": "India has many recognized national and state parties contesting simultaneously — not a US-style two-party system.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q135",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q7",
+   "question": "Which type of house is not correctly paired with the region where it is built?",
+   "options": [
+    "Igloo – Arctic Region",
+    "Mud house – Mexico",
+    "Stilt House – South East Asia",
+    "House Boat – Sub-Saharan Africa"
+   ],
+   "answer": 4,
+   "why": "Houseboats are traditionally associated with Kashmir and South-East Asia (e.g. Kerala backwaters), not Sub-Saharan Africa — a plausible-sounding but wrong region pairing.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q136",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q8",
+   "question": "Which is the second most densely populated city in India?",
+   "options": [
+    "Mumbai",
+    "Delhi",
+    "Kolkata",
+    "Chennai"
+   ],
+   "answer": 3,
+   "why": "Mumbai ranks 1st in population density among Indian cities, Kolkata 2nd — a ranking fact, not just \"which city is dense.\"",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q137",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q9",
+   "question": "Who developed the oral polio vaccine?",
+   "options": [
+    "Edward Jenner",
+    "Albert Sabin",
+    "Michiaki Takahashi",
+    "Louis Pasteur"
+   ],
+   "answer": 2,
+   "why": "Trap pair — Albert Sabin developed the ORAL (drops) vaccine; Jonas Salk developed the INJECTABLE vaccine. Memory hook: Sabin = Swallow, Salk = Shot. Edward Jenner = smallpox vaccine, Louis Pasteur = rabies/germ theory — both wrong-domain distractors.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q138",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q10",
+   "question": "Which of the following is a festival celebrated by Parsis (Zoroastrians)?",
+   "options": [
+    "Shab-e-Qadr",
+    "Navroz",
+    "Zend Avesta",
+    "The Dree Festival"
+   ],
+   "answer": 3,
+   "why": "FLAGGED — this paper's answer key marks \"Zend Avesta,\" but Zend Avesta is the Zoroastrian holy scripture, not a festival. Navroz (Parsi New Year) is the actual festival among these options. Treat the key as likely wrong here; do not bank \"Zend Avesta = festival\" as fact. The real fact worth keeping: Navroz = Parsi New Year.",
+   "status": "stale: key likely erroneous, verify before trusting",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q139",
+   "section": "GK",
+   "topic": "Arts & culture",
+   "source": "AAI AO 17.09.2016 · Q11",
+   "question": "Who wrote the famous novel 'Anandmath'?",
+   "options": [
+    "Bankim Chandra Chatterji",
+    "Sarat Chandra Chattopadhyay",
+    "Rabindra Nath Tagore",
+    "Satyajit Ray"
+   ],
+   "answer": 1,
+   "why": "Anandmath (1882) contains \"Vande Mataram.\" Don't confuse with Sarat Chandra (Devdas) or Tagore (national anthem, Gitanjali).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q140",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q12",
+   "question": "Who is Dipa Karmakar?",
+   "options": [
+    "The first female Indian gymnast ever to qualify for Olympic Games",
+    "The captain of Indian women's cricket team",
+    "National Junior Chess Champion",
+    "Winner of Khel Ratna Award 2015"
+   ],
+   "answer": 1,
+   "why": "Dipa Karmakar qualified for the Rio 2016 Olympics in gymnastics (Produnova vault), a first for an Indian woman in that sport.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q141",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q13",
+   "question": "Who is the current Chief Election Commissioner of India?",
+   "options": [
+    "Navin Chawla",
+    "S. Y. Quraishi",
+    "Naseem Ahmad",
+    "Nasim Zaidi"
+   ],
+   "answer": 4,
+   "why": "Nasim Zaidi was CEC as of 2016. This is a rolling-office fact — the position changes; do not memorise the name, memorise that this is the kind of \"current officeholder\" question the exam asks, and check the live 2026 name closer to the exam.",
+   "status": "stale: officeholder has changed since 2016",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q142",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q14",
+   "question": "Who is the current chairperson of Rajya Sabha?",
+   "options": [
+    "P. J. Kurien",
+    "Najeeb Jung",
+    "Sumitra Mahajan",
+    "Mohammad Hamid Ansari"
+   ],
+   "answer": 4,
+   "why": "Structural fact worth keeping: the Vice President of India is the EX-OFFICIO Chairperson of the Rajya Sabha (always, by constitutional design) — Mohammad Hamid Ansari was VP in 2016. The name is stale; the structural rule (VP = RS Chair) is not.",
+   "status": "stale: named officeholder changed, but \"VP = RS Chairperson\" rule is current",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q143",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI AO 17.09.2016 · Q15",
+   "question": "Who is the current Secretary-General of the United Nations?",
+   "options": [
+    "Jim Yong Kim",
+    "Ban Ki-Moon",
+    "Kofi Annan",
+    "Jan Eliasson"
+   ],
+   "answer": 2,
+   "why": "Ban Ki-moon was UN SG 2007-2016. Rolling-office fact, verify current 2026 UN SG before the exam.",
+   "status": "stale: officeholder has changed since 2016",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
   }
  ],
  "questionStats": {
-  "total": 128,
-  "attempted": 128,
+  "total": 143,
+  "attempted": 143,
   "correct": 34,
-  "stale": 3,
+  "stale": 8,
   "byTopic": [
    {
     "topic": "Ages (ratio and difference)",
@@ -5151,7 +5571,7 @@
    },
    {
     "topic": "Arts & culture",
-    "n": 1
+    "n": 3
    },
    {
     "topic": "Average",
@@ -5183,7 +5603,7 @@
    },
    {
     "topic": "Current affairs",
-    "n": 8
+    "n": 21
    },
    {
     "topic": "Decimal equation",
