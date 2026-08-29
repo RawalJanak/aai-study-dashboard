@@ -1,5 +1,5 @@
 {
- "builtAt": "29 Aug 2026, 22:45",
+ "builtAt": "29 Aug 2026, 23:04",
  "regClose": "2026-09-07",
  "daysToClose": 9,
  "minTrendDays": 3,
@@ -10,7 +10,7 @@
   "weak": 2,
   "notStarted": 1,
   "lessons": 50,
-  "errors": 13,
+  "errors": 17,
   "errorsOpen": 0,
   "sessions": 18,
   "sessionDays": 6,
@@ -1964,6 +1964,38 @@
    "misconception": "Applied the grandfather-generation fix mechanically without re-checking whose only son was named. \"Father's only son\" = the speaker's own generation (he IS his father's only son), so the girl is his own daughter — not one generation removed like the grandfather version. Confirms the rule isn't \"always sibling,\" it's \"identify whose only son/daughter first: same-generation-as-speaker → speaker's own child; one-generation-up → speaker's sibling.\"",
    "retry": "not yet retested",
    "open": false
+  },
+  {
+   "date": "29 Aug",
+   "area": "GK — civics (President vs PM)",
+   "question": "Which statement about the President of India is NOT correct?",
+   "misconception": "Second miss on the same trap in one session (first was the earlier dashboard question). Repeatedly reaches for the wrong statement instead of re-deriving head-of-state vs head-of-government. Genuinely weak, not a slip.",
+   "retry": "cleared same session — correctly answered \"PM runs government day-to-day\" on the follow-up check",
+   "open": false
+  },
+  {
+   "date": "29 Aug",
+   "area": "GK — science history",
+   "question": "Who developed the oral polio vaccine?",
+   "misconception": "Jenner = smallpox vaccine (the first vaccine ever, 1796) — wrong disease entirely. Confused \"famous vaccine pioneer\" generally with the specific oral-polio one.",
+   "retry": "not yet retested",
+   "open": false
+  },
+  {
+   "date": "29 Aug",
+   "area": "GK — arts & culture",
+   "question": "Who wrote the novel Anandmath?",
+   "misconception": "Ray is a filmmaker (Pather Panchali), not a 19th-century novelist — collapsed \"famous Bengali creative figure\" into one bucket regardless of era or medium.",
+   "retry": "not yet retested",
+   "open": false
+  },
+  {
+   "date": "29 Aug",
+   "area": "GK — current affairs (rolling officeholder)",
+   "question": "Current Rajya Sabha Chairperson / VP of India (2026)",
+   "misconception": "Picked the second-most-recent holder (VP until being replaced) instead of the actual current one (since Sep 2025) — trap specifically built to test \"latest,\" not just \"not the oldest.\"",
+   "retry": "not yet retested",
+   "open": false
   }
  ],
  "sessions": [
@@ -2103,7 +2135,8 @@
   "Differentiation is complete and is worth only ~2 marks. Re-drill for spacing, do not",
   "Physics and Business Management got their first real exposure today via paper 1's",
   "**This 2018 paper's General Aptitude/Reasoning content is a reliable difficulty/style",
-  "PAPER 2 (AAI AO 2016-09-17) started 29 Aug — GK section (Q1-15) fully dissected, 15"
+  "PAPER 2 (AAI AO 2016-09-17) started 29 Aug — GK section (Q1-15) fully dissected, 15",
+  "29 Aug quiz on paper 2's GK section: 10/15. Missed: Q3-recall (Kalidasa, no attempt),"
  ],
  "wins": [
   "y = cos(5x − 2) → −5sin(5x − 2). Handled both the minus from cos and the inner multiplier 5.",
@@ -5224,9 +5257,9 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "correct (29 Aug 2026)",
    "done": true,
-   "correct": false
+   "correct": true
   },
   {
    "id": "Q130",
@@ -5247,9 +5280,9 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "correct (29 Aug 2026)",
    "done": true,
-   "correct": false
+   "correct": true
   },
   {
    "id": "Q131",
@@ -5270,7 +5303,7 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "wrong (chose: don't know) (29 Aug 2026)",
    "done": true,
    "correct": false
   },
@@ -5293,9 +5326,9 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "correct (29 Aug 2026)",
    "done": true,
-   "correct": false
+   "correct": true
   },
   {
    "id": "Q133",
@@ -5316,7 +5349,7 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "wrong (chose 3) (29 Aug 2026) — cleared after re-explain, follow-up check correct",
    "done": true,
    "correct": false
   },
@@ -5339,9 +5372,9 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "correct (29 Aug 2026)",
    "done": true,
-   "correct": false
+   "correct": true
   },
   {
    "id": "Q135",
@@ -5362,9 +5395,9 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "correct (29 Aug 2026)",
    "done": true,
-   "correct": false
+   "correct": true
   },
   {
    "id": "Q136",
@@ -5385,9 +5418,9 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "correct (29 Aug 2026)",
    "done": true,
-   "correct": false
+   "correct": true
   },
   {
    "id": "Q137",
@@ -5408,7 +5441,7 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "wrong (chose 1, Edward Jenner) (29 Aug 2026)",
    "done": true,
    "correct": false
   },
@@ -5431,7 +5464,7 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "wrong (chose 3, matches this paper's erroneous key) (29 Aug 2026) — taught correct answer is Navroz",
    "done": true,
    "correct": false
   },
@@ -5454,7 +5487,7 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "wrong (chose 4, Satyajit Ray) (29 Aug 2026)",
    "done": true,
    "correct": false
   },
@@ -5477,9 +5510,9 @@
    "practice": "",
    "practiceOptions": [],
    "practiceAnswer": null,
-   "attempted": "--",
+   "attempted": "correct (29 Aug 2026)",
    "done": true,
-   "correct": false
+   "correct": true
   },
   {
    "id": "Q141",
@@ -5497,12 +5530,17 @@
    "why": "Nasim Zaidi was CEC as of 2016. This is a rolling-office fact — the position changes; do not memorise the name, memorise that this is the kind of \"current officeholder\" question the exam asks, and check the live 2026 name closer to the exam.",
    "status": "stale: officeholder has changed since 2016",
    "stale": true,
-   "practice": "",
-   "practiceOptions": [],
-   "practiceAnswer": null,
-   "attempted": "--",
+   "practice": "Who is the CURRENT (2026) Chief Election Commissioner of India?",
+   "practiceOptions": [
+    "Navin Chawla",
+    "S.Y. Quraishi",
+    "Gyanesh Kumar",
+    "Nasim Zaidi"
+   ],
+   "practiceAnswer": 3,
+   "attempted": "correct (29 Aug 2026)",
    "done": true,
-   "correct": false
+   "correct": true
   },
   {
    "id": "Q142",
@@ -5520,10 +5558,15 @@
    "why": "Structural fact worth keeping: the Vice President of India is the EX-OFFICIO Chairperson of the Rajya Sabha (always, by constitutional design) — Mohammad Hamid Ansari was VP in 2016. The name is stale; the structural rule (VP = RS Chair) is not.",
    "status": "stale: named officeholder changed, but \"VP = RS Chairperson\" rule is current",
    "stale": true,
-   "practice": "",
-   "practiceOptions": [],
-   "practiceAnswer": null,
-   "attempted": "--",
+   "practice": "Who is the CURRENT (2026) ex-officio Chairperson of the Rajya Sabha (i.e. current VP of India)?",
+   "practiceOptions": [
+    "P.J. Kurien",
+    "Mohammad Hamid Ansari",
+    "Jagdeep Dhankhar",
+    "C.P. Radhakrishnan"
+   ],
+   "practiceAnswer": 4,
+   "attempted": "wrong (chose Jagdeep Dhankhar, a former VP) (29 Aug 2026)",
    "done": true,
    "correct": false
   },
@@ -5543,18 +5586,23 @@
    "why": "Ban Ki-moon was UN SG 2007-2016. Rolling-office fact, verify current 2026 UN SG before the exam.",
    "status": "stale: officeholder has changed since 2016",
    "stale": true,
-   "practice": "",
-   "practiceOptions": [],
-   "practiceAnswer": null,
-   "attempted": "--",
+   "practice": "Who is the CURRENT (2026) UN Secretary-General?",
+   "practiceOptions": [
+    "Ban Ki-Moon",
+    "Kofi Annan",
+    "Antonio Guterres",
+    "Jan Eliasson"
+   ],
+   "practiceAnswer": 3,
+   "attempted": "correct (29 Aug 2026)",
    "done": true,
-   "correct": false
+   "correct": true
   }
  ],
  "questionStats": {
   "total": 143,
   "attempted": 143,
-  "correct": 34,
+  "correct": 43,
   "stale": 8,
   "byTopic": [
    {
