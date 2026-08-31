@@ -52,8 +52,79 @@ function Options({
   );
 }
 
+/**
+ * Practice options, answer-first.
+ *
+ * Unlike the dissected question above (verified answer shown immediately,
+ * this page doubles as a revision sheet), the practice question is meant to
+ * be attempted: pick an option, THEN see right/wrong, like a live MCQ.
+ */
+function PracticeQuiz({ options, answer }: { options: string[]; answer: number }) {
+  const [picked, setPicked] = useState<number | null>(null);
+  const revealed = picked !== null;
+
+  return (
+    <div className="grid gap-1.5">
+      <ol className="grid gap-1.5">
+        {options.map((o, i) => {
+          const n = i + 1;
+          const isAnswer = n === answer;
+          const isPicked = n === picked;
+          return (
+            <li key={o}>
+              <button
+                type="button"
+                disabled={revealed}
+                onClick={() => setPicked(n)}
+                className={cn(
+                  "flex w-full items-start gap-2 rounded-lg border px-3 py-2 text-left text-[13px] transition-colors",
+                  !revealed &&
+                    "border-transparent bg-muted/50 text-muted-foreground hover:bg-muted",
+                  revealed && isAnswer &&
+                    "border-[var(--good)]/50 bg-[var(--good)]/10 font-medium text-[var(--good)]",
+                  revealed && isPicked && !isAnswer &&
+                    "border-[var(--critical)]/50 bg-[var(--critical)]/10 font-medium text-[var(--critical)]",
+                  revealed && !isAnswer && !isPicked &&
+                    "border-transparent bg-muted/30 text-muted-foreground/50"
+                )}
+              >
+                <span className="tabular-nums opacity-60">{n}.</span>
+                <span className="min-w-0">{o}</span>
+                {revealed && isAnswer ? (
+                  <span aria-hidden className="ml-auto">✓</span>
+                ) : null}
+                {revealed && isPicked && !isAnswer ? (
+                  <span aria-hidden className="ml-auto">✗</span>
+                ) : null}
+              </button>
+            </li>
+          );
+        })}
+      </ol>
+      {revealed ? (
+        <div className="mt-1 flex items-center gap-3">
+          <span
+            className={cn(
+              "text-xs font-semibold",
+              picked === answer ? "text-[var(--good)]" : "text-[var(--critical)]"
+            )}
+          >
+            {picked === answer ? "Correct." : "Not quite."}
+          </span>
+          <button
+            type="button"
+            onClick={() => setPicked(null)}
+            className="rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-muted"
+          >
+            Try again
+          </button>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
 function QuestionCard({ q }: { q: Q }) {
-  const [showPractice, setShowPractice] = useState(false);
   const attemptTone = q.correct
     ? "border-[var(--good)]/40 text-[var(--good)]"
     : q.done
@@ -95,18 +166,7 @@ function QuestionCard({ q }: { q: Q }) {
           Practice
         </p>
         <p className="mb-3 text-sm leading-relaxed">{q.practice}</p>
-        <Options
-          options={q.practiceOptions}
-          answer={q.practiceAnswer}
-          reveal={showPractice}
-        />
-        <button
-          type="button"
-          onClick={() => setShowPractice((v) => !v)}
-          className="mt-2.5 rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-muted"
-        >
-          {showPractice ? "Hide answer" : "Show answer"}
-        </button>
+        <PracticeQuiz options={q.practiceOptions} answer={q.practiceAnswer} />
       </div>
       )}
     </article>
