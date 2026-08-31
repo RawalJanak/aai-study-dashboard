@@ -1,5 +1,5 @@
 {
- "builtAt": "31 Aug 2026, 17:50",
+ "builtAt": "31 Aug 2026, 17:53",
  "regClose": "2026-09-07",
  "daysToClose": 7,
  "minTrendDays": 3,
@@ -6517,11 +6517,471 @@
    "attempted": "--",
    "done": true,
    "correct": false
+  },
+  {
+   "id": "Q184",
+   "section": "GK",
+   "topic": "Arts & culture",
+   "source": "modelled",
+   "question": "How many classical dance forms are officially recognised in India?",
+   "options": [
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "answer": 3,
+   "why": "8 classical dances: Bharatanatyam (TN), Kathak (UP), Kathakali & Mohiniyattam (Kerala), Odissi (Odisha), Kuchipudi (Andhra), Manipuri (Manipur), Sattriya (Assam). Everything else (Bhangra, Garba, Ghoomar, Bihu) is folk, not classical.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q185",
+   "section": "GK",
+   "topic": "Arts & culture",
+   "source": "modelled",
+   "question": "Which of the following is a FOLK dance, not a classical one?",
+   "options": [
+    "Bharatanatyam",
+    "Kathak",
+    "Bhangra",
+    "Odissi"
+   ],
+   "answer": 3,
+   "why": "Bhangra (Punjab) is folk. The other three are among India's 8 officially recognised classical dance forms. Exam trap: mixing one folk name into a list of classical names.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q186",
+   "section": "GK",
+   "topic": "Arts & culture",
+   "source": "modelled",
+   "question": "Zakir Hussain is a renowned maestro of which instrument?",
+   "options": [
+    "Sitar",
+    "Tabla",
+    "Sarod",
+    "Santoor"
+   ],
+   "answer": 2,
+   "why": "Zakir Hussain = Tabla. Extends the instrument-maestro pairing list: Sitar-Ravi Shankar, Sarod-Amjad Ali Khan, Santoor-Shivkumar Sharma, Flute-Hariprasad Chaurasia, Shehnai-Bismillah Khan, Tabla-Zakir Hussain, Violin-L. Subramaniam.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q187",
+   "section": "GK",
+   "topic": "Arts & culture",
+   "source": "modelled",
+   "question": "L. Subramaniam is a maestro of which instrument?",
+   "options": [
+    "Violin",
+    "Flute",
+    "Veena",
+    "Shehnai"
+   ],
+   "answer": 1,
+   "why": "L. Subramaniam = Violin (Carnatic tradition). Same pairing-list pattern as Zakir Hussain/Tabla — memorise the list as a set, not one name at a time.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q188",
+   "section": "GK",
+   "topic": "Sports",
+   "source": "modelled",
+   "question": "Which term denotes a batsman dismissed without scoring any run in cricket?",
+   "options": [
+    "Century",
+    "Duck",
+    "Fifty",
+    "Maiden"
+   ],
+   "answer": 2,
+   "why": "'Duck' = dismissed for 0 runs (duck egg is 0-shaped). 'Golden duck' = out on the very first ball faced. Don't confuse with 'maiden' (an over with no runs scored, a bowling term, not batting).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q189",
+   "section": "GK",
+   "topic": "Sports",
+   "source": "modelled",
+   "question": "In tennis, a score of zero is called:",
+   "options": [
+    "Duck",
+    "Love",
+    "Deuce",
+    "Ace"
+   ],
+   "answer": 2,
+   "why": "'Love' = zero in tennis (from French l'oeuf = egg, shaped like 0 — same root idea as cricket's 'duck' for 0, different sport, different word).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q190",
+   "section": "GK",
+   "topic": "Sports",
+   "source": "modelled",
+   "question": "In chess, a position where the king is NOT in check but has no legal move, resulting in a draw, is called:",
+   "options": [
+    "Checkmate",
+    "Stalemate",
+    "Castling",
+    "Fork"
+   ],
+   "answer": 2,
+   "why": "Stalemate = no legal move, king safe = DRAW. Checkmate = king IS in check, no escape = one side WINS. The two terms are opposites in outcome despite sounding similar — a classic confusion pair.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q191",
+   "section": "GK",
+   "topic": "Sports",
+   "source": "modelled",
+   "question": "The five Olympic rings represent:",
+   "options": [
+    "The 5 founding member countries",
+    "The 5 inhabited continents",
+    "5 sport categories",
+    "The 5 most recent host cities"
+   ],
+   "answer": 2,
+   "why": "The 5 interlocking rings (blue, yellow, black, green, red) represent the 5 inhabited continents of the world (Americas counted as one) — not any specific countries, sports, or cities.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q192",
+   "section": "GK",
+   "topic": "Awards",
+   "source": "modelled",
+   "question": "Which is India's highest civilian award?",
+   "options": [
+    "Padma Vibhushan",
+    "Bharat Ratna",
+    "Padma Bhushan",
+    "Khel Ratna"
+   ],
+   "answer": 2,
+   "why": "Bharat Ratna sits above all Padma awards. Full descending order: Bharat Ratna > Padma Vibhushan > Padma Bhushan > Padma Shri. Khel Ratna is a separate, sport-specific highest honour, not part of this civilian-award ladder.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q193",
+   "section": "GK",
+   "topic": "Awards",
+   "source": "modelled",
+   "question": "In the Padma awards, which rank comes immediately after Padma Vibhushan?",
+   "options": [
+    "Padma Shri",
+    "Padma Bhushan",
+    "Bharat Ratna",
+    "Ashoka Chakra"
+   ],
+   "answer": 2,
+   "why": "Order: Padma Vibhushan (2nd highest civilian award overall) > Padma Bhushan > Padma Shri. Bharat Ratna is ABOVE Padma Vibhushan, not below it — a common ordering trap. Ashoka Chakra is a gallantry award, different category entirely (peacetime bravery, not civilian merit).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q194",
+   "section": "GK",
+   "topic": "Awards",
+   "source": "modelled",
+   "question": "Who was the first Indian (and first Asian) Nobel laureate?",
+   "options": [
+    "C.V. Raman",
+    "Rabindranath Tagore",
+    "Mother Teresa",
+    "Amartya Sen"
+   ],
+   "answer": 2,
+   "why": "Rabindranath Tagore won the Nobel Prize in Literature in 1913 — first Indian AND first Asian Nobel laureate. C.V. Raman (Physics, 1930) was the first Indian science laureate, a different 'first' — don't conflate the two.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q195",
+   "section": "GK",
+   "topic": "Awards",
+   "source": "modelled",
+   "question": "Which Nobel Prize category was added in 1969 and was NOT part of Alfred Nobel's original 1895 will?",
+   "options": [
+    "Peace",
+    "Literature",
+    "Economics",
+    "Physics"
+   ],
+   "answer": 3,
+   "why": "Economics (formally 'The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel') was added in 1969 by Sweden's central bank — technically not an original Nobel Prize category, though popularly called one. The original 5 (Physics, Chemistry, Medicine, Literature, Peace) were all in Nobel's 1895 will.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q196",
+   "section": "GK",
+   "topic": "Books & Authors",
+   "source": "modelled",
+   "question": "Who wrote 'Gitanjali'?",
+   "options": [
+    "Bankim Chandra Chatterji",
+    "Rabindranath Tagore",
+    "Sarat Chandra Chattopadhyay",
+    "R.K. Narayan"
+   ],
+   "answer": 2,
+   "why": "Gitanjali (Song Offerings) by Tagore won him the 1913 Nobel Prize in Literature. He also wrote India's national anthem (Jana Gana Mana) — don't confuse with Bankim Chandra, who wrote Anandmath/Vande Mataram.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q197",
+   "section": "GK",
+   "topic": "Books & Authors",
+   "source": "modelled",
+   "question": "'My Experiments with Truth' is the autobiography of:",
+   "options": [
+    "Jawaharlal Nehru",
+    "Mahatma Gandhi",
+    "Sardar Patel",
+    "B.R. Ambedkar"
+   ],
+   "answer": 2,
+   "why": "Gandhi's autobiography. Distinguish from Nehru's 'The Discovery of India' (written in prison, a history/reflection book, not an autobiography).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q198",
+   "section": "GK",
+   "topic": "Books & Authors",
+   "source": "modelled",
+   "question": "Who wrote the novel 'Godan'?",
+   "options": [
+    "Munshi Premchand",
+    "R.K. Narayan",
+    "Rabindranath Tagore",
+    "Sarat Chandra Chattopadhyay"
+   ],
+   "answer": 1,
+   "why": "Godan (The Gift of a Cow) by Munshi Premchand, a major Hindi novelist. R.K. Narayan wrote 'Malgudi Days' (English, fictional South Indian town) — different author, different language, different era-flavour, commonly mixed up in author-matching questions.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q199",
+   "section": "GK",
+   "topic": "Static facts",
+   "source": "modelled",
+   "question": "India's national aquatic animal is:",
+   "options": [
+    "Gharial",
+    "Ganges River Dolphin",
+    "Olive Ridley Turtle",
+    "Blue Whale"
+   ],
+   "answer": 2,
+   "why": "Ganges River Dolphin — endangered, freshwater-only dolphin species. Part of the national-symbols set worth memorising as a group: bird=Peacock, animal=Tiger, flower=Lotus, tree=Banyan, aquatic animal=Ganges River Dolphin.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q200",
+   "section": "GK",
+   "topic": "Static facts",
+   "source": "modelled",
+   "question": "Who was the first Indian to travel to space?",
+   "options": [
+    "Kalpana Chawla",
+    "Rakesh Sharma",
+    "Sunita Williams",
+    "Vikram Sarabhai"
+   ],
+   "answer": 2,
+   "why": "Rakesh Sharma (1984, aboard a Soviet Soyuz mission) — first Indian in space. Kalpana Chawla was the first Indian-born WOMAN in space (but flying as a US/NASA astronaut, and a different 'first' entirely) — a very common confusion pair, keep them distinct.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q201",
+   "section": "GK",
+   "topic": "Static facts",
+   "source": "modelled",
+   "question": "Who was India's first woman President?",
+   "options": [
+    "Indira Gandhi",
+    "Pratibha Patil",
+    "Droupadi Murmu",
+    "Sarojini Naidu"
+   ],
+   "answer": 2,
+   "why": "Pratibha Patil (2007-2012) was India's first woman President. Indira Gandhi was the first woman PRIME MINISTER — a completely different office, frequently confused because both are 'first woman in a top job.' Droupadi Murmu is a later, more recent woman President, not the first.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q202",
+   "section": "GK",
+   "topic": "Static facts",
+   "source": "modelled",
+   "question": "Which latitude line passes through India, making it the correct reference for questions about India's latitudinal position?",
+   "options": [
+    "Equator",
+    "Arctic Circle",
+    "Tropic of Capricorn",
+    "Tropic of Cancer"
+   ],
+   "answer": 4,
+   "why": "Tropic of Cancer (23.5 degrees N) is the only one of these four latitudes that passes through India, cutting across 8 states. Already banked from the ATC 2015 paper (Q173) — repeating here as a static fact worth its own standalone recall, not just a paper-specific answer.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q203",
+   "section": "GK",
+   "topic": "Static facts",
+   "source": "modelled",
+   "question": "India's highest peak (fully within Indian territory) is:",
+   "options": [
+    "Mount Everest",
+    "Kangchenjunga",
+    "Nanda Devi",
+    "K2"
+   ],
+   "answer": 2,
+   "why": "Kangchenjunga (Sikkim/Nepal border) is the highest peak entirely within India. Mount Everest is in Nepal (not India). K2 is in Pakistan-administered Gilgit-Baltistan (India claims the broader region but does not control it) — both are common wrong picks for 'India's highest peak.'",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
   }
  ],
  "questionStats": {
-  "total": 183,
-  "attempted": 183,
+  "total": 203,
+  "attempted": 203,
   "correct": 43,
   "stale": 16,
   "byTopic": [
@@ -6539,7 +6999,7 @@
    },
    {
     "topic": "Arts & culture",
-    "n": 6
+    "n": 10
    },
    {
     "topic": "Average",
@@ -6550,12 +7010,20 @@
     "n": 14
    },
    {
+    "topic": "Awards",
+    "n": 4
+   },
+   {
     "topic": "Blood relations (family table)",
     "n": 1
    },
    {
     "topic": "Blood relations (simple)",
     "n": 1
+   },
+   {
+    "topic": "Books & Authors",
+    "n": 3
    },
    {
     "topic": "Calendar",
@@ -6947,11 +7415,11 @@
    },
    {
     "topic": "Sports",
-    "n": 4
+    "n": 8
    },
    {
     "topic": "Static facts",
-    "n": 5
+    "n": 10
    },
    {
     "topic": "Synonym",
