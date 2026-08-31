@@ -1,7 +1,7 @@
 {
- "builtAt": "29 Aug 2026, 23:04",
+ "builtAt": "31 Aug 2026, 17:50",
  "regClose": "2026-09-07",
- "daysToClose": 9,
+ "daysToClose": 7,
  "minTrendDays": 3,
  "totals": {
   "concepts": 50,
@@ -5597,13 +5597,933 @@
    "attempted": "correct (29 Aug 2026)",
    "done": true,
    "correct": true
+  },
+  {
+   "id": "Q144",
+   "section": "GK",
+   "topic": "Science",
+   "source": "AAI ATC 2018 Shift 1 · Q1",
+   "question": "Substances like phosphorus burn in air at room temperature without any apparent cause. This type of combustion is called ______.",
+   "options": [
+    "Explosive combustion",
+    "Spontaneous combustion",
+    "Running combustion",
+    "Rapid combustion"
+   ],
+   "answer": 2,
+   "why": "Spontaneous combustion = ignition without an external heat source or spark, purely from the substance's own low ignition point/reactivity. Phosphorus is the classic textbook example.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q145",
+   "section": "GK",
+   "topic": "Sports",
+   "source": "AAI ATC 2018 Shift 1 · Q2",
+   "question": "Which of the following nations won the Cricket World Cup 2015?",
+   "options": [
+    "India",
+    "England",
+    "Australia",
+    "West Indies"
+   ],
+   "answer": 3,
+   "why": "Australia won the 2015 Cricket World Cup (hosted jointly with New Zealand), beating New Zealand in the final. Fixed historical fact, not stale.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q146",
+   "section": "GK",
+   "topic": "Arts & culture",
+   "source": "AAI ATC 2018 Shift 1 · Q3",
+   "question": "The Elephanta caves are dedicated to which deity?",
+   "options": [
+    "Shiva",
+    "Tirthankar Mahavir",
+    "Vishnu",
+    "Buddha"
+   ],
+   "answer": 1,
+   "why": "Elephanta Caves (Mumbai harbour, UNESCO site) are rock-cut temples dedicated to Shiva - the giant Trimurti Sadashiva sculpture is the centerpiece.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q147",
+   "section": "GK",
+   "topic": "Geography",
+   "source": "AAI ATC 2018 Shift 1 · Q4",
+   "question": "In which of the following states is the Simlipal bio-reserve located?",
+   "options": [
+    "Himachal Pradesh",
+    "Punjab",
+    "Uttarakhand",
+    "Odisha"
+   ],
+   "answer": 4,
+   "why": "Simlipal Biosphere Reserve is in Odisha (Mayurbhanj district) - a tiger reserve and UNESCO biosphere reserve.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q148",
+   "section": "GK",
+   "topic": "Static facts",
+   "source": "AAI ATC 2018 Shift 1 · Q5",
+   "question": "Name a book maintained internationally which keeps a record of all endangered animals and plants. India also maintains one for species found in India.",
+   "options": [
+    "Primitive Books",
+    "Vintage Book",
+    "Extinct book",
+    "Red Data Book"
+   ],
+   "answer": 4,
+   "why": "Red Data Book (IUCN) lists threatened/endangered species globally; India maintains its own national Red Data Book.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q149",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI ATC 2018 Shift 1 · Q6",
+   "question": "Who is the current Chairman of SEBI?",
+   "options": [
+    "Sanjeev Kaushik",
+    "U.K. Sinha",
+    "C.B. Bhave",
+    "Ajay Tyagi"
+   ],
+   "answer": 4,
+   "why": "Ajay Tyagi was SEBI Chairman as of Aug 2018 - this is a rolling-office fact, same pattern as CEC/RS Chair/UN SG. The CURRENT (2026) SEBI Chairman is Tuhin Kanta Pandey, who succeeded Madhabi Puri Buch.",
+   "status": "stale: SEBI Chairman since changed - current (2026) is Tuhin Kanta Pandey",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q150",
+   "section": "GK",
+   "topic": "Polity",
+   "source": "AAI ATC 2018 Shift 1 · Q7",
+   "question": "Who was the Speaker of the 16th Lok Sabha?",
+   "options": [
+    "Somnath Chatterjee, 12th LS",
+    "Somnath Chatterjee, 16th LS",
+    "Sumitra Mahajan, 14th LS",
+    "Sumitra Mahajan, 16th LS"
+   ],
+   "answer": 4,
+   "why": "Sumitra Mahajan was Speaker of the 16th Lok Sabha (2014-2019). Rolling-office fact - the CURRENT (2026) Lok Sabha Speaker is Om Birla, serving since the 17th Lok Sabha (2019) and continuing into the 18th (2024-present).",
+   "status": "stale: named Speaker/term changed - current (2026) is Om Birla, 18th Lok Sabha",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q151",
+   "section": "GK",
+   "topic": "Polity",
+   "source": "AAI ATC 2018 Shift 1 · Q8",
+   "question": "Which Article of the Constitution deals with the establishment and constitution of the Supreme Court?",
+   "options": [
+    "Article 117",
+    "Article 114",
+    "Article 124",
+    "Article 106"
+   ],
+   "answer": 3,
+   "why": "Article 124 establishes the Supreme Court. Keep a small article-number list: Art 74=aid/advice to President, Art 75=PM appointment, Art 123=President's ordinance power, Art 124=Supreme Court establishment, Art 143=President can consult SC.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q152",
+   "section": "GK",
+   "topic": "Arts & culture",
+   "source": "AAI ATC 2018 Shift 1 · Q9",
+   "question": "Which of the following styles of painting belongs to Maharashtra?",
+   "options": [
+    "Miniature",
+    "Madhubani",
+    "Kalam",
+    "Warli"
+   ],
+   "answer": 4,
+   "why": "Warli painting = tribal art from Maharashtra (Warli tribe), simple white geometric figures on mud/red background. Madhubani = Bihar, Kalamkari = Andhra/Telangana - regional art-form pairings are a recurring trap type.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q153",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI ATC 2018 Shift 1 · Q10",
+   "question": "What was the rank of India in the World Press Freedom Index 2018?",
+   "options": [
+    "38",
+    "138",
+    "101",
+    "1"
+   ],
+   "answer": 2,
+   "why": "India ranked 138th in the 2018 World Press Freedom Index. This is a yearly-changing statistic - don't memorise the number, memorise that this index exists and roughly what it measures (press freedom by country, published annually by Reporters Without Borders).",
+   "status": "stale: index rank changes every year, don't memorise the 2018 figure",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q154",
+   "section": "GK",
+   "topic": "Static facts",
+   "source": "AAI ATC 2018 Shift 2 · Q1",
+   "question": "In which state is the Madai festival celebrated?",
+   "options": [
+    "Jharkhand",
+    "Chhattisgarh",
+    "Jammu and Kashmir",
+    "Odisha"
+   ],
+   "answer": 2,
+   "why": "Madai is a tribal harvest/hunting festival celebrated in Chhattisgarh (Bastar region tribes).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q155",
+   "section": "GK",
+   "topic": "Economy/Banking",
+   "source": "AAI ATC 2018 Shift 2 · Q2",
+   "question": "As per Economic Survey 2017-18, the service sector contributed ______ to India's GVA in 2017-18.",
+   "options": [
+    "55.2%",
+    "45.2%",
+    "25.2%",
+    "95.2%"
+   ],
+   "answer": 1,
+   "why": "Services sector is the largest contributor to India's GVA/GDP, over half - a broad structural fact worth keeping (services > industry > agriculture in India's GVA mix) even though the exact percentage shifts yearly.",
+   "status": "stale: exact percent is year-specific, but 'services = largest GVA share' is a durable structural fact",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q156",
+   "section": "GK",
+   "topic": "Polity",
+   "source": "AAI ATC 2018 Shift 2 · Q3",
+   "question": "The President has the power to promulgate ordinances under ______ of the Constitution.",
+   "options": [
+    "Article 123",
+    "Article 153",
+    "Article 113",
+    "Article 130"
+   ],
+   "answer": 1,
+   "why": "Article 123 = President's ordinance-making power when Parliament isn't in session. Pairs with Article 124 (SC establishment) and Article 143 (President can consult SC) as a mini article-number cluster to memorise together.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q157",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI ATC 2018 Shift 2 · Q4",
+   "question": "With whom did the Government of India enter a flexible financing agreement to accelerate biopharmaceutical research under the National Biopharma Mission?",
+   "options": [
+    "International Development Association",
+    "Asian Development Bank",
+    "New Development Bank",
+    "World Bank"
+   ],
+   "answer": 4,
+   "why": "World Bank financing for the National Biopharma Mission (2017), a scheme to boost India's vaccine/biopharma R&D. Niche scheme-name fact, lower priority than structural/recurring patterns.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q158",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI ATC 2018 Shift 2 · Q5",
+   "question": "Indu Malhotra recently became the ______ woman lawyer to be directly elevated from the Bar to the Supreme Court as a judge.",
+   "options": [
+    "sixth",
+    "first",
+    "tenth",
+    "second"
+   ],
+   "answer": 2,
+   "why": "Indu Malhotra (2018) was the first woman lawyer directly elevated from the Bar (as opposed to promoted from a High Court) to the Supreme Court. A 'first' fact - these tend to stay permanently true even as time passes, unlike rolling officeholder facts.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q159",
+   "section": "GK",
+   "topic": "Sports",
+   "source": "AAI ATC 2018 Shift 2 · Q6",
+   "question": "Which hockey player won the Rajiv Gandhi Khel Ratna award in 2017?",
+   "options": [
+    "Rupinder Pal Singh",
+    "Sandeep Singh",
+    "Sardara Singh",
+    "Manpreet Singh"
+   ],
+   "answer": 3,
+   "why": "Sardara Singh, Indian men's hockey captain, won Khel Ratna in 2017. Fixed historical award-year fact.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q160",
+   "section": "GK",
+   "topic": "Polity",
+   "source": "AAI ATC 2018 Shift 2 · Q7",
+   "question": "How many Fundamental Duties are provided by Article 51A of the Constitution?",
+   "options": [
+    "15",
+    "8",
+    "19",
+    "11"
+   ],
+   "answer": 4,
+   "why": "Article 51A lists 11 Fundamental Duties (added by the 42nd Amendment 1976, one more added later by the 86th Amendment in 2002 for parents to educate children 6-14 - total is 11). Compare/contrast with Fundamental RIGHTS (originally 7, now 6 after Right to Property was removed) - don't mix duty-count with rights-count.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q161",
+   "section": "GK",
+   "topic": "Static facts",
+   "source": "AAI ATC 2018 Shift 2 · Q8",
+   "question": "It takes ____ full grown trees to make one tonne of paper.",
+   "options": [
+    "5",
+    "17",
+    "10",
+    "25"
+   ],
+   "answer": 2,
+   "why": "Standard environmental-science trivia figure: ~17 trees per tonne of paper. Appears across many GK banks as a fixed fact.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q162",
+   "section": "GK",
+   "topic": "History",
+   "source": "AAI ATC 2018 Shift 2 · Q9",
+   "question": "Who introduced the 'Doctrine of Lapse'?",
+   "options": [
+    "Lord Canning",
+    "Lord Ripon",
+    "Lord Dalhousie",
+    "Warren Hastings"
+   ],
+   "answer": 3,
+   "why": "Lord Dalhousie introduced the Doctrine of Lapse (annexation policy for princely states without a natural heir) - a major cause of resentment leading to the 1857 revolt. Distinguish from Lord Canning (Governor-General DURING 1857, ended Doctrine of Lapse afterward) - commonly confused pair since both are mid-1800s Governors-General.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q163",
+   "section": "GK",
+   "topic": "Science",
+   "source": "AAI ATC 2018 Shift 2 · Q10",
+   "question": "Which is the basic unit of inheritance in living organisms that controls transfer of hereditary characteristics from parents to offspring?",
+   "options": [
+    "Gene",
+    "Chromosome",
+    "DNA",
+    "Cell"
+   ],
+   "answer": 1,
+   "why": "Gene = basic functional unit of heredity. Chromosome = structure that carries/organizes many genes (made of DNA). Order of scale: Cell > Chromosome > DNA > Gene (a gene is a segment of DNA).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q164",
+   "section": "GK",
+   "topic": "History",
+   "source": "AAI ATC 2015 Shift 2 · Q1",
+   "question": "World War II began with German invasion of which country?",
+   "options": [
+    "Russia",
+    "France",
+    "United Kingdom",
+    "Poland"
+   ],
+   "answer": 4,
+   "why": "Germany invaded Poland on 1 Sept 1939, triggering WWII (Britain/France declared war days later). Germany invaded Russia (USSR) later, in 1941 - Operation Barbarossa - a different, later event; don't conflate the two invasions.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q165",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI ATC 2015 Shift 2 · Q2",
+   "question": "On 15 February 2013, the Chelyabinsk Meteor hit which country?",
+   "options": [
+    "America",
+    "Canada",
+    "Mexico",
+    "Russia"
+   ],
+   "answer": 4,
+   "why": "Chelyabinsk meteor airburst over Russia (Feb 2013) - a genuinely fixed historical event, not a rolling fact, safe to keep memorised as-is.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q166",
+   "section": "GK",
+   "topic": "Sports",
+   "source": "AAI ATC 2015 Shift 2 · Q3",
+   "question": "Who won the FIDE World Rapid Chess Championship title in 2015?",
+   "options": [
+    "Magnus Carlsen",
+    "Vishwanathan Anand",
+    "Teimour Radjabov",
+    "Fabiano Caruana"
+   ],
+   "answer": 1,
+   "why": "Magnus Carlsen won the 2015 FIDE World Rapid Chess title. This is a year-specific championship result - treat as fixed historical fact (2015 champion), don't confuse with 'who is current champion' which changes yearly.",
+   "status": "current: fixed to year 2015, but don't assume Carlsen is still current champion in 2026 without checking",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q167",
+   "section": "GK",
+   "topic": "Static facts",
+   "source": "AAI ATC 2015 Shift 2 · Q4",
+   "question": "The Washington Accord is an international accreditation agreement for educational degrees in which field?",
+   "options": [
+    "Arts and Humanities",
+    "Medical Science",
+    "Engineering",
+    "Social Science"
+   ],
+   "answer": 3,
+   "why": "Washington Accord = mutual recognition agreement for accredited ENGINEERING degree programs across member countries (India joined via NBA).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q168",
+   "section": "GK",
+   "topic": "Economy/Banking",
+   "source": "AAI ATC 2015 Shift 2 · Q5",
+   "question": "In India, inflation is measured by:",
+   "options": [
+    "Wholesale price index number",
+    "Consumer price index for urban non-manual workers",
+    "Consumer price index for agricultural workers",
+    "National income deflator"
+   ],
+   "answer": 1,
+   "why": "FLAG - verify before trusting. India shifted its OFFICIAL headline inflation benchmark from WPI to CPI (Consumer Price Index, combined rural+urban) around 2014-15, under RBI's inflation-targeting framework. This paper's answer (WPI) reflects the older policy; the current (2026) primary inflation gauge for monetary policy is CPI, not WPI. Don't bank WPI as 'the' answer blind.",
+   "status": "stale: official inflation benchmark shifted from WPI to CPI post-2014",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q169",
+   "section": "GK",
+   "topic": "Economy/Banking",
+   "source": "AAI ATC 2015 Shift 2 · Q6",
+   "question": "National income is defined as:",
+   "options": [
+    "Net National Product at Market price",
+    "Net National Product at factor cost",
+    "Net Domestic Product at market price",
+    "Net Domestic Product at factor cost"
+   ],
+   "answer": 2,
+   "why": "National Income (standard definition) = Net National Product at FACTOR COST (i.e., NNP minus indirect taxes plus subsidies - the value actually received by factors of production). Distinguish Market Price (includes taxes) vs Factor Cost (excludes taxes, the 'true' income to producers), and National (includes net income from abroad) vs Domestic (excludes it).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q170",
+   "section": "GK",
+   "topic": "Science",
+   "source": "AAI ATC 2015 Shift 2 · Q7",
+   "question": "Organisms that generate energy using light are called:",
+   "options": [
+    "Oligotrophs",
+    "Chemoorganotrophs",
+    "Chemolithotrophs",
+    "Photoautotrophs"
+   ],
+   "answer": 4,
+   "why": "Photoautotrophs = use light (photo) to make their own food (auto = self, troph = feeding), e.g. plants, algae, cyanobacteria - basic photosynthesis vocabulary.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q171",
+   "section": "GK",
+   "topic": "Science",
+   "source": "AAI ATC 2015 Shift 2 · Q8",
+   "question": "Which technique is used for the study of land use pattern?",
+   "options": [
+    "Aerial photography",
+    "Satellite imaging",
+    "Satellite imaging and GIS",
+    "Satellite imaging, GIS and GPS"
+   ],
+   "answer": 4,
+   "why": "Modern land-use studies combine all three: satellite imaging (capture), GIS (analysis/mapping layers), GPS (ground-truthing/positioning) - the 'most complete' answer wins when an option stacks multiple correct techniques together.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q172",
+   "section": "GK",
+   "topic": "Science",
+   "source": "AAI ATC 2015 Shift 2 · Q9",
+   "question": "Soil particle sizes (clay/silt/sand/boulder) in nature follow which statistical distribution?",
+   "options": [
+    "Binomial distribution",
+    "Lognormal distribution",
+    "Linear distribution",
+    "Normal distribution"
+   ],
+   "answer": 4,
+   "why": "Niche geology/soil-science fact - low priority to memorise deeply, flagging as seen but not worth drilling given its narrow applicability.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q173",
+   "section": "GK",
+   "topic": "Geography",
+   "source": "AAI ATC 2015 Shift 2 · Q10",
+   "question": "Which of the following latitudes passes through India?",
+   "options": [
+    "Equator",
+    "Arctic Circle",
+    "Tropic of Capricorn",
+    "Tropic of Cancer"
+   ],
+   "answer": 4,
+   "why": "Tropic of Cancer (23.5N) passes through India (through 8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram). The Equator, Arctic Circle, and Tropic of Capricorn do NOT pass through India - only the Tropic of Cancer does.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q174",
+   "section": "GK",
+   "topic": "Static facts",
+   "source": "AAI ATC 2018 Shift 3 · Q1",
+   "question": "______ is the phenomenon of a species moving from its own habitat to another habitat for a period each year for a specific purpose like breeding.",
+   "options": [
+    "Migration",
+    "Adaptation",
+    "Mobilisation",
+    "Hibernation"
+   ],
+   "answer": 1,
+   "why": "Migration = periodic, purposeful movement (e.g. breeding, feeding). Distinguish from Hibernation (staying put, dormant state through winter) and Adaptation (a trait change over generations, not a yearly movement).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q175",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI ATC 2018 Shift 3 · Q2",
+   "question": "What was India's rank in the FDI Confidence Index 2018 released by AT Kearney?",
+   "options": [
+    "51st",
+    "11th",
+    "21st",
+    "9th"
+   ],
+   "answer": 2,
+   "why": "India ranked 11th in AT Kearney's 2018 FDI Confidence Index. Yearly-changing ranking stat - same caution as the Press Freedom Index question, don't memorise the number as permanent.",
+   "status": "stale: index rank changes yearly, don't memorise the 2018 figure",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q176",
+   "section": "GK",
+   "topic": "Polity",
+   "source": "AAI ATC 2018 Shift 3 · Q3",
+   "question": "Census 2011 was the ______ census of its kind conducted in India since 1872.",
+   "options": [
+    "11th",
+    "16th",
+    "15th",
+    "14th"
+   ],
+   "answer": 3,
+   "why": "India's census series started 1872 (under British rule); 2011 was the 15th census overall and the 7th after independence (independent India's censuses started 1951). Note: the next census (due 2021) was postponed and still hasn't happened as of 2026, so 2011 remains the most recent official census.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q177",
+   "section": "GK",
+   "topic": "Geography",
+   "source": "AAI ATC 2018 Shift 3 · Q4",
+   "question": "What is a saline lake separated from the sea by a sand bar/narrow strip of sand called?",
+   "options": [
+    "Glacier",
+    "Lagoon",
+    "Lake",
+    "Estuary"
+   ],
+   "answer": 2,
+   "why": "Lagoon = shallow saltwater body separated from the open sea by a sandbar/reef/barrier island (e.g. Chilika Lake, Odisha - India's largest lagoon). Estuary = where a river meets the sea (freshwater/saltwater mix), a different landform entirely - common confusion pair.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q178",
+   "section": "GK",
+   "topic": "Current affairs",
+   "source": "AAI ATC 2018 Shift 3 · Q5",
+   "question": "How many self-help groups of tribal gatherers were constituted under the Van Dhan Yojana (as reported in this paper)?",
+   "options": [
+    "10",
+    "19",
+    "50",
+    "5"
+   ],
+   "answer": 1,
+   "why": "Van Dhan Yojana = scheme for tribal minor-forest-produce value addition via self-help groups. Very niche, rapidly outdated scheme statistic - low priority, don't drill the number, just recognise the scheme name/purpose if it comes up.",
+   "status": "stale: scheme statistic long outdated, scheme itself may have expanded significantly since",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q179",
+   "section": "GK",
+   "topic": "History",
+   "source": "AAI ATC 2018 Shift 3 · Q6",
+   "question": "Who started the newspaper 'Sambad Kaumudi'?",
+   "options": [
+    "Rash Bihari Bose",
+    "Raja Ram Mohan Roy",
+    "Ishwar Chandra Vidyasagar",
+    "Shishir Kumar Ghosh"
+   ],
+   "answer": 2,
+   "why": "Raja Ram Mohan Roy - social reformer (fought Sati, founded Brahmo Samaj) - started Sambad Kaumudi (1821), an early Bengali-language reformist newspaper.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q180",
+   "section": "GK",
+   "topic": "Arts & culture",
+   "source": "AAI ATC 2018 Shift 3 · Q7",
+   "question": "The Bagh style of textile art printing belongs to which state?",
+   "options": [
+    "Madhya Pradesh",
+    "Gujarat",
+    "Telangana",
+    "Kerala"
+   ],
+   "answer": 1,
+   "why": "Bagh print = hand block-printed textile art from Bagh, Madhya Pradesh, using natural dyes. Another state-craft pairing to add to the Warli(Maharashtra)/Madhubani(Bihar)/Kalamkari(Andhra) list.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q181",
+   "section": "GK",
+   "topic": "Polity",
+   "source": "AAI ATC 2018 Shift 3 · Q8",
+   "question": "According to Article 143 of the Constitution, who has the power to consult the Supreme Court?",
+   "options": [
+    "President of India",
+    "Prime Minister of India",
+    "Speaker of the Lok Sabha",
+    "Governor"
+   ],
+   "answer": 1,
+   "why": "Article 143 = President's power to seek the Supreme Court's advisory opinion on questions of law/fact. Third article in the mini-cluster with Article 123 (ordinance power) and Article 124 (SC establishment).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q182",
+   "section": "GK",
+   "topic": "Economy/Banking",
+   "source": "AAI ATC 2018 Shift 3 · Q9",
+   "question": "As per Economic Survey 2017-18, the average decline in Kharif-season rainfall between the 1970s and 2000s was:",
+   "options": [
+    "36mm",
+    "16mm",
+    "26mm",
+    "46mm"
+   ],
+   "answer": 3,
+   "why": "Niche year-specific statistic from one Economic Survey edition - low priority, the durable takeaway is simply 'Kharif rainfall has trended down over decades,' not the exact mm figure.",
+   "status": "stale: specific figure tied to one Economic Survey edition",
+   "stale": true,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
+  },
+  {
+   "id": "Q183",
+   "section": "GK",
+   "topic": "Sports",
+   "source": "AAI ATC 2018 Shift 3 · Q10",
+   "question": "Which team won the Indian Premier League (IPL) 2018 title?",
+   "options": [
+    "Royal Challengers Bangalore",
+    "SunRisers Hyderabad",
+    "Chennai Super Kings",
+    "Rajasthan Royals"
+   ],
+   "answer": 3,
+   "why": "Chennai Super Kings won IPL 2018 (their 3rd title, first after returning from a 2-year suspension). Fixed historical fact per year - IPL winner changes annually, so if asked for 'current' champion, verify the latest season instead.",
+   "status": "current: fixed to year 2018, verify latest season separately if asked for 'current' IPL champion",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "--",
+   "done": true,
+   "correct": false
   }
  ],
  "questionStats": {
-  "total": 143,
-  "attempted": 143,
+  "total": 183,
+  "attempted": 183,
   "correct": 43,
-  "stale": 8,
+  "stale": 16,
   "byTopic": [
    {
     "topic": "Ages (ratio and difference)",
@@ -5619,7 +6539,7 @@
    },
    {
     "topic": "Arts & culture",
-    "n": 3
+    "n": 6
    },
    {
     "topic": "Average",
@@ -5651,7 +6571,7 @@
    },
    {
     "topic": "Current affairs",
-    "n": 21
+    "n": 28
    },
    {
     "topic": "Decimal equation",
@@ -5910,6 +6830,10 @@
     "n": 1
    },
    {
+    "topic": "Economy/Banking",
+    "n": 4
+   },
+   {
     "topic": "Error spotting",
     "n": 1
    },
@@ -5932,6 +6856,14 @@
    {
     "topic": "Fill in the blank (tense)",
     "n": 1
+   },
+   {
+    "topic": "Geography",
+    "n": 3
+   },
+   {
+    "topic": "History",
+    "n": 3
    },
    {
     "topic": "LCM/HCF from ratio",
@@ -5970,6 +6902,10 @@
     "n": 1
    },
    {
+    "topic": "Polity",
+    "n": 6
+   },
+   {
     "topic": "Profit percent (CP/SP articles)",
     "n": 1
    },
@@ -5990,6 +6926,10 @@
     "n": 1
    },
    {
+    "topic": "Science",
+    "n": 5
+   },
+   {
     "topic": "Series (letter-number mismatch)",
     "n": 1
    },
@@ -6004,6 +6944,14 @@
    {
     "topic": "Spelling",
     "n": 1
+   },
+   {
+    "topic": "Sports",
+    "n": 4
+   },
+   {
+    "topic": "Static facts",
+    "n": 5
    },
    {
     "topic": "Synonym",
