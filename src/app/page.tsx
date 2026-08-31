@@ -12,6 +12,7 @@ import { LessonGraphPanel } from "@/components/lesson-graph-panel";
 import { ConceptRow } from "@/components/concept-lesson";
 import { MockTest } from "@/components/mock-test";
 import { QuestionBank } from "@/components/question-bank";
+import { GkBank } from "@/components/gk-bank";
 import { LESSON_GRAPHS, LESSON_DIAGRAMS } from "@/lib/lesson-graphs";
 import {
   ChainRuleRecipe,
@@ -51,6 +52,11 @@ export default function Page() {
           id: "questions",
           label: "Question bank",
           pill: data.questionStats.total,
+        },
+        {
+          id: "gk",
+          label: "GK",
+          pill: data.questions.filter((q) => q.section === "GK").length,
         },
         {
           id: "mock",
@@ -371,6 +377,7 @@ export default function Page() {
   );
 
   const questions = <QuestionBank />;
+  const gk = <GkBank />;
 
   const graphSections = Object.fromEntries([
     // Only the id crosses the boundary - the specs hold functions.
@@ -445,6 +452,7 @@ export default function Page() {
         errors,
         sessions,
         questions,
+        gk,
         mock,
         ...graphSections,
         markets,
