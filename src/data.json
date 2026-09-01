@@ -1,21 +1,21 @@
 {
- "builtAt": "01 Sep 2026, 12:14",
+ "builtAt": "01 Sep 2026, 12:49",
  "regClose": "2026-09-07",
  "daysToClose": 6,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 50,
+  "concepts": 55,
   "solid": 40,
-  "learning": 7,
+  "learning": 12,
   "weak": 2,
   "notStarted": 1,
   "lessons": 50,
-  "errors": 18,
+  "errors": 19,
   "errorsOpen": 0,
-  "sessions": 20,
+  "sessions": 21,
   "sessionDays": 7,
   "mocks": 0,
-  "graphs": 11
+  "graphs": 12
  },
  "statusBreakdown": [
   {
@@ -28,7 +28,7 @@
   },
   {
    "status": "Learning",
-   "n": 7
+   "n": 12
   },
   {
    "status": "Solid",
@@ -102,9 +102,9 @@
   },
   {
    "date": "1 Sep",
-   "total": 1,
-   "cumulative": 20,
-   "teach": 0,
+   "total": 2,
+   "cumulative": 21,
+   "teach": 1,
    "revise": 1,
    "drill": 0,
    "mock": 0,
@@ -176,10 +176,10 @@
    "subtitle": "Study Map",
    "overallPct": 50,
    "stats": [
-    "50 concepts logged (40 solid+, 2 weak)",
+    "55 concepts logged (40 solid+, 2 weak)",
     "203 questions banked (98 GK)",
-    "20 sessions logged, 7 days active",
-    "18 errors logged, 0 currently open"
+    "21 sessions logged, 7 days active",
+    "19 errors logged, 0 currently open"
    ]
   },
   "branches": [
@@ -307,7 +307,7 @@
   "errorBranch": {
    "id": "errors",
    "label": "Error book",
-   "sub": "18 logged, 0 open",
+   "sub": "19 logged, 0 open",
    "color": "errors",
    "pct": 100,
    "children": [
@@ -360,6 +360,14 @@
    "pct": 71
   },
   {
+   "key": "physics",
+   "name": "Physics",
+   "marks": 24,
+   "logged": 5,
+   "solid": 0,
+   "pct": 0
+  },
+  {
    "key": "quant",
    "name": "Quantitative Aptitude",
    "marks": null,
@@ -377,6 +385,46 @@
   }
  ],
  "concepts": [
+  {
+   "concept": "Displacement vs distance",
+   "group": "Physics",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "explained, not yet independently checked",
+   "lesson": null
+  },
+  {
+   "concept": "Instantaneous velocity (slope of x-t graph)",
+   "group": "Physics",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "explained, not yet independently checked",
+   "lesson": null
+  },
+  {
+   "concept": "Acceleration (slope of v-t graph)",
+   "group": "Physics",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "explained, not yet independently checked",
+   "lesson": null
+  },
+  {
+   "concept": "3 kinematic equations (v=v0+at, x=v0t+½at², v²=v0²+2ax)",
+   "group": "Physics",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "worked example (vertical throw) walked through step by step",
+   "lesson": null
+  },
+  {
+   "concept": "Velocity vs acceleration at a turning point (v=0 ≠ a=0)",
+   "group": "Physics",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "missed twice before clearing — see error book, 1 Sep. First: didn't explain WHY gravity keeps acting. Second: guessed acceleration changes through flight (said \"smaller\" right after release) — corrected to \"constant throughout\" on 3rd attempt",
+   "lesson": null
+  },
   {
    "concept": "Derivative as rate of change / slope",
    "group": "Differentiation",
@@ -2052,6 +2100,14 @@
  ],
  "errors": [
   {
+   "date": "1 Sep",
+   "area": "Physics — kinematics (NCERT XI Ch.2)",
+   "question": "Acceleration right as ball leaves hand vs. one second later, mid-flight upward",
+   "misconception": "Confused acceleration with velocity's behaviour. Velocity does change through the flight (fast → slow → 0 → speeding up down), but acceleration stays constant at g the whole time — that's the definition of \"uniformly accelerated motion,\" the entire reason the 3 kinematic equations even apply.",
+   "retry": "cleared same session — correctly answered \"same\" on retry after re-deriving from \"gravity acts constantly regardless of velocity\"",
+   "open": false
+  },
+  {
    "date": "17 Aug",
    "area": "Maths — chain rule",
    "question": "y = (x²+3x)⁴",
@@ -2315,6 +2371,13 @@
    "covered": "PAPER 2 (AAI AO 2016-09-17) started. GK section Q1-15 dissected, 15 Qs banked (Q129-143)",
    "outcome": "1 knowledge check passed (President=head of state vs PM=head of government, after one re-explain). 3 stale officeholder facts, 1 suspect key (Parsi festival Q) flagged",
    "subject": "gk"
+  },
+  {
+   "date": "1 Sep",
+   "type": "Teach",
+   "covered": "Physics started from scratch, NCERT-sourced (Class XI Ch.2, Motion in a Straight Line) — downloaded official NCERT PDFs into sources/ncert/, taught displacement/velocity/acceleration/kinematic equations with a worked vertical-throw example, matplotlib graph opened + mirrored as a live dashboard lesson graph",
+   "outcome": "Velocity-vs-acceleration-at-turning-point concept took 2 wrong attempts before clearing — logged in error book as a new recurring theme",
+   "subject": "physics"
   },
   {
    "date": "1 Sep",
