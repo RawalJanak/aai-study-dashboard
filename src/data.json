@@ -1,5 +1,5 @@
 {
- "builtAt": "01 Sep 2026, 11:21",
+ "builtAt": "01 Sep 2026, 12:14",
  "regClose": "2026-09-07",
  "daysToClose": 6,
  "minTrendDays": 3,
@@ -170,6 +170,186 @@
    "notStarted": 0
   }
  ],
+ "mindmap": {
+  "hub": {
+   "title": "AAI JE (Operations)",
+   "subtitle": "Study Map",
+   "overallPct": 50,
+   "stats": [
+    "50 concepts logged (40 solid+, 2 weak)",
+    "203 questions banked (98 GK)",
+    "20 sessions logged, 7 days active",
+    "18 errors logged, 0 currently open"
+   ]
+  },
+  "branches": [
+   {
+    "id": "part-a",
+    "label": "Part-A general",
+    "sub": "~48 marks (40%)",
+    "color": "general",
+    "pct": 61,
+    "children": [
+     {
+      "label": "Reasoning",
+      "sub": "15 concepts",
+      "status": "Solid",
+      "pct": 81
+     },
+     {
+      "label": "Aptitude",
+      "sub": "15 concepts",
+      "status": "Solid",
+      "pct": 85
+     },
+     {
+      "label": "English",
+      "sub": "patterns taught",
+      "status": "Learning",
+      "pct": 45
+     },
+     {
+      "label": "GK",
+      "sub": "98 questions, 19 categories",
+      "status": "Learning",
+      "pct": 33,
+      "detail": [
+       "Polity — President/PM/Governor structure — Learning",
+       "Polity — Parliament (Lok Sabha/Rajya Sabha, sessions, bills) — Not started",
+       "Polity — Constitution (schedules, articles, amendments, fundamental rights/duties) — Learning",
+       "Polity — Judiciary (SC/HC structure, appointments) — Not started",
+       "History — Ancient & Medieval — Not started",
+       "History — Modern (freedom movement, key dates/leaders) — Learning",
+       "Geography — India (states/capitals/rivers/mountains) — Learning",
+       "Geography — Census facts (2011, densities, literacy, sex ratio) — Learning",
+       "Geography — World — Not started",
+       "Science — Pioneers & discoveries (vaccines, inventions, laws) — Learning",
+       "Science — Basic physics/chemistry/biology GK (non-Class-XII, trivia-level) — Learning",
+       "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.) — Learning",
+       "Awards & Honours (Bharat Ratna, Padma, Khel Ratna, Nobel) — Learning",
+       "Sports — records, terminology, tournaments — Learning",
+       "Books & Authors — Learning",
+       "Arts & Culture — dance, music instruments, festivals — Learning",
+       "Static facts — firsts, largest/smallest, national symbols — Not started",
+       "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.) — Learning",
+       "Current affairs — recent appointments/schemes/awards (India, live) — Learning"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "maths",
+    "label": "Maths XII",
+    "sub": "~24 marks (20%)",
+    "color": "maths",
+    "pct": 55,
+    "children": [
+     {
+      "label": "Differentiation",
+      "sub": "13 concepts",
+      "status": "Learning",
+      "pct": 76
+     },
+     {
+      "label": "Integration",
+      "sub": "+C constant flagged Weak",
+      "status": "Learning",
+      "pct": 34
+     }
+    ]
+   },
+   {
+    "id": "physics",
+    "label": "Physics XII",
+    "sub": "~24 marks (20%)",
+    "color": "physics",
+    "pct": 45,
+    "children": [
+     {
+      "label": "Class XII Physics",
+      "sub": "started 24 Aug via paper 1's Discipline section — optics (largest cluster), modern physics/relativity, waves, EM, magnetism. 24 questions, all independently verified. NOTE: this pa",
+      "status": "Learning",
+      "pct": 45
+     }
+    ]
+   },
+   {
+    "id": "aviation",
+    "label": "Aviation",
+    "sub": "~12 marks (10%)",
+    "color": "aviation",
+    "pct": 45,
+    "children": [
+     {
+      "label": "Aviation GK",
+      "sub": "started 21 Aug via past-paper GK dissection, 15/15 on the practice set. 26 Aug retention retest (fresh variants, not repeats): 11/15. Genuine gaps (not just slips): BCAS 1978-vs-1987 (created vs independent), SPECI-vs-ME",
+      "status": "Learning",
+      "pct": 45
+     }
+    ]
+   },
+   {
+    "id": "business",
+    "label": "Business Management",
+    "sub": "~12 marks (10%)",
+    "color": "business",
+    "pct": 45,
+    "children": [
+     {
+      "label": "Business Management",
+      "sub": "started 24 Aug via paper 1's Discipline section — 10 questions, definitional (HR/Marketing/Strategy/Communication/MIS) plus a few applied (grapevine, personnel mgmt scope, strategic planning sequence). Genuinely quick gi",
+      "status": "Learning",
+      "pct": 45
+     }
+    ]
+   }
+  ],
+  "errorBranch": {
+   "id": "errors",
+   "label": "Error book",
+   "sub": "18 logged, 0 open",
+   "color": "errors",
+   "pct": 100,
+   "children": [
+    {
+     "label": "Multiply, never add — step 4 of the chain rule.",
+     "sub": "",
+     "status": "",
+     "pct": null
+    },
+    {
+     "label": "Never touch the inside — check the original inner function still appears in the answer.",
+     "sub": "",
+     "status": "",
+     "pct": null
+    },
+    {
+     "label": "Roots and reciprocals are powers, not logs. Only ln u gives u′/u.",
+     "sub": "",
+     "status": "",
+     "pct": null
+    },
+    {
+     "label": "Simplify before comparing to options.",
+     "sub": "",
+     "status": "",
+     "pct": null
+    },
+    {
+     "label": "Quotient rule: top first, then take away. u′v − uv′. Product adds, quotient subtracts, and the order cannot be flipped.",
+     "sub": "",
+     "status": "",
+     "pct": null
+    },
+    {
+     "label": "Sign sanity check — substitute two x values. If y rises, the derivative must be positive. Catches every sign slip in seconds.",
+     "sub": "",
+     "status": "",
+     "pct": null
+    }
+   ]
+  }
+ },
  "subjects": [
   {
    "key": "mathematics",

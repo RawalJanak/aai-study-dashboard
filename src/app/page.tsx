@@ -13,6 +13,7 @@ import { ConceptRow } from "@/components/concept-lesson";
 import { MockTest } from "@/components/mock-test";
 import { QuestionBank } from "@/components/question-bank";
 import { GkBank } from "@/components/gk-bank";
+import { Mindmap } from "@/components/mindmap";
 import { LESSON_GRAPHS, LESSON_DIAGRAMS } from "@/lib/lesson-graphs";
 import {
   ChainRuleRecipe,
@@ -29,6 +30,7 @@ export default function Page() {
     {
       heading: "Overview",
       items: [
+        { id: "mindmap", label: "Mind Map" },
         { id: "overview", label: "Everything" },
         { id: "coverage", label: "Syllabus coverage" },
       ],
@@ -378,6 +380,7 @@ export default function Page() {
 
   const questions = <QuestionBank />;
   const gk = <GkBank />;
+  const mindmap = <Mindmap />;
 
   const graphSections = Object.fromEntries([
     // Only the id crosses the boundary - the specs hold functions.
@@ -446,6 +449,7 @@ export default function Page() {
       built={data.builtAt}
       groups={groups}
       sections={{
+        mindmap,
         overview,
         coverage,
         ...subjectSections,
