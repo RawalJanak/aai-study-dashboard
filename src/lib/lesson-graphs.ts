@@ -480,6 +480,40 @@ export const LESSON_GRAPHS: GraphSet[] = [
     ],
   },
 
+  /* ---------------------------------------------- physics: vector resolution */
+  {
+    id: "vector-resolution",
+    replaces: "phy_04_vector_resolution.png",
+    title: "Vector resolution",
+    summary: "One angled vector = its x-component + its y-component.",
+    tags: ["physics", "vectors", "ncert-xi-ch3"],
+    plots: [
+      {
+        id: "resolution-3-4-5",
+        title: "A = 5, resolved at θ (cos θ = 0.8, sin θ = 0.6)",
+        caption:
+          "Ax = A cos θ = 4, Ay = A sin θ = 3 — the dashed lines are the perpendicular projections onto each axis.",
+        xDomain: [-2.5, 6],
+        yDomain: [-1, 4.5],
+        xLabel: "x",
+        yLabel: "y",
+        curves: [],
+        segments: [
+          { x1: 0, y1: 0, x2: 4, y2: 3, color: "var(--critical)" },
+          { x1: 0, y1: 0, x2: 4, y2: 0, color: "var(--chart-1)" },
+          { x1: 0, y1: 0, x2: 0, y2: 3, color: "var(--chart-3)" },
+          { x1: 4, y1: 0, x2: 4, y2: 3, color: "var(--border)", dashed: true },
+          { x1: 0, y1: 3, x2: 4, y2: 3, color: "var(--border)", dashed: true },
+        ],
+        markers: [
+          { x: 4, y: 0, label: "Ax = A cos θ = 4", place: "below" },
+          { x: 0, y: 3, label: "Ay = A sin θ = 3", place: "left" },
+          { x: 4, y: 3, label: "A = 5", place: "above" },
+        ],
+      },
+    ],
+  },
+
   /* ---------------------------------------------- physics: motion in a line */
   {
     id: "kinematics-projectile",
