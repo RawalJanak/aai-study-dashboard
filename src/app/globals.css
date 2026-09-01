@@ -85,7 +85,7 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #b8720a;
+  --primary: #d6000a;
   --primary-foreground: #ffffff;
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -96,7 +96,7 @@
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
-  --ring: #b8720a;
+  --ring: #d6000a;
   /* Categorical slots, dataviz skill default order. Re-validated with
      scripts/validate_palette.js against THIS surface (#ffffff) - all checks
      PASS. The ORDER is the CVD-safety mechanism: never re-order, never add a
@@ -120,12 +120,14 @@
   --warning: #fab219;
   --critical: #d6000a;
   --radius: 0.625rem;
-  /* Brand accent - amber/gold, deliberately a third hue from both feedback
-     colors so "correct/wrong" never gets confused with "this is clickable." */
-  --brand: #b8720a;
+  /* Brand accent = the same Coca-Cola red as --critical, by explicit
+     request ("the red that pops out first"). This deliberately gives up
+     the earlier hue-separation between "clickable/active" and "wrong" -
+     accepted tradeoff, not an oversight. */
+  --brand: #d6000a;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: #b8720a;
+  --sidebar-primary: #d6000a;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: oklch(0.97 0 0);
   --sidebar-accent-foreground: oklch(0.205 0 0);
@@ -166,8 +168,8 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: #ffb020;
-  --primary-foreground: #1a1200;
+  --primary: #f40009;
+  --primary-foreground: #ffffff;
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
@@ -177,7 +179,7 @@
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: #ffb020;
+  --ring: #f40009;
   /* Same eight hues stepped for the dark surface (#171717) and validated as
      a set - not an automatic flip of the light values. */
   --chart-1: #3987e5;
@@ -197,15 +199,15 @@
   --good: #16c60c;
   --warning: #fab219;
   --critical: #f40009;
-  --brand: #ffb020;
+  --brand: #f40009;
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: #ffb020;
-  --sidebar-primary-foreground: #1a1200;
+  --sidebar-primary: #f40009;
+  --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: oklch(0.269 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: #ffb020;
+  --sidebar-ring: #f40009;
   --chart-background: oklch(0.145 0 0);
   --chart-foreground: oklch(0.45 0 0);
   --chart-foreground-muted: oklch(0.65 0.01 260);
@@ -240,8 +242,8 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: #ffb020;
-  --primary-foreground: #1a1200;
+  --primary: #f40009;
+  --primary-foreground: #ffffff;
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
@@ -251,7 +253,7 @@
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: #ffb020;
+  --ring: #f40009;
   /* Same eight hues stepped for the dark surface (#171717) and validated as
      a set - not an automatic flip of the light values. */
   --chart-1: #3987e5;
@@ -268,15 +270,15 @@
   --good: #16c60c;
   --warning: #fab219;
   --critical: #f40009;
-  --brand: #ffb020;
+  --brand: #f40009;
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: #ffb020;
-  --sidebar-primary-foreground: #1a1200;
+  --sidebar-primary: #f40009;
+  --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: oklch(0.269 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: #ffb020;
+  --sidebar-ring: #f40009;
   --chart-background: oklch(0.145 0 0);
   --chart-foreground: oklch(0.45 0 0);
   --chart-foreground-muted: oklch(0.65 0.01 260);
