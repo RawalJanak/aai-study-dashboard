@@ -1,11 +1,11 @@
 {
- "builtAt": "01 Sep 2026, 12:49",
+ "builtAt": "01 Sep 2026, 12:56",
  "regClose": "2026-09-07",
  "daysToClose": 6,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 55,
-  "solid": 40,
+  "concepts": 56,
+  "solid": 41,
   "learning": 12,
   "weak": 2,
   "notStarted": 1,
@@ -32,7 +32,7 @@
   },
   {
    "status": "Solid",
-   "n": 40
+   "n": 41
   },
   {
    "status": "Mastered",
@@ -176,7 +176,7 @@
    "subtitle": "Study Map",
    "overallPct": 50,
    "stats": [
-    "55 concepts logged (40 solid+, 2 weak)",
+    "56 concepts logged (41 solid+, 2 weak)",
     "203 questions banked (98 GK)",
     "21 sessions logged, 7 days active",
     "19 errors logged, 0 currently open"
@@ -355,8 +355,8 @@
    "key": "mathematics",
    "name": "Mathematics",
    "marks": 24,
-   "logged": 34,
-   "solid": 24,
+   "logged": 35,
+   "solid": 25,
    "pct": 71
   },
   {
@@ -407,6 +407,14 @@
    "status": "Learning",
    "subject": "physics",
    "evidence": "explained, not yet independently checked",
+   "lesson": null
+  },
+  {
+   "concept": "Scalar vs vector (Ch.3 started)",
+   "group": "Physics",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "correctly named mass as scalar (after clarifying weight-vs-mass) and force as vector, with correct reasoning both times",
    "lesson": null
   },
   {
