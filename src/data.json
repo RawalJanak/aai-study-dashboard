@@ -1,7 +1,7 @@
 {
- "builtAt": "31 Aug 2026, 17:53",
+ "builtAt": "01 Sep 2026, 11:21",
  "regClose": "2026-09-07",
- "daysToClose": 7,
+ "daysToClose": 6,
  "minTrendDays": 3,
  "totals": {
   "concepts": 50,
@@ -10,10 +10,10 @@
   "weak": 2,
   "notStarted": 1,
   "lessons": 50,
-  "errors": 17,
+  "errors": 18,
   "errorsOpen": 0,
-  "sessions": 18,
-  "sessionDays": 6,
+  "sessions": 20,
+  "sessionDays": 7,
   "mocks": 0,
   "graphs": 11
  },
@@ -92,13 +92,23 @@
   },
   {
    "date": "29 Aug",
-   "total": 1,
-   "cumulative": 18,
+   "total": 2,
+   "cumulative": 19,
    "teach": 0,
    "revise": 0,
    "drill": 0,
    "mock": 0,
-   "other": 1
+   "other": 2
+  },
+  {
+   "date": "1 Sep",
+   "total": 1,
+   "cumulative": 20,
+   "teach": 0,
+   "revise": 1,
+   "drill": 0,
+   "mock": 0,
+   "other": 0
   }
  ],
  "sessionTypes": [
@@ -1954,7 +1964,15 @@
    "area": "GK — aviation (altimetry)",
    "question": "What an altimeter set to QFE indicates",
    "misconception": "Swapped QNH and QFE — QNH gives MSL altitude, QFE gives height above the aerodrome.",
-   "retry": "not yet retested",
+   "retry": "repeat miss 1 Sep — same swap again on retest; see below",
+   "open": false
+  },
+  {
+   "date": "1 Sep",
+   "area": "GK — aviation (altimetry)",
+   "question": "An altimeter set to QFE reads zero at:",
+   "misconception": "Second miss on the same QNH/QFE swap (first was 26 Aug) — genuinely weak, not a slip. Taught mnemonic this time: QFE = Field (zeroes at the airField), QNH = Height above sea level. Cleared same session — correct on immediate fresh-variant retry (\"altimeter reads zero at touchdown\" → QFE).",
+   "retry": "cleared 1 Sep, but re-test again in ~1 week given 2 prior misses",
    "open": false
   },
   {
@@ -2119,6 +2137,20 @@
    "subject": "gk"
   },
   {
+   "date": "1 Sep",
+   "type": "Revise",
+   "covered": "Overdue redrill: BCAS 1978/1987, SPECI/METAR, QNH/QFE, Chaurasia instrument, blood-relations same-generation trap — 5 fresh-variant zero-hint questions",
+   "outcome": "4/5 first pass. Only QNH/QFE missed (repeat miss vs 26 Aug) — cleared on retry after a new mnemonic (QFE=Field, QNH=Height-above-sea). Flagged for one more spaced check ~8 Sep",
+   "subject": "mathematics"
+  },
+  {
+   "date": "29 Aug",
+   "type": "Teach (breadth)",
+   "covered": "Decided to run GK as its own daily curriculum (GK_CURRICULUM.md created) instead of past-paper-only — mined the 4 readable remaining past papers (ATC 2018 Sh1/2/3, ATC 2015 Sh2) for every GK question, 40 banked (Q144-183); filed the earlier chat exposure sweep (dance forms, instruments, sports terms, awards, Nobel laureates, books, static facts) as 20 more modelled questions (Q184-203). GK bank now 98 questions across Polity/History/Geography/Science/Economy/Awards/Sports/Books&Authors/Arts&Culture/Static facts/Current affairs. Verified 3 rolling officeholder facts live: SEBI Chairman=Tuhin Kanta Pandey, Lok Sabha Speaker=Om Birla, and (from the 29 Aug session) CEC=Gyanesh Kumar, VP/RS Chair=C.P. Radhakrishnan, UN SG=Guterres. ATC 2015 Shift1's PDF file is corrupted/truncated (42 of 52 pages) — its GK section is unrecoverable without a fresh download. Also shipped 2 dashboard changes: a dedicated GK tab (filterable by category) and made practice questions answer-first (pick an option, then see right/wrong, instead of a blind \"Show answer\"). Taught (in chat only, not yet banked) Ancient/Medieval history, Mughal succession, World Geography basics, and Parliament structure (Lok Sabha vs Rajya Sabha)",
+   "outcome": "no quiz round this pass — pure breadth/tooling session",
+   "subject": "gk"
+  },
+  {
    "date": "24 Aug",
    "type": "Teach",
    "covered": "PAPER 1 FULLY COMPLETE. Discipline section dissected — Physics, Maths, Business Management all interleaved, 60 questions, Q1-60. Every calculation-based question independently re-verified computationally (sympy/numpy), not just trusted from the scanned key. One question (Q52, series sum) flagged as unverifiable from the transcribed text — official answer kept but noted as unconfirmed. 128 questions now in the bank total from this one paper",
@@ -2127,14 +2159,15 @@
   }
  ],
  "nextActions": [
-  "GK retested 26 Aug — 4 genuine gaps to re-drill in ~3-4 days: BCAS 1978 (creation, under",
-  "Blood relations still Weak after 26 Aug redrill (2/3) — the \"only son/daughter\" trap",
+  "1 Sep redrill of the 26 Aug gaps — 4/5 cleared clean, 1 repeat miss now fixed. BCAS 1987,",
+  "Blood relations same-generation vs one-generation-up trap — cleared 1 Sep on a fresh variant",
   "Aviation GK is the cheap block. In AAI AO 2018 Shift 1, 12 of 15 GK questions were",
   "PAPER 1 (AAI AO 2018 Shift 1) IS NOW 100% COMPLETE — GK, General Intelligence, General",
   "Integration — still open from 18 Aug, +C is the only Weak flag. Worth 5 questions in",
   "Differentiation is complete and is worth only ~2 marks. Re-drill for spacing, do not",
   "Physics and Business Management got their first real exposure today via paper 1's",
   "**This 2018 paper's General Aptitude/Reasoning content is a reliable difficulty/style",
+  "1 Sep — overdue redrill session. BCAS/SPECI/Chaurasia/blood-relations all cleared clean",
   "PAPER 2 (AAI AO 2016-09-17) started 29 Aug — GK section (Q1-15) fully dissected, 15",
   "29 Aug quiz on paper 2's GK section: 10/15. Missed: Q3-recall (Kalidasa, no attempt),"
  ],
