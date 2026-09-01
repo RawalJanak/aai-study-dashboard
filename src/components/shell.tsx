@@ -110,10 +110,10 @@ export function Shell({
                       onClick={() => go(it.id)}
                       aria-current={active === it.id ? "page" : undefined}
                       className={cn(
-                        "flex w-full items-center justify-between gap-2 rounded-xl px-3 py-2 text-left text-[13.5px] transition-colors duration-200",
+                        "group flex w-full items-center justify-between gap-2 rounded-xl px-3 py-2 text-left text-[13.5px] transition-all duration-200 active:scale-[0.97]",
                         active === it.id
-                          ? "bg-[var(--brand)] font-semibold text-[var(--sidebar-primary-foreground)] shadow-[0_0_0_1px_var(--brand)]"
-                          : "text-foreground/80 hover:bg-muted"
+                          ? "bg-[var(--brand)] font-semibold text-[var(--sidebar-primary-foreground)] shadow-[0_2px_12px_-2px_var(--brand)]"
+                          : "text-foreground/80 hover:translate-x-0.5 hover:bg-[var(--brand)]/12 hover:text-[var(--brand)]"
                       )}
                     >
                       <span className="min-w-0 truncate">{it.label}</span>

@@ -12,6 +12,7 @@
  */
 
 import { useMemo, useState } from "react";
+import { motion, useReducedMotion } from "motion/react";
 import { cn } from "@/lib/utils";
 import { Card, Empty, Stat } from "@/components/ui-kit";
 import data from "@/data.json";
@@ -61,6 +62,14 @@ function Options({
 function PracticeQuiz({ options, answer }: { options: string[]; answer: number }) {
   const [picked, setPicked] = useState<number | null>(null);
   const revealed = picked !== null;
+  const reduceMotion = useReducedMotion();
+  const pop = reduceMotion
+    ? {}
+    : {
+        initial: { scale: 0 },
+        animate: { scale: 1 },
+        transition: { type: "spring" as const, stiffness: 500, damping: 20 },
+      };
 
   return (
     <div className="grid gap-1.5">
@@ -71,10 +80,11 @@ function PracticeQuiz({ options, answer }: { options: string[]; answer: number }
           const isPicked = n === picked;
           return (
             <li key={o}>
-              <button
+              <motion.button
                 type="button"
                 disabled={revealed}
                 onClick={() => setPicked(n)}
+                whileTap={revealed || reduceMotion ? undefined : { scale: 0.97 }}
                 className={cn(
                   "flex w-full items-start gap-2 rounded-lg border px-3 py-2 text-left text-[13px] transition-colors",
                   !revealed &&
@@ -90,12 +100,12 @@ function PracticeQuiz({ options, answer }: { options: string[]; answer: number }
                 <span className="tabular-nums opacity-60">{n}.</span>
                 <span className="min-w-0">{o}</span>
                 {revealed && isAnswer ? (
-                  <span aria-hidden className="ml-auto">✓</span>
+                  <motion.span aria-hidden className="ml-auto" {...pop}>✓</motion.span>
                 ) : null}
                 {revealed && isPicked && !isAnswer ? (
-                  <span aria-hidden className="ml-auto">✗</span>
+                  <motion.span aria-hidden className="ml-auto" {...pop}>✗</motion.span>
                 ) : null}
-              </button>
+              </motion.button>
             </li>
           );
         })}

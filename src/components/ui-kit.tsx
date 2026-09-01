@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, type ReactNode } from "react";
+import NumberFlow from "@number-flow/react";
 import { cn } from "@/lib/utils";
 
 /* ---------------------------------------------------------------- surfaces */
@@ -21,7 +22,7 @@ export function Card({
   return (
     <section
       className={cn(
-        "min-w-0 rounded-2xl border border-border bg-card p-5 sm:p-6",
+        "min-w-0 rounded-2xl border border-border bg-card p-5 shadow-[0_1px_2px_rgb(0_0_0_/_0.04),0_8px_24px_-12px_rgb(0_0_0_/_0.18)] sm:p-6 dark:shadow-[0_1px_2px_rgb(0_0_0_/_0.2),0_12px_28px_-14px_rgb(0_0_0_/_0.5)]",
         className
       )}
     >
@@ -61,7 +62,7 @@ export function Stat({
   return (
     <div
       className={cn(
-        "rounded-2xl border bg-card p-5",
+        "rounded-2xl border bg-card p-5 shadow-[0_1px_2px_rgb(0_0_0_/_0.04),0_8px_24px_-12px_rgb(0_0_0_/_0.18)] transition-shadow dark:shadow-[0_1px_2px_rgb(0_0_0_/_0.2),0_12px_28px_-14px_rgb(0_0_0_/_0.5)]",
         tone === "alarm"
           ? "border-[var(--critical)]/45"
           : "border-border"
@@ -73,7 +74,13 @@ export function Stat({
           tone === "alarm" && "text-[var(--critical)]"
         )}
       >
-        {value}
+        {/* NumberFlow only knows how to tween a number - a string value
+            (e.g. "108-112") renders as plain text instead. */}
+        {typeof value === "number" ? (
+          <NumberFlow value={value} />
+        ) : (
+          value
+        )}
         {of !== undefined ? (
           <span className="text-xl font-medium text-muted-foreground">
             {" / "}
