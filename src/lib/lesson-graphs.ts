@@ -497,7 +497,7 @@ export interface DiagramSet {
   title: string;
   summary: string;
   tags: string[];
-  kind: "routes" | "steps";
+  kind: "routes" | "steps" | "compare";
 }
 
 export const LESSON_DIAGRAMS: DiagramSet[] = [
@@ -518,6 +518,30 @@ export const LESSON_DIAGRAMS: DiagramSet[] = [
     tags: ["chain"],
     kind: "steps",
   },
+  {
+    id: "scalar-vs-vector",
+    replaces: "phy_02_scalar_vs_vector.png",
+    title: "Scalar vs vector",
+    summary: "A number alone vs a number with a direction attached.",
+    tags: ["physics", "vectors", "ncert-xi-ch3"],
+    kind: "compare",
+  },
+];
+
+export const SCALAR_VECTOR_ROWS = [
+  { q: "Distance", type: "Scalar" as const, unit: "m", eq: "total path length" },
+  { q: "Displacement", type: "Vector" as const, unit: "m", eq: "Δx = x_final − x_initial" },
+  { q: "Speed", type: "Scalar" as const, unit: "m/s", eq: "speed = distance / time" },
+  { q: "Velocity", type: "Vector" as const, unit: "m/s", eq: "v = Δx / Δt" },
+  { q: "Mass", type: "Scalar" as const, unit: "kg", eq: "fundamental — no defining equation" },
+  { q: "Force / Weight", type: "Vector" as const, unit: "N", eq: "F = m × a" },
+  { q: "Acceleration", type: "Vector" as const, unit: "m/s²", eq: "a = Δv / Δt" },
+  { q: "Work / Energy", type: "Scalar" as const, unit: "J", eq: "W = F × d × cos θ" },
+  { q: "Power", type: "Scalar" as const, unit: "W", eq: "P = W / t" },
+  { q: "Momentum", type: "Vector" as const, unit: "kg·m/s", eq: "p = m × v" },
+  { q: "Pressure", type: "Scalar" as const, unit: "Pa", eq: "P = F / A", trap: true },
+  { q: "Electric current", type: "Scalar" as const, unit: "A", eq: "I = q / t", trap: true },
+  { q: "Torque", type: "Vector" as const, unit: "N·m", eq: "τ = r × F × sin θ" },
 ];
 
 export const CHAIN_STEPS = [

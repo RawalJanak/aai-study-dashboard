@@ -18,6 +18,7 @@ import { LESSON_GRAPHS, LESSON_DIAGRAMS } from "@/lib/lesson-graphs";
 import {
   ChainRuleRecipe,
   NestedVsProduct,
+  ScalarVsVector,
 } from "@/components/lesson-diagrams";
 
 const OPEN = ["Weak", "Learning"];
@@ -403,7 +404,13 @@ export default function Page() {
           </span>
         </p>
         <Card>
-          {d.kind === "routes" ? <NestedVsProduct /> : <ChainRuleRecipe />}
+          {d.kind === "routes" ? (
+            <NestedVsProduct />
+          ) : d.kind === "compare" ? (
+            <ScalarVsVector />
+          ) : (
+            <ChainRuleRecipe />
+          )}
         </Card>
       </div>,
     ]),
