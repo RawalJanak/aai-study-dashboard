@@ -449,6 +449,37 @@ export const LESSON_GRAPHS: GraphSet[] = [
     ],
   },
 
+  /* ---------------------------------------------- physics: vector addition */
+  {
+    id: "vector-triangle-law",
+    replaces: "phy_03_triangle_law_3_4.png",
+    title: "Vector addition — triangle law",
+    summary: "Walk 3 km East then 4 km North: the resultant is NOT 7 km.",
+    tags: ["physics", "vectors", "ncert-xi-ch3"],
+    plots: [
+      {
+        id: "triangle-3-4",
+        title: "3 km East, then 4 km North",
+        caption:
+          "Head-to-tail placement. The resultant (dashed) is the single arrow from start to end — 5 km by Pythagoras, not 3+4=7.",
+        xDomain: [-1, 5],
+        yDomain: [-1, 5.5],
+        xLabel: "km (East)",
+        yLabel: "km (North)",
+        curves: [],
+        segments: [
+          { x1: 0, y1: 0, x2: 3, y2: 0, color: "var(--chart-1)" },
+          { x1: 3, y1: 0, x2: 3, y2: 4, color: "var(--chart-3)" },
+          { x1: 0, y1: 0, x2: 3, y2: 4, color: "var(--critical)", dashed: true },
+        ],
+        markers: [
+          { x: 0, y: 0, label: "START", place: "left" },
+          { x: 3, y: 4, label: "END, resultant = 5 km", place: "above" },
+        ],
+      },
+    ],
+  },
+
   /* ---------------------------------------------- physics: motion in a line */
   {
     id: "kinematics-projectile",
