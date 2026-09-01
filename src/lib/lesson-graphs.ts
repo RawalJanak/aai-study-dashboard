@@ -448,6 +448,39 @@ export const LESSON_GRAPHS: GraphSet[] = [
       },
     ],
   },
+
+  /* ---------------------------------------------- physics: motion in a line */
+  {
+    id: "kinematics-projectile",
+    replaces: "phy_01_projectile_height_time.png",
+    title: "Kinematics — vertical throw",
+    summary:
+      "v = 0 at the top does not mean a = 0 — gravity never stops pulling.",
+    tags: ["physics", "kinematics", "ncert-xi-ch2"],
+    plots: [
+      {
+        id: "kinematics-height-time",
+        title: "Ball thrown up at 20 m/s from a 25 m building (g = 10 m/s²)",
+        caption:
+          "Peaks at 45 m after 2 s (v = 0 there, but a is still −10 m/s² the whole time), lands at t = 5 s.",
+        xDomain: [0, 5],
+        yDomain: [-5, 55],
+        xLabel: "time (s)",
+        yLabel: "height above ground (m)",
+        curves: [
+          {
+            fn: (t) => 25 + 20 * t - 5 * t * t,
+            label: "y = 25 + 20t − 5t²",
+          },
+        ],
+        markers: [
+          { x: 0, y: 25, label: "thrown, t=0", place: "left" },
+          { x: 2, y: 45, label: "peak, v=0 (a still −10)", place: "above" },
+          { x: 5, y: 0, label: "lands, t=5s", place: "right" },
+        ],
+      },
+    ],
+  },
 ];
 
 /* ---------------------------------------------------------------- diagrams */
