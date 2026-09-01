@@ -35,6 +35,10 @@
   --color-secondary: var(--secondary);
   --color-primary-foreground: var(--primary-foreground);
   --color-primary: var(--primary);
+  --color-brand: var(--brand);
+  --color-good: var(--good);
+  --color-warning: var(--warning);
+  --color-critical: var(--critical);
   --color-popover-foreground: var(--popover-foreground);
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
@@ -81,8 +85,8 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
+  --primary: #b8720a;
+  --primary-foreground: #ffffff;
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
@@ -92,7 +96,7 @@
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --ring: #b8720a;
   /* Categorical slots, dataviz skill default order. Re-validated with
      scripts/validate_palette.js against THIS surface (#ffffff) - all checks
      PASS. The ORDER is the CVD-safety mechanism: never re-order, never add a
@@ -109,14 +113,20 @@
   --ord-hi: #104281;
   --ord-mid: #2a78d6;
   --ord-lo: #86b6ef;
-  --good: #0ca30c;
+  /* Gamified feedback colors, as asked for by name - Coca-Cola red for
+     wrong, Xbox green for right. Deepened here (vs the dark-mode block)
+     to still clear 4.5:1 on a white surface at full saturation. */
+  --good: #0e9e0e;
   --warning: #fab219;
-  --critical: #d03b3b;
+  --critical: #d6000a;
   --radius: 0.625rem;
+  /* Brand accent - amber/gold, deliberately a third hue from both feedback
+     colors so "correct/wrong" never gets confused with "this is clickable." */
+  --brand: #b8720a;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-primary: #b8720a;
+  --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: oklch(0.97 0 0);
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
@@ -156,8 +166,8 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
+  --primary: #ffb020;
+  --primary-foreground: #1a1200;
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
@@ -167,7 +177,7 @@
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
+  --ring: #ffb020;
   /* Same eight hues stepped for the dark surface (#171717) and validated as
      a set - not an automatic flip of the light values. */
   --chart-1: #3987e5;
@@ -181,17 +191,21 @@
   --ord-hi: #9ec5f4;
   --ord-mid: #3987e5;
   --ord-lo: #184f95;
-  --good: #0ca30c;
+  /* Gamified feedback colors - Coca-Cola red for wrong, Xbox green for
+     right. Brighter than the light-mode block: a dark surface can carry
+     more saturation before it stops reading as "bright." */
+  --good: #16c60c;
   --warning: #fab219;
-  --critical: #d03b3b;
+  --critical: #f40009;
+  --brand: #ffb020;
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-primary: #ffb020;
+  --sidebar-primary-foreground: #1a1200;
   --sidebar-accent: oklch(0.269 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --sidebar-ring: #ffb020;
   --chart-background: oklch(0.145 0 0);
   --chart-foreground: oklch(0.45 0 0);
   --chart-foreground-muted: oklch(0.65 0.01 260);
@@ -226,8 +240,8 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
+  --primary: #ffb020;
+  --primary-foreground: #1a1200;
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
@@ -237,7 +251,7 @@
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
+  --ring: #ffb020;
   /* Same eight hues stepped for the dark surface (#171717) and validated as
      a set - not an automatic flip of the light values. */
   --chart-1: #3987e5;
@@ -251,17 +265,18 @@
   --ord-hi: #9ec5f4;
   --ord-mid: #3987e5;
   --ord-lo: #184f95;
-  --good: #0ca30c;
+  --good: #16c60c;
   --warning: #fab219;
-  --critical: #d03b3b;
+  --critical: #f40009;
+  --brand: #ffb020;
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-primary: #ffb020;
+  --sidebar-primary-foreground: #1a1200;
   --sidebar-accent: oklch(0.269 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --sidebar-ring: #ffb020;
   --chart-background: oklch(0.145 0 0);
   --chart-foreground: oklch(0.45 0 0);
   --chart-foreground-muted: oklch(0.65 0.01 260);
@@ -295,5 +310,12 @@
   }
   html {
     @apply font-sans;
+  }
+  /* Smooth in-page scrolling (sidebar nav, anchor jumps) - off entirely for
+     anyone who has asked their OS for reduced motion. */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
   }
 }

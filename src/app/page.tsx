@@ -454,6 +454,7 @@ export default function Page() {
   return (
     <Shell
       built={data.builtAt}
+      regClose={data.regClose}
       groups={groups}
       sections={{
         mindmap,

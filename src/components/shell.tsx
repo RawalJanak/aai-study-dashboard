@@ -11,6 +11,7 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "@/components/ui-kit";
+import { Countdown } from "@/components/countdown";
 
 export interface NavItem {
   id: string;
@@ -30,10 +31,12 @@ export function Shell({
   groups,
   sections,
   built,
+  regClose,
 }: {
   groups: NavGroup[];
   sections: Record<string, ReactNode>;
   built: string;
+  regClose: string;
 }) {
   const first = groups[0]?.items[0]?.id ?? "";
   const [active, setActive] = useState(first);
@@ -80,7 +83,7 @@ export function Shell({
         )}
       >
         <div className="mb-6 flex items-center gap-3 px-2">
-          <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-foreground text-sm font-bold text-background">
+          <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-[var(--brand)] text-sm font-bold text-[var(--sidebar-primary-foreground)]">
             JR
           </span>
           <span className="min-w-0">
@@ -107,9 +110,9 @@ export function Shell({
                       onClick={() => go(it.id)}
                       aria-current={active === it.id ? "page" : undefined}
                       className={cn(
-                        "flex w-full items-center justify-between gap-2 rounded-xl px-3 py-2 text-left text-[13.5px] transition-colors",
+                        "flex w-full items-center justify-between gap-2 rounded-xl px-3 py-2 text-left text-[13.5px] transition-colors duration-200",
                         active === it.id
-                          ? "bg-foreground font-semibold text-background"
+                          ? "bg-[var(--brand)] font-semibold text-[var(--sidebar-primary-foreground)] shadow-[0_0_0_1px_var(--brand)]"
                           : "text-foreground/80 hover:bg-muted"
                       )}
                     >
@@ -169,7 +172,8 @@ export function Shell({
             </div>
           </div>
           <div className="flex items-center gap-3">
-            <span className="hidden text-xs text-muted-foreground sm:inline">
+            <Countdown target={regClose} />
+            <span className="hidden text-xs text-muted-foreground lg:inline">
               Built {built}
             </span>
             <ThemeToggle />
