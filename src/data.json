@@ -1,19 +1,19 @@
 {
- "builtAt": "01 Sep 2026, 13:21",
+ "builtAt": "03 Sep 2026, 11:37",
  "regClose": "2026-09-07",
- "daysToClose": 6,
+ "daysToClose": 4,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 58,
-  "solid": 43,
-  "learning": 12,
-  "weak": 2,
+  "concepts": 59,
+  "solid": 46,
+  "learning": 11,
+  "weak": 1,
   "notStarted": 1,
   "lessons": 50,
-  "errors": 19,
+  "errors": 20,
   "errorsOpen": 0,
-  "sessions": 21,
-  "sessionDays": 7,
+  "sessions": 22,
+  "sessionDays": 8,
   "mocks": 0,
   "graphs": 15
  },
@@ -24,15 +24,15 @@
   },
   {
    "status": "Weak",
-   "n": 2
+   "n": 1
   },
   {
    "status": "Learning",
-   "n": 12
+   "n": 11
   },
   {
    "status": "Solid",
-   "n": 43
+   "n": 46
   },
   {
    "status": "Mastered",
@@ -109,6 +109,16 @@
    "drill": 0,
    "mock": 0,
    "other": 0
+  },
+  {
+   "date": "2 Sep",
+   "total": 1,
+   "cumulative": 22,
+   "teach": 0,
+   "revise": 1,
+   "drill": 0,
+   "mock": 0,
+   "other": 0
   }
  ],
  "sessionTypes": [
@@ -174,12 +184,12 @@
   "hub": {
    "title": "AAI JE (Operations)",
    "subtitle": "Study Map",
-   "overallPct": 50,
+   "overallPct": 52,
    "stats": [
-    "58 concepts logged (43 solid+, 2 weak)",
+    "59 concepts logged (46 solid+, 1 weak)",
     "203 questions banked (98 GK)",
-    "21 sessions logged, 7 days active",
-    "19 errors logged, 0 currently open"
+    "22 sessions logged, 8 days active",
+    "20 errors logged, 0 currently open"
    ]
   },
   "branches": [
@@ -242,7 +252,7 @@
     "label": "Maths XII",
     "sub": "~24 marks (20%)",
     "color": "maths",
-    "pct": 55,
+    "pct": 66,
     "children": [
      {
       "label": "Differentiation",
@@ -254,7 +264,7 @@
       "label": "Integration",
       "sub": "+C constant flagged Weak",
       "status": "Learning",
-      "pct": 34
+      "pct": 56
      }
     ]
    },
@@ -307,7 +317,7 @@
   "errorBranch": {
    "id": "errors",
    "label": "Error book",
-   "sub": "19 logged, 0 open",
+   "sub": "20 logged, 0 open",
    "color": "errors",
    "pct": 100,
    "children": [
@@ -355,9 +365,9 @@
    "key": "mathematics",
    "name": "Mathematics",
    "marks": 24,
-   "logged": 37,
-   "solid": 27,
-   "pct": 73
+   "logged": 38,
+   "solid": 30,
+   "pct": 79
   },
   {
    "key": "physics",
@@ -928,9 +938,9 @@
   {
    "concept": "Power rule for integration",
    "group": "Integration - concept level",
-   "status": "Learning",
+   "status": "Solid",
    "subject": "mathematics",
-   "evidence": "x^3 answered correctly as x^4/4, but +C omitted",
+   "evidence": "x^3 answered correctly as x^4/4, but +C omitted originally; both now cleared (see below)",
    "lesson": {
     "sections": [
      {
@@ -964,9 +974,9 @@
   {
    "concept": "The constant of integration (+C)",
    "group": "Integration - concept level",
-   "status": "Weak",
+   "status": "Solid",
    "subject": "mathematics",
-   "evidence": "omitted on the first check question after being flagged three times in the lesson",
+   "evidence": "omitted repeatedly (18 Aug, and again pre-this-session) despite being flagged three times — cleared 2 Sep after a \"why\" re-teach (differentiation erases the constant, integration can't recover it) instead of a bare reminder. 2/2 correct with +C included on fresh integrals",
    "lesson": {
     "sections": [
      {
@@ -996,6 +1006,14 @@
      }
     ]
    }
+  },
+  {
+   "concept": "Integrating a bare constant (treat c as c·x^0)",
+   "group": "Integration - concept level",
+   "status": "Fixed",
+   "subject": "mathematics",
+   "evidence": "initial slip: integrated -2 as if it were -2x (got -x^2 instead of -2x). Cleared same session after one correction + retry (∫5 dx = 5x+C correct, then ∫(6x^2-2)dx = 2x^3-2x+C correct)",
+   "lesson": null
   },
   {
    "concept": "Standard integrals",
@@ -2124,6 +2142,14 @@
  ],
  "errors": [
   {
+   "date": "2 Sep",
+   "area": "Maths — integration (+C)",
+   "question": "∫(6x² − 2) dx",
+   "misconception": "+C finally included after 3+ prior omissions (18 Aug and earlier this session) — cleared via a \"why\" re-teach instead of a bare reminder. New slip surfaced in the same attempt: integrated the bare constant −2 as if it were −2x (treated it like a linear term), giving −x² instead of −2x.",
+   "retry": "cleared same session — corrected via \"constant = c·x⁰\" framing, then ∫5 dx = 5x+C correct, then retried ∫(6x²−2)dx = 2x³−2x+C correct",
+   "open": false
+  },
+  {
    "date": "1 Sep",
    "area": "Physics — kinematics (NCERT XI Ch.2)",
    "question": "Acceleration right as ball leaves hand vs. one second later, mid-flight upward",
@@ -2411,6 +2437,13 @@
    "subject": "mathematics"
   },
   {
+   "date": "2 Sep",
+   "type": "Revise",
+   "covered": "Integration +C — oldest open Weak flag (since 18 Aug), re-taught with a \"why\" framing instead of a bare reminder, then 3 fresh-variant checks",
+   "outcome": "3/3 correct after 1 correction. +C now included consistently; a fresh slip (bare-constant integration) surfaced and cleared same session",
+   "subject": "mathematics"
+  },
+  {
    "date": "29 Aug",
    "type": "Teach (breadth)",
    "covered": "Decided to run GK as its own daily curriculum (GK_CURRICULUM.md created) instead of past-paper-only — mined the 4 readable remaining past papers (ATC 2018 Sh1/2/3, ATC 2015 Sh2) for every GK question, 40 banked (Q144-183); filed the earlier chat exposure sweep (dance forms, instruments, sports terms, awards, Nobel laureates, books, static facts) as 20 more modelled questions (Q184-203). GK bank now 98 questions across Polity/History/Geography/Science/Economy/Awards/Sports/Books&Authors/Arts&Culture/Static facts/Current affairs. Verified 3 rolling officeholder facts live: SEBI Chairman=Tuhin Kanta Pandey, Lok Sabha Speaker=Om Birla, and (from the 29 Aug session) CEC=Gyanesh Kumar, VP/RS Chair=C.P. Radhakrishnan, UN SG=Guterres. ATC 2015 Shift1's PDF file is corrupted/truncated (42 of 52 pages) — its GK section is unrecoverable without a fresh download. Also shipped 2 dashboard changes: a dedicated GK tab (filterable by category) and made practice questions answer-first (pick an option, then see right/wrong, instead of a blind \"Show answer\"). Taught (in chat only, not yet banked) Ancient/Medieval history, Mughal succession, World Geography basics, and Parliament structure (Lok Sabha vs Rajya Sabha)",
@@ -2430,7 +2463,7 @@
   "Blood relations same-generation vs one-generation-up trap — cleared 1 Sep on a fresh variant",
   "Aviation GK is the cheap block. In AAI AO 2018 Shift 1, 12 of 15 GK questions were",
   "PAPER 1 (AAI AO 2018 Shift 1) IS NOW 100% COMPLETE — GK, General Intelligence, General",
-  "Integration — still open from 18 Aug, +C is the only Weak flag. Worth 5 questions in",
+  "Integration +C cleared 2 Sep — no longer the open Weak flag. Standard integrals table",
   "Differentiation is complete and is worth only ~2 marks. Re-drill for spacing, do not",
   "Physics and Business Management got their first real exposure today via paper 1's",
   "**This 2018 paper's General Aptitude/Reasoning content is a reliable difficulty/style",
