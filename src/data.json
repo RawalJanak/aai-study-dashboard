@@ -1,11 +1,11 @@
 {
- "builtAt": "07 Sep 2026, 17:27",
+ "builtAt": "07 Sep 2026, 17:54",
  "regClose": "2026-09-07",
  "daysToClose": 0,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 59,
-  "solid": 49,
+  "concepts": 66,
+  "solid": 56,
   "learning": 9,
   "weak": 1,
   "notStarted": 0,
@@ -15,7 +15,7 @@
   "sessions": 22,
   "sessionDays": 8,
   "mocks": 0,
-  "graphs": 15
+  "graphs": 17
  },
  "statusBreakdown": [
   {
@@ -32,7 +32,7 @@
   },
   {
    "status": "Solid",
-   "n": 49
+   "n": 56
   },
   {
    "status": "Mastered",
@@ -186,8 +186,8 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "59 concepts logged (49 solid+, 1 weak)",
-    "203 questions banked (98 GK)",
+    "66 concepts logged (56 solid+, 1 weak)",
+    "216 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "20 errors logged, 0 currently open"
    ]
@@ -204,7 +204,7 @@
       "label": "Reasoning",
       "sub": "15 concepts",
       "status": "Solid",
-      "pct": 81
+      "pct": 82
      },
      {
       "label": "Aptitude",
@@ -365,9 +365,9 @@
    "key": "mathematics",
    "name": "Mathematics",
    "marks": 24,
-   "logged": 38,
-   "solid": 33,
-   "pct": 87
+   "logged": 45,
+   "solid": 40,
+   "pct": 89
   },
   {
    "key": "physics",
@@ -1628,6 +1628,62 @@
      }
     ]
    }
+  },
+  {
+   "concept": "Letter analogy — alphabet mirror (27-n reflection)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "7 Sep, paper 2 Q16: FHJL:USQO::PRTV:? Initially mis-tried as constant shift, corrected to mirror-pair rule (A<->Z,B<->Y...), got KIGE right after correction",
+   "lesson": null
+  },
+  {
+   "concept": "Number analogy — hidden single series (not true A:B::C:D)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "7 Sep, paper 2 Q17: 23:34::47:? — recognised the three numbers as one series with second-order differences (+11,+13,+15), answered 62 correctly",
+   "lesson": null
+  },
+  {
+   "concept": "Word formation from letter-supply counting",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "7 Sep, paper 2 Q24: DISPROPORTIONATE -> STATION, correctly explained checking letter COUNT not just presence",
+   "lesson": null
+  },
+  {
+   "concept": "Letter coding — uniform Caesar shift",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "7 Sep, paper 2 Q25: PORTER->TSVXIV (+4 shift), applied cleanly to SHOWER->WLSAIV",
+   "lesson": null
+  },
+  {
+   "concept": "Digit-equation coding — sum of squares",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "7 Sep, paper 2 Q26: 452=45/371=59 (a^2+b^2+c^2) traced together via computed verification; then independently solved fresh modelled question (132=14,214=21,323=?) correct first try: 22",
+   "lesson": null
+  },
+  {
+   "concept": "Venn diagram — three classes, chain-overlap (not all-mutual)",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "7 Sep, paper 2 Q29: Red/Shirts/Flowers -> correctly reasoned Red overlaps both Shirts and Flowers but they don't overlap each other (chain diagram, not triangle)",
+   "lesson": null
+  },
+  {
+   "concept": "Mirror image across a vertical line",
+   "group": "General Intelligence",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "7 Sep, paper 2 Q30: correctly explained the left-right-only flip rule (heights unchanged) after viewing the actual diagram opened on screen",
+   "lesson": null
   },
   {
    "concept": "Averages (with prime-number filtering)",
@@ -7310,12 +7366,311 @@
    "attempted": "--",
    "done": true,
    "correct": false
+  },
+  {
+   "id": "Q204",
+   "section": "General Intelligence",
+   "topic": "Coding-decoding (letter analogy)",
+   "source": "AAI AO 17.09.2016 · Q16",
+   "question": "Select the related letters from the given alternatives. FHJL : USQO :: PRTV : ?",
+   "options": [
+    "QSUW",
+    "KIGE",
+    "MJGD",
+    "EGIL"
+   ],
+   "answer": 2,
+   "why": "This is an alphabet-MIRROR pair, not a constant shift — pair letters equidistant from A and Z using mirror(n) = 27-n (A<->Z, B<->Y, C<->X...). Check: F(6)->27-6=21=U, H(8)->19=S, J(10)->17=Q, L(12)->15=O — every letter of FHJL mirrors exactly to USQO. Apply the same mirror to PRTV: P(16)->11=K, R(18)->9=I, T(20)->7=G, V(22)->5=E = KIGE. Trap: the first pair's shifts (+15,+11,+7,+3) look like a pattern if you only check letter-to-letter differences — but that shift sequence does NOT reapply correctly to the second group. Whenever a shift isn't constant across all four letters, test the mirror-pair rule before anything else.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026, after one self-correction from a shift-based first attempt)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q205",
+   "section": "General Intelligence",
+   "topic": "Coding-decoding (number analogy)",
+   "source": "AAI AO 17.09.2016 · Q17",
+   "question": "Select the related numbers from the given alternatives. 23 : 34 :: 47 : ?",
+   "options": [
+    "56",
+    "60",
+    "62",
+    "69"
+   ],
+   "answer": 3,
+   "why": "This looks like an A:B::C:D analogy (find the B-A rule, apply to C) but that reading has no clean answer. The real trick: 23, 34, 47 are actually three consecutive terms of ONE hidden series, and the difference between terms increases by a constant: 34-23=11, 47-34=13 (differences rising by 2), so the next difference is 15 and 47+15=62. Trap: whenever an \"analogy\" pair's rule refuses to reapply cleanly to the third number, check whether all the given numbers are secretly one running series instead of two independent pairs.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q206",
+   "section": "General Intelligence",
+   "topic": "Classification (word pairs)",
+   "source": "AAI AO 17.09.2016 · Q18",
+   "question": "Select the one which is different from other three alternatives.",
+   "options": [
+    "Advance:Retreat",
+    "Assign:Allot",
+    "Vacant:Empty",
+    "Solicit:Request"
+   ],
+   "answer": 1,
+   "why": "Assign:Allot, Vacant:Empty, and Solicit:Request are all SYNONYM pairs (same meaning). Advance:Retreat is an ANTONYM pair (opposite meaning) — that's the odd one out. Trap: always classify each pair's relationship type first (synonym/antonym/part-whole/etc) before comparing options; picking based on \"meaning similarity\" alone without naming the relationship type causes slips.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q207",
+   "section": "General Intelligence",
+   "topic": "Classification (number pairs)",
+   "source": "AAI AO 17.09.2016 · Q19",
+   "question": "Select the one which is different from other three alternatives.",
+   "options": [
+    "27:72",
+    "38:83",
+    "45:54",
+    "56:68"
+   ],
+   "answer": 4,
+   "why": "In 27:72, 38:83, and 45:54, the second number is the exact digit-reversal of the first (27 reversed = 72, 38 reversed = 83, 45 reversed = 54). 56:68 breaks this — reverse of 56 is 65, not 68. That's the odd one out. Trap: with number-pair classification, always test digit-reversal and digit-sum/difference patterns before assuming there's no numeric relationship.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q208",
+   "section": "General Intelligence",
+   "topic": "Series completion (letter series)",
+   "source": "AAI AO 17.09.2016 · Q20",
+   "question": "Choose the correct alternative from the given ones which will complete the series. BMX, EOW, HQV, ?, NUT",
+   "options": [
+    "IRU",
+    "KSU",
+    "KRV",
+    "LSU"
+   ],
+   "answer": 2,
+   "why": "Split into three independent letter tracks and find each one's step. 1st letters: B,E,H,?,N step +3 (B->E->H->K->N), so the missing term starts with K. 2nd letters: M,O,Q,?,U step +2 (M->O->Q->S->U), giving S. 3rd letters: X,W,V,?,T step -1 (X->W->V->U->T), giving U. Combined: KSU. Trap: always track each letter POSITION as its own independent series with its own step size and direction (some ascend, some descend) rather than looking for one rule across the whole group.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q209",
+   "section": "General Intelligence",
+   "topic": "Series completion (number series, second-order differences)",
+   "source": "AAI AO 17.09.2016 · Q21",
+   "question": "Choose the correct alternative from the given ones which will complete the number series. 6, 11, 20, 37, 70, ?",
+   "options": [
+    "135",
+    "125",
+    "117",
+    "103"
+   ],
+   "answer": 1,
+   "why": "First differences are 5, 9, 17, 33 — each one equals (previous difference x 2) - 1. Next difference = 33x2-1 = 65. 70+65 = 135. Trap: when first differences aren't constant or simply arithmetic, check whether the differences themselves follow a doubling-minus-something rule before giving up on a pattern.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q210",
+   "section": "General Intelligence",
+   "topic": "Circular seating arrangement",
+   "source": "AAI AO 17.09.2016 · Q22",
+   "question": "Six friends J, K, L, M, N and O are sitting around a circle facing towards the centre. J is not adjacent to K or L; M is not adjacent to L or N; K and L are adjacent. O is in the middle of M and L. If one neighbour of J is M, who is the other one?",
+   "options": [
+    "K",
+    "L",
+    "N",
+    "O"
+   ],
+   "answer": 3,
+   "why": "Build the most tightly forced block FIRST: \"O is between M and L\" plus \"K and L are adjacent\" chains into one fixed sequence, M-O-L-K, that must sit together. That leaves only J and N for the two remaining seats between K and M. Since J cannot be adjacent to K (given), J must take the seat next to M, leaving N next to K. Final circle: M-O-L-K-N-J-(back to M). J's neighbours are N and M; given one is M, the other is N. Trap: don't try to place all six people at once — always build the forced block from the strongest linking clues first, then fit the remaining people using the \"cannot be adjacent to\" restrictions.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q211",
+   "section": "General Intelligence",
+   "topic": "Blood relations (multi-generation chain)",
+   "source": "AAI AO 17.09.2016 · Q23",
+   "question": "P is Q's brother; R is P's mother; S is R's father; Q is S's granddaughter. How is Q related to T who is P's son?",
+   "options": [
+    "Aunt",
+    "Cousin",
+    "Grand Aunt",
+    "Niece"
+   ],
+   "answer": 1,
+   "why": "Draw the family tree, don't hold it in your head. R = mother of both P and Q (P and Q are siblings). S = R's father = grandfather of P and Q. \"Q is S's granddaughter\" just confirms Q is female. T = P's son, so T's parent is P and T's aunt is P's sister = Q. Answer: Aunt. Trap: multi-generation blood-relation chains fail when solved in your head — draw the tree one relation at a time, resolve the innermost relation first, and only then read off the final answer.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q212",
+   "section": "General Intelligence",
+   "topic": "Word formation from letter supply",
+   "source": "AAI AO 17.09.2016 · Q24",
+   "question": "From the given alternatives, select the word which can be formed using the letters of the given word. You can use a letter only as many times as it appears in the word below. DISPROPORTIONATE",
+   "options": [
+    "PERSONAL",
+    "DISPOSE",
+    "PROPONENT",
+    "STATION"
+   ],
+   "answer": 4,
+   "why": "Count each letter's SUPPLY in the source word first: D1,I2,S1,P2,R2,O3,T2,N1,A1,E1. Then check each option against that supply, not just \"is the letter present\" but \"is there ENOUGH of it.\" PERSONAL needs an L, which doesn't exist at all — fails. DISPOSE needs S twice, source has only 1 S — fails. PROPONENT needs N twice, source has only 1 N — fails. STATION needs S1,T2,A1,I1,O1,N1, all within supply — works. Trap: checking only \"is each letter present\" and stopping there is the most common mistake; always verify the COUNT of the tightest-supply letter in each option.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q213",
+   "section": "General Intelligence",
+   "topic": "Coding-decoding (uniform letter shift)",
+   "source": "AAI AO 17.09.2016 · Q25",
+   "question": "If in a certain code language PORTER is written as TSVXIV, how would SHOWER be written in that code?",
+   "options": [
+    "WLASIV",
+    "WLSAIV",
+    "VKRZIV",
+    "REWOHS"
+   ],
+   "answer": 2,
+   "why": "Always test a CONSTANT shift on every letter first for coding questions — it's the most common pattern. P(16)->T(20): +4. O(15)->S(19): +4. R(18)->V(22): +4. T(20)->X(24): +4. E(5)->I(9): +4. R(18)->V(22): +4. Every letter shifts by exactly +4. Apply to SHOWER: S->W, H->L, O->S, W->A, E->I, R->V = WLSAIV. Trap: don't jump to position-dependent or reversal-based coding rules before ruling out a simple constant shift across every letter.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q214",
+   "section": "General Intelligence",
+   "topic": "Coding-decoding (digit-equation, sum of squares)",
+   "source": "AAI AO 17.09.2016 · Q26",
+   "question": "Some equations are solved on the basis of a certain system. Find the correct answer for the unsolved equation on that basis. 452 = 45, 371 = 59, 253 = ?",
+   "options": [
+    "10",
+    "30",
+    "38",
+    "42"
+   ],
+   "answer": 3,
+   "why": "Test SUM OF SQUARES OF THE DIGITS first for any digit-equation coding puzzle — it's a very common CBT trick. 4^2+5^2+2^2 = 16+25+4 = 45 (matches). 3^2+7^2+1^2 = 9+49+1 = 59 (matches). So 2^2+5^2+3^2 = 4+25+9 = 38. Trap: the first pair's result (45) happens to also look like just \"the first two digits of 452\" — a coincidence that only fits ONE of the two given equations. Always verify a candidate rule against BOTH given equations before applying it to the unknown, never just one.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026, both the original and the fresh modelled retest)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q215",
+   "section": "General Intelligence",
+   "topic": "Direction sense (multi-turn)",
+   "source": "AAI AO 17.09.2016 · Q27",
+   "question": "Mukesh walked 20 metres towards South. Then he turned to his left and walked 10 metres. He then turned to his left and walked 20 metres. He again turned to his right and walked 7 metres. At what distance and in which direction is Mukesh from the starting point?",
+   "options": [
+    "17 metres towards North",
+    "17 metres towards East",
+    "27 metres towards South",
+    "27 metres towards West"
+   ],
+   "answer": 2,
+   "why": "Track facing direction and (x,y) position as two SEPARATE variables, updating one step at a time. Start (0,0) facing South -> walk 20 South -> (0,-20). Turn left (South->East) -> walk 10 East -> (10,-20). Turn left again (East->North) -> walk 20 North -> (10,0). Turn right (North->East) -> walk 7 East -> (17,0). Final position (17,0) vs start (0,0) = 17 metres East. Trap: the riskiest step is usually the LAST turn, not the first — people get the direction-after-turn wrong more often once several turns have already happened and they lose track of current facing.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q216",
+   "section": "General Intelligence",
+   "topic": "Syllogism (statement and conclusion)",
+   "source": "AAI AO 17.09.2016 · Q28",
+   "question": "Consider the given statements to be true even if they seem to be at variance from commonly known facts. Statements: (i) All fruits are flowers. (ii) No flowers are leaves. Conclusions: I. No fruits are leaves. II. All flowers are fruits.",
+   "options": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I and II follow"
+   ],
+   "answer": 1,
+   "why": "Fruits are a SUBSET of flowers (All A are B), and flowers never touch leaves (No B are C) — so fruits, sitting entirely inside flowers, can never touch leaves either: No fruits are leaves (I) FOLLOWS validly. Conclusion II reverses the direction of the first statement (fruits subset of flowers does NOT mean flowers subset of fruits) — II does NOT follow. Trap: \"All A are B\" never implies \"All B are A\" — reversing a universal statement's direction is the single most common syllogism trap.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
   }
  ],
  "questionStats": {
-  "total": 203,
-  "attempted": 203,
-  "correct": 43,
+  "total": 216,
+  "attempted": 216,
+  "correct": 56,
   "stale": 16,
   "byTopic": [
    {
@@ -7351,6 +7706,10 @@
     "n": 1
    },
    {
+    "topic": "Blood relations (multi-generation chain)",
+    "n": 1
+   },
+   {
     "topic": "Blood relations (simple)",
     "n": 1
    },
@@ -7363,11 +7722,39 @@
     "n": 1
    },
    {
+    "topic": "Circular seating arrangement",
+    "n": 1
+   },
+   {
     "topic": "Classification",
     "n": 1
    },
    {
+    "topic": "Classification (number pairs)",
+    "n": 1
+   },
+   {
+    "topic": "Classification (word pairs)",
+    "n": 1
+   },
+   {
     "topic": "Coding-decoding",
+    "n": 1
+   },
+   {
+    "topic": "Coding-decoding (digit-equation, sum of squares)",
+    "n": 1
+   },
+   {
+    "topic": "Coding-decoding (letter analogy)",
+    "n": 1
+   },
+   {
+    "topic": "Coding-decoding (number analogy)",
+    "n": 1
+   },
+   {
+    "topic": "Coding-decoding (uniform letter shift)",
     "n": 1
    },
    {
@@ -7388,6 +7775,10 @@
    },
    {
     "topic": "Direction sense",
+    "n": 1
+   },
+   {
+    "topic": "Direction sense (multi-turn)",
     "n": 1
    },
    {
@@ -7735,6 +8126,14 @@
     "n": 1
    },
    {
+    "topic": "Series completion (letter series)",
+    "n": 1
+   },
+   {
+    "topic": "Series completion (number series, second-order differences)",
+    "n": 1
+   },
+   {
     "topic": "Sign/number interchange",
     "n": 1
    },
@@ -7753,6 +8152,10 @@
    {
     "topic": "Static facts",
     "n": 10
+   },
+   {
+    "topic": "Syllogism (statement and conclusion)",
+    "n": 1
    },
    {
     "topic": "Synonym",
@@ -7776,6 +8179,10 @@
    },
    {
     "topic": "Word formation (prefix trap)",
+    "n": 1
+   },
+   {
+    "topic": "Word formation from letter supply",
     "n": 1
    }
   ]
