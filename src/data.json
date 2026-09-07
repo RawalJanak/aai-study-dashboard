@@ -1,11 +1,11 @@
 {
- "builtAt": "07 Sep 2026, 17:54",
+ "builtAt": "07 Sep 2026, 18:03",
  "regClose": "2026-09-07",
  "daysToClose": 0,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 66,
-  "solid": 56,
+  "concepts": 75,
+  "solid": 65,
   "learning": 9,
   "weak": 1,
   "notStarted": 0,
@@ -32,7 +32,7 @@
   },
   {
    "status": "Solid",
-   "n": 56
+   "n": 65
   },
   {
    "status": "Mastered",
@@ -186,8 +186,8 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "66 concepts logged (56 solid+, 1 weak)",
-    "216 questions banked (98 GK)",
+    "75 concepts logged (65 solid+, 1 weak)",
+    "228 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "20 errors logged, 0 currently open"
    ]
@@ -381,8 +381,8 @@
    "key": "quant",
    "name": "Quantitative Aptitude",
    "marks": null,
-   "logged": 15,
-   "solid": 15,
+   "logged": 24,
+   "solid": 24,
    "pct": 100
   },
   {
@@ -1963,7 +1963,7 @@
    "group": "Quantitative Aptitude",
    "status": "Solid",
    "subject": "quant",
-   "evidence": "Q9 taught, P4 modelled question (same direction, subtract) correct first time",
+   "evidence": "Q9 taught, P4 modelled question (same direction, subtract) correct first time. 7 Sep, paper 2 Q40 (trains crossing, opposite direction): correctly applied add-speeds rule (7.67s); scraped official key (23s) verified WRONG via independent Python calc — it silently uses the same-direction subtract formula despite the question stating opposite direction. Flagged in QUESTION_BANK.md Q227, taught correct method not the bad key",
    "lesson": {
     "sections": [
      {
@@ -2194,6 +2194,78 @@
      }
     ]
    }
+  },
+  {
+   "concept": "LCM — smallest n-digit multiple",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "7 Sep, paper 2 Q31: smallest 4-digit number divisible by 18/24/32 -> 1152, correct",
+   "lesson": null
+  },
+  {
+   "concept": "HCF — maximum common measure",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "7 Sep, paper 2 Q32: max container size for 850L/680L -> 170, correct",
+   "lesson": null
+  },
+  {
+   "concept": "Ratio chaining (a:b::b:c via shared-term LCM)",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "7 Sep, paper 2 Q34: a:b=5:7,b:c=2:3 -> c:a=21:10, correct, new sub-type (make shared term equal via LCM before combining)",
+   "lesson": null
+  },
+  {
+   "concept": "Alligation-style mixture blending (two solutions, weighted fractions)",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "7 Sep, paper 2 Q39: two vessels blended 3:4, correct answer 11:17 derived via weighted spirit-fraction average",
+   "lesson": null
+  },
+  {
+   "concept": "Compound interest — non-annual compounding period conversion",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "7 Sep, paper 2 Q36: 8% p.a. compounded half-yearly for 12 months -> 816, correct; new concept (halve rate, double periods)",
+   "lesson": null
+  },
+  {
+   "concept": "Loss% when SP of n articles = CP of m articles",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "7 Sep, paper 2 Q38: correctly derived loss%=20% on CP (standard convention); scraped official key (25%) verified WRONG via independent Python calc — flagged in QUESTION_BANK.md Q226, taught the correct method not the bad key",
+   "lesson": null
+  },
+  {
+   "concept": "Boats and streams (downstream/upstream)",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "7 Sep, paper 2 Q41: boat 30km/h, stream 6km/h, 12km downstream -> 20 min, correct; first time this concept taught",
+   "lesson": null
+  },
+  {
+   "concept": "Heights and distances (angle of elevation, two colinear points)",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "7 Sep, paper 2 Q44: 30m tower, 30deg/45deg angles -> 30(sqrt3-1)m, correct; first time this concept taught, trig application",
+   "lesson": null
+  },
+  {
+   "concept": "Quadratic discriminant — condition for real roots",
+   "group": "Quantitative Aptitude",
+   "status": "Solid",
+   "subject": "quant",
+   "evidence": "7 Sep, paper 2 Q45: 4x^2-kx+9=0 -> discriminant rule k<=-12 or k>=12 correctly derived; paper's own answer option uses confusing non-standard notation, flagged separately from the math itself",
+   "lesson": null
   }
  ],
  "errors": [
@@ -7665,12 +7737,288 @@
    "attempted": "correct (7 Sep 2026)",
    "done": true,
    "correct": true
+  },
+  {
+   "id": "Q219",
+   "section": "Quantitative Aptitude",
+   "topic": "LCM (smallest n-digit multiple)",
+   "source": "AAI AO 17.09.2016 · Q31",
+   "question": "What is the smallest 4-digit number which is divisible by 18, 24 and 32?",
+   "options": [
+    "1112",
+    "1152",
+    "1440",
+    "1584"
+   ],
+   "answer": 2,
+   "why": "Find LCM(18,24,32) first: 18=2x3^2, 24=2^3x3, 32=2^5, so LCM=2^5x3^2=288. Smallest 4-digit multiple of 288: 1000/288=3.47, so the next multiple is 4x288=1152. Trap: \"smallest number divisible by all of these\" always means LCM, not HCF — the reverse question (\"largest measure that divides all exactly\") is HCF (see Q220).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q220",
+   "section": "Quantitative Aptitude",
+   "topic": "HCF (maximum common measure)",
+   "source": "AAI AO 17.09.2016 · Q32",
+   "question": "Two containers contain 850 litres and 680 litres of oil respectively. What is the maximum capacity of a container which can measure the oil of both containers an exact number of times?",
+   "options": [
+    "10",
+    "17",
+    "85",
+    "170"
+   ],
+   "answer": 4,
+   "why": "HCF(850,680): 850=2x5^2x17, 680=2^3x5x17, HCF=2x5x17=170. Trap: \"maximum size that measures both exactly\" is always HCF (biggest common factor), the opposite direction from \"smallest number divisible by all\" (LCM, see Q219) — read which direction the question asks before picking.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q221",
+   "section": "Quantitative Aptitude",
+   "topic": "Direct proportion (odd pair out)",
+   "source": "AAI AO 17.09.2016 · Q33",
+   "question": "Both x and y vary directly with each other and when x=20, y=28. Which of the following is not a possible pair of corresponding values?",
+   "options": [
+    "25:35",
+    "35:25",
+    "35:49",
+    "15:21"
+   ],
+   "answer": 2,
+   "why": "The fixed ratio is y:x=28:20=7:5. Check each pair's ratio (second:first): 25:35 -> 35/25=7/5 valid. 35:25 -> 25/35=5/7 INVALID (inverted). 35:49 -> 49/35=7/5 valid. 15:21 -> 21/15=7/5 valid. Trap: in direct-proportion odd-one-out questions, compute the ratio in the SAME order (second value / first value) for every pair — an inverted pair is the easiest way examiners hide the odd one out.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q222",
+   "section": "Quantitative Aptitude",
+   "topic": "Ratio chaining (a:b::b:c)",
+   "source": "AAI AO 17.09.2016 · Q34",
+   "question": "If a:b = 5:7, b:c = 2:3, what is the value of c:a?",
+   "options": [
+    "21:10",
+    "10:21",
+    "7:5",
+    "3:5"
+   ],
+   "answer": 1,
+   "why": "Make the shared term (b) equal in both ratios using their LCM: b is 7 in the first ratio and 2 in the second, LCM(7,2)=14. Scale a:b=5:7 by x2 -> a:b=10:14. Scale b:c=2:3 by x7 -> b:c=14:21. Now b matches (14) in both: a:b:c=10:14:21, so c:a=21:10. Trap: never try to combine two ratios directly without first making their shared term equal — that IS the method, skipping it is the only way to get this wrong.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q223",
+   "section": "Quantitative Aptitude",
+   "topic": "Simple interest (find rate)",
+   "source": "AAI AO 17.09.2016 · Q35",
+   "question": "If Rs. 600 become Rs.720 in 4 years, then what is the rate of simple interest per annum?",
+   "options": [
+    "5%",
+    "25/3%",
+    "25/2%",
+    "15%"
+   ],
+   "answer": 1,
+   "why": "Interest earned = 720-600=120. SI formula: I = P x R x T / 100, so 120 = 600 x R x 4 / 100 = 24R, giving R=120/24=5%. Standard SI plug-in, no trick.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q224",
+   "section": "Quantitative Aptitude",
+   "topic": "Compound interest (half-yearly compounding)",
+   "source": "AAI AO 17.09.2016 · Q36",
+   "question": "A sum of 10,000 is invested at the rate of 8% per year for 12 months. What is Compound interest if interest is compounded half-yearly?",
+   "options": [
+    "Rs 800",
+    "Rs 816",
+    "Rs 960",
+    "Rs 1060"
+   ],
+   "answer": 2,
+   "why": "Whenever compounding isn't yearly, convert BOTH the rate and the time to match the compounding period: half-yearly rate = 8/2=4%, number of half-year periods in 12 months = 2. CI = 10000x(1.04)^2 - 10000 = 10000x1.0816 - 10000 = 816. Trap: never apply the annual rate directly to the annual time when the compounding period isn't yearly — always halve/quarter the rate and double/quadruple the periods to match.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q225",
+   "section": "Quantitative Aptitude",
+   "topic": "Profit percentage (discount + markup, find MP)",
+   "source": "AAI AO 17.09.2016 · Q37",
+   "question": "Rekha offers a discount of 10% on mark price an article and still makes a profit of 25%. If cost price of article is Rs. 360, what is mark price of the article?",
+   "options": [
+    "Rs 450",
+    "Rs 460",
+    "Rs 486",
+    "Rs 500"
+   ],
+   "answer": 4,
+   "why": "SP = CP x 1.25 = 360 x 1.25 = 450 (from the profit). SP is also MP x 0.9 (after the 10% discount), so MP = SP / 0.9 = 450 / 0.9 = 500. Trap: build SP from the profit% on CP first, then work backward through the discount% to reach MP — don't try to combine discount% and profit% into one single percentage shortcut, it doesn't work that way.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q228",
+   "section": "Quantitative Aptitude",
+   "topic": "Boats and streams (downstream)",
+   "source": "AAI AO 17.09.2016 · Q41",
+   "question": "The speed of a boat in still water is 30 km/h and speed of stream is 6 km/h. What is the time taken by the boat in minutes to cover a distance of 12 km?",
+   "options": [
+    "18",
+    "20",
+    "25",
+    "30"
+   ],
+   "answer": 2,
+   "why": "Downstream speed = boat speed + stream speed (the current helps) = 30+6=36 km/h. Time = 12/36 hr = 1/3 hr = 20 minutes. Trap: downstream always ADDS the stream speed, upstream always SUBTRACTS it (current works against you) — check the direction stated before picking the formula.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q229",
+   "section": "Maths",
+   "topic": "Arithmetic progression (nth term and sum)",
+   "source": "AAI AO 17.09.2016 · Q42",
+   "question": "The fourth term of an A.P. is 3 and 12th term is -13. What is the sum of the first 10 terms of the A.P.?",
+   "options": [
+    "0",
+    "-2",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "why": "a+3d=3 and a+11d=-13. Subtracting: 8d=-16, d=-2, so a=3-3(-2)=9. Sum of first n terms = n/2 x (2a+(n-1)d): S10 = 5 x (18+9x(-2)) = 5 x (18-18) = 0. Standard two-equations-two-unknowns AP setup, no trick.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q230",
+   "section": "Quantitative Aptitude",
+   "topic": "Time and work (efficiency ratio)",
+   "source": "AAI AO 17.09.2016 · Q43",
+   "question": "Arun can finish a work in 36 hours and Ballu is twice as efficient as Arun. If they work together, how many hours they will take to finish the same work?",
+   "options": [
+    "10",
+    "12",
+    "15",
+    "18"
+   ],
+   "answer": 2,
+   "why": "Twice as efficient means half the time: Ballu finishes in 18 hours. Combined rate = 1/36 + 1/18 = 1/36 + 2/36 = 3/36 = 1/12, so combined time = 12 hours. Standard efficiency-ratio time-and-work, no trick.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q231",
+   "section": "Maths",
+   "topic": "Heights and distances (angle of elevation, two points)",
+   "source": "AAI AO 17.09.2016 · Q44",
+   "question": "The angle of elevation of a 30 m high tower from two point on the ground are 30 degrees and 45 degrees respectively. If both points and base of the tower are in a line, the distance between two points is:",
+   "options": [
+    "30 m",
+    "30sqrt(3) m",
+    "30(sqrt(3)-1) m",
+    "30(sqrt(3)+1) m"
+   ],
+   "answer": 3,
+   "why": "From the 45-degree point (closer to the tower): distance = 30/tan(45) = 30m. From the 30-degree point (farther): distance = 30/tan(30) = 30sqrt(3)m. Distance BETWEEN the two points = 30sqrt(3) - 30 = 30(sqrt(3)-1)m. Trap: the SMALLER angle of elevation always belongs to the FARTHER point — draw the triangle with both points on the same side of the tower before computing, don't just plug numbers into a formula.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q232",
+   "section": "Maths",
+   "topic": "Quadratic discriminant (condition for real roots)",
+   "source": "AAI AO 17.09.2016 · Q45",
+   "question": "What are the values of k for which the equation 4x^2 - kx + 9 = 0 has real roots?",
+   "options": [
+    "-12<=k<=12",
+    "-12<k<12",
+    "12<k<-12",
+    "12<=k<=-12 (paper's non-standard notation for the union of two rays)"
+   ],
+   "answer": 4,
+   "why": "Real roots require discriminant >= 0: k^2 - 4(4)(9) >= 0, so k^2 >= 144, giving k<=-12 OR k>=12. The paper's marked option \"12<=k<=-12\" is not a valid interval read literally (12 is not less than -12) — it appears to be sloppy shorthand attempting to express the union of the two rays (k<=-12 or k>=12), not a real interval. The reusable rule to keep is the discriminant condition itself (D>=0 for real roots), not this option's confusing notation.",
+   "status": "current (rule verified independently; option notation flagged as confusing, not the underlying math)",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
   }
  ],
  "questionStats": {
-  "total": 216,
-  "attempted": 216,
-  "correct": 56,
+  "total": 228,
+  "attempted": 228,
+  "correct": 68,
   "stale": 16,
   "byTopic": [
    {
@@ -7679,6 +8027,10 @@
    },
    {
     "topic": "Antonym",
+    "n": 1
+   },
+   {
+    "topic": "Arithmetic progression (nth term and sum)",
     "n": 1
    },
    {
@@ -7711,6 +8063,10 @@
    },
    {
     "topic": "Blood relations (simple)",
+    "n": 1
+   },
+   {
+    "topic": "Boats and streams (downstream)",
     "n": 1
    },
    {
@@ -7758,6 +8114,10 @@
     "n": 1
    },
    {
+    "topic": "Compound interest (half-yearly compounding)",
+    "n": 1
+   },
+   {
     "topic": "Current affairs",
     "n": 28
    },
@@ -7771,6 +8131,10 @@
    },
    {
     "topic": "Direct proportion",
+    "n": 1
+   },
+   {
+    "topic": "Direct proportion (odd pair out)",
     "n": 1
    },
    {
@@ -8054,8 +8418,20 @@
     "n": 3
    },
    {
+    "topic": "HCF (maximum common measure)",
+    "n": 1
+   },
+   {
+    "topic": "Heights and distances (angle of elevation, two points)",
+    "n": 1
+   },
+   {
     "topic": "History",
     "n": 3
+   },
+   {
+    "topic": "LCM (smallest n-digit multiple)",
+    "n": 1
    },
    {
     "topic": "LCM/HCF from ratio",
@@ -8102,11 +8478,23 @@
     "n": 1
    },
    {
+    "topic": "Profit percentage (discount + markup, find MP)",
+    "n": 1
+   },
+   {
     "topic": "Pronoun reference",
     "n": 2
    },
    {
+    "topic": "Quadratic discriminant (condition for real roots)",
+    "n": 1
+   },
+   {
     "topic": "Ranking / linear order",
+    "n": 1
+   },
+   {
+    "topic": "Ratio chaining (a:b::b:c)",
     "n": 1
    },
    {
@@ -8142,6 +8530,10 @@
     "n": 1
    },
    {
+    "topic": "Simple interest (find rate)",
+    "n": 1
+   },
+   {
     "topic": "Spelling",
     "n": 1
    },
@@ -8163,6 +8555,10 @@
    },
    {
     "topic": "Time and work",
+    "n": 1
+   },
+   {
+    "topic": "Time and work (efficiency ratio)",
     "n": 1
    },
    {
