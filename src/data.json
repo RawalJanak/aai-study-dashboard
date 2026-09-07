@@ -1,14 +1,14 @@
 {
- "builtAt": "03 Sep 2026, 11:37",
+ "builtAt": "07 Sep 2026, 17:27",
  "regClose": "2026-09-07",
- "daysToClose": 4,
+ "daysToClose": 0,
  "minTrendDays": 3,
  "totals": {
   "concepts": 59,
-  "solid": 46,
-  "learning": 11,
+  "solid": 49,
+  "learning": 9,
   "weak": 1,
-  "notStarted": 1,
+  "notStarted": 0,
   "lessons": 50,
   "errors": 20,
   "errorsOpen": 0,
@@ -20,7 +20,7 @@
  "statusBreakdown": [
   {
    "status": "Not started",
-   "n": 1
+   "n": 0
   },
   {
    "status": "Weak",
@@ -28,11 +28,11 @@
   },
   {
    "status": "Learning",
-   "n": 11
+   "n": 9
   },
   {
    "status": "Solid",
-   "n": 46
+   "n": 49
   },
   {
    "status": "Mastered",
@@ -184,9 +184,9 @@
   "hub": {
    "title": "AAI JE (Operations)",
    "subtitle": "Study Map",
-   "overallPct": 52,
+   "overallPct": 55,
    "stats": [
-    "59 concepts logged (46 solid+, 1 weak)",
+    "59 concepts logged (49 solid+, 1 weak)",
     "203 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "20 errors logged, 0 currently open"
@@ -252,7 +252,7 @@
     "label": "Maths XII",
     "sub": "~24 marks (20%)",
     "color": "maths",
-    "pct": 66,
+    "pct": 78,
     "children": [
      {
       "label": "Differentiation",
@@ -264,7 +264,7 @@
       "label": "Integration",
       "sub": "+C constant flagged Weak",
       "status": "Learning",
-      "pct": 56
+      "pct": 79
      }
     ]
    },
@@ -366,8 +366,8 @@
    "name": "Mathematics",
    "marks": 24,
    "logged": 38,
-   "solid": 30,
-   "pct": 79
+   "solid": 33,
+   "pct": 87
   },
   {
    "key": "physics",
@@ -1018,9 +1018,9 @@
   {
    "concept": "Standard integrals",
    "group": "Integration - concept level",
-   "status": "Not started",
+   "status": "Solid",
    "subject": "mathematics",
-   "evidence": "table given, not yet drilled",
+   "evidence": "table redrilled 7 Sep — full recall, no errors",
    "lesson": {
     "sections": [
      {
@@ -1054,9 +1054,9 @@
   {
    "concept": "Definite integrals",
    "group": "Integration - concept level",
-   "status": "Learning",
+   "status": "Solid",
    "subject": "mathematics",
-   "evidence": "taught with the trapezium cross-check; not yet practised",
+   "evidence": "7 Sep: ∫0-2 3x^2 dx=8 and ∫1-3 2x dx=8, both correct first attempt, FTC applied correctly (evaluate antiderivative at bounds, subtract)",
    "lesson": {
     "sections": [
      {
@@ -1090,9 +1090,9 @@
   {
    "concept": "Signed area - below the axis counts negative",
    "group": "Integration - concept level",
-   "status": "Learning",
+   "status": "Solid",
    "subject": "mathematics",
-   "evidence": "taught; check question on integral 0 to 2 of 3x^2 not yet answered",
+   "evidence": "7 Sep: ∫0-2 (x-1)dx=0 taught with graph reasoning (triangles cancel); ∫0-1 (2x-1)dx=0 correct AND correctly identified as net signed area, not physical area, unprompted on redirect",
    "lesson": {
     "sections": [
      {
@@ -2463,7 +2463,7 @@
   "Blood relations same-generation vs one-generation-up trap — cleared 1 Sep on a fresh variant",
   "Aviation GK is the cheap block. In AAI AO 2018 Shift 1, 12 of 15 GK questions were",
   "PAPER 1 (AAI AO 2018 Shift 1) IS NOW 100% COMPLETE — GK, General Intelligence, General",
-  "Integration +C cleared 2 Sep — no longer the open Weak flag. Standard integrals table",
+  "Integration is now fully closed out (7 Sep). +C cleared 2 Sep, standard integrals table",
   "Differentiation is complete and is worth only ~2 marks. Re-drill for spacing, do not",
   "Physics and Business Management got their first real exposure today via paper 1's",
   "**This 2018 paper's General Aptitude/Reasoning content is a reliable difficulty/style",
