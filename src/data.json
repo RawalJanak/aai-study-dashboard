@@ -1,7 +1,7 @@
 {
- "builtAt": "07 Sep 2026, 18:03",
+ "builtAt": "08 Sep 2026, 12:32",
  "regClose": "2026-09-07",
- "daysToClose": 0,
+ "daysToClose": -1,
  "minTrendDays": 3,
  "totals": {
   "concepts": 75,
@@ -187,7 +187,7 @@
    "overallPct": 55,
    "stats": [
     "75 concepts logged (65 solid+, 1 weak)",
-    "228 questions banked (98 GK)",
+    "243 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "20 errors logged, 0 currently open"
    ]
@@ -8013,12 +8013,357 @@
    "attempted": "correct (7 Sep 2026)",
    "done": true,
    "correct": true
+  },
+  {
+   "id": "Q233",
+   "section": "General English",
+   "topic": "Verb form after modal",
+   "source": "AAI AO 17.09.2016 · Q46",
+   "question": "Select the word that will fill in the blank correctly. 'If you are focused, you can ________ your goals', her coach said.",
+   "options": [
+    "achieve",
+    "achieves",
+    "achieved",
+    "achieving"
+   ],
+   "answer": 1,
+   "why": "After a modal verb (can, will, should, must...), the following verb is always the bare infinitive — no -s, no -ing, no -ed. Trap: this rule holds regardless of the subject's number or the surrounding tense; modals never take a conjugated verb after them.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q234",
+   "section": "General English",
+   "topic": "Spot the error (infinitive form)",
+   "source": "AAI AO 17.09.2016 · Q47",
+   "question": "Find the error in the following sentence. I don't like to invests in stock markets as a fall in the market can take you by surprise.",
+   "options": [
+    "like to",
+    "invests",
+    "a fall",
+    "surprise"
+   ],
+   "answer": 2,
+   "why": "After \"to\" (infinitive marker), the verb must stay in base form — \"to invest,\" not \"to invests.\" Trap: spot-the-error questions on infinitives are easy to miss because the -s looks like normal present-tense agreement; check specifically whether the verb follows \"to\" before applying subject-verb agreement rules.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q235",
+   "section": "General English",
+   "topic": "Spot the error (adjective vs noun)",
+   "source": "AAI AO 17.09.2016 · Q48",
+   "question": "Find the error in the following sentence. I saw a lot of rubble and debris dumped by the hillside and was worried about its effective on the environment.",
+   "options": [
+    "I saw a lot of rubble and debris",
+    "dumped by the hillside",
+    "and was worried about its effective",
+    "on the environment"
+   ],
+   "answer": 3,
+   "why": "\"Effective\" is an adjective used where a noun is needed — \"its effect\" (the impact/result), not \"its effective.\" Trap: spot-the-error questions frequently hide a wrong part of speech (adjective used as a noun, or vice versa) rather than a tense or agreement mistake — always check whether each word's part of speech fits its grammatical slot.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q236",
+   "section": "General English",
+   "topic": "Synonym",
+   "source": "AAI AO 17.09.2016 · Q49",
+   "question": "Select the correct synonym of the underlined word. The serenity of the lake was immense and urged me to stay an extra day at the resort.",
+   "options": [
+    "calmness",
+    "scenic beauty",
+    "fortitude",
+    "creativity"
+   ],
+   "answer": 1,
+   "why": "Serenity means peacefulness/calmness of a place or state of mind. \"Scenic beauty\" describes appearance, not the feeling of calm — a common near-miss distractor in synonym questions. Trap: pick the option matching the PRECISE shade of meaning, not just the general topic area (a lake can have both scenic beauty and serenity, but the word itself only means the latter).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q237",
+   "section": "General English",
+   "topic": "Synonym",
+   "source": "AAI AO 17.09.2016 · Q50",
+   "question": "Select the correct synonym of the underlined word. It was shocking to note how the facts were distorted by the President of the Association when he presented the annual report.",
+   "options": [
+    "mistaken",
+    "misjudged",
+    "misinterpreted",
+    "misrepresented"
+   ],
+   "answer": 4,
+   "why": "Distorted means deliberately twisted/bent out of true shape — closest match is misrepresented (deliberately presented wrongly). Misjudged/misinterpreted imply an honest wrong understanding, not deliberate twisting — a subtle but important distinction. Trap: several \"mis-\" prefixed options can look interchangeable; separate deliberate distortion from honest error before choosing.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q238",
+   "section": "General English",
+   "topic": "Antonym",
+   "source": "AAI AO 17.09.2016 · Q51",
+   "question": "Select the correct antonym of the underlined word. I tried to forego the chance to show my leadership skills to my teacher so that my friend, who was always helpful, could get a chance to be the class monitor for this month.",
+   "options": [
+    "grab",
+    "let go",
+    "escape",
+    "accept"
+   ],
+   "answer": 1,
+   "why": "Forego means to give up or decline something voluntarily. Its opposite is to seize/take it instead — grab. \"Let go\" and \"escape\" are near-synonyms of forego, not antonyms — a classic antonym-question trap where a synonym is placed among the options to catch a rushed reader. Trap: always confirm the underlined word's exact meaning first, then scan specifically for options that are synonyms in disguise before picking the true opposite.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q239",
+   "section": "General English",
+   "topic": "Antonym",
+   "source": "AAI AO 17.09.2016 · Q52",
+   "question": "Select the correct antonym of the underlined word. Those who lead sedentary lives are warned of the consequences by their doctors but they do not pay heed at all.",
+   "options": [
+    "lazy",
+    "active",
+    "sluggish",
+    "sloppy"
+   ],
+   "answer": 2,
+   "why": "Sedentary means characterized by sitting/inactivity. Its opposite is active. \"Lazy\" and \"sluggish\" are near-synonyms of sedentary (both describe low activity/energy), not antonyms — same synonym-in-disguise trap as Q238. Trap: when 3 of 4 antonym options all sit on the same side of the meaning spectrum, the odd one out (truly opposite) is usually the answer.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q240",
+   "section": "General English",
+   "topic": "Spelling",
+   "source": "AAI AO 17.09.2016 · Q53",
+   "question": "Select the word that is spelt CORRECTLY.",
+   "options": [
+    "inchantment",
+    "ingagement",
+    "installment",
+    "ingrediant"
+   ],
+   "answer": 3,
+   "why": "Correct spellings are enchantment, engagement, installment, ingredient — only \"installment\" among the given options is already correctly spelt. Trap: the \"in-\" vs \"en-\" prefix mix-up is a very common Indian-English spelling error; when unsure, sound out whether the word should start with \"en-\" (most do) rather than defaulting to \"in-\".",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q241",
+   "section": "General English",
+   "topic": "Idiom",
+   "source": "AAI AO 17.09.2016 · Q54",
+   "question": "Select the alternative that gives the correct meaning of the underlined idiom/phrase. At the annual conference, it was decided to go back to the drawing board as the product had failed in the market.",
+   "options": [
+    "evolve a new plan to stop losses",
+    "start all over again",
+    "study the impact on the market",
+    "improve the way of working"
+   ],
+   "answer": 2,
+   "why": "\"Go back to the drawing board\" means to start completely over from scratch after a failure, not to make incremental fixes. Trap: idioms cannot be derived literally from their individual words (\"drawing board\" has nothing to do with art/design here) — they must be recognized as fixed phrases with memorized meanings.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q242",
+   "section": "General English",
+   "topic": "Idiom",
+   "source": "AAI AO 17.09.2016 · Q55",
+   "question": "Select the alternative that gives the correct meaning of the underlined idiom/phrase. I was taken to task by my boss for my shoddy presentation.",
+   "options": [
+    "motivated",
+    "assisted",
+    "reprimanded",
+    "praised"
+   ],
+   "answer": 3,
+   "why": "\"Taken to task\" means scolded/reprimanded for a mistake. Trap: \"motivated\" and \"praised\" are the opposite emotional tone from the idiom's actual meaning — a rushed reader might associate \"boss talking to me\" with something positive; always confirm the idiom's fixed meaning rather than guessing from surrounding tone.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q243",
+   "section": "General English",
+   "topic": "Verb form (fill in the blank)",
+   "source": "AAI AO 17.09.2016 · Q56",
+   "question": "Select the word that will fill in the blank correctly. \"I ________ in life after death. Do you?\" the hand-reading expert asked me.",
+   "options": [
+    "bely",
+    "believe",
+    "betray",
+    "balance"
+   ],
+   "answer": 2,
+   "why": "Needs first-person present tense matching subject \"I\" with the correct verb meaning \"to have faith in\": believe. \"Bely\" is not a real word (distractor), \"betray\" and \"balance\" are real words but wrong meaning entirely. Trap: fill-in-the-blank vocabulary questions sometimes include a fake/misspelt word as a distractor — check that each option is even a real word before checking meaning.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q244",
+   "section": "General English",
+   "topic": "Preposition (fixed collocation)",
+   "source": "AAI AO 17.09.2016 · Q57",
+   "question": "Fill in the blanks with appropriate words. Sushmita is allergic ________ almonds. Whenever she eats them, she develops a rash on her body.",
+   "options": [
+    "with",
+    "to",
+    "of",
+    "at"
+   ],
+   "answer": 2,
+   "why": "\"Allergic TO\" is a fixed collocation — prepositions after specific adjectives (allergic to, afraid of, good at, interested in) are memorized pairs, not logically derivable. Trap: don't try to reason out the preposition from general logic; build a mental list of fixed adjective-preposition pairs instead.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q245",
+   "section": "General English",
+   "topic": "Passive voice (present continuous, plural subject)",
+   "source": "AAI AO 17.09.2016 · Q58",
+   "question": "Select the correct voice form that will fill in the blank correctly. After the Rio Olympics girls who are participating in sporting events ________________ with a lot of respect.",
+   "options": [
+    "have being shown",
+    "was treating",
+    "are being treated",
+    "is treating"
+   ],
+   "answer": 3,
+   "why": "Present-continuous PASSIVE with a plural subject (\"girls\") always takes the form \"are being + past participle\": are being treated. \"Was treating\" and \"is treating\" are active voice (wrong voice entirely), \"have being shown\" is a garbled non-standard form. Trap: check subject number, voice, AND tense together as one combined form — not one at a time — since passive continuous has a single fixed shape (am/is/are + being + past participle).",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q246",
+   "section": "General English",
+   "topic": "Passive voice (present continuous, plural subject)",
+   "source": "AAI AO 17.09.2016 · Q59",
+   "question": "Select the correct voice form that will fill in the blank correctly. Efforts ________________ to ensure free quality education to all the children in the country but there are many pitfalls in the system.",
+   "options": [
+    "has been making",
+    "is being made",
+    "is doing",
+    "are being made"
+   ],
+   "answer": 4,
+   "why": "Same rule as Q245 — plural subject (\"Efforts\") + present continuous passive = \"are being + past participle\": are being made. \"Has been making\" is active present-perfect-continuous (wrong voice), \"is being made\"/\"is doing\" use singular \"is\" with a plural subject (agreement error). Trap: identical passive-continuous-with-plural-subject pattern as the previous question — once you spot \"are being + past participle\" as the fixed shape, apply it directly.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
+  },
+  {
+   "id": "Q247",
+   "section": "General English",
+   "topic": "Para jumble (sentence ordering via cause-effect chain)",
+   "source": "AAI AO 17.09.2016 · Q60",
+   "question": "Read the passage and arrange the sentences B to E in the correct order. A comes first, F comes last. A: During the Monsoons the sky is overcast with dark clouds. B: After the strong winds it starts drizzling. C: Before dark clouds appear in the sky you can see a breeze blowing gently. D: The breeze soon becomes a strong gust of wind. E: And soon the drizzle becomes more intense and there is light rain. F: Light rain is usually followed by heavy rains.",
+   "options": [
+    "DCBE",
+    "EDBC",
+    "CDBE",
+    "CEBD"
+   ],
+   "answer": 3,
+   "why": "Trace the actual physical/time sequence being described using explicit linking words: C (\"before dark clouds appear, breeze blows gently\") -> D (\"the breeze SOON becomes a strong gust\") -> B (\"AFTER the strong winds it starts drizzling\") -> E (\"SOON the drizzle becomes more intense\"). Order: C-D-B-E. Trap: para-jumble questions need you to follow words like \"after,\" \"soon,\" \"before\" that explicitly chain one sentence to the next — don't order sentences by surface topic similarity alone, follow the explicit sequence markers.",
+   "status": "current",
+   "stale": false,
+   "practice": "",
+   "practiceOptions": [],
+   "practiceAnswer": null,
+   "attempted": "correct (7 Sep 2026)",
+   "done": true,
+   "correct": true
   }
  ],
  "questionStats": {
-  "total": 228,
-  "attempted": 228,
-  "correct": 68,
+  "total": 243,
+  "attempted": 243,
+  "correct": 83,
   "stale": 16,
   "byTopic": [
    {
@@ -8027,7 +8372,7 @@
    },
    {
     "topic": "Antonym",
-    "n": 1
+    "n": 3
    },
    {
     "topic": "Arithmetic progression (nth term and sum)",
@@ -8430,6 +8775,10 @@
     "n": 3
    },
    {
+    "topic": "Idiom",
+    "n": 2
+   },
+   {
     "topic": "LCM (smallest n-digit multiple)",
     "n": 1
    },
@@ -8454,12 +8803,20 @@
     "n": 1
    },
    {
+    "topic": "Para jumble (sentence ordering via cause-effect chain)",
+    "n": 1
+   },
+   {
     "topic": "Partnership / profit sharing",
     "n": 1
    },
    {
     "topic": "Passive voice",
     "n": 1
+   },
+   {
+    "topic": "Passive voice (present continuous, plural subject)",
+    "n": 2
    },
    {
     "topic": "Percentage (mixture removal)",
@@ -8472,6 +8829,10 @@
    {
     "topic": "Polity",
     "n": 6
+   },
+   {
+    "topic": "Preposition (fixed collocation)",
+    "n": 1
    },
    {
     "topic": "Profit percent (CP/SP articles)",
@@ -8535,11 +8896,19 @@
    },
    {
     "topic": "Spelling",
-    "n": 1
+    "n": 2
    },
    {
     "topic": "Sports",
     "n": 8
+   },
+   {
+    "topic": "Spot the error (adjective vs noun)",
+    "n": 1
+   },
+   {
+    "topic": "Spot the error (infinitive form)",
+    "n": 1
    },
    {
     "topic": "Static facts",
@@ -8551,7 +8920,7 @@
    },
    {
     "topic": "Synonym",
-    "n": 1
+    "n": 3
    },
    {
     "topic": "Time and work",
@@ -8563,6 +8932,14 @@
    },
    {
     "topic": "Venn diagram",
+    "n": 1
+   },
+   {
+    "topic": "Verb form (fill in the blank)",
+    "n": 1
+   },
+   {
+    "topic": "Verb form after modal",
     "n": 1
    },
    {
