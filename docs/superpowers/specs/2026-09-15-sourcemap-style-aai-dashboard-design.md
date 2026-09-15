@@ -1,7 +1,12 @@
 # Sourcemap-style AAI dashboard — design spec
 
 Date: 2026-09-15
-Status: approved by Janak in chat, pending final spec review before implementation
+Status: **Approved by Janak in chat (15 Sep 2026)** — including the accent/theme revision to
+match Sourcemap's coral (not the app's original red), the expanded sidebar subject list
+(Differentiation, Integration, Physics, Maths, GI, Quant, English, GK, Current Affairs,
+Aviation GK, Business Mgmt, plus Error book/Sessions/Question bank/Mock test), and the
+explicit requirement that Day 1 of the real build starts from genuinely zero progress in the
+new day-numbering — not seeded with invented sample data. Ready for implementation planning.
 
 ## Why
 
