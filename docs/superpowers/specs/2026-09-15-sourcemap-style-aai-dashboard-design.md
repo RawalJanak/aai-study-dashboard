@@ -161,17 +161,75 @@ status mix, cumulative sessions) move here, below the wall.
 
 Dark-first, minimal, typographic — matching the shared screenshot: near-black hero background,
 large bold white headline text for day titles/objectives (stated as testable outcomes, not
-vague topic names), generous whitespace, one restrained accent color (the existing `--brand`
-CSS variable, not Sourcemap's coral — keep Janak's existing color identity, just adopt the
-layout/typography/information-density language), small uppercase badge/pill labels for phase
-and status, gradient day-progress bar in the sidebar, pentagon-shaped mastery indicators
-(5 sides = 5 criteria, visually literal). No decorative clutter beyond what's shown in the
-screenshot.
+vague topic names), generous whitespace. **Revised during mockup review (15 Sep): the accent
+color changes from the app's original red (`--brand: #d6000a` / `#f40009`) to a Sourcemap-style
+coral (`#ff6a4d` light-mode ink `#1a0a06`, same hex in dark mode)** — Janak explicitly asked to
+match Sourcemap's theme, not keep the original red. The five syllabus phases each get their own
+color sweeping the spectrum in syllabus order (Part-A General coral/red → Physics amber →
+Maths green → Aviation teal → Business Mgmt blue → Consolidation/Mock violet), so the gradient
+day-bar's rainbow doubles as the phase legend rather than being purely decorative. Small
+uppercase badge/pill labels for phase and status, gradient day-progress bar in the sidebar,
+pentagon-shaped mastery indicators (5 sides = 5 criteria, visually literal, outline-only until
+all 5 pass). No decorative clutter beyond what's shown in the screenshot. The existing
+light/dark theme toggle (`ThemeToggle` in `ui-kit.tsx`, already wired into `Shell`'s header)
+continues to work as today — both themes get the coral accent and phase spectrum, following
+the same `:root` / `prefers-color-scheme` / `[data-theme]` token pattern the app already uses
+in `globals.css`.
 
 This is a deliberate style change for the `Today`/`Roadmap`/`Review`/`Progress` pages
 specifically. Existing pages (subject lesson pages, error book, question bank, etc.) keep
 their current styling unchanged in this phase — restyling those to match is a separate,
 later decision, not bundled into this one.
+
+## Day mastery: concrete markdown format for this pass
+
+Day numbers are computed fresh every `build.py` run (concepts move between Solid/Learning/etc.
+as teaching progresses, which can shift day boundaries) — so mastery state can't be keyed to a
+day *number*, which isn't stable across rebuilds. It's keyed to the day's **title** instead
+(stable once a concept is taught), in a new table Claude appends to as ratings happen live:
+
+```markdown
+## Day mastery
+
+| Day title | Explain | Recall | Apply | Spot-trap | Speed |
+|---|---|---|---|---|---|
+| Classification, series & blood relations | pass | pass | pass | pass | pass |
+| Multi-phase motion — splitting a journey | pass | unrated | unrated | unrated | unrated |
+```
+
+`build.py` parses this table into `{title: {explain, recall, apply, spot_trap, speed}}`, then
+looks up each sequenced day's title in it when building the `days` array — a title with no row
+is all-`unrated`/`not_started` (this is why Day 1 starts genuinely empty today: the table does
+not exist yet). A day absent from a rebuild (its concept became Solid and got folded into a
+revision day, or the algorithm reordered it) simply stops appearing in `days` — its mastery row
+stays in the table, harmless, and reattaches if a future rebuild produces a day with the same
+title again.
+
+## Review queue: concrete markdown format for this pass
+
+The spec's rung mechanic (1/3/7/14/30 days, step back one rung on a miss) describes the
+*target* behavior, but there is no self-rating UI in this pass (see Out of scope below) — rung
+state is something Claude reads and advances by hand during live teaching, the same way
+`STUDY_PROGRESS.md`'s existing "Next actions" prose already tracks overdue redrills (BCAS date,
+QNH/QFE, blood-relations trap). This pass formalizes that prose into a small parseable table
+instead of freeform numbered items, so `build.py` can surface it as real due-today data:
+
+```markdown
+## Review queue
+
+| Item | Rung | Due | Note |
+|---|---|---|---|
+| QNH vs QFE | 3 | 2026-09-16 | Repeat-miss history (26 Aug, 1 Sep) — cleared with Field/Height mnemonic |
+| Blood relations — same-generation "only son" trap | 2 | 2026-09-16 | Cleared once on a fresh variant, watch for new phrasing |
+```
+
+`Rung` is the position in the 1/3/7/14/30 sequence (1-5). `Due` is a plain ISO date — Claude
+sets/advances it by hand after a live re-check (correct → recompute from the next rung's
+interval; missed → step back one rung, recompute from that shorter interval). `build.py` only
+needs to parse this table, filter to `Due <= today`, cap at 10, and pass it through — no rung
+math lives in `build.py` itself in this pass. This directly replaces the existing free-text
+"Next actions" overdue-redrill items with a structured equivalent; `next_actions` keeps
+carrying genuinely unstructured next-step notes that aren't spaced-repetition items.
 
 ## Out of scope for this pass
 
