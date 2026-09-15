@@ -1,7 +1,7 @@
 {
- "builtAt": "11 Sep 2026, 15:24",
+ "builtAt": "15 Sep 2026, 17:59",
  "regClose": "2026-09-07",
- "daysToClose": -4,
+ "daysToClose": -8,
  "minTrendDays": 3,
  "totals": {
   "concepts": 75,
@@ -2605,6 +2605,640 @@
   "18 Aug: √(6x−5) → 3/√(6x−5) and √(x²+4) → x/√(x²+4). The root misconception is resolved — correct first time, after being wrong twice on 17 Aug.",
   "18 Aug: x²/sin x → (2x·sin x − x²·cos x)/sin²x, and x/(x²+1) → (1−x²)/(x²+1)². Correct order both times."
  ],
+ "days": [
+  {
+   "number": 1,
+   "phase": "Part-A General",
+   "title": "Revision — Calendar reasoning (day-of-week shift), Averages (with prime-number filtering), Direct proportion / unitary method, Time and work (multi-stage, who-worked-when)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Calendar reasoning (day-of-week shift), Averages (with prime-number filtering), Direct proportion / unitary method, Time and work (multi-stage, who-worked-when).",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-08"
+  },
+  {
+   "number": 2,
+   "phase": "Part-A General",
+   "title": "Revision — Decimal arithmetic equations, Number series — perfect-square differences, Partnership / profit sharing with staggered entry, Percentage — mixture removal (recompute new total)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Decimal arithmetic equations, Number series — perfect-square differences, Partnership / profit sharing with staggered entry, Percentage — mixture removal (recompute new total).",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-09"
+  },
+  {
+   "number": 3,
+   "phase": "Part-A General",
+   "title": "Revision — Simple interest — find Principal from Amount, Relative speed — opposite vs same direction, Mensuration — ratio scaling (linear vs area vs volume), Ages — ratio and difference",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Simple interest — find Principal from Amount, Relative speed — opposite vs same direction, Mensuration — ratio scaling (linear vs area vs volume), Ages — ratio and difference.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-10"
+  },
+  {
+   "number": 4,
+   "phase": "Part-A General",
+   "title": "Revision — Two-digit number — digit sum/difference/product, Profit % — CP of X articles = SP of Y articles, Percentage equation algebra, LCM/HCF from a ratio",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Two-digit number — digit sum/difference/product, Profit % — CP of X articles = SP of Y articles, Percentage equation algebra, LCM/HCF from a ratio.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-11"
+  },
+  {
+   "number": 5,
+   "phase": "Part-A General",
+   "title": "Revision — LCM — smallest n-digit multiple, HCF — maximum common measure, Ratio chaining (a:b::b:c via shared-term LCM), Alligation-style mixture blending (two solutions, weighted fractions)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: LCM — smallest n-digit multiple, HCF — maximum common measure, Ratio chaining (a:b::b:c via shared-term LCM), Alligation-style mixture blending (two solutions, weighted fractions).",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-12"
+  },
+  {
+   "number": 6,
+   "phase": "Part-A General",
+   "title": "Revision — Compound interest — non-annual compounding period conversion, Loss% when SP of n articles = CP of m articles, Boats and streams (downstream/upstream), Heights and distances (angle of elevation, two colinear points)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Compound interest — non-annual compounding period conversion, Loss% when SP of n articles = CP of m articles, Boats and streams (downstream/upstream), Heights and distances (angle of elevation, two colinear points).",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-13"
+  },
+  {
+   "number": 7,
+   "phase": "Part-A General",
+   "title": "Revision — Quadratic discriminant — condition for real roots",
+   "objective": "Fast spaced recap of 1 already-solid concepts: Quadratic discriminant — condition for real roots.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-14"
+  },
+  {
+   "number": 8,
+   "phase": "Physics",
+   "title": "Displacement vs distance",
+   "objective": "explained, not yet independently checked",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-15"
+  },
+  {
+   "number": 9,
+   "phase": "Physics",
+   "title": "Instantaneous velocity (slope of x-t graph)",
+   "objective": "explained, not yet independently checked",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-16"
+  },
+  {
+   "number": 10,
+   "phase": "Physics",
+   "title": "Acceleration (slope of v-t graph)",
+   "objective": "explained, not yet independently checked",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-17"
+  },
+  {
+   "number": 11,
+   "phase": "Physics",
+   "title": "3 kinematic equations (v=v0+at, x=v0t+½at², v²=v0²+2ax)",
+   "objective": "worked example (vertical throw) walked through step by step",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-18"
+  },
+  {
+   "number": 12,
+   "phase": "Physics",
+   "title": "Velocity vs acceleration at a turning point (v=0 ≠ a=0)",
+   "objective": "missed twice before clearing — see error book, 1 Sep. First: didn't explain WHY gravity keeps acting. Second: guessed acceleration changes through flight (said \"smaller\" right after release) — corrected to \"constant throughout\" on 3rd attempt",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-19"
+  },
+  {
+   "number": 13,
+   "phase": "Maths",
+   "title": "Product rule — both factors in each term",
+   "objective": "dropped the v in u′v on (2x+1)⁴·x",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-20"
+  },
+  {
+   "number": 14,
+   "phase": "Maths",
+   "title": "Maxima / minima + 2nd derivative test",
+   "objective": "taught twice, worked airport-parking example",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-21"
+  },
+  {
+   "number": 15,
+   "phase": "Maths",
+   "title": "Simplifying final answers",
+   "objective": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-22"
+  },
+  {
+   "number": 16,
+   "phase": "Maths",
+   "title": "Integration as antiderivative and area",
+   "objective": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-23"
+  },
+  {
+   "number": 17,
+   "phase": "Maths",
+   "title": "Blood relations — \"only son/daughter\" nested layer",
+   "objective": "N2 retry: answered \"Daughter\" instead of \"Sister\" — jumped to self instead of resolving the inner relation (grandfather's only son = own father) first. 26 Aug retest: 2/3 fresh variants — correct on mother's-only-daughter and grandmother's-only-daughter forms, but missed the same-generation form (\"father's only son\" = speaker himself → should be Daughter) by mechanically reapplying \"sister\" from the earlier fix instead of re-deriving. Genuine misconception, not cleared — needs one more rep distinguishing same-generation vs one-generation-up \"only son/daughter\" phrasing",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-24"
+  },
+  {
+   "number": 18,
+   "phase": "Maths",
+   "title": "Revision — Scalar vs vector (Ch.3 started), Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), Derivative as rate of change / slope",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Scalar vs vector (Ch.3 started), Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), Derivative as rate of change / slope.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-25"
+  },
+  {
+   "number": 19,
+   "phase": "Maths",
+   "title": "Revision — Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics, Chain rule — \"inside stays unchanged\"",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics, Chain rule — \"inside stays unchanged\".",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-26"
+  },
+  {
+   "number": 20,
+   "phase": "Maths",
+   "title": "Revision — Chain rule — multiply not add, Roots as fractional powers, Product rule, Quotient rule — mechanics",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Chain rule — multiply not add, Roots as fractional powers, Product rule, Quotient rule — mechanics.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-27"
+  },
+  {
+   "number": 21,
+   "phase": "Maths",
+   "title": "Revision — Quotient rule — sign and order, Power rule for integration, The constant of integration (+C), Integrating a bare constant (treat c as c·x^0)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Quotient rule — sign and order, Power rule for integration, The constant of integration (+C), Integrating a bare constant (treat c as c·x^0).",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-28"
+  },
+  {
+   "number": 22,
+   "phase": "Maths",
+   "title": "Revision — Standard integrals, Definite integrals, Signed area - below the axis counts negative, Classification (odd one out)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Standard integrals, Definite integrals, Signed area - below the axis counts negative, Classification (odd one out).",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-29"
+  },
+  {
+   "number": 23,
+   "phase": "Maths",
+   "title": "Revision — Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement), Ranking / linear order chains",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement), Ranking / linear order chains.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-30"
+  },
+  {
+   "number": 24,
+   "phase": "Maths",
+   "title": "Revision — Blood relations — simple (one-layer), Blood relations — multi-person family table, Sign/number interchange puzzles, Number series — letter/number mismatch",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Blood relations — simple (one-layer), Blood relations — multi-person family table, Sign/number interchange puzzles, Number series — letter/number mismatch.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-31"
+  },
+  {
+   "number": 25,
+   "phase": "Maths",
+   "title": "Revision — Letter matrix / grid analogy, Number analogy (a:b :: c:?), Arithmetic progression (spacing/intervals), Word analogy (antonym pairs)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Letter matrix / grid analogy, Number analogy (a:b :: c:?), Arithmetic progression (spacing/intervals), Word analogy (antonym pairs).",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-01"
+  },
+  {
+   "number": 26,
+   "phase": "Maths",
+   "title": "Revision — Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection), Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection), Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-02"
+  },
+  {
+   "number": 27,
+   "phase": "Maths",
+   "title": "Revision — Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares, Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares, Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-03"
+  },
+  {
+   "number": 28,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 1",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-04"
+  },
+  {
+   "number": 29,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 2",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-05"
+  },
+  {
+   "number": 30,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 3",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-06"
+  },
+  {
+   "number": 31,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 4",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-07"
+  },
+  {
+   "number": 32,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 5",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-08"
+  },
+  {
+   "number": 33,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 6",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-09"
+  },
+  {
+   "number": 34,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 7",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-10"
+  },
+  {
+   "number": 35,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 8",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-11"
+  },
+  {
+   "number": 36,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 9",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-12"
+  },
+  {
+   "number": 37,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 10",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-13"
+  },
+  {
+   "number": 38,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 11",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-14"
+  },
+  {
+   "number": 39,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 12",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-15"
+  },
+  {
+   "number": 40,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 13",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-16"
+  },
+  {
+   "number": 41,
+   "phase": "Consolidation/Mock",
+   "title": "Consolidation 14",
+   "objective": "Timed sectional test, section-wise accuracy and speed report.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-17"
+  },
+  {
+   "number": 42,
+   "phase": "Consolidation/Mock",
+   "title": "Full mock — 120Q/120min",
+   "objective": "Full 120-question, 120-minute mock under real exam conditions.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-18"
+  }
+ ],
+ "reviewQueue": [],
+ "examDate": "2026-11-19",
  "questions": [
   {
    "id": "Q1",
