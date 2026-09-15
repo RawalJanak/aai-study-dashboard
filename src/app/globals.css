@@ -39,6 +39,12 @@
   --color-good: var(--good);
   --color-warning: var(--warning);
   --color-critical: var(--critical);
+  --color-phase-general: var(--phase-general);
+  --color-phase-physics: var(--phase-physics);
+  --color-phase-maths: var(--phase-maths);
+  --color-phase-aviation: var(--phase-aviation);
+  --color-phase-mgmt: var(--phase-mgmt);
+  --color-phase-mock: var(--phase-mock);
   --color-popover-foreground: var(--popover-foreground);
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
@@ -85,8 +91,8 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #d6000a;
-  --primary-foreground: #ffffff;
+  --primary: #ff6a4d;
+  --primary-foreground: #1a0a06;
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
@@ -96,7 +102,7 @@
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
-  --ring: #d6000a;
+  --ring: #ff6a4d;
   /* Categorical slots, dataviz skill default order. Re-validated with
      scripts/validate_palette.js against THIS surface (#ffffff) - all checks
      PASS. The ORDER is the CVD-safety mechanism: never re-order, never add a
@@ -120,15 +126,25 @@
   --warning: #fab219;
   --critical: #d6000a;
   --radius: 0.625rem;
-  /* Brand accent = the same Coca-Cola red as --critical, by explicit
-     request ("the red that pops out first"). This deliberately gives up
-     the earlier hue-separation between "clickable/active" and "wrong" -
-     accepted tradeoff, not an oversight. */
-  --brand: #d6000a;
+  /* Brand accent revised 15 Sep 2026: Janak asked to match Sourcemap's
+     coral theme. This RE-SEPARATES brand from --critical (they used to
+     intentionally match, "the red that pops out first") - critical/wrong
+     stays red, brand/active becomes coral, on purpose. */
+  --brand: #ff6a4d;
+  --brand-ink: #1a0a06;
+  /* Phase-spectrum tokens: each of the 6 day phases (5 syllabus phases +
+     Consolidation/Mock) gets its own hue, sweeping the spectrum in
+     syllabus order, so the Roadmap/DayBar gradient IS the phase legend. */
+  --phase-general: #ff6a4d;
+  --phase-physics: #f2a93c;
+  --phase-maths: #4fb768;
+  --phase-aviation: #2fa3a8;
+  --phase-mgmt: #5b8de8;
+  --phase-mock: #9d6de0;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: #d6000a;
-  --sidebar-primary-foreground: #ffffff;
+  --sidebar-primary: #ff6a4d;
+  --sidebar-primary-foreground: #1a0a06;
   --sidebar-accent: oklch(0.97 0 0);
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
@@ -168,8 +184,8 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: #f40009;
-  --primary-foreground: #ffffff;
+  --primary: #ff6a4d;
+  --primary-foreground: #1a0a06;
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
@@ -179,7 +195,7 @@
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: #f40009;
+  --ring: #ff6a4d;
   /* Same eight hues stepped for the dark surface (#171717) and validated as
      a set - not an automatic flip of the light values. */
   --chart-1: #3987e5;
@@ -199,11 +215,18 @@
   --good: #16c60c;
   --warning: #fab219;
   --critical: #f40009;
-  --brand: #f40009;
+  --brand: #ff6a4d;
+  --brand-ink: #1a0a06;
+  --phase-general: #ff6a4d;
+  --phase-physics: #f2a93c;
+  --phase-maths: #4fb768;
+  --phase-aviation: #2fa3a8;
+  --phase-mgmt: #5b8de8;
+  --phase-mock: #9d6de0;
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: #f40009;
-  --sidebar-primary-foreground: #ffffff;
+  --sidebar-primary: #ff6a4d;
+  --sidebar-primary-foreground: #1a0a06;
   --sidebar-accent: oklch(0.269 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
