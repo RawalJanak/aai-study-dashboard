@@ -147,6 +147,10 @@ const STATUS_TONE: Record<string, string> = {
   Learning:
     "bg-[var(--warning)]/14 text-[var(--warning)] border-[var(--warning)]/40",
   Weak: "bg-[var(--critical)]/14 text-[var(--critical)] border-[var(--critical)]/40",
+  Done: "bg-[var(--good)]/12 text-[var(--good)] border-[var(--good)]/35",
+  "In progress":
+    "bg-[var(--warning)]/14 text-[var(--warning)] border-[var(--warning)]/40",
+  "Not started": "border-border text-muted-foreground",
 };
 
 export function StatusPill({ status }: { status: string }) {
