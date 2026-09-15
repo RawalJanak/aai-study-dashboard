@@ -265,8 +265,8 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: #f40009;
-  --primary-foreground: #ffffff;
+  --primary: #ff6a4d;
+  --primary-foreground: #1a0a06;
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
@@ -276,7 +276,7 @@
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: #f40009;
+  --ring: #ff6a4d;
   /* Same eight hues stepped for the dark surface (#171717) and validated as
      a set - not an automatic flip of the light values. */
   --chart-1: #3987e5;
@@ -293,11 +293,18 @@
   --good: #16c60c;
   --warning: #fab219;
   --critical: #f40009;
-  --brand: #f40009;
+  --brand: #ff6a4d;
+  --brand-ink: #1a0a06;
+  --phase-general: #ff6a4d;
+  --phase-physics: #f2a93c;
+  --phase-maths: #4fb768;
+  --phase-aviation: #2fa3a8;
+  --phase-mgmt: #5b8de8;
+  --phase-mock: #9d6de0;
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: #f40009;
-  --sidebar-primary-foreground: #ffffff;
+  --sidebar-primary: #ff6a4d;
+  --sidebar-primary-foreground: #1a0a06;
   --sidebar-accent: oklch(0.269 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
