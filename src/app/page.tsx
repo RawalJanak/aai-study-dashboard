@@ -20,14 +20,31 @@ import {
   NestedVsProduct,
   ScalarVsVector,
 } from "@/components/lesson-diagrams";
+import { DayBar } from "@/components/day-bar";
+import { PentagonWall } from "@/components/pentagon-wall";
+import { TodayHero } from "@/components/today-hero";
+import { Roadmap } from "@/components/roadmap";
+import { ReviewQueue } from "@/components/review-queue";
+import type { Day, ReviewItem } from "@/lib/day-types";
 
 const OPEN = ["Weak", "Learning"];
 
 export default function Page() {
   const t = data.totals;
+  const days = data.days as Day[];
+  const reviewQueue = data.reviewQueue as ReviewItem[];
   const queue = data.concepts.filter((c) => OPEN.includes(c.status));
 
   const groups: NavGroup[] = [
+    {
+      heading: "",
+      items: [
+        { id: "today", label: "Today" },
+        { id: "roadmap", label: "Roadmap" },
+        { id: "review", label: "Review", pill: reviewQueue.length, warn: reviewQueue.length > 0 },
+        { id: "progress", label: "Progress" },
+      ],
+    },
     {
       heading: "Overview",
       items: [
@@ -92,6 +109,32 @@ export default function Page() {
   ];
 
   /* --------------------------------------------------------------- panels */
+
+  const today = <TodayHero days={days} />;
+  const roadmap = <Roadmap days={days} />;
+  const review = <ReviewQueue items={reviewQueue} />;
+  const progress = (
+    <div className="grid gap-4">
+      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        <Stat label="days to registration close" value={data.daysToClose} />
+        <Stat label="concepts solid or better" value={t.solid} of={t.concepts} />
+        <Stat label="open Weak flags" value={t.weak} tone={t.weak ? "alarm" : "default"} />
+        <Stat label="lessons written up" value={t.lessons} />
+      </div>
+      <PentagonWall days={days} />
+      <div className="grid gap-4 md:grid-cols-2">
+        <Card title="Mastery by subject" sub="Concepts solid or better, out of concepts logged.">
+          <MasteryRings />
+        </Card>
+        <Card title="Concept status mix" sub="Every logged concept by its current status.">
+          <StatusMix />
+        </Card>
+      </div>
+      <Card title="Sessions logged, running total" sub="Every session in the log, accumulated.">
+        <CumulativeSessions />
+      </Card>
+    </div>
+  );
 
   const overview = (
     <div className="grid gap-4">
@@ -456,7 +499,12 @@ export default function Page() {
       built={data.builtAt}
       regClose={data.regClose}
       groups={groups}
+      sidebarExtra={<DayBar days={days} />}
       sections={{
+        today,
+        roadmap,
+        review,
+        progress,
         mindmap,
         overview,
         coverage,

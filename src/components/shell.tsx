@@ -32,11 +32,13 @@ export function Shell({
   sections,
   built,
   regClose,
+  sidebarExtra,
 }: {
   groups: NavGroup[];
   sections: Record<string, ReactNode>;
   built: string;
   regClose: string;
+  sidebarExtra?: ReactNode;
 }) {
   const first = groups[0]?.items[0]?.id ?? "";
   const [active, setActive] = useState(first);
@@ -138,6 +140,8 @@ export function Shell({
             </div>
           ))}
         </nav>
+
+        {sidebarExtra}
       </aside>
 
       {/* Scrim only exists while the drawer is open on small screens. */}
