@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "1789554933131-e93",
+  "createdAt": 1789554933131,
+  "origin": "failed-assert",
+  "expected": "declared consequence",
+  "observed": "no element matched {\"text\":\"Passed\",\"scope\":\"e93\"}",
+  "steps": [
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "e93",
+        "source": {
+          "file": "src/components/roadmap.tsx",
+          "line": 56,
+          "column": 20
+        }
+      },
+      "action": "click"
+    }
+  ]
+}

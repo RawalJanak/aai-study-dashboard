@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "1789554881608-e33",
+  "createdAt": 1789554881608,
+  "origin": "failed-assert",
+  "expected": "declared consequence",
+  "observed": "no element matched {\"text\":\"Passed\"} — that text IS on the page, split across the children of generic — no single element's own text carries it, so no text query can match it; retry as {\"kind\":\"text\",\"contains\":\"Passed\",\"scope\":\"e34\",\"self\":true}",
+  "steps": [
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "e33",
+        "source": {
+          "file": "src/components/today-hero.tsx",
+          "line": 53,
+          "column": 10
+        }
+      },
+      "action": "click"
+    }
+  ]
+}

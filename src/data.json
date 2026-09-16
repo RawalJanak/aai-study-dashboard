@@ -1,12 +1,12 @@
 {
- "builtAt": "16 Sep 2026, 15:18",
+ "builtAt": "16 Sep 2026, 16:03",
  "regClose": "2026-09-07",
  "daysToClose": -9,
  "minTrendDays": 3,
  "totals": {
   "concepts": 76,
-  "solid": 70,
-  "learning": 5,
+  "solid": 71,
+  "learning": 4,
   "weak": 1,
   "notStarted": 0,
   "lessons": 50,
@@ -29,11 +29,11 @@
   },
   {
    "status": "Learning",
-   "n": 5
+   "n": 4
   },
   {
    "status": "Solid",
-   "n": 70
+   "n": 71
   },
   {
    "status": "Mastered",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "76 concepts logged (70 solid+, 1 weak)",
+    "76 concepts logged (71 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "23 errors logged, 0 currently open"
@@ -375,8 +375,8 @@
    "name": "Physics",
    "marks": 24,
    "logged": 6,
-   "solid": 5,
-   "pct": 83
+   "solid": 6,
+   "pct": 100
   },
   {
    "key": "quant",
@@ -455,9 +455,9 @@
   {
    "concept": "Velocity vs acceleration at a turning point (v=0 ≠ a=0)",
    "group": "Physics",
-   "status": "Learning",
+   "status": "Solid",
    "subject": "physics",
-   "evidence": "missed twice before clearing — see error book, 1 Sep. First: didn't explain WHY gravity keeps acting. Second: guessed acceleration changes through flight (said \"smaller\" right after release) — corrected to \"constant throughout\" on 3rd attempt",
+   "evidence": "cleared 1 Sep (missed twice — see error book — then correctly said \"constant throughout\" on 3rd attempt). Status label left stale as \"Learning\" until 16 Sep — fixed now, no re-teach needed",
    "lesson": null
   },
   {
@@ -2652,7 +2652,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 2,
@@ -2667,7 +2667,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 3,
@@ -2682,7 +2682,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 4,
@@ -2697,7 +2697,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 5,
@@ -2712,7 +2712,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 6,
@@ -2727,7 +2727,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 7,
@@ -2742,55 +2742,40 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 8,
    "phase": "Physics",
-   "title": "Velocity vs acceleration at a turning point (v=0 ≠ a=0)",
-   "objective": "missed twice before clearing — see error book, 1 Sep. First: didn't explain WHY gravity keeps acting. Second: guessed acceleration changes through flight (said \"smaller\" right after release) — corrected to \"constant throughout\" on 3rd attempt",
+   "title": "Revision — Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation).",
    "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
+    "explain": "pass",
+    "recall": "pass",
+    "apply": "pass",
+    "spot_trap": "pass",
+    "speed": "pass"
    },
-   "status": "not_started",
-   "scheduledDate": "2026-10-17"
+   "status": "done",
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 9,
    "phase": "Physics",
-   "title": "Revision — Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation).",
+   "title": "Revision — Velocity vs acceleration at a turning point (v=0 ≠ a=0), Projectile motion (horizontal/vertical independence, time of flight, max height, range)",
+   "objective": "Fast spaced recap of 2 already-solid concepts: Velocity vs acceleration at a turning point (v=0 ≠ a=0), Projectile motion (horizontal/vertical independence, time of flight, max height, range).",
    "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
+    "explain": "pass",
+    "recall": "pass",
+    "apply": "pass",
+    "spot_trap": "pass",
+    "speed": "pass"
    },
-   "status": "not_started",
-   "scheduledDate": "2026-10-18"
-  },
-  {
-   "number": 10,
-   "phase": "Physics",
-   "title": "Revision — Projectile motion (horizontal/vertical independence, time of flight, max height, range)",
-   "objective": "Fast spaced recap of 1 already-solid concepts: Projectile motion (horizontal/vertical independence, time of flight, max height, range).",
-   "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
-   },
-   "status": "not_started",
+   "status": "done",
    "scheduledDate": "2026-10-19"
   },
   {
-   "number": 11,
+   "number": 10,
    "phase": "Maths",
    "title": "Product rule — both factors in each term",
    "objective": "dropped the v in u′v on (2x+1)⁴·x",
@@ -2805,7 +2790,7 @@
    "scheduledDate": "2026-10-20"
   },
   {
-   "number": 12,
+   "number": 11,
    "phase": "Maths",
    "title": "Maxima / minima + 2nd derivative test",
    "objective": "taught twice, worked airport-parking example",
@@ -2820,7 +2805,7 @@
    "scheduledDate": "2026-10-21"
   },
   {
-   "number": 13,
+   "number": 12,
    "phase": "Maths",
    "title": "Simplifying final answers",
    "objective": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
@@ -2835,7 +2820,7 @@
    "scheduledDate": "2026-10-22"
   },
   {
-   "number": 14,
+   "number": 13,
    "phase": "Maths",
    "title": "Integration as antiderivative and area",
    "objective": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
@@ -2850,7 +2835,7 @@
    "scheduledDate": "2026-10-23"
   },
   {
-   "number": 15,
+   "number": 14,
    "phase": "Maths",
    "title": "Blood relations — \"only son/daughter\" nested layer",
    "objective": "N2 retry: answered \"Daughter\" instead of \"Sister\" — jumped to self instead of resolving the inner relation (grandfather's only son = own father) first. 26 Aug retest: 2/3 fresh variants — correct on mother's-only-daughter and grandmother's-only-daughter forms, but missed the same-generation form (\"father's only son\" = speaker himself → should be Daughter) by mechanically reapplying \"sister\" from the earlier fix instead of re-deriving. Genuine misconception, not cleared — needs one more rep distinguishing same-generation vs one-generation-up \"only son/daughter\" phrasing",
@@ -2865,7 +2850,7 @@
    "scheduledDate": "2026-10-24"
   },
   {
-   "number": 16,
+   "number": 15,
    "phase": "Maths",
    "title": "Revision — Scalar vs vector (Ch.3 started), Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), Derivative as rate of change / slope",
    "objective": "Fast spaced recap of 4 already-solid concepts: Scalar vs vector (Ch.3 started), Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), Derivative as rate of change / slope.",
@@ -2880,7 +2865,7 @@
    "scheduledDate": "2026-10-25"
   },
   {
-   "number": 17,
+   "number": 16,
    "phase": "Maths",
    "title": "Revision — Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics, Chain rule — \"inside stays unchanged\"",
    "objective": "Fast spaced recap of 4 already-solid concepts: Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics, Chain rule — \"inside stays unchanged\".",
@@ -2895,7 +2880,7 @@
    "scheduledDate": "2026-10-26"
   },
   {
-   "number": 18,
+   "number": 17,
    "phase": "Maths",
    "title": "Revision — Chain rule — multiply not add, Roots as fractional powers, Product rule, Quotient rule — mechanics",
    "objective": "Fast spaced recap of 4 already-solid concepts: Chain rule — multiply not add, Roots as fractional powers, Product rule, Quotient rule — mechanics.",
@@ -2910,7 +2895,7 @@
    "scheduledDate": "2026-10-27"
   },
   {
-   "number": 19,
+   "number": 18,
    "phase": "Maths",
    "title": "Revision — Quotient rule — sign and order, Power rule for integration, The constant of integration (+C), Integrating a bare constant (treat c as c·x^0)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Quotient rule — sign and order, Power rule for integration, The constant of integration (+C), Integrating a bare constant (treat c as c·x^0).",
@@ -2925,7 +2910,7 @@
    "scheduledDate": "2026-10-28"
   },
   {
-   "number": 20,
+   "number": 19,
    "phase": "Maths",
    "title": "Revision — Standard integrals, Definite integrals, Signed area - below the axis counts negative, Classification (odd one out)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Standard integrals, Definite integrals, Signed area - below the axis counts negative, Classification (odd one out).",
@@ -2940,7 +2925,7 @@
    "scheduledDate": "2026-10-29"
   },
   {
-   "number": 21,
+   "number": 20,
    "phase": "Maths",
    "title": "Revision — Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement), Ranking / linear order chains",
    "objective": "Fast spaced recap of 4 already-solid concepts: Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement), Ranking / linear order chains.",
@@ -2955,7 +2940,7 @@
    "scheduledDate": "2026-10-30"
   },
   {
-   "number": 22,
+   "number": 21,
    "phase": "Maths",
    "title": "Revision — Blood relations — simple (one-layer), Blood relations — multi-person family table, Sign/number interchange puzzles, Number series — letter/number mismatch",
    "objective": "Fast spaced recap of 4 already-solid concepts: Blood relations — simple (one-layer), Blood relations — multi-person family table, Sign/number interchange puzzles, Number series — letter/number mismatch.",
@@ -2970,7 +2955,7 @@
    "scheduledDate": "2026-10-31"
   },
   {
-   "number": 23,
+   "number": 22,
    "phase": "Maths",
    "title": "Revision — Letter matrix / grid analogy, Number analogy (a:b :: c:?), Arithmetic progression (spacing/intervals), Word analogy (antonym pairs)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Letter matrix / grid analogy, Number analogy (a:b :: c:?), Arithmetic progression (spacing/intervals), Word analogy (antonym pairs).",
@@ -2985,7 +2970,7 @@
    "scheduledDate": "2026-11-01"
   },
   {
-   "number": 24,
+   "number": 23,
    "phase": "Maths",
    "title": "Revision — Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection), Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting",
    "objective": "Fast spaced recap of 4 already-solid concepts: Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection), Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting.",
@@ -3000,7 +2985,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 25,
+   "number": 24,
    "phase": "Maths",
    "title": "Revision — Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares, Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line",
    "objective": "Fast spaced recap of 4 already-solid concepts: Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares, Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line.",
@@ -3015,7 +3000,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 26,
+   "number": 25,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3030,7 +3015,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 27,
+   "number": 26,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3045,7 +3030,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 28,
+   "number": 27,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3060,7 +3045,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 29,
+   "number": 28,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3075,7 +3060,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 30,
+   "number": 29,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3090,7 +3075,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 31,
+   "number": 30,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3105,7 +3090,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 32,
+   "number": 31,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3120,7 +3105,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 33,
+   "number": 32,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3135,7 +3120,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 34,
+   "number": 33,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3150,7 +3135,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 35,
+   "number": 34,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3165,7 +3150,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 36,
+   "number": 35,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3180,7 +3165,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 37,
+   "number": 36,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3195,7 +3180,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 38,
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3210,7 +3195,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 39,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3225,7 +3210,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 40,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",

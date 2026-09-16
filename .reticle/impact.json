@@ -1,15 +1,15 @@
 {
   "counts": {
-    "calls": 20,
-    "verdicts": 2,
-    "passed": 2,
-    "failed": 0,
+    "calls": 27,
+    "verdicts": 6,
+    "passed": 4,
+    "failed": 2,
     "unknown": 0,
     "refusals": 0,
     "marks": 0,
-    "sessions": 3,
-    "tokensReturned": 8272,
-    "drivingMs": 2315
+    "sessions": 4,
+    "tokensReturned": 18167,
+    "drivingMs": 10985
   },
   "days": [
     {
@@ -30,23 +30,23 @@
     {
       "date": "2026-09-16",
       "counts": {
-        "calls": 11,
-        "verdicts": 2,
-        "passed": 2,
-        "failed": 0,
+        "calls": 18,
+        "verdicts": 6,
+        "passed": 4,
+        "failed": 2,
         "unknown": 0,
         "refusals": 0,
         "marks": 0,
-        "sessions": 1,
-        "tokensReturned": 4587,
-        "drivingMs": 1287
+        "sessions": 2,
+        "tokensReturned": 14482,
+        "drivingMs": 9957
       }
     }
   ],
   "records": {
     "longestRunMs": 0,
-    "bestVerdictDay": 2,
-    "bestDefectDay": 0,
+    "bestVerdictDay": 6,
+    "bestDefectDay": 2,
     "streakDays": 2,
     "bestStreakDays": 2
   },
@@ -56,10 +56,23 @@
       "basis": "vs an agent reading the app through screenshots"
     },
     "minutes": {
-      "value": 1,
+      "value": 11,
       "basis": "vs checking each consequence by hand, plus one re-prompt cycle per defect caught"
     }
   },
   "since": 1789457718266,
-  "defects": []
+  "defects": [
+    {
+      "at": 1789554933145,
+      "title": "08 Revision — Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation) Fast spaced recap of 4 already-solid concepts: Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation). Done",
+      "detail": "no element matched {\"text\":\"Passed\",\"scope\":\"e93\"}",
+      "source": "src/components/roadmap.tsx:56"
+    },
+    {
+      "at": 1789554881613,
+      "title": "Continue Day 1",
+      "detail": "no element matched {\"text\":\"Passed\"} — that text IS on the page, split across the children of generic — no single element's own text carries it, so no text query can match it; retry as {\"kind\":\"text\",\"contains\":\"Passed\",\"scope\":\"e34\",\"self\":true}",
+      "source": "src/components/today-hero.tsx:53"
+    }
+  ]
 }
