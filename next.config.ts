@@ -1,3 +1,4 @@
+import { withReticle } from '@reticlehq/next';
 import type { NextConfig } from "next";
 
 // GitHub Pages serves a project repo at /<repo-name>/, not the domain root, so
@@ -20,4 +21,4 @@ const nextConfig: NextConfig = {
   turbopack: { root: __dirname },
 };
 
-export default nextConfig;
+export default withReticle(nextConfig);

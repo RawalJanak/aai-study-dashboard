@@ -1,21 +1,22 @@
 {
- "builtAt": "15 Sep 2026, 17:59",
+ "builtAt": "16 Sep 2026, 15:18",
  "regClose": "2026-09-07",
- "daysToClose": -8,
+ "daysToClose": -9,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 75,
-  "solid": 65,
-  "learning": 9,
+  "concepts": 76,
+  "solid": 70,
+  "learning": 5,
   "weak": 1,
   "notStarted": 0,
   "lessons": 50,
-  "errors": 20,
+  "errors": 23,
   "errorsOpen": 0,
   "sessions": 22,
   "sessionDays": 8,
   "mocks": 0,
-  "graphs": 27
+  "graphs": 30,
+  "formulas": 50
  },
  "statusBreakdown": [
   {
@@ -28,11 +29,11 @@
   },
   {
    "status": "Learning",
-   "n": 9
+   "n": 5
   },
   {
    "status": "Solid",
-   "n": 65
+   "n": 70
   },
   {
    "status": "Mastered",
@@ -186,10 +187,10 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "75 concepts logged (65 solid+, 1 weak)",
+    "76 concepts logged (70 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
-    "20 errors logged, 0 currently open"
+    "23 errors logged, 0 currently open"
    ]
   },
   "branches": [
@@ -317,7 +318,7 @@
   "errorBranch": {
    "id": "errors",
    "label": "Error book",
-   "sub": "20 logged, 0 open",
+   "sub": "23 logged, 0 open",
    "color": "errors",
    "pct": 100,
    "children": [
@@ -373,9 +374,9 @@
    "key": "physics",
    "name": "Physics",
    "marks": 24,
-   "logged": 5,
-   "solid": 0,
-   "pct": 0
+   "logged": 6,
+   "solid": 5,
+   "pct": 83
   },
   {
    "key": "quant",
@@ -398,25 +399,25 @@
   {
    "concept": "Displacement vs distance",
    "group": "Physics",
-   "status": "Learning",
+   "status": "Solid",
    "subject": "physics",
-   "evidence": "explained, not yet independently checked",
+   "evidence": "16 Sep: direction trap (tracking last-leg direction instead of net position) missed once (3km E/2km W → said \"west\", correct is \"1km east\"), cleared same session on a fresh variant (6km N/4km S → 2km N, 10km distance, both correct)",
    "lesson": null
   },
   {
    "concept": "Instantaneous velocity (slope of x-t graph)",
    "group": "Physics",
-   "status": "Learning",
+   "status": "Solid",
    "subject": "physics",
-   "evidence": "explained, not yet independently checked",
+   "evidence": "16 Sep: taught via x=t² graph (tangent vs secant, plotted and opened on screen). Missed the constant-velocity special case twice (\"instantaneous ≠ average by default\" misconception) before clearing on 3rd attempt (train 80km/h constant, correctly said both same). Genuine misconception, not a slip — re-test this specific case (instant vs avg under CONSTANT velocity) again in ~1 week",
    "lesson": null
   },
   {
    "concept": "Acceleration (slope of v-t graph)",
    "group": "Physics",
-   "status": "Learning",
+   "status": "Solid",
    "subject": "physics",
-   "evidence": "explained, not yet independently checked",
+   "evidence": "16 Sep: taught via flat-vs-sloped v-t graph comparison (plotted, opened on screen). Missed once — conflated \"constant\" with \"flat\" for free fall (said flat, correct is sloped straight line since g is constant but nonzero). Cleared on fresh retry (rocket at 5 m/s² -> correctly said sloped straight line)",
    "lesson": null
   },
   {
@@ -444,11 +445,11 @@
    "lesson": null
   },
   {
-   "concept": "3 kinematic equations (v=v0+at, x=v0t+½at², v²=v0²+2ax)",
+   "concept": "3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation)",
    "group": "Physics",
-   "status": "Learning",
+   "status": "Solid",
    "subject": "physics",
-   "evidence": "worked example (vertical throw) walked through step by step",
+   "evidence": "16 Sep: independently solved ball-thrown-up problem (u=20, a=-10) — correctly picked v=u+at for time (t=2s) and s=ut+½at² for height (20m, one arithmetic slip mid-calculation, self-corrected to right final answer)",
    "lesson": null
   },
   {
@@ -457,6 +458,14 @@
    "status": "Learning",
    "subject": "physics",
    "evidence": "missed twice before clearing — see error book, 1 Sep. First: didn't explain WHY gravity keeps acting. Second: guessed acceleration changes through flight (said \"smaller\" right after release) — corrected to \"constant throughout\" on 3rd attempt",
+   "lesson": null
+  },
+  {
+   "concept": "Projectile motion (horizontal/vertical independence, time of flight, max height, range)",
+   "group": "Physics",
+   "status": "Solid",
+   "subject": "physics",
+   "evidence": "16 Sep: taught from scratch (NCERT Ch.3.9-sourced), worked example u=28m/s/30° cross-checked against a plotted trajectory graph (h=10m, T=2.9s, R=69m all matched). Missed once — said horizontal velocity is zero at the peak (bled vy=0 into vx). Cleared on retry (correctly said horizontal speed same at launch and landing)",
    "lesson": null
   },
   {
@@ -1768,27 +1777,27 @@
      {
       "key": "simple",
       "label": "Simple",
-      "text": "Figure out exactly WHO was working during each phase before computing anything — this is a reading problem as much as a math one."
+      "text": "Turn \"days to finish\" into \"fraction of the job done per day\" (a rate). Rates add when people work together, and subtract when you know the combined rate and one person's solo rate but need the other's."
      },
      {
       "key": "technical",
       "label": "Technical",
-      "text": "Individual rate = combined rate - other person's rate (in units of 'task per day'). Work done in a phase = rate x days for whoever was actually working that phase. Remaining work / remaining worker's rate = days needed."
+      "text": "If X alone finishes in `n` days, X's rate is `1/n` of the job per day. When two people work together, their rates add: `rate(A+B) = rate(A) + rate(B)`. Given `rate(A+B)` and `rate(B)`, solve `rate(A) = rate(A+B) - rate(B)`. When someone works alone for `k` days, the work they complete is `k × rate`, and what's left is `1 - (work done)`. Divide the remaining fraction by the finishing person's rate to get the days they need."
      },
      {
       "key": "formula",
       "label": "Formula",
-      "text": "$$\\text{rate}_A = \\text{rate}_{combined} - \\text{rate}_B \\qquad \\text{days} = \\frac{\\text{work remaining}}{\\text{rate of finisher}}$$"
+      "text": "$$\\text{rate}(A) = \\text{rate}(A+B) - \\text{rate}(B), \\qquad \\text{days for A to finish rest} = \\frac{1 - k \\cdot \\text{rate}(B)}{\\text{rate}(A)}$$"
      },
      {
       "key": "worked example",
       "label": "Example",
-      "text": "A+B together 16 days, B alone 20 days -> A's rate = 1/16-1/20 = 1/80/day. If B worked ALONE for 8 days first (2/5 of task), remaining 3/5 taken by A alone = 48 days."
+      "text": "A and B together finish a job in 24 days. B alone finishes in 40 days. B works alone for 15 days, then leaves. How many more days does A need to finish the rest alone?\n\nrate(A+B) = 1/24. rate(B) = 1/40. rate(A) = 1/24 − 1/40 = (5−3)/120 = 1/60.\nWork B completed in 15 days = 15 × 1/40 = 3/8. Remaining = 1 − 3/8 = 5/8.\nDays for A = (5/8) ÷ (1/60) = 5/8 × 60 = 37.5 days."
      },
      {
       "key": "traps",
       "label": "Traps",
-      "text": "- The sentence 'after working for 8 days, X left' does not always mean both people worked those 8 days together — check who the subject of the working verb actually is."
+      "text": "- **Who worked when is easy to misread.** \"B works alone for k days then leaves\" means only B is working during those k days — not both A and B together. Re-read the sentence and confirm which reading the given options actually support if there's genuine ambiguity (this is exactly what happened on the real banked question, Q33 — the \"8 days alone\" reading was the only one matching a listed option).\n- **Don't confuse \"days to finish alone\" with \"rate.\"** Always convert to a rate (1/days) before doing any arithmetic — subtracting or adding raw day-counts directly is a very common wrong-answer trap.\n- **The final division inverts.** Days needed = remaining work ÷ rate, not remaining work × rate. Sanity-check: a smaller rate should always need more days for the same remaining work."
      }
     ]
    }
@@ -2270,6 +2279,30 @@
  ],
  "errors": [
   {
+   "date": "16 Sep",
+   "area": "Physics — projectile motion (horizontal vs vertical velocity at peak)",
+   "question": "At maximum height of a projectile, is horizontal velocity zero or still u cos θ?",
+   "misconception": "Bled the \"vy=0 at peak\" fact into the horizontal component. Only vertical velocity is zero at the peak (that's the definition of peak — momentarily stopped rising). Horizontal velocity never changes during flight at all, since there's zero horizontal acceleration — same u cos θ from launch to landing.",
+   "retry": "cleared same session — correctly answered \"same\" for horizontal speed at launch vs landing on fresh retry",
+   "open": false
+  },
+  {
+   "date": "16 Sep",
+   "area": "Physics — kinematics (acceleration: flat vs sloped v-t line)",
+   "question": "Free fall (constant g) — is v-t graph flat or sloped straight line?",
+   "misconception": "Conflated \"constant\" with \"flat.\" Flat = zero slope = zero acceleration. Constant acceleration (nonzero) = a sloped straight line where the SLOPE ITSELF doesn't change — velocity keeps growing at a steady rate, it just isn't a flat line.",
+   "retry": "cleared same session — correctly identified a rocket at constant 5 m/s² for 10s as \"sloped straight line\" on fresh retry",
+   "open": false
+  },
+  {
+   "date": "16 Sep",
+   "area": "Physics — kinematics (instantaneous vs average velocity)",
+   "question": "Constant-velocity motion (60 km/h car, then 80 km/h train): is instantaneous velocity at a mid-trip instant same as or different from the average over the whole trip?",
+   "misconception": "Assumed instantaneous and average velocity are always different by rule, not realising they only diverge when velocity itself is changing (curved x-t graph). On constant-velocity (straight-line x-t) motion they are identical at every instant.",
+   "retry": "cleared on 2nd retry — correctly answered \"80 km/h\" for both instantaneous-at-2hr and average-over-3hr on fresh numbers",
+   "open": false
+  },
+  {
    "date": "2 Sep",
    "area": "Maths — integration (+C)",
    "question": "∫(6x² − 2) dx",
@@ -2619,7 +2652,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 2,
@@ -2634,7 +2667,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 3,
@@ -2649,7 +2682,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 4,
@@ -2664,7 +2697,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 5,
@@ -2679,7 +2712,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 6,
@@ -2694,7 +2727,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 7,
@@ -2709,70 +2742,10 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
-  },
-  {
-   "number": 8,
-   "phase": "Physics",
-   "title": "Displacement vs distance",
-   "objective": "explained, not yet independently checked",
-   "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
-   },
-   "status": "not_started",
-   "scheduledDate": "2026-10-15"
-  },
-  {
-   "number": 9,
-   "phase": "Physics",
-   "title": "Instantaneous velocity (slope of x-t graph)",
-   "objective": "explained, not yet independently checked",
-   "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
-   },
-   "status": "not_started",
    "scheduledDate": "2026-10-16"
   },
   {
-   "number": 10,
-   "phase": "Physics",
-   "title": "Acceleration (slope of v-t graph)",
-   "objective": "explained, not yet independently checked",
-   "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
-   },
-   "status": "not_started",
-   "scheduledDate": "2026-10-17"
-  },
-  {
-   "number": 11,
-   "phase": "Physics",
-   "title": "3 kinematic equations (v=v0+at, x=v0t+½at², v²=v0²+2ax)",
-   "objective": "worked example (vertical throw) walked through step by step",
-   "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
-   },
-   "status": "not_started",
-   "scheduledDate": "2026-10-18"
-  },
-  {
-   "number": 12,
+   "number": 8,
    "phase": "Physics",
    "title": "Velocity vs acceleration at a turning point (v=0 ≠ a=0)",
    "objective": "missed twice before clearing — see error book, 1 Sep. First: didn't explain WHY gravity keeps acting. Second: guessed acceleration changes through flight (said \"smaller\" right after release) — corrected to \"constant throughout\" on 3rd attempt",
@@ -2784,10 +2757,40 @@
     "speed": "unrated"
    },
    "status": "not_started",
+   "scheduledDate": "2026-10-17"
+  },
+  {
+   "number": 9,
+   "phase": "Physics",
+   "title": "Revision — Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation).",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-18"
+  },
+  {
+   "number": 10,
+   "phase": "Physics",
+   "title": "Revision — Projectile motion (horizontal/vertical independence, time of flight, max height, range)",
+   "objective": "Fast spaced recap of 1 already-solid concepts: Projectile motion (horizontal/vertical independence, time of flight, max height, range).",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
    "scheduledDate": "2026-10-19"
   },
   {
-   "number": 13,
+   "number": 11,
    "phase": "Maths",
    "title": "Product rule — both factors in each term",
    "objective": "dropped the v in u′v on (2x+1)⁴·x",
@@ -2802,7 +2805,7 @@
    "scheduledDate": "2026-10-20"
   },
   {
-   "number": 14,
+   "number": 12,
    "phase": "Maths",
    "title": "Maxima / minima + 2nd derivative test",
    "objective": "taught twice, worked airport-parking example",
@@ -2817,7 +2820,7 @@
    "scheduledDate": "2026-10-21"
   },
   {
-   "number": 15,
+   "number": 13,
    "phase": "Maths",
    "title": "Simplifying final answers",
    "objective": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
@@ -2832,7 +2835,7 @@
    "scheduledDate": "2026-10-22"
   },
   {
-   "number": 16,
+   "number": 14,
    "phase": "Maths",
    "title": "Integration as antiderivative and area",
    "objective": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
@@ -2847,7 +2850,7 @@
    "scheduledDate": "2026-10-23"
   },
   {
-   "number": 17,
+   "number": 15,
    "phase": "Maths",
    "title": "Blood relations — \"only son/daughter\" nested layer",
    "objective": "N2 retry: answered \"Daughter\" instead of \"Sister\" — jumped to self instead of resolving the inner relation (grandfather's only son = own father) first. 26 Aug retest: 2/3 fresh variants — correct on mother's-only-daughter and grandmother's-only-daughter forms, but missed the same-generation form (\"father's only son\" = speaker himself → should be Daughter) by mechanically reapplying \"sister\" from the earlier fix instead of re-deriving. Genuine misconception, not cleared — needs one more rep distinguishing same-generation vs one-generation-up \"only son/daughter\" phrasing",
@@ -2862,7 +2865,7 @@
    "scheduledDate": "2026-10-24"
   },
   {
-   "number": 18,
+   "number": 16,
    "phase": "Maths",
    "title": "Revision — Scalar vs vector (Ch.3 started), Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), Derivative as rate of change / slope",
    "objective": "Fast spaced recap of 4 already-solid concepts: Scalar vs vector (Ch.3 started), Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), Derivative as rate of change / slope.",
@@ -2877,7 +2880,7 @@
    "scheduledDate": "2026-10-25"
   },
   {
-   "number": 19,
+   "number": 17,
    "phase": "Maths",
    "title": "Revision — Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics, Chain rule — \"inside stays unchanged\"",
    "objective": "Fast spaced recap of 4 already-solid concepts: Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics, Chain rule — \"inside stays unchanged\".",
@@ -2892,7 +2895,7 @@
    "scheduledDate": "2026-10-26"
   },
   {
-   "number": 20,
+   "number": 18,
    "phase": "Maths",
    "title": "Revision — Chain rule — multiply not add, Roots as fractional powers, Product rule, Quotient rule — mechanics",
    "objective": "Fast spaced recap of 4 already-solid concepts: Chain rule — multiply not add, Roots as fractional powers, Product rule, Quotient rule — mechanics.",
@@ -2907,7 +2910,7 @@
    "scheduledDate": "2026-10-27"
   },
   {
-   "number": 21,
+   "number": 19,
    "phase": "Maths",
    "title": "Revision — Quotient rule — sign and order, Power rule for integration, The constant of integration (+C), Integrating a bare constant (treat c as c·x^0)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Quotient rule — sign and order, Power rule for integration, The constant of integration (+C), Integrating a bare constant (treat c as c·x^0).",
@@ -2922,7 +2925,7 @@
    "scheduledDate": "2026-10-28"
   },
   {
-   "number": 22,
+   "number": 20,
    "phase": "Maths",
    "title": "Revision — Standard integrals, Definite integrals, Signed area - below the axis counts negative, Classification (odd one out)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Standard integrals, Definite integrals, Signed area - below the axis counts negative, Classification (odd one out).",
@@ -2937,7 +2940,7 @@
    "scheduledDate": "2026-10-29"
   },
   {
-   "number": 23,
+   "number": 21,
    "phase": "Maths",
    "title": "Revision — Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement), Ranking / linear order chains",
    "objective": "Fast spaced recap of 4 already-solid concepts: Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement), Ranking / linear order chains.",
@@ -2952,7 +2955,7 @@
    "scheduledDate": "2026-10-30"
   },
   {
-   "number": 24,
+   "number": 22,
    "phase": "Maths",
    "title": "Revision — Blood relations — simple (one-layer), Blood relations — multi-person family table, Sign/number interchange puzzles, Number series — letter/number mismatch",
    "objective": "Fast spaced recap of 4 already-solid concepts: Blood relations — simple (one-layer), Blood relations — multi-person family table, Sign/number interchange puzzles, Number series — letter/number mismatch.",
@@ -2967,7 +2970,7 @@
    "scheduledDate": "2026-10-31"
   },
   {
-   "number": 25,
+   "number": 23,
    "phase": "Maths",
    "title": "Revision — Letter matrix / grid analogy, Number analogy (a:b :: c:?), Arithmetic progression (spacing/intervals), Word analogy (antonym pairs)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Letter matrix / grid analogy, Number analogy (a:b :: c:?), Arithmetic progression (spacing/intervals), Word analogy (antonym pairs).",
@@ -2982,7 +2985,7 @@
    "scheduledDate": "2026-11-01"
   },
   {
-   "number": 26,
+   "number": 24,
    "phase": "Maths",
    "title": "Revision — Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection), Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting",
    "objective": "Fast spaced recap of 4 already-solid concepts: Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection), Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting.",
@@ -2997,7 +3000,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 27,
+   "number": 25,
    "phase": "Maths",
    "title": "Revision — Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares, Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line",
    "objective": "Fast spaced recap of 4 already-solid concepts: Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares, Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line.",
@@ -3012,7 +3015,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 28,
+   "number": 26,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3027,7 +3030,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 29,
+   "number": 27,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3042,7 +3045,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 30,
+   "number": 28,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3057,7 +3060,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 31,
+   "number": 29,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3072,7 +3075,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 32,
+   "number": 30,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3087,7 +3090,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 33,
+   "number": 31,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3102,7 +3105,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 34,
+   "number": 32,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3117,7 +3120,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 35,
+   "number": 33,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3132,7 +3135,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 36,
+   "number": 34,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3147,7 +3150,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 37,
+   "number": 35,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3162,7 +3165,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 38,
+   "number": 36,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3177,7 +3180,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 39,
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3192,7 +3195,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 40,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3207,7 +3210,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 41,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3222,7 +3225,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 42,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -3237,7 +3240,26 @@
    "scheduledDate": "2026-11-18"
   }
  ],
- "reviewQueue": [],
+ "reviewQueue": [
+  {
+   "item": "QNH vs QFE",
+   "rung": 3,
+   "due": "2026-09-16",
+   "note": "Repeat-miss history (26 Aug, 1 Sep) - due again after the last correct retry with the Field/Height mnemonic"
+  },
+  {
+   "item": "Blood relations - same-generation \"only son\" trap",
+   "rung": 2,
+   "due": "2026-09-16",
+   "note": "Cleared once on a fresh variant, watch for it resurfacing in new phrasing"
+  },
+  {
+   "item": "Standard integrals table - spacing check",
+   "rung": 1,
+   "due": "2026-09-16",
+   "note": "Cleared 7 Sep, this is the first spaced re-check"
+  }
+ ],
  "examDate": "2026-11-19",
  "questions": [
   {
@@ -25338,5 +25360,357 @@
  },
  "consulting": {
   "resources": 30
- }
+ },
+ "formulas": [
+  {
+   "group": "Physics — Kinematics",
+   "formula": "v = u + at",
+   "meaning": "v=final velocity, u=initial velocity, a=acceleration, t=time",
+   "notes": "Use for time/velocity questions with no displacement given",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics — Kinematics",
+   "formula": "s = ut + 1/2at^2",
+   "meaning": "s=displacement",
+   "notes": "Sign of a matters — deceleration (e.g. thrown upward) needs a negative",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics — Kinematics",
+   "formula": "v^2 = u^2 + 2as",
+   "meaning": "Same symbols, no t needed",
+   "notes": "Fastest route when time isn't asked or given",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics — Kinematics",
+   "formula": "Instantaneous velocity = slope of tangent on x-t graph",
+   "meaning": "—",
+   "notes": "Equals average velocity ONLY when motion is constant-velocity (straight-line x-t graph)",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics — Kinematics",
+   "formula": "Acceleration = slope of v-t graph",
+   "meaning": "—",
+   "notes": "Flat v-t line = zero acceleration. Sloped STRAIGHT line = constant NONZERO acceleration (e.g. free fall, g=9.8). Don't conflate \"constant\" with \"flat\"",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics — Kinematics",
+   "formula": "Displacement (vector) vs distance (scalar)",
+   "meaning": "Displacement = net start-to-end change in position with direction",
+   "notes": "Track NET position, not the direction of the last leg travelled",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics — Projectile Motion",
+   "formula": "Time of flight: T = 2u sinθ / g",
+   "meaning": "u=launch speed, θ=launch angle",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics — Projectile Motion",
+   "formula": "Max height: h = u^2 sin^2θ / 2g",
+   "meaning": "—",
+   "notes": "Horizontal velocity is NEVER zero, even at max height — only vertical velocity (vy) is zero there",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics — Projectile Motion",
+   "formula": "Range: R = u^2 sin2θ / g",
+   "meaning": "—",
+   "notes": "Range is maximum when θ=45° (sin2θ=1)",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics — Projectile Motion",
+   "formula": "Horizontal component: ux = u cosθ (constant, a=0)",
+   "meaning": "Vertical component: uy = u sinθ (a=-g)",
+   "notes": "Horizontal speed at landing = horizontal speed at launch, always",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics — Vectors",
+   "formula": "Resultant (right-angle components): R = sqrt(Ax^2 + Ay^2)",
+   "meaning": "Pythagoras on perpendicular components",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Physics — Vectors",
+   "formula": "Vector resolution: Ax = A cosθ, Ay = A sinθ",
+   "meaning": "A=magnitude, θ=angle from x-axis",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Differentiation",
+   "formula": "Power rule: d/dx(x^n) = n·x^(n-1)",
+   "meaning": "—",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Differentiation",
+   "formula": "Chain rule: d/dx f(g(x)) = f'(g(x))·g'(x)",
+   "meaning": "\"Outside stays, inside rides along as multiplier\"",
+   "notes": "Multiply, never add. Never differentiate the inside in place — it must appear unchanged, multiplied by its own derivative",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Differentiation",
+   "formula": "Product rule: d/dx(uv) = u'v + uv'",
+   "meaning": "u, v are both functions of x",
+   "notes": "Don't chain-rule two side-by-side factors — check whether it's nested (chain) or multiplied (product) first",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Differentiation",
+   "formula": "Quotient rule: d/dx(u/v) = (u'v - uv')/v^2",
+   "meaning": "Top's derivative first, always",
+   "notes": "Subtraction not reversible — u'v - uv', never uv' - u'v. Numerator's own function is always listed first",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Differentiation",
+   "formula": "Standard derivatives: sin x -> cos x, cos x -> -sin x, e^x -> e^x, ln x -> 1/x",
+   "meaning": "—",
+   "notes": "Roots and reciprocals are POWERS (use power rule), not logs — only ln u gives u'/u",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Differentiation",
+   "formula": "Maxima/minima: dy/dx=0, then check sign of d^2y/dx^2",
+   "meaning": "Positive d2y/dx2 = minimum, negative = maximum",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Integration",
+   "formula": "Power rule: integral of x^n dx = x^(n+1)/(n+1) + C",
+   "meaning": "Always add +C for indefinite integrals",
+   "notes": "Differentiation erases a constant — integration can't recover it, so +C is mandatory, not optional",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Integration",
+   "formula": "Integrating a bare constant: integral of c dx = c*x + C",
+   "meaning": "Treat constant as c*x^0",
+   "notes": "Don't integrate a bare constant as if it were linear (e.g. integral of -2 dx is NOT -x^2)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Integration",
+   "formula": "Definite integral (FTC): integral from a to b of f(x)dx = F(b) - F(a)",
+   "meaning": "Evaluate antiderivative at bounds, subtract",
+   "notes": "Signed area — area BELOW the x-axis counts negative; a definite integral can be zero even with a nonzero physical area if it's split above/below the axis",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "LCM x HCF = a x b (two numbers only)",
+   "meaning": "For a ratio a:b, actual numbers are a*k, b*k where k=HCF",
+   "notes": "Only true for exactly two numbers, not three or more",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "Smallest n-digit number divisible by a set",
+   "meaning": "Find LCM of the set, then round UP to the smallest n-digit multiple",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "HCF as \"maximum common measure\"",
+   "meaning": "Largest size/quantity that divides all given quantities exactly",
+   "notes": "Used for \"largest container/tile/rope-piece size\" questions",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "Ratio chaining a:b :: b:c -> a:b:c",
+   "meaning": "Make the shared term (b) equal via LCM before combining",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "Relative speed — same direction: subtract speeds",
+   "meaning": "Opposite direction: add speeds",
+   "notes": "Verify against the question's stated direction — a scraped answer key may silently apply the wrong one (see QUESTION_BANK Q227)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "Simple Interest: SI = P*R*T/100",
+   "meaning": "P=principal, R=rate%, T=time(yrs)",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "Compound Interest (annual): A = P(1+R/100)^T",
+   "meaning": "—",
+   "notes": "Non-annual compounding: HALVE the rate, DOUBLE the number of periods per compounding switch (e.g. half-yearly: R/2, 2T)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "Alligation (mixture blending): weighted average of the two components' fractions",
+   "meaning": "—",
+   "notes": "Works for any 2-component blend by given ratio, not just liquids",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "Boats and streams: downstream speed = boat+stream, upstream speed = boat-stream",
+   "meaning": "—",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "Heights and distances: tan(angle) = opposite/adjacent",
+   "meaning": "Use two collinear observation points for two-angle problems",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "Quadratic real-roots condition: discriminant b^2-4ac >= 0",
+   "meaning": "—",
+   "notes": "Some papers use non-standard notation for the same rule — verify against the actual math, not just the answer key's phrasing",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "formula": "Loss%/Profit% when SP of n articles = CP of m articles",
+   "meaning": "Compute actual CP and SP per article, then %change on CP",
+   "notes": "Some scraped keys apply the wrong base (CP vs SP) — verify independently before trusting (see QUESTION_BANK Q226)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Reasoning — Rules",
+   "formula": "Blood relations — \"only son/daughter\" phrasing",
+   "meaning": "Identify WHOSE only son/daughter is named before deciding the generation layer",
+   "notes": "\"My father's/mother's only son/daughter\" = speaker's own generation -> answer is speaker's own child. \"My grandfather's/grandmother's only son/daughter\" = one generation up -> answer is speaker's sibling",
+   "subject": "reasoning"
+  },
+  {
+   "group": "Reasoning — Rules",
+   "formula": "Alphabet mirror-pair coding: pair position n with position (27-n)",
+   "meaning": "A<->Z, B<->Y, C<->X ...",
+   "notes": "Used for reflection-style letter analogies, not a constant shift",
+   "subject": "reasoning"
+  },
+  {
+   "group": "Reasoning — Rules",
+   "formula": "Caesar shift coding",
+   "meaning": "Every letter shifts by the same fixed amount",
+   "notes": "Apply the SAME shift consistently to a new word to verify the rule before answering",
+   "subject": "reasoning"
+  },
+  {
+   "group": "Reasoning — Rules",
+   "formula": "Digit-equation coding (sum of squares)",
+   "meaning": "e.g. abc -> a^2+b^2+c^2",
+   "notes": "Verify the pattern against ALL given examples before applying to the unknown",
+   "subject": "reasoning"
+  },
+  {
+   "group": "Reasoning — Rules",
+   "formula": "Hidden single series (not true A:B::C:D)",
+   "meaning": "Sometimes 3+ numbers form ONE series (check 2nd-order differences) rather than a direct proportion",
+   "notes": "Don't force a ratio/analogy read when the numbers actually belong to one running series",
+   "subject": "reasoning"
+  },
+  {
+   "group": "English — Rules",
+   "formula": "Possessive before a gerund",
+   "meaning": "\"his leaving\" not \"him leaving\" in formal usage",
+   "notes": "Common Spot-the-Error trap",
+   "subject": "english"
+  },
+  {
+   "group": "English — Rules",
+   "formula": "its vs it's",
+   "meaning": "its = possessive, it's = \"it is\"",
+   "notes": "Never confuse the apostrophe with possession here — this is the one exception to normal possessive rules",
+   "subject": "english"
+  },
+  {
+   "group": "English — Rules",
+   "formula": "Passive voice must preserve the original tense",
+   "meaning": "e.g. \"was written,\" not shift to a different tense",
+   "notes": "—",
+   "subject": "english"
+  },
+  {
+   "group": "English — Rules",
+   "formula": "Reported (indirect) speech for wh-questions",
+   "meaning": "Drop the question word order, use statement word order + reporting verb",
+   "notes": "—",
+   "subject": "english"
+  },
+  {
+   "group": "English — Rules",
+   "formula": "Verb form after a modal (can/could/should/must etc.)",
+   "meaning": "Always followed by the base form of the verb",
+   "notes": "—",
+   "subject": "english"
+  },
+  {
+   "group": "English — Rules",
+   "formula": "Prefix rule: in- vs en- for spelling",
+   "meaning": "No single universal rule — check each word individually against a memorised list",
+   "notes": "Frequently tested spelling trap",
+   "subject": "english"
+  },
+  {
+   "group": "Business Management — Core Definitions",
+   "formula": "Grapevine (informal communication)",
+   "meaning": "Unofficial, informal information flow between employees, not sanctioned by management",
+   "notes": "Distinguish from formal channels in MCQs that test \"which is NOT an official channel\"",
+   "subject": "business"
+  },
+  {
+   "group": "Business Management — Core Definitions",
+   "formula": "Span of control",
+   "meaning": "Number of subordinates a manager can effectively supervise",
+   "notes": "Wider span = flatter structure, narrower span = taller hierarchy",
+   "subject": "business"
+  },
+  {
+   "group": "Business Management — Core Definitions",
+   "formula": "Strategic planning sequence",
+   "meaning": "Mission -> Objectives -> Strategy formulation -> Implementation -> Control/Evaluation",
+   "notes": "Order matters in sequence-style MCQs",
+   "subject": "business"
+  },
+  {
+   "group": "Aviation GK — Key Distinctions",
+   "formula": "QNH vs QFE",
+   "meaning": "QNH = altitude above Mean Sea Level. QFE = height above the aerodrome (reads zero at touchdown)",
+   "notes": "Mnemonic: QFE = Field (zeroes at the airField), QNH = Height above sea. Missed twice before it stuck (26 Aug, 1 Sep)",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation GK — Key Distinctions",
+   "formula": "METAR vs SPECI",
+   "meaning": "METAR = routine, scheduled weather report. SPECI = off-schedule special report issued when conditions change significantly",
+   "notes": "Don't rule out both real candidates and pick a third unrelated report",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation GK — Key Distinctions",
+   "formula": "BCAS history",
+   "meaning": "Created 1978 as a Cell under DGCA; became independent under MoCA in 1987",
+   "notes": "Question may ask for either date — read carefully which milestone is being asked",
+   "subject": "aviation"
+  }
+ ]
 }

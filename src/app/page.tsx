@@ -13,6 +13,7 @@ import { ConceptRow } from "@/components/concept-lesson";
 import { MockTest } from "@/components/mock-test";
 import { QuestionBank } from "@/components/question-bank";
 import { GkBank } from "@/components/gk-bank";
+import { FormulaSheet } from "@/components/formula-sheet";
 import { Mindmap } from "@/components/mindmap";
 import { LESSON_GRAPHS, LESSON_DIAGRAMS } from "@/lib/lesson-graphs";
 import {
@@ -77,6 +78,11 @@ export default function Page() {
           id: "gk",
           label: "GK",
           pill: data.questions.filter((q) => q.section === "GK").length,
+        },
+        {
+          id: "formulas",
+          label: "Formula Sheet",
+          pill: data.formulas.length,
         },
         {
           id: "mock",
@@ -424,6 +430,7 @@ export default function Page() {
 
   const questions = <QuestionBank />;
   const gk = <GkBank />;
+  const formulas = <FormulaSheet />;
   const mindmap = <Mindmap />;
 
   const graphSections = Object.fromEntries([
@@ -513,6 +520,7 @@ export default function Page() {
         sessions,
         questions,
         gk,
+        formulas,
         mock,
         ...graphSections,
         markets,
