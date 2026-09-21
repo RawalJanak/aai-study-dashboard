@@ -1,15 +1,15 @@
 {
   "counts": {
-    "calls": 27,
-    "verdicts": 6,
-    "passed": 4,
-    "failed": 2,
+    "calls": 37,
+    "verdicts": 8,
+    "passed": 5,
+    "failed": 3,
     "unknown": 0,
     "refusals": 0,
     "marks": 0,
-    "sessions": 4,
-    "tokensReturned": 18167,
-    "drivingMs": 10985
+    "sessions": 5,
+    "tokensReturned": 24421,
+    "drivingMs": 15544
   },
   "days": [
     {
@@ -30,23 +30,23 @@
     {
       "date": "2026-09-16",
       "counts": {
-        "calls": 18,
-        "verdicts": 6,
-        "passed": 4,
-        "failed": 2,
+        "calls": 28,
+        "verdicts": 8,
+        "passed": 5,
+        "failed": 3,
         "unknown": 0,
         "refusals": 0,
         "marks": 0,
-        "sessions": 2,
-        "tokensReturned": 14482,
-        "drivingMs": 9957
+        "sessions": 3,
+        "tokensReturned": 20736,
+        "drivingMs": 14516
       }
     }
   ],
   "records": {
     "longestRunMs": 0,
-    "bestVerdictDay": 6,
-    "bestDefectDay": 2,
+    "bestVerdictDay": 8,
+    "bestDefectDay": 3,
     "streakDays": 2,
     "bestStreakDays": 2
   },
@@ -56,12 +56,18 @@
       "basis": "vs an agent reading the app through screenshots"
     },
     "minutes": {
-      "value": 11,
+      "value": 16,
       "basis": "vs checking each consequence by hand, plus one re-prompt cycle per defect caught"
     }
   },
   "since": 1789457718266,
   "defects": [
+    {
+      "at": 1789561072905,
+      "title": "Search all concepts",
+      "detail": "no element matched {\"text\":\"Search concept name\"}",
+      "source": "src/app/page.tsx:108"
+    },
     {
       "at": 1789554933145,
       "title": "08 Revision — Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation) Fast spaced recap of 4 already-solid concepts: Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation). Done",

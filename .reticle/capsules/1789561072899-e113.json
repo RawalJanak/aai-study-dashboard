@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "1789561072899-e113",
+  "createdAt": 1789561072900,
+  "origin": "failed-assert",
+  "expected": "declared consequence",
+  "observed": "no element matched {\"text\":\"Search concept name\"}",
+  "steps": [
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "e113",
+        "source": {
+          "file": "src/app/page.tsx",
+          "line": 108,
+          "column": 8
+        }
+      },
+      "action": "click"
+    }
+  ]
+}

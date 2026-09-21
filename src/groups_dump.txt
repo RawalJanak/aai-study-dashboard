@@ -1,0 +1,11 @@
+=== physics (lessons authored: 0/6) ===
+  Physics: 6
+=== mathematics (lessons authored: 33/45) ===
+  Physics: 3
+  Differentiation: 13
+  Integration - concept level: 7
+  General Intelligence: 22
+=== reasoning (lessons authored: 1/1) ===
+  General Intelligence: 1
+=== quant (lessons authored: 15/24) ===
+  Quantitative Aptitude: 24

@@ -1,7 +1,7 @@
 {
- "builtAt": "16 Sep 2026, 16:03",
+ "builtAt": "21 Sep 2026, 12:39",
  "regClose": "2026-09-07",
- "daysToClose": -9,
+ "daysToClose": -14,
  "minTrendDays": 3,
  "totals": {
   "concepts": 76,
@@ -10,7 +10,7 @@
   "weak": 1,
   "notStarted": 0,
   "lessons": 50,
-  "errors": 23,
+  "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
   "sessionDays": 8,
@@ -190,7 +190,7 @@
     "76 concepts logged (71 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
-    "23 errors logged, 0 currently open"
+    "25 errors logged, 0 currently open"
    ]
   },
   "branches": [
@@ -318,7 +318,7 @@
   "errorBranch": {
    "id": "errors",
    "label": "Error book",
-   "sub": "23 logged, 0 open",
+   "sub": "25 logged, 0 open",
    "color": "errors",
    "pct": 100,
    "children": [
@@ -366,16 +366,16 @@
    "key": "mathematics",
    "name": "Mathematics",
    "marks": 24,
-   "logged": 45,
-   "solid": 40,
-   "pct": 89
+   "logged": 20,
+   "solid": 16,
+   "pct": 80
   },
   {
    "key": "physics",
    "name": "Physics",
    "marks": 24,
-   "logged": 6,
-   "solid": 6,
+   "logged": 9,
+   "solid": 9,
    "pct": 100
   },
   {
@@ -390,15 +390,16 @@
    "key": "reasoning",
    "name": "Reasoning",
    "marks": null,
-   "logged": 1,
-   "solid": 1,
-   "pct": 100
+   "logged": 23,
+   "solid": 22,
+   "pct": 96
   }
  ],
  "concepts": [
   {
    "concept": "Displacement vs distance",
    "group": "Physics",
+   "chapter": "Motion in a Straight Line",
    "status": "Solid",
    "subject": "physics",
    "evidence": "16 Sep: direction trap (tracking last-leg direction instead of net position) missed once (3km E/2km W → said \"west\", correct is \"1km east\"), cleared same session on a fresh variant (6km N/4km S → 2km N, 10km distance, both correct)",
@@ -407,6 +408,7 @@
   {
    "concept": "Instantaneous velocity (slope of x-t graph)",
    "group": "Physics",
+   "chapter": "Motion in a Straight Line",
    "status": "Solid",
    "subject": "physics",
    "evidence": "16 Sep: taught via x=t² graph (tangent vs secant, plotted and opened on screen). Missed the constant-velocity special case twice (\"instantaneous ≠ average by default\" misconception) before clearing on 3rd attempt (train 80km/h constant, correctly said both same). Genuine misconception, not a slip — re-test this specific case (instant vs avg under CONSTANT velocity) again in ~1 week",
@@ -415,6 +417,7 @@
   {
    "concept": "Acceleration (slope of v-t graph)",
    "group": "Physics",
+   "chapter": "Motion in a Straight Line",
    "status": "Solid",
    "subject": "physics",
    "evidence": "16 Sep: taught via flat-vs-sloped v-t graph comparison (plotted, opened on screen). Missed once — conflated \"constant\" with \"flat\" for free fall (said flat, correct is sloped straight line since g is constant but nonzero). Cleared on fresh retry (rocket at 5 m/s² -> correctly said sloped straight line)",
@@ -423,30 +426,34 @@
   {
    "concept": "Scalar vs vector (Ch.3 started)",
    "group": "Physics",
+   "chapter": "Motion in a Plane",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "physics",
    "evidence": "correctly named mass as scalar (after clarifying weight-vs-mass) and force as vector, with correct reasoning both times",
    "lesson": null
   },
   {
    "concept": "Vector addition — triangle law",
    "group": "Physics",
+   "chapter": "Motion in a Plane",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "physics",
    "evidence": "3km E + 4km N example: correctly computed resultant displacement = 5 (Pythagoras), correctly said displacement ≠ distance (7), needed a prompt to articulate WHY before it stuck",
    "lesson": null
   },
   {
    "concept": "Vector resolution (components, Ax=Acos θ, Ay=Asin θ)",
    "group": "Physics",
+   "chapter": "Motion in a Plane",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "physics",
    "evidence": "correctly computed magnitude from components (Ax=6, Ay=8 → A=10) first attempt, no correction needed",
    "lesson": null
   },
   {
    "concept": "3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation)",
    "group": "Physics",
+   "chapter": "Motion in a Straight Line",
    "status": "Solid",
    "subject": "physics",
    "evidence": "16 Sep: independently solved ball-thrown-up problem (u=20, a=-10) — correctly picked v=u+at for time (t=2s) and s=ut+½at² for height (20m, one arithmetic slip mid-calculation, self-corrected to right final answer)",
@@ -455,6 +462,7 @@
   {
    "concept": "Velocity vs acceleration at a turning point (v=0 ≠ a=0)",
    "group": "Physics",
+   "chapter": "Motion in a Straight Line",
    "status": "Solid",
    "subject": "physics",
    "evidence": "cleared 1 Sep (missed twice — see error book — then correctly said \"constant throughout\" on 3rd attempt). Status label left stale as \"Learning\" until 16 Sep — fixed now, no re-teach needed",
@@ -463,6 +471,7 @@
   {
    "concept": "Projectile motion (horizontal/vertical independence, time of flight, max height, range)",
    "group": "Physics",
+   "chapter": "Motion in a Plane",
    "status": "Solid",
    "subject": "physics",
    "evidence": "16 Sep: taught from scratch (NCERT Ch.3.9-sourced), worked example u=28m/s/30° cross-checked against a plotted trajectory graph (h=10m, T=2.9s, R=69m all matched). Missed once — said horizontal velocity is zero at the peak (bled vy=0 into vx). Cleared on retry (correctly said horizontal speed same at launch and landing)",
@@ -471,6 +480,7 @@
   {
    "concept": "Derivative as rate of change / slope",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "read graphs correctly, explained speedometer idea",
@@ -507,6 +517,7 @@
   {
    "concept": "Power rule",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "correct across several questions",
@@ -543,6 +554,7 @@
   {
    "concept": "Standard derivatives (sin, cos, eˣ, ln)",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "cos(5x−2) done with correct minus sign",
@@ -551,6 +563,7 @@
   {
    "concept": "Chain rule — mechanics",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "6x·e^(3x²), −5sin(5x−2), 3(2x+5)(…) all correct",
@@ -587,6 +600,7 @@
   {
    "concept": "Chain rule — \"inside stays unchanged\"",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Fixed",
    "subject": "mathematics",
    "evidence": "failed on e^(x²) → corrected on e^(3x²)",
@@ -623,6 +637,7 @@
   {
    "concept": "Chain rule — multiply not add",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "failed once on (x²+3x)⁴ on 17 Aug, then cleared the same day on 6x·e^(3x²) and 3(2x+5)(x²+5x)",
@@ -659,6 +674,7 @@
   {
    "concept": "Roots as fractional powers",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "18 Aug drill: √(6x−5) and √(x²+4) both correct first time. Weak flag cleared",
@@ -695,6 +711,7 @@
   {
    "concept": "Product rule",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "learned in one pass, incl. minus from cos",
@@ -731,6 +748,7 @@
   {
    "concept": "Product rule — both factors in each term",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Learning",
    "subject": "mathematics",
    "evidence": "dropped the v in u′v on (2x+1)⁴·x",
@@ -767,6 +785,7 @@
   {
    "concept": "Quotient rule — mechanics",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "18 Aug: x²/sin x and x/(x²+1) both correct",
@@ -803,6 +822,7 @@
   {
    "concept": "Quotient rule — sign and order",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "18 Aug: shaky at first (added once, reversed once), then 3/3 clean on retest incl. the ad−bc shortcut",
@@ -839,6 +859,7 @@
   {
    "concept": "Maxima / minima + 2nd derivative test",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Learning",
    "subject": "mathematics",
    "evidence": "taught twice, worked airport-parking example",
@@ -875,6 +896,7 @@
   {
    "concept": "Simplifying final answers",
    "group": "Differentiation",
+   "chapter": "Differentiation",
    "status": "Learning",
    "subject": "mathematics",
    "evidence": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
@@ -911,6 +933,7 @@
   {
    "concept": "Integration as antiderivative and area",
    "group": "Integration - concept level",
+   "chapter": "Integration",
    "status": "Learning",
    "subject": "mathematics",
    "evidence": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
@@ -947,6 +970,7 @@
   {
    "concept": "Power rule for integration",
    "group": "Integration - concept level",
+   "chapter": "Integration",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "x^3 answered correctly as x^4/4, but +C omitted originally; both now cleared (see below)",
@@ -983,6 +1007,7 @@
   {
    "concept": "The constant of integration (+C)",
    "group": "Integration - concept level",
+   "chapter": "Integration",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "omitted repeatedly (18 Aug, and again pre-this-session) despite being flagged three times — cleared 2 Sep after a \"why\" re-teach (differentiation erases the constant, integration can't recover it) instead of a bare reminder. 2/2 correct with +C included on fresh integrals",
@@ -1019,6 +1044,7 @@
   {
    "concept": "Integrating a bare constant (treat c as c·x^0)",
    "group": "Integration - concept level",
+   "chapter": "Integration",
    "status": "Fixed",
    "subject": "mathematics",
    "evidence": "initial slip: integrated -2 as if it were -2x (got -x^2 instead of -2x). Cleared same session after one correction + retry (∫5 dx = 5x+C correct, then ∫(6x^2-2)dx = 2x^3-2x+C correct)",
@@ -1027,6 +1053,7 @@
   {
    "concept": "Standard integrals",
    "group": "Integration - concept level",
+   "chapter": "Integration",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "table redrilled 7 Sep — full recall, no errors",
@@ -1063,6 +1090,7 @@
   {
    "concept": "Definite integrals",
    "group": "Integration - concept level",
+   "chapter": "Integration",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "7 Sep: ∫0-2 3x^2 dx=8 and ∫1-3 2x dx=8, both correct first attempt, FTC applied correctly (evaluate antiderivative at bounds, subtract)",
@@ -1099,6 +1127,7 @@
   {
    "concept": "Signed area - below the axis counts negative",
    "group": "Integration - concept level",
+   "chapter": "Integration",
    "status": "Solid",
    "subject": "mathematics",
    "evidence": "7 Sep: ∫0-2 (x-1)dx=0 taught with graph reasoning (triangles cancel); ∫0-1 (2x-1)dx=0 correct AND correctly identified as net signed area, not physical area, unprompted on redirect",
@@ -1135,8 +1164,9 @@
   {
    "concept": "Classification (odd one out)",
    "group": "General Intelligence",
+   "chapter": "Classification & Series",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q1 taught (Freeze), N1 pattern reused correctly, Hangar modelled Q correct first time",
    "lesson": {
     "sections": [
@@ -1166,8 +1196,9 @@
   {
    "concept": "Venn diagrams (subset/disjoint/overlap)",
    "group": "General Intelligence",
+   "chapter": "Venn Diagrams & Visual Reasoning",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q2 taught, M2 modelled question correct first time",
    "lesson": {
     "sections": [
@@ -1197,8 +1228,9 @@
   {
    "concept": "Coding-decoding (word/symbol overlap)",
    "group": "General Intelligence",
+   "chapter": "Coding-Decoding",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q3 taught, M3 modelled question correct, explained reasoning",
    "lesson": {
     "sections": [
@@ -1228,8 +1260,9 @@
   {
    "concept": "Direction sense (net displacement)",
    "group": "General Intelligence",
+   "chapter": "Direction & Ranking",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q4 taught, M4 modelled question correct first time",
    "lesson": {
     "sections": [
@@ -1264,8 +1297,9 @@
   {
    "concept": "Ranking / linear order chains",
    "group": "General Intelligence",
+   "chapter": "Direction & Ranking",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q5 taught, M5 modelled question correct first time",
    "lesson": {
     "sections": [
@@ -1295,6 +1329,7 @@
   {
    "concept": "Calendar reasoning (day-of-week shift)",
    "group": "General Intelligence",
+   "chapter": "Calendar & Clock Reasoning",
    "status": "Solid",
    "subject": "reasoning",
    "evidence": "Q6 taught, N1 modelled question correct first time",
@@ -1326,8 +1361,9 @@
   {
    "concept": "Blood relations — simple (one-layer)",
    "group": "General Intelligence",
+   "chapter": "Blood Relations",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q7 taught correctly",
    "lesson": {
     "sections": [
@@ -1357,8 +1393,9 @@
   {
    "concept": "Blood relations — \"only son/daughter\" nested layer",
    "group": "General Intelligence",
+   "chapter": "Blood Relations",
    "status": "Weak",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "N2 retry: answered \"Daughter\" instead of \"Sister\" — jumped to self instead of resolving the inner relation (grandfather's only son = own father) first. 26 Aug retest: 2/3 fresh variants — correct on mother's-only-daughter and grandmother's-only-daughter forms, but missed the same-generation form (\"father's only son\" = speaker himself → should be Daughter) by mechanically reapplying \"sister\" from the earlier fix instead of re-deriving. Genuine misconception, not cleared — needs one more rep distinguishing same-generation vs one-generation-up \"only son/daughter\" phrasing",
    "lesson": {
     "sections": [
@@ -1388,8 +1425,9 @@
   {
    "concept": "Blood relations — multi-person family table",
    "group": "General Intelligence",
+   "chapter": "Blood Relations",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q8 taught, correct reasoning shown",
    "lesson": {
     "sections": [
@@ -1419,8 +1457,9 @@
   {
    "concept": "Sign/number interchange puzzles",
    "group": "General Intelligence",
+   "chapter": "Coding-Decoding",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q9 taught and understood",
    "lesson": {
     "sections": [
@@ -1450,8 +1489,9 @@
   {
    "concept": "Number series — letter/number mismatch",
    "group": "General Intelligence",
+   "chapter": "Classification & Series",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q10 taught, N3 modelled question correct after a flawed first draft was fixed",
    "lesson": {
     "sections": [
@@ -1481,8 +1521,9 @@
   {
    "concept": "Letter matrix / grid analogy",
    "group": "General Intelligence",
+   "chapter": "Classification & Series",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q11 taught, verified two ways",
    "lesson": {
     "sections": [
@@ -1512,8 +1553,9 @@
   {
    "concept": "Number analogy (a:b :: c:?)",
    "group": "General Intelligence",
+   "chapter": "Classification & Series",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q12 taught",
    "lesson": {
     "sections": [
@@ -1543,8 +1585,9 @@
   {
    "concept": "Arithmetic progression (spacing/intervals)",
    "group": "General Intelligence",
+   "chapter": "Classification & Series",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q13 taught",
    "lesson": {
     "sections": [
@@ -1579,8 +1622,9 @@
   {
    "concept": "Word analogy (antonym pairs)",
    "group": "General Intelligence",
+   "chapter": "Classification & Series",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q14 taught, N4 modelled question correct",
    "lesson": {
     "sections": [
@@ -1610,8 +1654,9 @@
   {
    "concept": "Word formation (anagram)",
    "group": "General Intelligence",
+   "chapter": "Classification & Series",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "Q15 taught, N5 modelled question correct",
    "lesson": {
     "sections": [
@@ -1641,62 +1686,70 @@
   {
    "concept": "Letter analogy — alphabet mirror (27-n reflection)",
    "group": "General Intelligence",
+   "chapter": "Classification & Series",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "7 Sep, paper 2 Q16: FHJL:USQO::PRTV:? Initially mis-tried as constant shift, corrected to mirror-pair rule (A<->Z,B<->Y...), got KIGE right after correction",
    "lesson": null
   },
   {
    "concept": "Number analogy — hidden single series (not true A:B::C:D)",
    "group": "General Intelligence",
+   "chapter": "Classification & Series",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "7 Sep, paper 2 Q17: 23:34::47:? — recognised the three numbers as one series with second-order differences (+11,+13,+15), answered 62 correctly",
    "lesson": null
   },
   {
    "concept": "Word formation from letter-supply counting",
    "group": "General Intelligence",
+   "chapter": "Classification & Series",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "7 Sep, paper 2 Q24: DISPROPORTIONATE -> STATION, correctly explained checking letter COUNT not just presence",
    "lesson": null
   },
   {
    "concept": "Letter coding — uniform Caesar shift",
    "group": "General Intelligence",
+   "chapter": "Coding-Decoding",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "7 Sep, paper 2 Q25: PORTER->TSVXIV (+4 shift), applied cleanly to SHOWER->WLSAIV",
    "lesson": null
   },
   {
    "concept": "Digit-equation coding — sum of squares",
    "group": "General Intelligence",
+   "chapter": "Coding-Decoding",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "7 Sep, paper 2 Q26: 452=45/371=59 (a^2+b^2+c^2) traced together via computed verification; then independently solved fresh modelled question (132=14,214=21,323=?) correct first try: 22",
    "lesson": null
   },
   {
    "concept": "Venn diagram — three classes, chain-overlap (not all-mutual)",
    "group": "General Intelligence",
+   "chapter": "Venn Diagrams & Visual Reasoning",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "7 Sep, paper 2 Q29: Red/Shirts/Flowers -> correctly reasoned Red overlaps both Shirts and Flowers but they don't overlap each other (chain diagram, not triangle)",
    "lesson": null
   },
   {
    "concept": "Mirror image across a vertical line",
    "group": "General Intelligence",
+   "chapter": "Venn Diagrams & Visual Reasoning",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "reasoning",
    "evidence": "7 Sep, paper 2 Q30: correctly explained the left-right-only flip rule (heights unchanged) after viewing the actual diagram opened on screen",
    "lesson": null
   },
   {
    "concept": "Averages (with prime-number filtering)",
    "group": "Quantitative Aptitude",
+   "chapter": "Averages",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q1 taught, P1 modelled question correct first time",
@@ -1733,6 +1786,7 @@
   {
    "concept": "Direct proportion / unitary method",
    "group": "Quantitative Aptitude",
+   "chapter": "Ratio, Proportion & Unitary Method",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q2 taught, P2 modelled question correct first time",
@@ -1769,6 +1823,7 @@
   {
    "concept": "Time and work (multi-stage, who-worked-when)",
    "group": "Quantitative Aptitude",
+   "chapter": "Time and Work",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q3 taught — resolved a genuine two-reading ambiguity correctly using the given options as a check",
@@ -1805,6 +1860,7 @@
   {
    "concept": "Decimal arithmetic equations",
    "group": "Quantitative Aptitude",
+   "chapter": "Number System & Simplification",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q4 taught",
@@ -1836,6 +1892,7 @@
   {
    "concept": "Number series — perfect-square differences",
    "group": "Quantitative Aptitude",
+   "chapter": "Number System & Simplification",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q5 taught, P3 modelled question correct after a flawed first draft was fixed live",
@@ -1867,6 +1924,7 @@
   {
    "concept": "Partnership / profit sharing with staggered entry",
    "group": "Quantitative Aptitude",
+   "chapter": "Partnership",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q6 taught",
@@ -1903,6 +1961,7 @@
   {
    "concept": "Percentage — mixture removal (recompute new total)",
    "group": "Quantitative Aptitude",
+   "chapter": "Percentage",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q7 taught",
@@ -1934,6 +1993,7 @@
   {
    "concept": "Simple interest — find Principal from Amount",
    "group": "Quantitative Aptitude",
+   "chapter": "Simple & Compound Interest",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q8 taught",
@@ -1970,6 +2030,7 @@
   {
    "concept": "Relative speed — opposite vs same direction",
    "group": "Quantitative Aptitude",
+   "chapter": "Time, Speed & Distance",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q9 taught, P4 modelled question (same direction, subtract) correct first time. 7 Sep, paper 2 Q40 (trains crossing, opposite direction): correctly applied add-speeds rule (7.67s); scraped official key (23s) verified WRONG via independent Python calc — it silently uses the same-direction subtract formula despite the question stating opposite direction. Flagged in QUESTION_BANK.md Q227, taught correct method not the bad key",
@@ -2006,6 +2067,7 @@
   {
    "concept": "Mensuration — ratio scaling (linear vs area vs volume)",
    "group": "Quantitative Aptitude",
+   "chapter": "Mensuration",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q10 taught",
@@ -2042,6 +2104,7 @@
   {
    "concept": "Ages — ratio and difference",
    "group": "Quantitative Aptitude",
+   "chapter": "Problems on Ages",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q11 taught",
@@ -2073,6 +2136,7 @@
   {
    "concept": "Two-digit number — digit sum/difference/product",
    "group": "Quantitative Aptitude",
+   "chapter": "Number System & Simplification",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q12 taught",
@@ -2104,6 +2168,7 @@
   {
    "concept": "Profit % — CP of X articles = SP of Y articles",
    "group": "Quantitative Aptitude",
+   "chapter": "Profit and Loss",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q13 taught, cross-checked with shortcut formula",
@@ -2140,6 +2205,7 @@
   {
    "concept": "Percentage equation algebra",
    "group": "Quantitative Aptitude",
+   "chapter": "Percentage",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q14 taught",
@@ -2171,6 +2237,7 @@
   {
    "concept": "LCM/HCF from a ratio",
    "group": "Quantitative Aptitude",
+   "chapter": "LCM and HCF",
    "status": "Solid",
    "subject": "quant",
    "evidence": "Q15 taught, P5 modelled question correct first time, verified by reconstructing actual numbers",
@@ -2207,6 +2274,7 @@
   {
    "concept": "LCM — smallest n-digit multiple",
    "group": "Quantitative Aptitude",
+   "chapter": "LCM and HCF",
    "status": "Solid",
    "subject": "quant",
    "evidence": "7 Sep, paper 2 Q31: smallest 4-digit number divisible by 18/24/32 -> 1152, correct",
@@ -2215,6 +2283,7 @@
   {
    "concept": "HCF — maximum common measure",
    "group": "Quantitative Aptitude",
+   "chapter": "LCM and HCF",
    "status": "Solid",
    "subject": "quant",
    "evidence": "7 Sep, paper 2 Q32: max container size for 850L/680L -> 170, correct",
@@ -2223,6 +2292,7 @@
   {
    "concept": "Ratio chaining (a:b::b:c via shared-term LCM)",
    "group": "Quantitative Aptitude",
+   "chapter": "Ratio, Proportion & Unitary Method",
    "status": "Solid",
    "subject": "quant",
    "evidence": "7 Sep, paper 2 Q34: a:b=5:7,b:c=2:3 -> c:a=21:10, correct, new sub-type (make shared term equal via LCM before combining)",
@@ -2231,6 +2301,7 @@
   {
    "concept": "Alligation-style mixture blending (two solutions, weighted fractions)",
    "group": "Quantitative Aptitude",
+   "chapter": "Alligation and Mixture",
    "status": "Solid",
    "subject": "quant",
    "evidence": "7 Sep, paper 2 Q39: two vessels blended 3:4, correct answer 11:17 derived via weighted spirit-fraction average",
@@ -2239,6 +2310,7 @@
   {
    "concept": "Compound interest — non-annual compounding period conversion",
    "group": "Quantitative Aptitude",
+   "chapter": "Simple & Compound Interest",
    "status": "Solid",
    "subject": "quant",
    "evidence": "7 Sep, paper 2 Q36: 8% p.a. compounded half-yearly for 12 months -> 816, correct; new concept (halve rate, double periods)",
@@ -2247,6 +2319,7 @@
   {
    "concept": "Loss% when SP of n articles = CP of m articles",
    "group": "Quantitative Aptitude",
+   "chapter": "Profit and Loss",
    "status": "Solid",
    "subject": "quant",
    "evidence": "7 Sep, paper 2 Q38: correctly derived loss%=20% on CP (standard convention); scraped official key (25%) verified WRONG via independent Python calc — flagged in QUESTION_BANK.md Q226, taught the correct method not the bad key",
@@ -2255,6 +2328,7 @@
   {
    "concept": "Boats and streams (downstream/upstream)",
    "group": "Quantitative Aptitude",
+   "chapter": "Time, Speed & Distance",
    "status": "Solid",
    "subject": "quant",
    "evidence": "7 Sep, paper 2 Q41: boat 30km/h, stream 6km/h, 12km downstream -> 20 min, correct; first time this concept taught",
@@ -2263,6 +2337,7 @@
   {
    "concept": "Heights and distances (angle of elevation, two colinear points)",
    "group": "Quantitative Aptitude",
+   "chapter": "Heights and Distances",
    "status": "Solid",
    "subject": "quant",
    "evidence": "7 Sep, paper 2 Q44: 30m tower, 30deg/45deg angles -> 30(sqrt3-1)m, correct; first time this concept taught, trig application",
@@ -2271,6 +2346,7 @@
   {
    "concept": "Quadratic discriminant — condition for real roots",
    "group": "Quantitative Aptitude",
+   "chapter": "Quadratic Equations",
    "status": "Solid",
    "subject": "quant",
    "evidence": "7 Sep, paper 2 Q45: 4x^2-kx+9=0 -> discriminant rule k<=-12 or k>=12 correctly derived; paper's own answer option uses confusing non-standard notation, flagged separately from the math itself",
@@ -2461,6 +2537,22 @@
    "misconception": "Picked the second-most-recent holder (VP until being replaced) instead of the actual current one (since Sep 2025) — trap specifically built to test \"latest,\" not just \"not the oldest.\"",
    "retry": "not yet retested",
    "open": false
+  },
+  {
+   "date": "21 Sep",
+   "area": "GK — aviation (altimetry)",
+   "question": "Aircraft parked at airfield elevation 420ft, QNH altimeter reads 450ft — what does QFE read?",
+   "misconception": "Third miss on the same QNH/QFE swap (26 Aug, 1 Sep, now 21 Sep) — mnemonic alone stopped working after 2 uses. Re-taught from first principles this time (QNH zero = sea level, QFE zero = the airfield itself, since you dial the airfield's own pressure in as zero) instead of another mnemonic.",
+   "retry": "cleared same session — 2/2 fresh variants correct (QFE=QNH−elevation applied both times)",
+   "open": false
+  },
+  {
+   "date": "21 Sep",
+   "area": "Maths — integration (sec/cosec sign family)",
+   "question": "∫sec x tan x dx",
+   "misconception": "Confused sec-family with cosec-family. d/dx(sec x)=sec x tan x (positive); d/dx(cosec x)=−cosec x cot x (different function, negative sign).",
+   "retry": "cleared on 2nd retry — ∫cosec x cot x dx also missed once (dropped the negative sign, said cosecx+c instead of −cosecx+c), then correct on ∫cot x cosec x dx",
+   "open": false
   }
  ],
  "sessions": [
@@ -2642,8 +2734,8 @@
   {
    "number": 1,
    "phase": "Part-A General",
-   "title": "Revision — Calendar reasoning (day-of-week shift), Averages (with prime-number filtering), Direct proportion / unitary method, Time and work (multi-stage, who-worked-when)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Calendar reasoning (day-of-week shift), Averages (with prime-number filtering), Direct proportion / unitary method, Time and work (multi-stage, who-worked-when).",
+   "title": "Blood relations — \"only son/daughter\" nested layer",
+   "objective": "N2 retry: answered \"Daughter\" instead of \"Sister\" — jumped to self instead of resolving the inner relation (grandfather's only son = own father) first. 26 Aug retest: 2/3 fresh variants — correct on mother's-only-daughter and grandmother's-only-daughter forms, but missed the same-generation form (\"father's only son\" = speaker himself → should be Daughter) by mechanically reapplying \"sister\" from the earlier fix instead of re-deriving. Genuine misconception, not cleared — needs one more rep distinguishing same-generation vs one-generation-up \"only son/daughter\" phrasing",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2657,8 +2749,8 @@
   {
    "number": 2,
    "phase": "Part-A General",
-   "title": "Revision — Decimal arithmetic equations, Number series — perfect-square differences, Partnership / profit sharing with staggered entry, Percentage — mixture removal (recompute new total)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Decimal arithmetic equations, Number series — perfect-square differences, Partnership / profit sharing with staggered entry, Percentage — mixture removal (recompute new total).",
+   "title": "Revision — Classification (odd one out), Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Classification (odd one out), Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2672,8 +2764,8 @@
   {
    "number": 3,
    "phase": "Part-A General",
-   "title": "Revision — Simple interest — find Principal from Amount, Relative speed — opposite vs same direction, Mensuration — ratio scaling (linear vs area vs volume), Ages — ratio and difference",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Simple interest — find Principal from Amount, Relative speed — opposite vs same direction, Mensuration — ratio scaling (linear vs area vs volume), Ages — ratio and difference.",
+   "title": "Revision — Ranking / linear order chains, Calendar reasoning (day-of-week shift), Blood relations — simple (one-layer), Blood relations — multi-person family table",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Ranking / linear order chains, Calendar reasoning (day-of-week shift), Blood relations — simple (one-layer), Blood relations — multi-person family table.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2687,8 +2779,8 @@
   {
    "number": 4,
    "phase": "Part-A General",
-   "title": "Revision — Two-digit number — digit sum/difference/product, Profit % — CP of X articles = SP of Y articles, Percentage equation algebra, LCM/HCF from a ratio",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Two-digit number — digit sum/difference/product, Profit % — CP of X articles = SP of Y articles, Percentage equation algebra, LCM/HCF from a ratio.",
+   "title": "Revision — Sign/number interchange puzzles, Number series — letter/number mismatch, Letter matrix / grid analogy, Number analogy (a:b :: c:?)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Sign/number interchange puzzles, Number series — letter/number mismatch, Letter matrix / grid analogy, Number analogy (a:b :: c:?).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2702,8 +2794,8 @@
   {
    "number": 5,
    "phase": "Part-A General",
-   "title": "Revision — LCM — smallest n-digit multiple, HCF — maximum common measure, Ratio chaining (a:b::b:c via shared-term LCM), Alligation-style mixture blending (two solutions, weighted fractions)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: LCM — smallest n-digit multiple, HCF — maximum common measure, Ratio chaining (a:b::b:c via shared-term LCM), Alligation-style mixture blending (two solutions, weighted fractions).",
+   "title": "Revision — Arithmetic progression (spacing/intervals), Word analogy (antonym pairs), Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Arithmetic progression (spacing/intervals), Word analogy (antonym pairs), Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2717,8 +2809,8 @@
   {
    "number": 6,
    "phase": "Part-A General",
-   "title": "Revision — Compound interest — non-annual compounding period conversion, Loss% when SP of n articles = CP of m articles, Boats and streams (downstream/upstream), Heights and distances (angle of elevation, two colinear points)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Compound interest — non-annual compounding period conversion, Loss% when SP of n articles = CP of m articles, Boats and streams (downstream/upstream), Heights and distances (angle of elevation, two colinear points).",
+   "title": "Revision — Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting, Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting, Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2732,8 +2824,8 @@
   {
    "number": 7,
    "phase": "Part-A General",
-   "title": "Revision — Quadratic discriminant — condition for real roots",
-   "objective": "Fast spaced recap of 1 already-solid concepts: Quadratic discriminant — condition for real roots.",
+   "title": "Revision — Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line, Averages (with prime-number filtering), Direct proportion / unitary method",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line, Averages (with prime-number filtering), Direct proportion / unitary method.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2746,39 +2838,39 @@
   },
   {
    "number": 8,
-   "phase": "Physics",
-   "title": "Revision — Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation).",
+   "phase": "Part-A General",
+   "title": "Revision — Time and work (multi-stage, who-worked-when), Decimal arithmetic equations, Number series — perfect-square differences, Partnership / profit sharing with staggered entry",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Time and work (multi-stage, who-worked-when), Decimal arithmetic equations, Number series — perfect-square differences, Partnership / profit sharing with staggered entry.",
    "mastery": {
-    "explain": "pass",
-    "recall": "pass",
-    "apply": "pass",
-    "spot_trap": "pass",
-    "speed": "pass"
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
    },
-   "status": "done",
+   "status": "not_started",
    "scheduledDate": "2026-10-18"
   },
   {
    "number": 9,
-   "phase": "Physics",
-   "title": "Revision — Velocity vs acceleration at a turning point (v=0 ≠ a=0), Projectile motion (horizontal/vertical independence, time of flight, max height, range)",
-   "objective": "Fast spaced recap of 2 already-solid concepts: Velocity vs acceleration at a turning point (v=0 ≠ a=0), Projectile motion (horizontal/vertical independence, time of flight, max height, range).",
+   "phase": "Part-A General",
+   "title": "Revision — Percentage — mixture removal (recompute new total), Simple interest — find Principal from Amount, Relative speed — opposite vs same direction, Mensuration — ratio scaling (linear vs area vs volume)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Percentage — mixture removal (recompute new total), Simple interest — find Principal from Amount, Relative speed — opposite vs same direction, Mensuration — ratio scaling (linear vs area vs volume).",
    "mastery": {
-    "explain": "pass",
-    "recall": "pass",
-    "apply": "pass",
-    "spot_trap": "pass",
-    "speed": "pass"
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
    },
-   "status": "done",
+   "status": "not_started",
    "scheduledDate": "2026-10-19"
   },
   {
    "number": 10,
-   "phase": "Maths",
-   "title": "Product rule — both factors in each term",
-   "objective": "dropped the v in u′v on (2x+1)⁴·x",
+   "phase": "Part-A General",
+   "title": "Revision — Ages — ratio and difference, Two-digit number — digit sum/difference/product, Profit % — CP of X articles = SP of Y articles, Percentage equation algebra",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Ages — ratio and difference, Two-digit number — digit sum/difference/product, Profit % — CP of X articles = SP of Y articles, Percentage equation algebra.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2791,9 +2883,9 @@
   },
   {
    "number": 11,
-   "phase": "Maths",
-   "title": "Maxima / minima + 2nd derivative test",
-   "objective": "taught twice, worked airport-parking example",
+   "phase": "Part-A General",
+   "title": "Revision — LCM/HCF from a ratio, LCM — smallest n-digit multiple, HCF — maximum common measure, Ratio chaining (a:b::b:c via shared-term LCM)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: LCM/HCF from a ratio, LCM — smallest n-digit multiple, HCF — maximum common measure, Ratio chaining (a:b::b:c via shared-term LCM).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2806,9 +2898,9 @@
   },
   {
    "number": 12,
-   "phase": "Maths",
-   "title": "Simplifying final answers",
-   "objective": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
+   "phase": "Part-A General",
+   "title": "Revision — Alligation-style mixture blending (two solutions, weighted fractions), Compound interest — non-annual compounding period conversion, Loss% when SP of n articles = CP of m articles, Boats and streams (downstream/upstream)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Alligation-style mixture blending (two solutions, weighted fractions), Compound interest — non-annual compounding period conversion, Loss% when SP of n articles = CP of m articles, Boats and streams (downstream/upstream).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2821,9 +2913,9 @@
   },
   {
    "number": 13,
-   "phase": "Maths",
-   "title": "Integration as antiderivative and area",
-   "objective": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
+   "phase": "Part-A General",
+   "title": "Revision — Heights and distances (angle of elevation, two colinear points), Quadratic discriminant — condition for real roots",
+   "objective": "Fast spaced recap of 2 already-solid concepts: Heights and distances (angle of elevation, two colinear points), Quadratic discriminant — condition for real roots.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2836,54 +2928,54 @@
   },
   {
    "number": 14,
-   "phase": "Maths",
-   "title": "Blood relations — \"only son/daughter\" nested layer",
-   "objective": "N2 retry: answered \"Daughter\" instead of \"Sister\" — jumped to self instead of resolving the inner relation (grandfather's only son = own father) first. 26 Aug retest: 2/3 fresh variants — correct on mother's-only-daughter and grandmother's-only-daughter forms, but missed the same-generation form (\"father's only son\" = speaker himself → should be Daughter) by mechanically reapplying \"sister\" from the earlier fix instead of re-deriving. Genuine misconception, not cleared — needs one more rep distinguishing same-generation vs one-generation-up \"only son/daughter\" phrasing",
+   "phase": "Physics",
+   "title": "Revision — Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), Scalar vs vector (Ch.3 started)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), Scalar vs vector (Ch.3 started).",
    "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
+    "explain": "pass",
+    "recall": "pass",
+    "apply": "pass",
+    "spot_trap": "pass",
+    "speed": "pass"
    },
-   "status": "not_started",
+   "status": "done",
    "scheduledDate": "2026-10-24"
   },
   {
    "number": 15,
-   "phase": "Maths",
-   "title": "Revision — Scalar vs vector (Ch.3 started), Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), Derivative as rate of change / slope",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Scalar vs vector (Ch.3 started), Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), Derivative as rate of change / slope.",
+   "phase": "Physics",
+   "title": "Revision — Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation), Velocity vs acceleration at a turning point (v=0 ≠ a=0)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation), Velocity vs acceleration at a turning point (v=0 ≠ a=0).",
    "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
+    "explain": "pass",
+    "recall": "pass",
+    "apply": "pass",
+    "spot_trap": "pass",
+    "speed": "pass"
    },
-   "status": "not_started",
+   "status": "done",
    "scheduledDate": "2026-10-25"
   },
   {
    "number": 16,
-   "phase": "Maths",
-   "title": "Revision — Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics, Chain rule — \"inside stays unchanged\"",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics, Chain rule — \"inside stays unchanged\".",
+   "phase": "Physics",
+   "title": "Revision — Projectile motion (horizontal/vertical independence, time of flight, max height, range)",
+   "objective": "Fast spaced recap of 1 already-solid concepts: Projectile motion (horizontal/vertical independence, time of flight, max height, range).",
    "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
+    "explain": "pass",
+    "recall": "pass",
+    "apply": "pass",
+    "spot_trap": "pass",
+    "speed": "pass"
    },
-   "status": "not_started",
+   "status": "done",
    "scheduledDate": "2026-10-26"
   },
   {
    "number": 17,
    "phase": "Maths",
-   "title": "Revision — Chain rule — multiply not add, Roots as fractional powers, Product rule, Quotient rule — mechanics",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Chain rule — multiply not add, Roots as fractional powers, Product rule, Quotient rule — mechanics.",
+   "title": "Product rule — both factors in each term",
+   "objective": "dropped the v in u′v on (2x+1)⁴·x",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2897,8 +2989,8 @@
   {
    "number": 18,
    "phase": "Maths",
-   "title": "Revision — Quotient rule — sign and order, Power rule for integration, The constant of integration (+C), Integrating a bare constant (treat c as c·x^0)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Quotient rule — sign and order, Power rule for integration, The constant of integration (+C), Integrating a bare constant (treat c as c·x^0).",
+   "title": "Maxima / minima + 2nd derivative test",
+   "objective": "taught twice, worked airport-parking example",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2912,8 +3004,8 @@
   {
    "number": 19,
    "phase": "Maths",
-   "title": "Revision — Standard integrals, Definite integrals, Signed area - below the axis counts negative, Classification (odd one out)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Standard integrals, Definite integrals, Signed area - below the axis counts negative, Classification (odd one out).",
+   "title": "Simplifying final answers",
+   "objective": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2927,8 +3019,8 @@
   {
    "number": 20,
    "phase": "Maths",
-   "title": "Revision — Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement), Ranking / linear order chains",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement), Ranking / linear order chains.",
+   "title": "Integration as antiderivative and area",
+   "objective": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2942,8 +3034,8 @@
   {
    "number": 21,
    "phase": "Maths",
-   "title": "Revision — Blood relations — simple (one-layer), Blood relations — multi-person family table, Sign/number interchange puzzles, Number series — letter/number mismatch",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Blood relations — simple (one-layer), Blood relations — multi-person family table, Sign/number interchange puzzles, Number series — letter/number mismatch.",
+   "title": "Revision — Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2957,8 +3049,8 @@
   {
    "number": 22,
    "phase": "Maths",
-   "title": "Revision — Letter matrix / grid analogy, Number analogy (a:b :: c:?), Arithmetic progression (spacing/intervals), Word analogy (antonym pairs)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Letter matrix / grid analogy, Number analogy (a:b :: c:?), Arithmetic progression (spacing/intervals), Word analogy (antonym pairs).",
+   "title": "Revision — Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2972,8 +3064,8 @@
   {
    "number": 23,
    "phase": "Maths",
-   "title": "Revision — Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection), Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection), Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting.",
+   "title": "Revision — Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -2987,8 +3079,8 @@
   {
    "number": 24,
    "phase": "Maths",
-   "title": "Revision — Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares, Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares, Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line.",
+   "title": "Revision — Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3225,26 +3317,7 @@
    "scheduledDate": "2026-11-18"
   }
  ],
- "reviewQueue": [
-  {
-   "item": "QNH vs QFE",
-   "rung": 3,
-   "due": "2026-09-16",
-   "note": "Repeat-miss history (26 Aug, 1 Sep) - due again after the last correct retry with the Field/Height mnemonic"
-  },
-  {
-   "item": "Blood relations - same-generation \"only son\" trap",
-   "rung": 2,
-   "due": "2026-09-16",
-   "note": "Cleared once on a fresh variant, watch for it resurfacing in new phrasing"
-  },
-  {
-   "item": "Standard integrals table - spacing check",
-   "rung": 1,
-   "due": "2026-09-16",
-   "note": "Cleared 7 Sep, this is the first spaced re-check"
-  }
- ],
+ "reviewQueue": [],
  "examDate": "2026-11-19",
  "questions": [
   {
@@ -25348,270 +25421,270 @@
  },
  "formulas": [
   {
-   "group": "Physics — Kinematics",
+   "group": "Motion in a Straight Line",
    "formula": "v = u + at",
    "meaning": "v=final velocity, u=initial velocity, a=acceleration, t=time",
    "notes": "Use for time/velocity questions with no displacement given",
-   "subject": "physics"
+   "subject": "mathematics"
   },
   {
-   "group": "Physics — Kinematics",
+   "group": "Motion in a Straight Line",
    "formula": "s = ut + 1/2at^2",
    "meaning": "s=displacement",
    "notes": "Sign of a matters — deceleration (e.g. thrown upward) needs a negative",
-   "subject": "physics"
+   "subject": "mathematics"
   },
   {
-   "group": "Physics — Kinematics",
+   "group": "Motion in a Straight Line",
    "formula": "v^2 = u^2 + 2as",
    "meaning": "Same symbols, no t needed",
    "notes": "Fastest route when time isn't asked or given",
-   "subject": "physics"
+   "subject": "mathematics"
   },
   {
-   "group": "Physics — Kinematics",
+   "group": "Motion in a Straight Line",
    "formula": "Instantaneous velocity = slope of tangent on x-t graph",
    "meaning": "—",
    "notes": "Equals average velocity ONLY when motion is constant-velocity (straight-line x-t graph)",
-   "subject": "physics"
+   "subject": "mathematics"
   },
   {
-   "group": "Physics — Kinematics",
+   "group": "Motion in a Straight Line",
    "formula": "Acceleration = slope of v-t graph",
    "meaning": "—",
    "notes": "Flat v-t line = zero acceleration. Sloped STRAIGHT line = constant NONZERO acceleration (e.g. free fall, g=9.8). Don't conflate \"constant\" with \"flat\"",
-   "subject": "physics"
+   "subject": "mathematics"
   },
   {
-   "group": "Physics — Kinematics",
+   "group": "Motion in a Straight Line",
    "formula": "Displacement (vector) vs distance (scalar)",
    "meaning": "Displacement = net start-to-end change in position with direction",
    "notes": "Track NET position, not the direction of the last leg travelled",
-   "subject": "physics"
+   "subject": "mathematics"
   },
   {
-   "group": "Physics — Projectile Motion",
+   "group": "Motion in a Plane",
    "formula": "Time of flight: T = 2u sinθ / g",
    "meaning": "u=launch speed, θ=launch angle",
    "notes": "—",
-   "subject": "physics"
+   "subject": "mathematics"
   },
   {
-   "group": "Physics — Projectile Motion",
+   "group": "Motion in a Plane",
    "formula": "Max height: h = u^2 sin^2θ / 2g",
    "meaning": "—",
    "notes": "Horizontal velocity is NEVER zero, even at max height — only vertical velocity (vy) is zero there",
-   "subject": "physics"
+   "subject": "mathematics"
   },
   {
-   "group": "Physics — Projectile Motion",
+   "group": "Motion in a Plane",
    "formula": "Range: R = u^2 sin2θ / g",
    "meaning": "—",
    "notes": "Range is maximum when θ=45° (sin2θ=1)",
-   "subject": "physics"
+   "subject": "mathematics"
   },
   {
-   "group": "Physics — Projectile Motion",
+   "group": "Motion in a Plane",
    "formula": "Horizontal component: ux = u cosθ (constant, a=0)",
    "meaning": "Vertical component: uy = u sinθ (a=-g)",
    "notes": "Horizontal speed at landing = horizontal speed at launch, always",
-   "subject": "physics"
+   "subject": "mathematics"
   },
   {
-   "group": "Physics — Vectors",
+   "group": "Motion in a Plane",
    "formula": "Resultant (right-angle components): R = sqrt(Ax^2 + Ay^2)",
    "meaning": "Pythagoras on perpendicular components",
    "notes": "—",
    "subject": "mathematics"
   },
   {
-   "group": "Physics — Vectors",
+   "group": "Motion in a Plane",
    "formula": "Vector resolution: Ax = A cosθ, Ay = A sinθ",
    "meaning": "A=magnitude, θ=angle from x-axis",
    "notes": "—",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Differentiation",
+   "group": "Differentiation",
    "formula": "Power rule: d/dx(x^n) = n·x^(n-1)",
    "meaning": "—",
    "notes": "—",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Differentiation",
+   "group": "Differentiation",
    "formula": "Chain rule: d/dx f(g(x)) = f'(g(x))·g'(x)",
    "meaning": "\"Outside stays, inside rides along as multiplier\"",
    "notes": "Multiply, never add. Never differentiate the inside in place — it must appear unchanged, multiplied by its own derivative",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Differentiation",
+   "group": "Differentiation",
    "formula": "Product rule: d/dx(uv) = u'v + uv'",
    "meaning": "u, v are both functions of x",
    "notes": "Don't chain-rule two side-by-side factors — check whether it's nested (chain) or multiplied (product) first",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Differentiation",
+   "group": "Differentiation",
    "formula": "Quotient rule: d/dx(u/v) = (u'v - uv')/v^2",
    "meaning": "Top's derivative first, always",
    "notes": "Subtraction not reversible — u'v - uv', never uv' - u'v. Numerator's own function is always listed first",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Differentiation",
+   "group": "Differentiation",
    "formula": "Standard derivatives: sin x -> cos x, cos x -> -sin x, e^x -> e^x, ln x -> 1/x",
    "meaning": "—",
    "notes": "Roots and reciprocals are POWERS (use power rule), not logs — only ln u gives u'/u",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Differentiation",
+   "group": "Differentiation",
    "formula": "Maxima/minima: dy/dx=0, then check sign of d^2y/dx^2",
    "meaning": "Positive d2y/dx2 = minimum, negative = maximum",
    "notes": "—",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Integration",
+   "group": "Integration",
    "formula": "Power rule: integral of x^n dx = x^(n+1)/(n+1) + C",
    "meaning": "Always add +C for indefinite integrals",
    "notes": "Differentiation erases a constant — integration can't recover it, so +C is mandatory, not optional",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Integration",
+   "group": "Integration",
    "formula": "Integrating a bare constant: integral of c dx = c*x + C",
    "meaning": "Treat constant as c*x^0",
    "notes": "Don't integrate a bare constant as if it were linear (e.g. integral of -2 dx is NOT -x^2)",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Integration",
+   "group": "Integration",
    "formula": "Definite integral (FTC): integral from a to b of f(x)dx = F(b) - F(a)",
    "meaning": "Evaluate antiderivative at bounds, subtract",
    "notes": "Signed area — area BELOW the x-axis counts negative; a definite integral can be zero even with a nonzero physical area if it's split above/below the axis",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "group": "LCM and HCF",
    "formula": "LCM x HCF = a x b (two numbers only)",
    "meaning": "For a ratio a:b, actual numbers are a*k, b*k where k=HCF",
    "notes": "Only true for exactly two numbers, not three or more",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "group": "LCM and HCF",
    "formula": "Smallest n-digit number divisible by a set",
    "meaning": "Find LCM of the set, then round UP to the smallest n-digit multiple",
    "notes": "—",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "group": "LCM and HCF",
    "formula": "HCF as \"maximum common measure\"",
    "meaning": "Largest size/quantity that divides all given quantities exactly",
    "notes": "Used for \"largest container/tile/rope-piece size\" questions",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "group": "Ratio, Proportion & Unitary Method",
    "formula": "Ratio chaining a:b :: b:c -> a:b:c",
    "meaning": "Make the shared term (b) equal via LCM before combining",
    "notes": "—",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "group": "Time, Speed & Distance",
    "formula": "Relative speed — same direction: subtract speeds",
    "meaning": "Opposite direction: add speeds",
    "notes": "Verify against the question's stated direction — a scraped answer key may silently apply the wrong one (see QUESTION_BANK Q227)",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
-   "formula": "Simple Interest: SI = P*R*T/100",
-   "meaning": "P=principal, R=rate%, T=time(yrs)",
-   "notes": "—",
-   "subject": "mathematics"
-  },
-  {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
-   "formula": "Compound Interest (annual): A = P(1+R/100)^T",
-   "meaning": "—",
-   "notes": "Non-annual compounding: HALVE the rate, DOUBLE the number of periods per compounding switch (e.g. half-yearly: R/2, 2T)",
-   "subject": "mathematics"
-  },
-  {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
-   "formula": "Alligation (mixture blending): weighted average of the two components' fractions",
-   "meaning": "—",
-   "notes": "Works for any 2-component blend by given ratio, not just liquids",
-   "subject": "mathematics"
-  },
-  {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "group": "Time, Speed & Distance",
    "formula": "Boats and streams: downstream speed = boat+stream, upstream speed = boat-stream",
    "meaning": "—",
    "notes": "—",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "group": "Simple & Compound Interest",
+   "formula": "Simple Interest: SI = P*R*T/100",
+   "meaning": "P=principal, R=rate%, T=time(yrs)",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Simple & Compound Interest",
+   "formula": "Compound Interest (annual): A = P(1+R/100)^T",
+   "meaning": "—",
+   "notes": "Non-annual compounding: HALVE the rate, DOUBLE the number of periods per compounding switch (e.g. half-yearly: R/2, 2T)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Alligation and Mixture",
+   "formula": "Alligation (mixture blending): weighted average of the two components' fractions",
+   "meaning": "—",
+   "notes": "Works for any 2-component blend by given ratio, not just liquids",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Heights and Distances",
    "formula": "Heights and distances: tan(angle) = opposite/adjacent",
    "meaning": "Use two collinear observation points for two-angle problems",
    "notes": "—",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "group": "Quadratic Equations",
    "formula": "Quadratic real-roots condition: discriminant b^2-4ac >= 0",
    "meaning": "—",
    "notes": "Some papers use non-standard notation for the same rule — verify against the actual math, not just the answer key's phrasing",
    "subject": "mathematics"
   },
   {
-   "group": "Mathematics — Number Systems, Ratio, Aptitude Formulas",
+   "group": "Profit and Loss",
    "formula": "Loss%/Profit% when SP of n articles = CP of m articles",
    "meaning": "Compute actual CP and SP per article, then %change on CP",
    "notes": "Some scraped keys apply the wrong base (CP vs SP) — verify independently before trusting (see QUESTION_BANK Q226)",
    "subject": "mathematics"
   },
   {
-   "group": "Reasoning — Rules",
+   "group": "Blood Relations",
    "formula": "Blood relations — \"only son/daughter\" phrasing",
    "meaning": "Identify WHOSE only son/daughter is named before deciding the generation layer",
    "notes": "\"My father's/mother's only son/daughter\" = speaker's own generation -> answer is speaker's own child. \"My grandfather's/grandmother's only son/daughter\" = one generation up -> answer is speaker's sibling",
-   "subject": "reasoning"
+   "subject": "mathematics"
   },
   {
-   "group": "Reasoning — Rules",
+   "group": "Classification & Series",
    "formula": "Alphabet mirror-pair coding: pair position n with position (27-n)",
    "meaning": "A<->Z, B<->Y, C<->X ...",
    "notes": "Used for reflection-style letter analogies, not a constant shift",
-   "subject": "reasoning"
+   "subject": "mathematics"
   },
   {
-   "group": "Reasoning — Rules",
-   "formula": "Caesar shift coding",
-   "meaning": "Every letter shifts by the same fixed amount",
-   "notes": "Apply the SAME shift consistently to a new word to verify the rule before answering",
-   "subject": "reasoning"
-  },
-  {
-   "group": "Reasoning — Rules",
-   "formula": "Digit-equation coding (sum of squares)",
-   "meaning": "e.g. abc -> a^2+b^2+c^2",
-   "notes": "Verify the pattern against ALL given examples before applying to the unknown",
-   "subject": "reasoning"
-  },
-  {
-   "group": "Reasoning — Rules",
+   "group": "Classification & Series",
    "formula": "Hidden single series (not true A:B::C:D)",
    "meaning": "Sometimes 3+ numbers form ONE series (check 2nd-order differences) rather than a direct proportion",
    "notes": "Don't force a ratio/analogy read when the numbers actually belong to one running series",
-   "subject": "reasoning"
+   "subject": "mathematics"
+  },
+  {
+   "group": "Coding-Decoding",
+   "formula": "Caesar shift coding",
+   "meaning": "Every letter shifts by the same fixed amount",
+   "notes": "Apply the SAME shift consistently to a new word to verify the rule before answering",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Coding-Decoding",
+   "formula": "Digit-equation coding (sum of squares)",
+   "meaning": "e.g. abc -> a^2+b^2+c^2",
+   "notes": "Verify the pattern against ALL given examples before applying to the unknown",
+   "subject": "mathematics"
   },
   {
    "group": "English — Rules",
@@ -25696,6 +25769,416 @@
    "meaning": "Created 1978 as a Cell under DGCA; became independent under MoCA in 1987",
    "notes": "Question may ask for either date — read carefully which milestone is being asked",
    "subject": "aviation"
+  }
+ ],
+ "chapters": [
+  {
+   "slug": "physics-motion-in-a-straight-line",
+   "subject": "physics",
+   "name": "Motion in a Straight Line",
+   "concepts": [
+    "Displacement vs distance",
+    "Instantaneous velocity (slope of x-t graph)",
+    "Acceleration (slope of v-t graph)",
+    "3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation)",
+    "Velocity vs acceleration at a turning point (v=0 ≠ a=0)"
+   ],
+   "total": 5,
+   "solid": 5,
+   "pct": 100,
+   "formulaCount": 6,
+   "questionIds": []
+  },
+  {
+   "slug": "physics-motion-in-a-plane",
+   "subject": "physics",
+   "name": "Motion in a Plane",
+   "concepts": [
+    "Scalar vs vector (Ch.3 started)",
+    "Vector addition — triangle law",
+    "Vector resolution (components, Ax=Acos θ, Ay=Asin θ)",
+    "Projectile motion (horizontal/vertical independence, time of flight, max height, range)"
+   ],
+   "total": 4,
+   "solid": 4,
+   "pct": 100,
+   "formulaCount": 6,
+   "questionIds": []
+  },
+  {
+   "slug": "mathematics-differentiation",
+   "subject": "mathematics",
+   "name": "Differentiation",
+   "concepts": [
+    "Derivative as rate of change / slope",
+    "Power rule",
+    "Standard derivatives (sin, cos, eˣ, ln)",
+    "Chain rule — mechanics",
+    "Chain rule — \"inside stays unchanged\"",
+    "Chain rule — multiply not add",
+    "Roots as fractional powers",
+    "Product rule",
+    "Product rule — both factors in each term",
+    "Quotient rule — mechanics",
+    "Quotient rule — sign and order",
+    "Maxima / minima + 2nd derivative test",
+    "Simplifying final answers"
+   ],
+   "total": 13,
+   "solid": 10,
+   "pct": 77,
+   "formulaCount": 6,
+   "questionIds": []
+  },
+  {
+   "slug": "mathematics-integration",
+   "subject": "mathematics",
+   "name": "Integration",
+   "concepts": [
+    "Integration as antiderivative and area",
+    "Power rule for integration",
+    "The constant of integration (+C)",
+    "Integrating a bare constant (treat c as c·x^0)",
+    "Standard integrals",
+    "Definite integrals",
+    "Signed area - below the axis counts negative"
+   ],
+   "total": 7,
+   "solid": 6,
+   "pct": 86,
+   "formulaCount": 3,
+   "questionIds": []
+  },
+  {
+   "slug": "reasoning-classification-series",
+   "subject": "reasoning",
+   "name": "Classification & Series",
+   "concepts": [
+    "Classification (odd one out)",
+    "Number series — letter/number mismatch",
+    "Letter matrix / grid analogy",
+    "Number analogy (a:b :: c:?)",
+    "Arithmetic progression (spacing/intervals)",
+    "Word analogy (antonym pairs)",
+    "Word formation (anagram)",
+    "Letter analogy — alphabet mirror (27-n reflection)",
+    "Number analogy — hidden single series (not true A:B::C:D)",
+    "Word formation from letter-supply counting"
+   ],
+   "total": 10,
+   "solid": 10,
+   "pct": 100,
+   "formulaCount": 2,
+   "questionIds": [
+    "Q16",
+    "Q27",
+    "Q30",
+    "Q508",
+    "Q616"
+   ]
+  },
+  {
+   "slug": "reasoning-venn-diagrams-visual-reasoning",
+   "subject": "reasoning",
+   "name": "Venn Diagrams & Visual Reasoning",
+   "concepts": [
+    "Venn diagrams (subset/disjoint/overlap)",
+    "Venn diagram — three classes, chain-overlap (not all-mutual)",
+    "Mirror image across a vertical line"
+   ],
+   "total": 3,
+   "solid": 3,
+   "pct": 100,
+   "formulaCount": 0,
+   "questionIds": [
+    "Q17"
+   ]
+  },
+  {
+   "slug": "reasoning-coding-decoding",
+   "subject": "reasoning",
+   "name": "Coding-Decoding",
+   "concepts": [
+    "Coding-decoding (word/symbol overlap)",
+    "Sign/number interchange puzzles",
+    "Letter coding — uniform Caesar shift",
+    "Digit-equation coding — sum of squares"
+   ],
+   "total": 4,
+   "solid": 4,
+   "pct": 100,
+   "formulaCount": 2,
+   "questionIds": [
+    "Q18",
+    "Q24"
+   ]
+  },
+  {
+   "slug": "reasoning-direction-ranking",
+   "subject": "reasoning",
+   "name": "Direction & Ranking",
+   "concepts": [
+    "Direction sense (net displacement)",
+    "Ranking / linear order chains"
+   ],
+   "total": 2,
+   "solid": 2,
+   "pct": 100,
+   "formulaCount": 0,
+   "questionIds": [
+    "Q19",
+    "Q20",
+    "Q338"
+   ]
+  },
+  {
+   "slug": "reasoning-calendar-clock-reasoning",
+   "subject": "reasoning",
+   "name": "Calendar & Clock Reasoning",
+   "concepts": [
+    "Calendar reasoning (day-of-week shift)"
+   ],
+   "total": 1,
+   "solid": 1,
+   "pct": 100,
+   "formulaCount": 0,
+   "questionIds": [
+    "Q21"
+   ]
+  },
+  {
+   "slug": "reasoning-blood-relations",
+   "subject": "reasoning",
+   "name": "Blood Relations",
+   "concepts": [
+    "Blood relations — simple (one-layer)",
+    "Blood relations — \"only son/daughter\" nested layer",
+    "Blood relations — multi-person family table"
+   ],
+   "total": 3,
+   "solid": 2,
+   "pct": 67,
+   "formulaCount": 1,
+   "questionIds": []
+  },
+  {
+   "slug": "quant-averages",
+   "subject": "quant",
+   "name": "Averages",
+   "concepts": [
+    "Averages (with prime-number filtering)"
+   ],
+   "total": 1,
+   "solid": 1,
+   "pct": 100,
+   "formulaCount": 0,
+   "questionIds": [
+    "Q31"
+   ]
+  },
+  {
+   "slug": "quant-ratio-proportion-unitary-method",
+   "subject": "quant",
+   "name": "Ratio, Proportion & Unitary Method",
+   "concepts": [
+    "Direct proportion / unitary method",
+    "Ratio chaining (a:b::b:c via shared-term LCM)"
+   ],
+   "total": 2,
+   "solid": 2,
+   "pct": 100,
+   "formulaCount": 1,
+   "questionIds": [
+    "Q32"
+   ]
+  },
+  {
+   "slug": "quant-time-and-work",
+   "subject": "quant",
+   "name": "Time and Work",
+   "concepts": [
+    "Time and work (multi-stage, who-worked-when)"
+   ],
+   "total": 1,
+   "solid": 1,
+   "pct": 100,
+   "formulaCount": 0,
+   "questionIds": [
+    "Q33"
+   ]
+  },
+  {
+   "slug": "quant-number-system-simplification",
+   "subject": "quant",
+   "name": "Number System & Simplification",
+   "concepts": [
+    "Decimal arithmetic equations",
+    "Number series — perfect-square differences",
+    "Two-digit number — digit sum/difference/product"
+   ],
+   "total": 3,
+   "solid": 3,
+   "pct": 100,
+   "formulaCount": 0,
+   "questionIds": [
+    "Q42"
+   ]
+  },
+  {
+   "slug": "quant-partnership",
+   "subject": "quant",
+   "name": "Partnership",
+   "concepts": [
+    "Partnership / profit sharing with staggered entry"
+   ],
+   "total": 1,
+   "solid": 1,
+   "pct": 100,
+   "formulaCount": 0,
+   "questionIds": [
+    "Q36"
+   ]
+  },
+  {
+   "slug": "quant-percentage",
+   "subject": "quant",
+   "name": "Percentage",
+   "concepts": [
+    "Percentage — mixture removal (recompute new total)",
+    "Percentage equation algebra"
+   ],
+   "total": 2,
+   "solid": 2,
+   "pct": 100,
+   "formulaCount": 0,
+   "questionIds": [
+    "Q44",
+    "Q461"
+   ]
+  },
+  {
+   "slug": "quant-simple-compound-interest",
+   "subject": "quant",
+   "name": "Simple & Compound Interest",
+   "concepts": [
+    "Simple interest — find Principal from Amount",
+    "Compound interest — non-annual compounding period conversion"
+   ],
+   "total": 2,
+   "solid": 2,
+   "pct": 100,
+   "formulaCount": 2,
+   "questionIds": []
+  },
+  {
+   "slug": "quant-time-speed-distance",
+   "subject": "quant",
+   "name": "Time, Speed & Distance",
+   "concepts": [
+    "Relative speed — opposite vs same direction",
+    "Boats and streams (downstream/upstream)"
+   ],
+   "total": 2,
+   "solid": 2,
+   "pct": 100,
+   "formulaCount": 2,
+   "questionIds": [
+    "Q39"
+   ]
+  },
+  {
+   "slug": "quant-mensuration",
+   "subject": "quant",
+   "name": "Mensuration",
+   "concepts": [
+    "Mensuration — ratio scaling (linear vs area vs volume)"
+   ],
+   "total": 1,
+   "solid": 1,
+   "pct": 100,
+   "formulaCount": 0,
+   "questionIds": []
+  },
+  {
+   "slug": "quant-problems-on-ages",
+   "subject": "quant",
+   "name": "Problems on Ages",
+   "concepts": [
+    "Ages — ratio and difference"
+   ],
+   "total": 1,
+   "solid": 1,
+   "pct": 100,
+   "formulaCount": 0,
+   "questionIds": []
+  },
+  {
+   "slug": "quant-profit-and-loss",
+   "subject": "quant",
+   "name": "Profit and Loss",
+   "concepts": [
+    "Profit % — CP of X articles = SP of Y articles",
+    "Loss% when SP of n articles = CP of m articles"
+   ],
+   "total": 2,
+   "solid": 2,
+   "pct": 100,
+   "formulaCount": 1,
+   "questionIds": []
+  },
+  {
+   "slug": "quant-lcm-and-hcf",
+   "subject": "quant",
+   "name": "LCM and HCF",
+   "concepts": [
+    "LCM/HCF from a ratio",
+    "LCM — smallest n-digit multiple",
+    "HCF — maximum common measure"
+   ],
+   "total": 3,
+   "solid": 3,
+   "pct": 100,
+   "formulaCount": 3,
+   "questionIds": []
+  },
+  {
+   "slug": "quant-alligation-and-mixture",
+   "subject": "quant",
+   "name": "Alligation and Mixture",
+   "concepts": [
+    "Alligation-style mixture blending (two solutions, weighted fractions)"
+   ],
+   "total": 1,
+   "solid": 1,
+   "pct": 100,
+   "formulaCount": 1,
+   "questionIds": []
+  },
+  {
+   "slug": "quant-heights-and-distances",
+   "subject": "quant",
+   "name": "Heights and Distances",
+   "concepts": [
+    "Heights and distances (angle of elevation, two colinear points)"
+   ],
+   "total": 1,
+   "solid": 1,
+   "pct": 100,
+   "formulaCount": 1,
+   "questionIds": []
+  },
+  {
+   "slug": "quant-quadratic-equations",
+   "subject": "quant",
+   "name": "Quadratic Equations",
+   "concepts": [
+    "Quadratic discriminant — condition for real roots"
+   ],
+   "total": 1,
+   "solid": 1,
+   "pct": 100,
+   "formulaCount": 1,
+   "questionIds": []
   }
  ]
 }
