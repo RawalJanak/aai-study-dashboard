@@ -1,12 +1,12 @@
 {
- "builtAt": "21 Sep 2026, 13:20",
+ "builtAt": "21 Sep 2026, 13:21",
  "regClose": "2026-09-07",
  "daysToClose": -14,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 76,
+  "concepts": 78,
   "solid": 71,
-  "learning": 4,
+  "learning": 6,
   "weak": 1,
   "notStarted": 0,
   "lessons": 50,
@@ -29,7 +29,7 @@
   },
   {
    "status": "Learning",
-   "n": 4
+   "n": 6
   },
   {
    "status": "Solid",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "76 concepts logged (71 solid+, 1 weak)",
+    "78 concepts logged (71 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -377,6 +377,14 @@
    "logged": 9,
    "solid": 9,
    "pct": 100
+  },
+  {
+   "key": "business",
+   "name": "Business Management",
+   "marks": 12,
+   "logged": 2,
+   "solid": 0,
+   "pct": 0
   },
   {
    "key": "quant",
@@ -2351,6 +2359,24 @@
    "subject": "quant",
    "evidence": "7 Sep, paper 2 Q45: 4x^2-kx+9=0 -> discriminant rule k<=-12 or k>=12 correctly derived; paper's own answer option uses confusing non-standard notation, flagged separately from the math itself",
    "lesson": null
+  },
+  {
+   "concept": "Functions of Management (Planning/Organizing/Staffing/Directing/Controlling)",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Learning",
+   "subject": "business",
+   "evidence": "21 Sep: taught with airport-ops examples per function. Check question (Organizing vs Staffing distinction) answered by tutor for pacing, not yet confirmed independently by Janak — re-check needed",
+   "lesson": null
+  },
+  {
+   "concept": "Fayol's 14 Principles of Management",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Learning",
+   "subject": "business",
+   "evidence": "21 Sep: full table taught, with emphasis on the Unity of Command vs Scalar Chain distinction (most CBT-confused pair — one boss vs the whole chain). Applied check question (airport supervisor example) posed, answer pending",
+   "lesson": null
   }
  ],
  "errors": [
@@ -2744,7 +2770,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 2,
@@ -2759,7 +2785,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 3,
@@ -2774,7 +2800,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 4,
@@ -2789,7 +2815,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 5,
@@ -2804,7 +2830,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 6,
@@ -2819,7 +2845,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 7,
@@ -2834,7 +2860,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-17"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 8,
@@ -2849,7 +2875,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-18"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 9,
@@ -2864,7 +2890,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-19"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 10,
@@ -2879,7 +2905,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-20"
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 11,
@@ -2894,7 +2920,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-21"
+   "scheduledDate": "2026-10-19"
   },
   {
    "number": 12,
@@ -2909,7 +2935,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-22"
+   "scheduledDate": "2026-10-20"
   },
   {
    "number": 13,
@@ -2924,7 +2950,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-23"
+   "scheduledDate": "2026-10-21"
   },
   {
    "number": 14,
@@ -2939,7 +2965,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-24"
+   "scheduledDate": "2026-10-22"
   },
   {
    "number": 15,
@@ -2954,7 +2980,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-25"
+   "scheduledDate": "2026-10-23"
   },
   {
    "number": 16,
@@ -2969,7 +2995,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-26"
+   "scheduledDate": "2026-10-24"
   },
   {
    "number": 17,
@@ -2984,7 +3010,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-27"
+   "scheduledDate": "2026-10-25"
   },
   {
    "number": 18,
@@ -2999,7 +3025,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-28"
+   "scheduledDate": "2026-10-26"
   },
   {
    "number": 19,
@@ -3014,7 +3040,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-29"
+   "scheduledDate": "2026-10-27"
   },
   {
    "number": 20,
@@ -3029,7 +3055,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-30"
+   "scheduledDate": "2026-10-28"
   },
   {
    "number": 21,
@@ -3044,7 +3070,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-31"
+   "scheduledDate": "2026-10-29"
   },
   {
    "number": 22,
@@ -3059,7 +3085,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-01"
+   "scheduledDate": "2026-10-30"
   },
   {
    "number": 23,
@@ -3074,7 +3100,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-02"
+   "scheduledDate": "2026-10-31"
   },
   {
    "number": 24,
@@ -3089,10 +3115,40 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-03"
+   "scheduledDate": "2026-11-01"
   },
   {
    "number": 25,
+   "phase": "Business Mgmt",
+   "title": "Functions of Management (Planning/Organizing/Staffing/Directing/Controlling)",
+   "objective": "21 Sep: taught with airport-ops examples per function. Check question (Organizing vs Staffing distinction) answered by tutor for pacing, not yet confirmed independently by Janak — re-check needed",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-02"
+  },
+  {
+   "number": 26,
+   "phase": "Business Mgmt",
+   "title": "Fayol's 14 Principles of Management",
+   "objective": "21 Sep: full table taught, with emphasis on the Unity of Command vs Scalar Chain distinction (most CBT-confused pair — one boss vs the whole chain). Applied check question (airport supervisor example) posed, answer pending",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-03"
+  },
+  {
+   "number": 27,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3107,7 +3163,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 26,
+   "number": 28,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3122,7 +3178,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 27,
+   "number": 29,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3137,7 +3193,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 28,
+   "number": 30,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3152,7 +3208,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 29,
+   "number": 31,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3167,7 +3223,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 30,
+   "number": 32,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3182,7 +3238,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 31,
+   "number": 33,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3197,7 +3253,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 32,
+   "number": 34,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3212,7 +3268,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 33,
+   "number": 35,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3227,7 +3283,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 34,
+   "number": 36,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3242,7 +3298,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 35,
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3257,7 +3313,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 36,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3272,7 +3328,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 37,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3287,7 +3343,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 38,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3302,7 +3358,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 39,
+   "number": 41,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -26178,6 +26234,20 @@
    "solid": 1,
    "pct": 100,
    "formulaCount": 1,
+   "questionIds": []
+  },
+  {
+   "slug": "business-business-management",
+   "subject": "business",
+   "name": "Business Management",
+   "concepts": [
+    "Functions of Management (Planning/Organizing/Staffing/Directing/Controlling)",
+    "Fayol's 14 Principles of Management"
+   ],
+   "total": 2,
+   "solid": 0,
+   "pct": 0,
+   "formulaCount": 0,
    "questionIds": []
   }
  ]
