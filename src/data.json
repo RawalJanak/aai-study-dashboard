@@ -1,15 +1,15 @@
 {
- "builtAt": "29 Sep 2026, 12:39",
+ "builtAt": "29 Sep 2026, 12:41",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 88,
-  "solid": 77,
+  "concepts": 89,
+  "solid": 78,
   "learning": 10,
   "weak": 1,
   "notStarted": 0,
-  "lessons": 62,
+  "lessons": 63,
   "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
@@ -33,7 +33,7 @@
   },
   {
    "status": "Solid",
-   "n": 77
+   "n": 78
   },
   {
    "status": "Mastered",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "88 concepts logged (77 solid+, 1 weak)",
+    "89 concepts logged (78 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 12,
-   "solid": 6,
-   "pct": 50
+   "logged": 13,
+   "solid": 7,
+   "pct": 54
   },
   {
    "key": "quant",
@@ -2743,6 +2743,38 @@
      }
     ]
    }
+  },
+  {
+   "concept": "Decision making — Programmed vs Non-Programmed",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Solid",
+   "subject": "business",
+   "evidence": "29 Sep: taught with the importance-does-not-equal-novelty trap and tied to Standing plans (Programmed) and leadership-style fit. Check (unprecedented volcanic ash grounding, no playbook) — correctly identified Non-Programmed with correct reasoning (no established SOP) unprompted",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Some decisions are routine and repetitive — you've handled them a hundred times, so there's\nbasically a standard answer (**Programmed**). Others are new, unusual, and don't have a\nready-made rule to follow (**Non-Programmed**)."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Type | Nature | How it's made | Airport example |\n|---|---|---|---|\n| **Programmed** | Routine, repetitive, structured problem | Following existing rules/SOPs/policies | Approving standard leave requests, restocking inventory below a threshold |\n| **Non-Programmed** | Novel, unstructured, unique problem | Requires judgment, analysis, creativity — no existing rule fits | Deciding how to respond to a completely new type of security threat |\n\nProgrammed decisions are exactly what **Standing plans** (SOPs) are built for. Non-Programmed\ndecisions typically suit a Democratic or Laissez-Faire leadership style (time to think, expert\ninput needed), while Programmed decisions can be handled even under an Autocratic style since the\n\"right answer\" is already known."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "An unprecedented volcanic ash cloud grounds all flights nationwide for the first time in the\nairport's history, and management must respond with no existing playbook. This is\n**Non-Programmed** — there is no established SOP for this specific, novel situation."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- **Importance does not equal novelty.** Following a fire-evacuation SOP is Programmed even\n  though lives are at stake — the decision type depends on whether a rule already exists, not on\n  how serious the outcome is.\n- Don't assume Non-Programmed decisions are rare in practice — any genuinely first-time situation\n  qualifies, even if it later gets turned into an SOP for next time (at which point it becomes\n  Programmed going forward)."
+     }
+    ]
+   }
   }
  ],
  "errors": [
@@ -3591,8 +3623,8 @@
   {
    "number": 32,
    "phase": "Business Mgmt",
-   "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be)",
-   "objective": "Fast spaced recap of 2 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be).",
+   "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed",
+   "objective": "Fast spaced recap of 3 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -26733,11 +26765,12 @@
     "Strategic management levels — Corporate/Business/Functional",
     "Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
     "HR basics — Recruitment vs Selection vs Induction vs Training",
-    "Delegation vs Decentralization (authority delegated, responsibility cannot be)"
+    "Delegation vs Decentralization (authority delegated, responsibility cannot be)",
+    "Decision making — Programmed vs Non-Programmed"
    ],
-   "total": 12,
-   "solid": 6,
-   "pct": 50,
+   "total": 13,
+   "solid": 7,
+   "pct": 54,
    "formulaCount": 0,
    "questionIds": []
   }
