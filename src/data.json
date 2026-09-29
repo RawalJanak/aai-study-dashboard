@@ -1,15 +1,15 @@
 {
- "builtAt": "29 Sep 2026, 12:49",
+ "builtAt": "29 Sep 2026, 12:52",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 92,
+  "concepts": 93,
   "solid": 79,
-  "learning": 12,
+  "learning": 13,
   "weak": 1,
   "notStarted": 0,
-  "lessons": 66,
+  "lessons": 67,
   "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
@@ -29,7 +29,7 @@
   },
   {
    "status": "Learning",
-   "n": 12
+   "n": 13
   },
   {
    "status": "Solid",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "92 concepts logged (79 solid+, 1 weak)",
+    "93 concepts logged (79 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 16,
+   "logged": 17,
    "solid": 8,
-   "pct": 50
+   "pct": 47
   },
   {
    "key": "quant",
@@ -2871,6 +2871,38 @@
      }
     ]
    }
+  },
+  {
+   "concept": "TQM and Kaizen (quality = everyone's job, continuous small improvement)",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Learning",
+   "subject": "business",
+   "evidence": "29 Sep: taught TQM (quality is every employee's responsibility) vs Kaizen (small continuous improvement vs big-bang change). Check (isolated Quality Control Dept, frontline told quality isn't their concern) — missed first attempt (said \"yes\" this reflects TQM), corrected and cleared on retry after being prompted for the missing word (\"everyone's job\")",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Two related but distinct ideas about quality: **TQM** says everyone in the organization, at\nevery level, is responsible for quality — not just a separate \"quality control department.\"\n**Kaizen** is the Japanese philosophy of continuous, small, incremental improvements rather than\nbig, rare overhauls."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Concept | Core idea | Scope of responsibility | Change style | Airport example |\n|---|---|---|---|---|\n| **TQM** | Quality is everyone's job, customer-focused, continuous improvement | Every employee, every department | Ongoing culture, not a one-time project | Baggage handlers, check-in staff, and cleaners are all trained to spot and report quality issues, not just a \"Quality Dept\" |\n| **Kaizen** | Small, continuous, incremental improvements — not big bang change | Often bottom-up, frontline suggestions | Many small steps, continuously | Ground staff suggest small weekly tweaks (e.g., relabeling a cart) that cumulatively cut turnaround time |\n\nContrast with the opposite approach: a \"Big Bang\" or one-time overhaul (e.g., completely\nreplacing an entire IT system in one weekend) is the opposite change style to Kaizen."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "An airline holds a single dedicated \"Quality Control Department\" solely responsible for catching\ndefects, while frontline staff are told \"just do your job, quality isn't your concern.\" This does\n**NOT** reflect TQM — it's the opposite of the core principle. TQM requires quality\nresponsibility to be **everyone's job**, across every department, not isolated in one team."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- TQM and Kaizen are often tested together because they're philosophically related (both reject\n  \"quality is one department's job\" and \"improvement is a rare, big event\"), but they answer\n  different questions — TQM is about WHOSE responsibility quality is; Kaizen is about HOW change\n  happens (small and continuous vs large and rare).\n- A scenario describing the OPPOSITE of TQM (isolated quality department, excluded frontline) is\n  still testing TQM recognition — read carefully whether the scenario matches or contradicts the\n  principle before answering."
+     }
+    ]
+   }
   }
  ],
  "errors": [
@@ -3264,7 +3296,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-01"
+   "scheduledDate": "2026-09-30"
   },
   {
    "number": 2,
@@ -3279,7 +3311,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-02"
+   "scheduledDate": "2026-10-01"
   },
   {
    "number": 3,
@@ -3294,7 +3326,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-03"
+   "scheduledDate": "2026-10-02"
   },
   {
    "number": 4,
@@ -3309,7 +3341,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-10-03"
   },
   {
    "number": 5,
@@ -3324,7 +3356,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 6,
@@ -3339,7 +3371,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 7,
@@ -3354,7 +3386,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 8,
@@ -3369,7 +3401,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 9,
@@ -3384,7 +3416,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-08"
   },
   {
    "number": 10,
@@ -3399,7 +3431,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 11,
@@ -3414,7 +3446,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 12,
@@ -3429,7 +3461,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 13,
@@ -3444,7 +3476,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 14,
@@ -3459,7 +3491,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 15,
@@ -3474,7 +3506,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 16,
@@ -3489,7 +3521,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 17,
@@ -3504,7 +3536,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-17"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 18,
@@ -3519,7 +3551,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-18"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 19,
@@ -3534,7 +3566,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-19"
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 20,
@@ -3549,7 +3581,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-20"
+   "scheduledDate": "2026-10-19"
   },
   {
    "number": 21,
@@ -3564,7 +3596,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-21"
+   "scheduledDate": "2026-10-20"
   },
   {
    "number": 22,
@@ -3579,7 +3611,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-22"
+   "scheduledDate": "2026-10-21"
   },
   {
    "number": 23,
@@ -3594,7 +3626,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-23"
+   "scheduledDate": "2026-10-22"
   },
   {
    "number": 24,
@@ -3609,7 +3641,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-24"
+   "scheduledDate": "2026-10-23"
   },
   {
    "number": 25,
@@ -3624,7 +3656,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-25"
+   "scheduledDate": "2026-10-24"
   },
   {
    "number": 26,
@@ -3639,7 +3671,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-26"
+   "scheduledDate": "2026-10-25"
   },
   {
    "number": 27,
@@ -3654,7 +3686,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-27"
+   "scheduledDate": "2026-10-26"
   },
   {
    "number": 28,
@@ -3669,7 +3701,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-28"
+   "scheduledDate": "2026-10-27"
   },
   {
    "number": 29,
@@ -3684,7 +3716,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-29"
+   "scheduledDate": "2026-10-28"
   },
   {
    "number": 30,
@@ -3699,7 +3731,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-30"
+   "scheduledDate": "2026-10-29"
   },
   {
    "number": 31,
@@ -3714,7 +3746,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-31"
+   "scheduledDate": "2026-10-30"
   },
   {
    "number": 32,
@@ -3729,10 +3761,25 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-01"
+   "scheduledDate": "2026-10-31"
   },
   {
    "number": 33,
+   "phase": "Business Mgmt",
+   "title": "TQM and Kaizen (quality = everyone's job, continuous small improvement)",
+   "objective": "29 Sep: taught TQM (quality is every employee's responsibility) vs Kaizen (small continuous improvement vs big-bang change). Check (isolated Quality Control Dept, frontline told quality isn't their concern) — missed first attempt (said \"yes\" this reflects TQM), corrected and cleared on retry after being prompted for the missing word (\"everyone's job\")",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-01"
+  },
+  {
+   "number": 34,
    "phase": "Business Mgmt",
    "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
    "objective": "Fast spaced recap of 4 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use.",
@@ -3747,7 +3794,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 34,
+   "number": 35,
    "phase": "Business Mgmt",
    "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards",
    "objective": "Fast spaced recap of 4 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards.",
@@ -3762,7 +3809,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 35,
+   "number": 36,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3777,7 +3824,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 36,
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3792,7 +3839,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 37,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3807,7 +3854,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 38,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3822,7 +3869,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 39,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3837,7 +3884,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 40,
+   "number": 41,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3852,7 +3899,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 41,
+   "number": 42,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3867,7 +3914,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 42,
+   "number": 43,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3882,7 +3929,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 43,
+   "number": 44,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3897,7 +3944,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 44,
+   "number": 45,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3912,7 +3959,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 45,
+   "number": 46,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3927,7 +3974,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 46,
+   "number": 47,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3942,7 +3989,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 47,
+   "number": 48,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3957,7 +4004,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 48,
+   "number": 49,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3972,7 +4019,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 49,
+   "number": 50,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -26895,11 +26942,12 @@
     "Decision making — Programmed vs Non-Programmed",
     "SWOT Analysis — internal vs external classification",
     "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
-    "Controlling techniques — Budgetary Control and Standards"
+    "Controlling techniques — Budgetary Control and Standards",
+    "TQM and Kaizen (quality = everyone's job, continuous small improvement)"
    ],
-   "total": 16,
+   "total": 17,
    "solid": 8,
-   "pct": 50,
+   "pct": 47,
    "formulaCount": 0,
    "questionIds": [
     "Q16"
