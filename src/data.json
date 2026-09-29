@@ -1,15 +1,15 @@
 {
- "builtAt": "29 Sep 2026, 12:45",
+ "builtAt": "29 Sep 2026, 12:49",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 91,
-  "solid": 78,
+  "concepts": 92,
+  "solid": 79,
   "learning": 12,
   "weak": 1,
   "notStarted": 0,
-  "lessons": 65,
+  "lessons": 66,
   "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
@@ -33,7 +33,7 @@
   },
   {
    "status": "Solid",
-   "n": 78
+   "n": 79
   },
   {
    "status": "Mastered",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "91 concepts logged (78 solid+, 1 weak)",
+    "92 concepts logged (79 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 15,
-   "solid": 7,
-   "pct": 47
+   "logged": 16,
+   "solid": 8,
+   "pct": 50
   },
   {
    "key": "quant",
@@ -2839,6 +2839,38 @@
      }
     ]
    }
+  },
+  {
+   "concept": "Controlling techniques — Budgetary Control and Standards",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Solid",
+   "subject": "business",
+   "evidence": "29 Sep: taught the 4-step control process and the feedback-loop-to-planning trap. Check (security throughput 140/hr vs 200/hr target) — correctly identified that a significant deviation should trigger corrective action, not just be recorded",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "\"Controlling\" (from the 5 Functions of Management) isn't just vaguely \"checking on things\" — it\nhas specific tools. Two of the most tested: setting a **budget** and comparing actual spend\nagainst it, and setting a **standard** (a target/benchmark) and measuring actual performance\nagainst it."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Technique | What it does | Airport example |\n|---|---|---|\n| **Budgetary Control** | Set a financial plan (budget) for a period, compare actual income/expense against it, investigate variances | Set a ₹50 lakh budget for terminal maintenance this quarter; actual spend hits ₹65 lakh — investigate the ₹15 lakh overrun |\n| **Standard/Benchmark Control** | Set a performance target (time, quality, quantity), measure actual performance, correct deviations | Set a 15-minute average security-check target; if actual is 22 minutes, identify and fix the bottleneck |\n\nThe Control Process (generic 4 steps, applies to both techniques):\n\n1. Set the standard/budget\n2. Measure actual performance\n3. Compare actual vs standard — find the deviation\n4. Take corrective action if the deviation is significant"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "An airport sets a target of processing 200 passengers/hour through security, but actual measured\nthroughput is only 140/hour. Per the control process, this significant deviation should trigger\n**corrective action** (find and fix the bottleneck) — it is not just recorded and filed away."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Controlling is NOT about punishing failure — it's a **feedback loop back into Planning**. A\n  significant deviation found in Controlling should feed back into revising the next period's\n  Plan, closing the management cycle.\n- Not every deviation needs correction — the process specifically says \"if significant.\" A tiny,\n  expected variance (e.g., 199 vs 200 passengers/hour) does not warrant a full corrective\n  intervention."
+     }
+    ]
+   }
   }
  ],
  "errors": [
@@ -3717,8 +3749,8 @@
   {
    "number": 34,
    "phase": "Business Mgmt",
-   "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed",
-   "objective": "Fast spaced recap of 3 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed.",
+   "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards",
+   "objective": "Fast spaced recap of 4 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -26862,11 +26894,12 @@
     "Delegation vs Decentralization (authority delegated, responsibility cannot be)",
     "Decision making — Programmed vs Non-Programmed",
     "SWOT Analysis — internal vs external classification",
-    "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)"
+    "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
+    "Controlling techniques — Budgetary Control and Standards"
    ],
-   "total": 15,
-   "solid": 7,
-   "pct": 47,
+   "total": 16,
+   "solid": 8,
+   "pct": 50,
    "formulaCount": 0,
    "questionIds": [
     "Q16"
