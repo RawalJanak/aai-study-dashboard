@@ -1,15 +1,15 @@
 {
- "builtAt": "29 Sep 2026, 12:34",
+ "builtAt": "29 Sep 2026, 12:39",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 87,
-  "solid": 76,
+  "concepts": 88,
+  "solid": 77,
   "learning": 10,
   "weak": 1,
   "notStarted": 0,
-  "lessons": 61,
+  "lessons": 62,
   "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
@@ -33,7 +33,7 @@
   },
   {
    "status": "Solid",
-   "n": 76
+   "n": 77
   },
   {
    "status": "Mastered",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "87 concepts logged (76 solid+, 1 weak)",
+    "88 concepts logged (77 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 11,
-   "solid": 5,
-   "pct": 45
+   "logged": 12,
+   "solid": 6,
+   "pct": 50
   },
   {
    "key": "quant",
@@ -2711,6 +2711,38 @@
      }
     ]
    }
+  },
+  {
+   "concept": "Delegation vs Decentralization (authority delegated, responsibility cannot be)",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Solid",
+   "subject": "business",
+   "evidence": "29 Sep: taught the core trap (authority transfers, responsibility never fully does) plus Delegation (task-specific) vs Decentralization (structural/permanent) distinction. Check (CEO delegates budget approval, Marketing Head makes a bad call) — correctly said CEO remains accountable to the Board despite delegating",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "A single manager can't do everything alone. **Delegation** is handing a specific task plus\nmatching authority to someone else while keeping final responsibility yourself. **Decentralization**\nis a bigger, structural choice — spreading decision-making authority across many levels of the\norganization permanently, not just for one task."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Concept | Scope | What's transferred | Reversible? | Airport example |\n|---|---|---|---|---|\n| **Delegation** | One manager to one subordinate, task-specific | Authority to act, NOT ultimate responsibility | Yes, easily — task by task | A shift supervisor delegates \"handle today's lost-baggage claims\" to a senior staffer |\n| **Decentralization** | Organization-wide, structural/permanent | Decision-making power spread across many levels | Structural change, not easily reversed daily | AAI letting each individual airport decide its own local vendor contracts instead of headquarters deciding for all |\n\nRecall Fayol's principle #8, Centralization: keeps decision power concentrated at the top.\nDecentralization distributes it. Delegation is the day-to-day mechanism; Decentralization is the\nresulting organizational design when that mechanism is applied structurally and permanently."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "A CEO delegates finalizing this quarter's marketing budget to the Marketing Head, with full\nauthority to approve spends up to a limit. The Marketing Head approves a bad spend that loses\nmoney. The CEO is **still accountable to the Board** for this — delegating the task transferred\nauthority to act, but never erased the CEO's own ultimate responsibility for the outcome."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- **\"Authority can be delegated, responsibility cannot\"** — the single most tested line on this\n  topic. Whoever delegates a task remains accountable to their own superior for the result.\n- Don't confuse Delegation (a manager's day-to-day tool, task-specific, easily reversed) with\n  Decentralization (a permanent structural design choice affecting the whole organization)."
+     }
+    ]
+   }
   }
  ],
  "errors": [
@@ -3559,8 +3591,8 @@
   {
    "number": 32,
    "phase": "Business Mgmt",
-   "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training",
-   "objective": "Fast spaced recap of 1 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training.",
+   "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be)",
+   "objective": "Fast spaced recap of 2 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -26700,11 +26732,12 @@
     "Communication — formal networks and the grapevine",
     "Strategic management levels — Corporate/Business/Functional",
     "Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
-    "HR basics — Recruitment vs Selection vs Induction vs Training"
+    "HR basics — Recruitment vs Selection vs Induction vs Training",
+    "Delegation vs Decentralization (authority delegated, responsibility cannot be)"
    ],
-   "total": 11,
-   "solid": 5,
-   "pct": 45,
+   "total": 12,
+   "solid": 6,
+   "pct": 50,
    "formulaCount": 0,
    "questionIds": []
   }
