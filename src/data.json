@@ -1,15 +1,15 @@
 {
- "builtAt": "29 Sep 2026, 12:04",
+ "builtAt": "29 Sep 2026, 12:10",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 83,
-  "solid": 73,
+  "concepts": 84,
+  "solid": 74,
   "learning": 9,
   "weak": 1,
   "notStarted": 0,
-  "lessons": 50,
+  "lessons": 58,
   "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
@@ -33,7 +33,7 @@
   },
   {
    "status": "Solid",
-   "n": 73
+   "n": 74
   },
   {
    "status": "Mastered",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "83 concepts logged (73 solid+, 1 weak)",
+    "84 concepts logged (74 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -366,9 +366,9 @@
    "key": "mathematics",
    "name": "Mathematics",
    "marks": 24,
-   "logged": 21,
-   "solid": 17,
-   "pct": 81
+   "logged": 20,
+   "solid": 16,
+   "pct": 80
   },
   {
    "key": "physics",
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 6,
-   "solid": 1,
-   "pct": 17
+   "logged": 8,
+   "solid": 3,
+   "pct": 38
   },
   {
    "key": "quant",
@@ -2367,7 +2367,30 @@
    "status": "Solid",
    "subject": "business",
    "evidence": "21 Sep taught, 24 Sep retaught with a food-stall + festival-peak-rush running example. Correctly explained Organizing vs Staffing distinction unprompted, in own words, using both examples (\"organizing is creating a structure defining the workflow whereas staffing is the recruitment/selection of right people in that structure\")",
-   "lesson": null
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Running anything — a food stall, an airline, an airport — boils down to 5 repeating jobs: decide\nwhat to do, set up who does what, get the right people, keep everyone moving in the right\ndirection, and check things actually went to plan.\n\nOpening a food stall: decide what to sell and the profit target (**Planning**), set up separate\nstations for cooking/orders/cash (**Organizing**), hire and train people for each station\n(**Staffing**), direct the floor on a busy day (**Directing**), check at day's end whether the\nsales target was hit and what to fix (**Controlling**)."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Function | Definition | Airport peak-rush example |\n|---|---|---|\n| **Planning** | Setting objectives and deciding the course of action in advance | Forecast 40% more passengers over Diwali week, decide to add 3 extra check-in counters |\n| **Organizing** | Creating the structure — dividing work, grouping activities, defining reporting lines | Split extra workload into separate teams (check-in, security, baggage), each under its own supervisor |\n| **Staffing** | Recruiting, selecting, training, placing the right people into that structure | Bring in temporary check-in agents, give a half-day refresher on the counter software |\n| **Directing** (Leading) | Guiding, supervising, motivating people while work is happening | Terminal manager walks the floor, resolves a queue backup live |\n| **Controlling** | Measuring actual performance against the plan, correcting deviations | After the week, check if average wait time was under the 15-minute target; if not, find why |"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "Distinguishing Organizing from Staffing: Organizing builds the boxes (which teams exist, who\nreports to whom); Staffing fills those boxes with actual people. An org chart with empty boxes\nis Organizing done, Staffing not yet done."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Confusing **Organizing** (the structure) with **Staffing** (the people who fill it) — they\n  sound similar but are separate functions, always tested as a pair.\n- Sequence questions: **Organizing always precedes Staffing** — you can't fill boxes that don't\n  exist yet. Similarly, **Controlling** can't happen before something has actually run."
+     }
+    ]
+   }
   },
   {
    "concept": "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
@@ -2376,7 +2399,30 @@
    "status": "Learning",
    "subject": "business",
    "evidence": "24 Sep: missed first application check (picked Span of Control for a \"route requests through me\" scenario, should be Unity of Command), corrected, cleared 2nd scenario. Only 1 clean rep so far — not yet Solid",
-   "lesson": null
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Henri Fayol, a French mining executive (1841-1925), wrote down 14 general rules every\norganization should roughly follow — not tied to any one industry. Two of them get confused\nconstantly: **Unity of Command** is about who YOU report to (one boss). **Scalar Chain** is the\nWHOLE ladder from top to bottom (the path an order travels). One is a single link; the other is\nthe entire chain."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| # | Principle | Meaning |\n|---|---|---|\n| 1 | Division of Work | Specialize tasks → higher efficiency |\n| 2 | Authority & Responsibility | Authority to give orders must come with matching responsibility |\n| 3 | Discipline | Obedience, respect for agreed rules |\n| 4 | **Unity of Command** | Each employee takes orders from **one** superior only |\n| 5 | Unity of Direction | One plan, one head, for each group of activities with the same objective |\n| 6 | Subordination of Individual to General Interest | Organization's goals over one person's goals |\n| 7 | Remuneration | Fair pay for effort |\n| 8 | Centralization | Balance of decision-making power at the top vs distributed |\n| 9 | **Scalar Chain** | The formal line of authority from top to bottom |\n| 10 | Order | A place for everything (materials AND people) |\n| 11 | Equity | Fairness plus kindness in dealing with employees |\n| 12 | Stability of Tenure | Low staff turnover is good for efficiency |\n| 13 | Initiative | Employees should be allowed to originate and execute plans |\n| 14 | Esprit de Corps | Team spirit, unity, harmony |"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "An airport ground-handling supervisor tells the team \"check with me before contacting the\nairline directly.\" This is **Unity of Command** — routing communication through one boss — not\nScalar Chain (which would be the entire hierarchy from CEO down to this supervisor), and not\nSpan of Control (which is a headcount number, not a routing rule)."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- **Unity of Command vs Scalar Chain**: the single most CBT-confused pair. Unity of Command =\n  one link (your boss). Scalar Chain = the entire ladder.\n- **Unity of Command vs Span of Control**: a scenario about \"who you report to / route through\"\n  is Unity of Command. A scenario about \"how many people one manager can effectively supervise\"\n  is Span of Control — a completely different concept, not even one of Fayol's 14.\n- **Matrix organizational structures deliberately violate Unity of Command** — an employee in a\n  matrix reports to both a functional manager and a project manager at once. This is the one\n  place where breaking the rule is intentional design, not an error."
+     }
+    ]
+   }
   },
   {
    "concept": "Span of Control (headcount one manager can effectively supervise)",
@@ -2385,7 +2431,30 @@
    "status": "Learning",
    "subject": "business",
    "evidence": "24 Sep: surfaced as the wrong-answer option in the Unity of Command mix-up above; correctly identified on its own dedicated scenario (25 direct reports, no team leads) right after the correction — first exposure, needs a fresh spaced check before Solid",
-   "lesson": null
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Span of Control is a **number** — how many people one manager can supervise well. It has nothing\nto do with who someone reports to (that's Unity of Command) or the chain of authority top to\nbottom (that's Scalar Chain). If a question mentions headcount, team size, or \"too many direct\nreports,\" it's testing Span of Control."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "A **narrow span** (few direct reports per manager) allows close supervision but creates more\nmanagement layers and slower communication. A **wide span** (many direct reports) is flatter and\nfaster but risks each person getting less attention and guidance.\n\nThere is no single \"correct\" number — it depends on task complexity, staff experience, and how\nmuch coordination the work needs. Highly skilled, self-directed staff can support a wider span;\ncomplex or high-risk work needs a narrower one."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "A shift manager personally oversees 25 baggage handlers directly, with no team leads in between,\nand finds it hard to give each one proper attention. This illustrates a problem with **Span of\nControl** being too wide — not Unity of Command (nothing about routing through one boss) and not\nScalar Chain (this is about one manager's direct headcount, not the whole hierarchy)."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Mixing up with **Unity of Command**: a scenario about \"checking with your one boss before\n  acting\" is Unity of Command. A scenario about \"how many people report to one manager\" is Span\n  of Control. Both can appear as wrong-answer options for each other.\n- Span of Control is **not one of Fayol's 14 Principles** — it comes from later management\n  theorists (Urwick, Graicunas) but is grouped with Fayol's ideas in most CBT syllabi since it's\n  part of the same \"organizing\" family of concepts."
+     }
+    ]
+   }
   },
   {
    "concept": "Herzberg's Two-Factor Theory (hygiene vs motivators)",
@@ -2394,7 +2463,30 @@
    "status": "Learning",
    "subject": "business",
    "evidence": "24 Sep: taught (salary/conditions = hygiene, prevents dissatisfaction only; recognition/growth = motivators, create real drive). Check (uniform+break room won't fix low motivation) answered correctly but reasoning given was just the label restated, not the underlying \"hygiene only cancels dissatisfaction\" logic — needs a deeper-reasoning re-check",
-   "lesson": null
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "A job with great pay but a toxic boss and no recognition doesn't make you unmotivated about\npay — but it also doesn't make you excited to work. Herzberg's insight: **removing\ndissatisfaction and creating motivation are two separate jobs**, run by two separate sets of\nfactors, not opposite ends of one line."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Factor type | What it does | Examples | Effect if present | Effect if absent |\n|---|---|---|---|---|\n| **Hygiene factors** | Prevent dissatisfaction only | Salary, working conditions, company policy, job security, supervision quality | No dissatisfaction (neutral) | Active dissatisfaction |\n| **Motivators** | Create real satisfaction and drive | Achievement, recognition, responsibility, growth, the work itself | Genuine motivation | No motivation (but not necessarily unhappy) |\n\n**Salary is a hygiene factor, not a motivator** — paying someone more stops them being unhappy\nabout pay, but does not make them love the job more long-term."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "An airline gives ground staff a shiny new uniform and a comfortable break room (both hygiene\nfactors), but no one is ever recognized or promoted. This will **not** fix low motivation:\nhygiene factors only cancel dissatisfaction, they don't add drive — motivation requires the other\nbucket (recognition, achievement, growth) entirely."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- The classic CBT trap question asks \"is salary a motivator?\" — the correct answer is always\n  **no, it's a hygiene factor**.\n- Don't treat hygiene and motivators as one sliding scale (more hygiene = more motivation). They\n  are two independent dimensions — you can have zero dissatisfaction and still have zero\n  motivation at the same time."
+     }
+    ]
+   }
   },
   {
    "concept": "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
@@ -2403,16 +2495,62 @@
    "status": "Learning",
    "subject": "business",
    "evidence": "24 Sep: taught with airport-worker examples per level. Check (temp-contract worker, Safety unmet, would esteem-level recognition help) — both parts (identify level + implication) answered correctly, terse but right",
-   "lesson": null
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "You don't worry about applause and respect at work if you're not sure you'll be paid on time.\nMaslow says human needs stack in order — you focus on the bottom rung until it's reasonably\nsecure, and only then does the next rung start to matter as a real motivator."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Level | Need | Airport-worker example |\n|---|---|---|\n| 1. Physiological | Food, water, rest, basic survival | A living wage, enough working hours |\n| 2. Safety | Job security, physical safety, stable income | Safe tarmac working conditions, permanent contract not daily-wage |\n| 3. Social (Belonging) | Friendship, team belonging, acceptance | Feeling part of the ground-crew team |\n| 4. Esteem | Recognition, status, respect, achievement | \"Employee of the Month,\" promotion to shift lead |\n| 5. Self-actualization | Realizing full potential, growth, creativity | Being trusted to redesign a process, mentoring juniors |"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "A new ground-staff hire is stressed because their contract is temporary and could end any month.\nThe unmet level is **Safety** (job security). Offering them public recognition (an Esteem-level\nreward) right now will **not** motivate them — a lower need must be reasonably satisfied before a\nhigher one becomes a real motivator."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- The exam trap is offering a **higher-level reward while a lower level is unmet** — always check\n  which level is actually threatened before judging whether a motivational tool will work.\n- Don't assume the hierarchy must be climbed in a rigid, permanent order for every person at every\n  moment — it describes what dominates attention when a need is genuinely unmet, not a strict\n  lifelong sequence."
+     }
+    ]
+   }
   },
   {
    "concept": "Organizational structures — Functional/Divisional/Matrix",
    "group": "Business Management",
    "chapter": "Business Management",
    "status": "Solid",
-   "subject": "mathematics",
+   "subject": "business",
    "evidence": "29 Sep: taught with airport terminal examples; explicitly tied Matrix's dual-reporting to violating Unity of Command (Fayol link). Check (3-month project, dual reporting to PM+dept head) — correctly identified both structure (Matrix) and the violated principle (Unity of Command) in one clean pass",
-   "lesson": null
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Three ways an airport could organize its people: group everyone by **what they do** (all security\nstaff together) — **Functional**. Group everyone by **what they serve** (a whole self-contained\nteam per terminal) — **Divisional**. Have some people belong to **two bosses at once** — their\nhome department AND a specific project — **Matrix**."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Structure | How it's grouped | Reporting line | Airport example | Strength | Weakness |\n|---|---|---|---|---|---|\n| **Functional** | By specialization/department | One boss per department | All Security staff report to Head of Security, regardless of terminal | Deep expertise, efficient within function | Poor coordination across departments |\n| **Divisional** | By product/region/terminal/output | Each division has its own mini-set of functions | Terminal 1 has its own security+ops+engineering team, separate from Terminal 2's | Fast, focused response per unit | Duplicated resources across divisions |\n| **Matrix** | By function AND project simultaneously | **Two bosses** — functional manager + project manager | An IT staffer reports to the IT department head AND the \"Digital Check-in Project\" manager | Flexible, pools specialist skill across projects | Violates Unity of Command — dual reporting causes conflict |"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "An employee works on the \"Airport Digital Check-in Project\" for 3 months, taking daily direction\nfrom both the Project Manager and their usual IT Department Head. This is a **Matrix** structure,\nand it deliberately violates **Unity of Command** (one boss only) — the one place breaking that\nFayol principle is intentional design, not an error."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Matrix structure is **the one deliberate exception to Unity of Command** — exam questions love\n  pairing these two concepts together.\n- Divisional structure duplicates resources (each division has its own full set of functions) —\n  don't confuse it with Functional, which centralizes each function into one department serving\n  the whole organization."
+     }
+    ]
+   }
   },
   {
    "concept": "Leadership styles — Autocratic/Democratic/Laissez-Faire",
@@ -2421,7 +2559,62 @@
    "status": "Learning",
    "subject": "business",
    "evidence": "29 Sep: taught with situational fit (emergency->autocratic, routine planning->democratic, skilled autonomous team->laissez-faire) and the CBT trap (exam tests situational fit, not \"best\" style). Check (gate security breach) — correctly picked Autocratic, but \"why not the others\" reasoning was underdeveloped (just restated the style) until prompted",
-   "lesson": null
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Three ways a shift supervisor can run their team: decide everything themselves, team just follows\n(**Autocratic**); ask the team's input, decide together (**Democratic**); step back completely,\nlet the team decide and act on their own (**Laissez-Faire**). None is \"the correct one\" — each\nfits a different situation."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Style | Decision-making | Best suited for | Airport example | Risk if overused |\n|---|---|---|---|---|\n| **Autocratic** | Leader decides alone, expects compliance | Emergencies, tight deadlines, inexperienced staff | Runway incursion alert — ATC supervisor issues direct commands, no discussion | Kills morale over time, no employee input |\n| **Democratic** (Participative) | Leader consults team, decision is shared | Routine planning, experienced/skilled teams, when buy-in matters | Planning next month's shift roster — supervisor asks staff preferences first | Slower decisions, not ideal under time pressure |\n| **Laissez-Faire** | Leader hands off control, team self-manages | Highly skilled, self-motivated experts needing autonomy | Senior engineering team given a vague \"optimize baggage-belt uptime\" goal, no micromanagement | Chaos/drift if the team lacks discipline or skill |"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "A security breach is detected at a boarding gate with passengers already lined up. Correct style:\n**Autocratic** — Democratic would waste critical time consulting during an active breach, and\nLaissez-Faire would leave a high-stakes moment with no clear command at all."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- CBT questions test \"which style fits this SITUATION,\" not \"which style is objectively best.\"\n- The trap option under time pressure is usually **Democratic**, because it sounds \"nicer\" — but\n  nicer is not correct when speed and decisiveness matter more than consensus."
+     }
+    ]
+   }
+  },
+  {
+   "concept": "Communication — formal networks and the grapevine",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Solid",
+   "subject": "business",
+   "evidence": "29 Sep: taught formal directions (up/down/horizontal/diagonal), formal networks (Chain/Wheel/All-channel), and the Grapevine. Check (cafeteria layoff rumor) — correctly identified Grapevine and correctly stated management can only monitor/counter it, not eliminate it",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "In any organization, information flows through official channels (memos, emails, meetings) —\n**formal communication**. It also flows unofficially through gossip and rumor — the\n**grapevine** — which is surprisingly fast and hard to kill."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "**Formal communication directions**\n\n| Direction | Flow | Example |\n|---|---|---|\n| **Downward** | Manager to subordinate | New security protocol memo sent to all gate staff |\n| **Upward** | Subordinate to manager | Ground staff reporting equipment malfunction |\n| **Horizontal** | Peer to peer, same level | Security head coordinating with Operations head |\n| **Diagonal** | Crosses levels AND departments | A junior IT staffer directly alerting the Head of Security about a vulnerability |\n\n**Formal networks (who talks to whom)**\n\n| Network | Structure | Speed | Accuracy | Best for |\n|---|---|---|---|---|\n| **Chain** | Strict hierarchy, A to B to C to D | Slow | Moderate | Formal chain-of-command orgs |\n| **Wheel** | One central person, everyone reports to them | Fast | High | Centralized, small teams |\n| **All-channel** | Everyone talks to everyone | Fast | Lower (can get chaotic) | Creative/collaborative teams, task forces |\n\n**The Grapevine**: informal, unofficial information flow through personal relationships — fast\nand reaches employees the formal chain misses, but prone to distortion. Management can't\neliminate it, only monitor it and counter it with timely formal communication."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "A rumor about upcoming layoffs spreads through the staff cafeteria before any official\nannouncement, and turns out to be partly exaggerated. This is the **Grapevine** — and management\ncannot fully shut it down, only monitor it and get ahead of it with a prompt formal announcement."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- A question describing \"informal, uncontrolled, but fast-spreading information among employees\"\n  is always testing **Grapevine** — don't confuse it with a formal network just because both can\n  be described as \"fast\" (Wheel and All-channel are also fast, but they are official channels).\n- Grapevine is not inherently negative — it can spread accurate information too, but its speed\n  outpaces its accuracy control, which is the actual risk being tested."
+     }
+    ]
+   }
   }
  ],
  "errors": [
@@ -2815,7 +3008,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 2,
@@ -2830,7 +3023,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 3,
@@ -2845,7 +3038,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 4,
@@ -2860,7 +3053,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-10-08"
   },
   {
    "number": 5,
@@ -2875,7 +3068,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 6,
@@ -2890,7 +3083,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 7,
@@ -2905,7 +3098,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 8,
@@ -2920,7 +3113,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 9,
@@ -2935,7 +3128,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 10,
@@ -2950,7 +3143,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 11,
@@ -2965,7 +3158,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 12,
@@ -2980,7 +3173,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 13,
@@ -2995,7 +3188,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 14,
@@ -3010,7 +3203,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-17"
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 15,
@@ -3025,7 +3218,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-18"
+   "scheduledDate": "2026-10-19"
   },
   {
    "number": 16,
@@ -3040,7 +3233,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-19"
+   "scheduledDate": "2026-10-20"
   },
   {
    "number": 17,
@@ -3055,7 +3248,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-20"
+   "scheduledDate": "2026-10-21"
   },
   {
    "number": 18,
@@ -3070,7 +3263,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-21"
+   "scheduledDate": "2026-10-22"
   },
   {
    "number": 19,
@@ -3085,7 +3278,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-22"
+   "scheduledDate": "2026-10-23"
   },
   {
    "number": 20,
@@ -3100,7 +3293,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-23"
+   "scheduledDate": "2026-10-24"
   },
   {
    "number": 21,
@@ -3115,7 +3308,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-24"
+   "scheduledDate": "2026-10-25"
   },
   {
    "number": 22,
@@ -3130,7 +3323,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-25"
+   "scheduledDate": "2026-10-26"
   },
   {
    "number": 23,
@@ -3145,7 +3338,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-26"
+   "scheduledDate": "2026-10-27"
   },
   {
    "number": 24,
@@ -3160,25 +3353,10 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-27"
-  },
-  {
-   "number": 25,
-   "phase": "Maths",
-   "title": "Revision — Organizational structures — Functional/Divisional/Matrix",
-   "objective": "Fast spaced recap of 1 already-solid concepts: Organizational structures — Functional/Divisional/Matrix.",
-   "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
-   },
-   "status": "not_started",
    "scheduledDate": "2026-10-28"
   },
   {
-   "number": 26,
+   "number": 25,
    "phase": "Business Mgmt",
    "title": "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
    "objective": "24 Sep: missed first application check (picked Span of Control for a \"route requests through me\" scenario, should be Unity of Command), corrected, cleared 2nd scenario. Only 1 clean rep so far — not yet Solid",
@@ -3193,7 +3371,7 @@
    "scheduledDate": "2026-10-29"
   },
   {
-   "number": 27,
+   "number": 26,
    "phase": "Business Mgmt",
    "title": "Span of Control (headcount one manager can effectively supervise)",
    "objective": "24 Sep: surfaced as the wrong-answer option in the Unity of Command mix-up above; correctly identified on its own dedicated scenario (25 direct reports, no team leads) right after the correction — first exposure, needs a fresh spaced check before Solid",
@@ -3208,7 +3386,7 @@
    "scheduledDate": "2026-10-30"
   },
   {
-   "number": 28,
+   "number": 27,
    "phase": "Business Mgmt",
    "title": "Herzberg's Two-Factor Theory (hygiene vs motivators)",
    "objective": "24 Sep: taught (salary/conditions = hygiene, prevents dissatisfaction only; recognition/growth = motivators, create real drive). Check (uniform+break room won't fix low motivation) answered correctly but reasoning given was just the label restated, not the underlying \"hygiene only cancels dissatisfaction\" logic — needs a deeper-reasoning re-check",
@@ -3223,7 +3401,7 @@
    "scheduledDate": "2026-10-31"
   },
   {
-   "number": 29,
+   "number": 28,
    "phase": "Business Mgmt",
    "title": "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
    "objective": "24 Sep: taught with airport-worker examples per level. Check (temp-contract worker, Safety unmet, would esteem-level recognition help) — both parts (identify level + implication) answered correctly, terse but right",
@@ -3238,7 +3416,7 @@
    "scheduledDate": "2026-11-01"
   },
   {
-   "number": 30,
+   "number": 29,
    "phase": "Business Mgmt",
    "title": "Leadership styles — Autocratic/Democratic/Laissez-Faire",
    "objective": "29 Sep: taught with situational fit (emergency->autocratic, routine planning->democratic, skilled autonomous team->laissez-faire) and the CBT trap (exam tests situational fit, not \"best\" style). Check (gate security breach) — correctly picked Autocratic, but \"why not the others\" reasoning was underdeveloped (just restated the style) until prompted",
@@ -3253,10 +3431,10 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 31,
+   "number": 30,
    "phase": "Business Mgmt",
-   "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling)",
-   "objective": "Fast spaced recap of 1 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling).",
+   "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine",
+   "objective": "Fast spaced recap of 3 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3268,7 +3446,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 32,
+   "number": 31,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3283,7 +3461,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 33,
+   "number": 32,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3298,7 +3476,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 34,
+   "number": 33,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3313,7 +3491,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 35,
+   "number": 34,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3328,7 +3506,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 36,
+   "number": 35,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3343,7 +3521,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 37,
+   "number": 36,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3358,7 +3536,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 38,
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3373,7 +3551,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 39,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3388,7 +3566,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 40,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3403,7 +3581,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 41,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3418,7 +3596,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 42,
+   "number": 41,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3433,7 +3611,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 43,
+   "number": 42,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3448,7 +3626,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 44,
+   "number": 43,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3463,7 +3641,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 45,
+   "number": 44,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3478,7 +3656,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 46,
+   "number": 45,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -26391,24 +26569,13 @@
     "Span of Control (headcount one manager can effectively supervise)",
     "Herzberg's Two-Factor Theory (hygiene vs motivators)",
     "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
-    "Leadership styles — Autocratic/Democratic/Laissez-Faire"
+    "Organizational structures — Functional/Divisional/Matrix",
+    "Leadership styles — Autocratic/Democratic/Laissez-Faire",
+    "Communication — formal networks and the grapevine"
    ],
-   "total": 6,
-   "solid": 1,
-   "pct": 17,
-   "formulaCount": 0,
-   "questionIds": []
-  },
-  {
-   "slug": "mathematics-business-management",
-   "subject": "mathematics",
-   "name": "Business Management",
-   "concepts": [
-    "Organizational structures — Functional/Divisional/Matrix"
-   ],
-   "total": 1,
-   "solid": 1,
-   "pct": 100,
+   "total": 8,
+   "solid": 3,
+   "pct": 38,
    "formulaCount": 0,
    "questionIds": []
   }
