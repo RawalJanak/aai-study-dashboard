@@ -1,15 +1,15 @@
 {
- "builtAt": "29 Sep 2026, 12:26",
+ "builtAt": "29 Sep 2026, 12:31",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 85,
-  "solid": 74,
+  "concepts": 86,
+  "solid": 75,
   "learning": 10,
   "weak": 1,
   "notStarted": 0,
-  "lessons": 59,
+  "lessons": 60,
   "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
@@ -33,7 +33,7 @@
   },
   {
    "status": "Solid",
-   "n": 74
+   "n": 75
   },
   {
    "status": "Mastered",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "85 concepts logged (74 solid+, 1 weak)",
+    "86 concepts logged (75 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 9,
-   "solid": 3,
-   "pct": 33
+   "logged": 10,
+   "solid": 4,
+   "pct": 40
   },
   {
    "key": "quant",
@@ -2647,6 +2647,38 @@
      }
     ]
    }
+  },
+  {
+   "concept": "Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Solid",
+   "subject": "business",
+   "evidence": "29 Sep: taught both dimensions as independent classifications (time-horizon vs reuse) with the CBT trap they aren't one hierarchy. Check (terminal fire-alarm evacuation SOP) — correctly classified BOTH dimensions in one pass (Operational + Standing)",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Plans come in different \"grain sizes,\" similar to strategy levels but focused on time and detail.\nA 10-year vision, a 1-year department goal, and a 1-day shift schedule are all \"plans,\" but you'd\nnever confuse one for another. Separately, some plans get reused every time a situation repeats,\nwhile others are written for one specific event and then retired."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "**By time horizon and scope:**\n\n| Plan type | Time horizon | Scope | Airport example |\n|---|---|---|---|\n| **Strategic** | Long-term (3-5+ years) | Whole organization | AAI's plan to modernize 20 airports over 5 years |\n| **Tactical** | Medium-term (1-2 years) | Department/division | Terminal 2's plan to reduce average security wait time this year |\n| **Operational** | Short-term (daily/weekly) | Specific task/team | Today's staff roster and shift assignments |\n\n**By reuse — an independent second dimension:**\n\n| Plan type | Reused? | Example |\n|---|---|---|\n| **Standing plans** | Used repeatedly for recurring situations | An SOP for handling a medical emergency on board — used every time one occurs |\n| **Single-use plans** | Created for one specific, non-repeating situation | A one-time plan for the airport's response during a specific VVIP visit next month |"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "The airport creates a written procedure for evacuating a terminal during a fire alarm, used by\nsecurity every time an alarm triggers. Classified on both dimensions: **Operational** (a\ntask-level, day-to-day executable procedure, not a multi-year strategic plan) and **Standing**\n(reused every time the recurring situation — a fire alarm — occurs)."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- The two dimensions (time-horizon: Strategic/Tactical/Operational; reuse: Standing/Single-use)\n  are **independent classifications**, not one combined hierarchy. A plan can be Operational AND\n  Standing at the same time (like this SOP), or Strategic AND Single-use (a one-time 5-year\n  merger plan) — any combination is possible.\n- Don't assume \"Standing\" means \"long-term\" — a Standing plan can be very short-horizon\n  (Operational) as long as it's reused repeatedly, like a daily checklist."
+     }
+    ]
+   }
   }
  ],
  "errors": [
@@ -3480,8 +3512,8 @@
   {
    "number": 31,
    "phase": "Business Mgmt",
-   "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine",
-   "objective": "Fast spaced recap of 3 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine.",
+   "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -26619,11 +26651,12 @@
     "Organizational structures — Functional/Divisional/Matrix",
     "Leadership styles — Autocratic/Democratic/Laissez-Faire",
     "Communication — formal networks and the grapevine",
-    "Strategic management levels — Corporate/Business/Functional"
+    "Strategic management levels — Corporate/Business/Functional",
+    "Types of plans — Strategic/Tactical/Operational and Standing/Single-use"
    ],
-   "total": 9,
-   "solid": 3,
-   "pct": 33,
+   "total": 10,
+   "solid": 4,
+   "pct": 40,
    "formulaCount": 0,
    "questionIds": []
   }
