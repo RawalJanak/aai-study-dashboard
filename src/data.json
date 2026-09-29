@@ -1,15 +1,15 @@
 {
- "builtAt": "29 Sep 2026, 12:31",
+ "builtAt": "29 Sep 2026, 12:34",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 86,
-  "solid": 75,
+  "concepts": 87,
+  "solid": 76,
   "learning": 10,
   "weak": 1,
   "notStarted": 0,
-  "lessons": 60,
+  "lessons": 61,
   "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
@@ -33,7 +33,7 @@
   },
   {
    "status": "Solid",
-   "n": 75
+   "n": 76
   },
   {
    "status": "Mastered",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "86 concepts logged (75 solid+, 1 weak)",
+    "87 concepts logged (76 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 10,
-   "solid": 4,
-   "pct": 40
+   "logged": 11,
+   "solid": 5,
+   "pct": 45
   },
   {
    "key": "quant",
@@ -2679,6 +2679,38 @@
      }
     ]
    }
+  },
+  {
+   "concept": "HR basics — Recruitment vs Selection vs Induction vs Training",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Solid",
+   "subject": "business",
+   "evidence": "29 Sep: taught the 4-stage sequence with the recruitment-is-attracting-not-choosing trap. Check (500 applications received, then picking the final candidate) — correctly split into Recruitment (the 500 applications) and Selection (choosing from them) as two distinct stages",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Filling a job has a natural sequence, and each step has a distinct name CBTs test precisely:\nfirst you **attract** candidates, then you **pick** one, then you **welcome** them into the org,\nthen you **teach** them the job."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Stage | What it means | Airport example |\n|---|---|---|\n| **Recruitment** | Attracting a pool of potential candidates (sourcing, advertising the vacancy) | Posting a Junior Executive (Operations) vacancy, sourcing applicants |\n| **Selection** | Choosing the right candidate from that pool (screening, testing, interviewing) | Shortlisting, conducting the CBT exam and interview, picking the final candidate |\n| **Induction (Onboarding)** | Introducing the new hire to the organization — culture, policies, colleagues | A new joiner's first-week orientation: ID badge, safety briefing, meeting the team |\n| **Training** | Building the specific skills needed to perform the job | Teaching a new ground-staff hire to operate the baggage-scanning equipment |"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "An airport advertises a Junior Executive vacancy and receives 500 applications — this is\n**Recruitment** (building the applicant pool). Choosing the final candidate from those 500 is a\n**different, later stage: Selection** (narrowing the pool down to one)."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- **Recruitment ≠ hiring/choosing.** Recruitment is about building a wide applicant pool (more\n  applicants is \"better\" recruitment); Selection is the filtering process that narrows it down.\n  This is the single most common mix-up.\n- **Induction typically precedes Training** in sequence — orient someone to the organization\n  first, then teach the specific job skills — though the two can overlap in practice."
+     }
+    ]
+   }
   }
  ],
  "errors": [
@@ -3072,7 +3104,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-10-03"
   },
   {
    "number": 2,
@@ -3087,7 +3119,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 3,
@@ -3102,7 +3134,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 4,
@@ -3117,7 +3149,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 5,
@@ -3132,7 +3164,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 6,
@@ -3147,7 +3179,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-08"
   },
   {
    "number": 7,
@@ -3162,7 +3194,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 8,
@@ -3177,7 +3209,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 9,
@@ -3192,7 +3224,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 10,
@@ -3207,7 +3239,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 11,
@@ -3222,7 +3254,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 12,
@@ -3237,7 +3269,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 13,
@@ -3252,7 +3284,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 14,
@@ -3267,7 +3299,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-17"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 15,
@@ -3282,7 +3314,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-18"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 16,
@@ -3297,7 +3329,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-19"
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 17,
@@ -3312,7 +3344,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-20"
+   "scheduledDate": "2026-10-19"
   },
   {
    "number": 18,
@@ -3327,7 +3359,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-21"
+   "scheduledDate": "2026-10-20"
   },
   {
    "number": 19,
@@ -3342,7 +3374,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-22"
+   "scheduledDate": "2026-10-21"
   },
   {
    "number": 20,
@@ -3357,7 +3389,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-23"
+   "scheduledDate": "2026-10-22"
   },
   {
    "number": 21,
@@ -3372,7 +3404,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-24"
+   "scheduledDate": "2026-10-23"
   },
   {
    "number": 22,
@@ -3387,7 +3419,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-25"
+   "scheduledDate": "2026-10-24"
   },
   {
    "number": 23,
@@ -3402,7 +3434,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-26"
+   "scheduledDate": "2026-10-25"
   },
   {
    "number": 24,
@@ -3417,7 +3449,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-27"
+   "scheduledDate": "2026-10-26"
   },
   {
    "number": 25,
@@ -3432,7 +3464,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-28"
+   "scheduledDate": "2026-10-27"
   },
   {
    "number": 26,
@@ -3447,7 +3479,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-29"
+   "scheduledDate": "2026-10-28"
   },
   {
    "number": 27,
@@ -3462,7 +3494,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-30"
+   "scheduledDate": "2026-10-29"
   },
   {
    "number": 28,
@@ -3477,7 +3509,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-31"
+   "scheduledDate": "2026-10-30"
   },
   {
    "number": 29,
@@ -3492,7 +3524,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-01"
+   "scheduledDate": "2026-10-31"
   },
   {
    "number": 30,
@@ -3507,7 +3539,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-02"
+   "scheduledDate": "2026-11-01"
   },
   {
    "number": 31,
@@ -3522,10 +3554,25 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-03"
+   "scheduledDate": "2026-11-02"
   },
   {
    "number": 32,
+   "phase": "Business Mgmt",
+   "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training",
+   "objective": "Fast spaced recap of 1 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-03"
+  },
+  {
+   "number": 33,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3540,7 +3587,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 33,
+   "number": 34,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3555,7 +3602,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 34,
+   "number": 35,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3570,7 +3617,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 35,
+   "number": 36,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3585,7 +3632,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 36,
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3600,7 +3647,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 37,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3615,7 +3662,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 38,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3630,7 +3677,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 39,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3645,7 +3692,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 40,
+   "number": 41,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3660,7 +3707,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 41,
+   "number": 42,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3675,7 +3722,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 42,
+   "number": 43,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3690,7 +3737,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 43,
+   "number": 44,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3705,7 +3752,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 44,
+   "number": 45,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3720,7 +3767,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 45,
+   "number": 46,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3735,7 +3782,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 46,
+   "number": 47,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -26652,11 +26699,12 @@
     "Leadership styles — Autocratic/Democratic/Laissez-Faire",
     "Communication — formal networks and the grapevine",
     "Strategic management levels — Corporate/Business/Functional",
-    "Types of plans — Strategic/Tactical/Operational and Standing/Single-use"
+    "Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
+    "HR basics — Recruitment vs Selection vs Induction vs Training"
    ],
-   "total": 10,
-   "solid": 4,
-   "pct": 40,
+   "total": 11,
+   "solid": 5,
+   "pct": 45,
    "formulaCount": 0,
    "questionIds": []
   }
