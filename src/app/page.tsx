@@ -33,6 +33,11 @@ const OPEN = ["Weak", "Learning"];
 export default function Page() {
   const t = data.totals;
   const days = data.days as Day[];
+  // Registration closed 7 Sep 2026 - daysToClose goes negative past that
+  // date. The sidebar Countdown already guards this; these two stat tiles
+  // didn't, and showed "-22" as if it were still counting down.
+  const regDays: number | string =
+    data.daysToClose > 0 ? data.daysToClose : "Reg closed";
   const reviewQueue = data.reviewQueue as ReviewItem[];
   const queue = data.concepts.filter((c) => OPEN.includes(c.status));
 
@@ -122,7 +127,7 @@ export default function Page() {
   const progress = (
     <div className="grid gap-4">
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-        <Stat label="days to registration close" value={data.daysToClose} />
+        <Stat label="days to registration close" value={regDays} />
         <Stat label="concepts solid or better" value={t.solid} of={t.concepts} />
         <Stat label="open Weak flags" value={t.weak} tone={t.weak ? "alarm" : "default"} />
         <Stat label="lessons written up" value={t.lessons} />
@@ -147,7 +152,7 @@ export default function Page() {
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <Stat
           label="days to registration close"
-          value={data.daysToClose}
+          value={regDays}
           note={new Date(data.regClose).toLocaleDateString("en-IN", {
             day: "2-digit",
             month: "short",

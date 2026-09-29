@@ -1,5 +1,5 @@
 {
- "builtAt": "29 Sep 2026, 12:55",
+ "builtAt": "29 Sep 2026, 13:00",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
@@ -12,8 +12,8 @@
   "lessons": 68,
   "errors": 25,
   "errorsOpen": 0,
-  "sessions": 22,
-  "sessionDays": 8,
+  "sessions": 25,
+  "sessionDays": 11,
   "mocks": 0,
   "graphs": 30,
   "formulas": 50
@@ -120,6 +120,36 @@
    "drill": 0,
    "mock": 0,
    "other": 0
+  },
+  {
+   "date": "21 Sep",
+   "total": 1,
+   "cumulative": 23,
+   "teach": 0,
+   "revise": 0,
+   "drill": 0,
+   "mock": 0,
+   "other": 1
+  },
+  {
+   "date": "24 Sep",
+   "total": 1,
+   "cumulative": 24,
+   "teach": 0,
+   "revise": 0,
+   "drill": 0,
+   "mock": 0,
+   "other": 1
+  },
+  {
+   "date": "29 Sep",
+   "total": 1,
+   "cumulative": 25,
+   "teach": 0,
+   "revise": 0,
+   "drill": 0,
+   "mock": 0,
+   "other": 1
   }
  ],
  "sessionTypes": [
@@ -189,7 +219,7 @@
    "stats": [
     "94 concepts logged (80 solid+, 1 weak)",
     "832 questions banked (98 GK)",
-    "22 sessions logged, 8 days active",
+    "25 sessions logged, 11 days active",
     "25 errors logged, 0 currently open"
    ]
   },
@@ -3293,6 +3323,27 @@
    "covered": "PAPER 1 FULLY COMPLETE. Discipline section dissected — Physics, Maths, Business Management all interleaved, 60 questions, Q1-60. Every calculation-based question independently re-verified computationally (sympy/numpy), not just trusted from the scanned key. One question (Q52, series sum) flagged as unverifiable from the transcribed text — official answer kept but noted as unconfirmed. 128 questions now in the bank total from this one paper",
    "outcome": "pattern-level teaching by subject cluster (optics/modern-physics/waves/calculus/algebra/coordinate-geometry/probability/management), no quiz round — pacing decision, 6 more papers ahead",
    "subject": "mathematics"
+  },
+  {
+   "date": "21 Sep",
+   "type": "Revise (overdue review queue)",
+   "covered": "QNH/QFE (3rd miss, re-taught from first principles, not another mnemonic), blood relations same-generation trap, standard integrals table spacing check",
+   "outcome": "QNH/QFE: cleared 2/2 after re-teach. Blood relations: cleared 2/2 clean. Standard integrals: failed cold on all 5 basics despite 7 Sep \"Solid\" rating — full re-teach (reverse-differentiation framing, sec/cosec sign-family rule, ln-exception rule) recovered it same session including chain-rule extensions, but shortened re-check interval to 3 days given the total regression",
+   "subject": "mathematics"
+  },
+  {
+   "date": "24 Sep",
+   "type": "Teach+Drill",
+   "covered": "Business Management started from scratch — Functions of Management, Fayol (Unity of Command vs Scalar Chain vs Span of Control), Herzberg's Two-Factor Theory, Maslow's Hierarchy, Organizational Structures, Leadership Styles",
+   "outcome": "Functions of Management and Org Structures reached Solid; Fayol distinctions, Herzberg, Maslow, Leadership all cleared one check each (Learning, need spaced re-checks)",
+   "subject": "business"
+  },
+  {
+   "date": "29 Sep",
+   "type": "Teach+Drill",
+   "covered": "Business Management continued — Communication/Grapevine, Strategic Management levels, Types of Plans, HR basics, Delegation vs Decentralization, Decision Making, SWOT, Marketing Mix, Controlling techniques, TQM/Kaizen, Change Management (Lewin). Full lesson content (tables, worked examples) written for all 18 BM concepts taught so far",
+   "outcome": "11 new concepts taught in one session; 8 reached Solid on first check, 3 (SWOT, Marketing Mix, TQM) needed a retry before clearing. Also fixed two dashboard bugs this session: markdown tables not rendering in lesson accordions, and session-log entries under a dated sub-heading being silently dropped from the sessions count/chart",
+   "subject": "business"
   }
  ],
  "nextActions": [
