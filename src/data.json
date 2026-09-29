@@ -1,15 +1,15 @@
 {
- "builtAt": "29 Sep 2026, 12:23",
+ "builtAt": "29 Sep 2026, 12:26",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 84,
+  "concepts": 85,
   "solid": 74,
-  "learning": 9,
+  "learning": 10,
   "weak": 1,
   "notStarted": 0,
-  "lessons": 58,
+  "lessons": 59,
   "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
@@ -29,7 +29,7 @@
   },
   {
    "status": "Learning",
-   "n": 9
+   "n": 10
   },
   {
    "status": "Solid",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "84 concepts logged (74 solid+, 1 weak)",
+    "85 concepts logged (74 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 8,
+   "logged": 9,
    "solid": 3,
-   "pct": 38
+   "pct": 33
   },
   {
    "key": "quant",
@@ -2615,6 +2615,38 @@
      }
     ]
    }
+  },
+  {
+   "concept": "Strategic management levels — Corporate/Business/Functional",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Learning",
+   "subject": "business",
+   "evidence": "29 Sep: taught with AAI diversification examples per level. Check (Terminal Ops switching kiosk vendors) — correctly identified Functional-level on the first attempt, reasoning given only after being prompted",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Not every decision in an organization is the same size. Some are \"where are we heading as a\ncompany overall\" (huge, rare, long-term). Some are \"how does our airport compete with rival\nairports\" (medium). Some are \"how does the baggage-handling team run its daily shift\" (small,\nfrequent). Strategy has 3 nested levels matching this size difference."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Level | Question it answers | Who makes it | Airport example | Time horizon |\n|---|---|---|---|---|\n| **Corporate-level** | What businesses/sectors should we be in? | Top management/Board | AAI deciding to expand into cargo logistics and airport-city real estate | Long-term (years) |\n| **Business-level** | How do we compete within a specific business? | Divisional/unit heads | A specific airport deciding to compete on turnaround speed vs a rival airport | Medium-term |\n| **Functional-level** | How does each department execute the strategy? | Department managers | Ground-ops department redesigning baggage flow to cut turnaround time by 10 minutes | Short-term (operational) |\n\nPlanning hierarchy, top to bottom, each level narrows the one above: Mission/Vision → Corporate\nStrategy → Business Strategy → Functional Strategy → Operational Plans/Actions."
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "AAI's top management decides to diversify into managing hotel properties near airports —\n**Corporate-level** (a new business/sector entirely). A specific airport's Terminal Operations\ndepartment decides to switch to a new self-check-in kiosk vendor to speed up processing —\n**Functional-level**: it's one department's own execution decision, doesn't touch what business\nAAI is in or how the whole airport competes against rivals."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Level is about **scope**, not how impactful a decision feels. A department-level decision (like\n  a security team changing its screening procedure) is Functional-level even if it sounds\n  important operationally.\n- Don't confuse Business-level (how ONE unit competes) with Corporate-level (WHICH businesses the\n  whole organization is in) — Business-level assumes the business/sector choice is already made."
+     }
+    ]
+   }
   }
  ],
  "errors": [
@@ -3008,7 +3040,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 2,
@@ -3023,7 +3055,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 3,
@@ -3038,7 +3070,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 4,
@@ -3053,7 +3085,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 5,
@@ -3068,7 +3100,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-08"
   },
   {
    "number": 6,
@@ -3083,7 +3115,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 7,
@@ -3098,7 +3130,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 8,
@@ -3113,7 +3145,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 9,
@@ -3128,7 +3160,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 10,
@@ -3143,7 +3175,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 11,
@@ -3158,7 +3190,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 12,
@@ -3173,7 +3205,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 13,
@@ -3188,7 +3220,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-17"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 14,
@@ -3203,7 +3235,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-18"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 15,
@@ -3218,7 +3250,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-19"
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 16,
@@ -3233,7 +3265,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-20"
+   "scheduledDate": "2026-10-19"
   },
   {
    "number": 17,
@@ -3248,7 +3280,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-21"
+   "scheduledDate": "2026-10-20"
   },
   {
    "number": 18,
@@ -3263,7 +3295,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-22"
+   "scheduledDate": "2026-10-21"
   },
   {
    "number": 19,
@@ -3278,7 +3310,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-23"
+   "scheduledDate": "2026-10-22"
   },
   {
    "number": 20,
@@ -3293,7 +3325,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-24"
+   "scheduledDate": "2026-10-23"
   },
   {
    "number": 21,
@@ -3308,7 +3340,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-25"
+   "scheduledDate": "2026-10-24"
   },
   {
    "number": 22,
@@ -3323,7 +3355,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-26"
+   "scheduledDate": "2026-10-25"
   },
   {
    "number": 23,
@@ -3338,7 +3370,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-27"
+   "scheduledDate": "2026-10-26"
   },
   {
    "number": 24,
@@ -3353,7 +3385,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-28"
+   "scheduledDate": "2026-10-27"
   },
   {
    "number": 25,
@@ -3368,7 +3400,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-29"
+   "scheduledDate": "2026-10-28"
   },
   {
    "number": 26,
@@ -3383,7 +3415,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-30"
+   "scheduledDate": "2026-10-29"
   },
   {
    "number": 27,
@@ -3398,7 +3430,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-31"
+   "scheduledDate": "2026-10-30"
   },
   {
    "number": 28,
@@ -3413,7 +3445,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-01"
+   "scheduledDate": "2026-10-31"
   },
   {
    "number": 29,
@@ -3428,10 +3460,25 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-02"
+   "scheduledDate": "2026-11-01"
   },
   {
    "number": 30,
+   "phase": "Business Mgmt",
+   "title": "Strategic management levels — Corporate/Business/Functional",
+   "objective": "29 Sep: taught with AAI diversification examples per level. Check (Terminal Ops switching kiosk vendors) — correctly identified Functional-level on the first attempt, reasoning given only after being prompted",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-02"
+  },
+  {
+   "number": 31,
    "phase": "Business Mgmt",
    "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine",
    "objective": "Fast spaced recap of 3 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine.",
@@ -3446,7 +3493,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 31,
+   "number": 32,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3461,7 +3508,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 32,
+   "number": 33,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3476,7 +3523,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 33,
+   "number": 34,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3491,7 +3538,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 34,
+   "number": 35,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3506,7 +3553,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 35,
+   "number": 36,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3521,7 +3568,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 36,
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3536,7 +3583,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 37,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3551,7 +3598,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 38,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3566,7 +3613,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 39,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3581,7 +3628,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 40,
+   "number": 41,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3596,7 +3643,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 41,
+   "number": 42,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3611,7 +3658,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 42,
+   "number": 43,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3626,7 +3673,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 43,
+   "number": 44,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3641,7 +3688,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 44,
+   "number": 45,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3656,7 +3703,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 45,
+   "number": 46,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -26571,11 +26618,12 @@
     "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
     "Organizational structures — Functional/Divisional/Matrix",
     "Leadership styles — Autocratic/Democratic/Laissez-Faire",
-    "Communication — formal networks and the grapevine"
+    "Communication — formal networks and the grapevine",
+    "Strategic management levels — Corporate/Business/Functional"
    ],
-   "total": 8,
+   "total": 9,
    "solid": 3,
-   "pct": 38,
+   "pct": 33,
    "formulaCount": 0,
    "questionIds": []
   }
