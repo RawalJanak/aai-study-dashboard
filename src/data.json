@@ -1,15 +1,15 @@
 {
- "builtAt": "29 Sep 2026, 12:52",
+ "builtAt": "29 Sep 2026, 12:55",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 93,
-  "solid": 79,
+  "concepts": 94,
+  "solid": 80,
   "learning": 13,
   "weak": 1,
   "notStarted": 0,
-  "lessons": 67,
+  "lessons": 68,
   "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
@@ -33,7 +33,7 @@
   },
   {
    "status": "Solid",
-   "n": 79
+   "n": 80
   },
   {
    "status": "Mastered",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "93 concepts logged (79 solid+, 1 weak)",
+    "94 concepts logged (80 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 17,
-   "solid": 8,
-   "pct": 47
+   "logged": 18,
+   "solid": 9,
+   "pct": 50
   },
   {
    "key": "quant",
@@ -2903,6 +2903,38 @@
      }
     ]
    }
+  },
+  {
+   "concept": "Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze)",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Solid",
+   "subject": "business",
+   "evidence": "29 Sep: taught the 3 stages with the skip-Unfreeze-causes-resistance trap. Check (new baggage system launched with no staff explanation) — correctly identified Unfreeze as the skipped stage and the resulting resistance consequence, unprompted",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Organizations resist change by default — people get comfortable with \"how things are.\" Kurt\nLewin's model says successful change needs 3 deliberate stages: first loosen people's grip on the\nold way, then actually make the change, then lock the new way in so it doesn't slide back."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Stage | What happens | Airport example |\n|---|---|---|\n| **Unfreeze** | Break down resistance, create awareness that change is needed, reduce comfort with the status quo | Communicating WHY the old manual check-in process is failing (long queues, complaints data) before introducing self-check-in kiosks |\n| **Change (Move)** | Implement the actual new process, system, or structure | Rolling out the self-check-in kiosks, training staff on the new workflow |\n| **Refreeze** | Stabilize the new state, reinforce it so people don't drift back to old habits | Updating official SOPs to reflect the new process, rewarding correct use, removing the old manual counters entirely |"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "An airport announces a brand-new baggage-tracking system will go live next Monday, with no prior\nexplanation to staff of why the old system was inadequate — staff are simply told to start using\nit. The **Unfreeze** stage was skipped, and the likely consequence is high staff resistance and\npushback, since no one understood WHY the old way had to go before being forced into the new one."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- Skipping **Unfreeze** (jumping straight to Change without preparing people) is the most common\n  reason change initiatives fail — resistance stays high.\n- Skipping **Refreeze** means people quietly drift back to old habits once attention moves\n  elsewhere, even if the Change stage itself went smoothly."
+     }
+    ]
+   }
   }
  ],
  "errors": [
@@ -3296,7 +3328,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-30"
+   "scheduledDate": "2026-09-29"
   },
   {
    "number": 2,
@@ -3311,7 +3343,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-01"
+   "scheduledDate": "2026-09-30"
   },
   {
    "number": 3,
@@ -3326,7 +3358,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-02"
+   "scheduledDate": "2026-10-01"
   },
   {
    "number": 4,
@@ -3341,7 +3373,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-03"
+   "scheduledDate": "2026-10-02"
   },
   {
    "number": 5,
@@ -3356,7 +3388,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-10-03"
   },
   {
    "number": 6,
@@ -3371,7 +3403,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 7,
@@ -3386,7 +3418,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 8,
@@ -3401,7 +3433,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 9,
@@ -3416,7 +3448,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 10,
@@ -3431,7 +3463,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-08"
   },
   {
    "number": 11,
@@ -3446,7 +3478,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 12,
@@ -3461,7 +3493,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 13,
@@ -3476,7 +3508,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 14,
@@ -3491,7 +3523,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 15,
@@ -3506,7 +3538,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 16,
@@ -3521,7 +3553,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 17,
@@ -3536,7 +3568,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 18,
@@ -3551,7 +3583,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-17"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 19,
@@ -3566,7 +3598,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-18"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 20,
@@ -3581,7 +3613,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-19"
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 21,
@@ -3596,7 +3628,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-20"
+   "scheduledDate": "2026-10-19"
   },
   {
    "number": 22,
@@ -3611,7 +3643,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-21"
+   "scheduledDate": "2026-10-20"
   },
   {
    "number": 23,
@@ -3626,7 +3658,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-22"
+   "scheduledDate": "2026-10-21"
   },
   {
    "number": 24,
@@ -3641,7 +3673,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-23"
+   "scheduledDate": "2026-10-22"
   },
   {
    "number": 25,
@@ -3656,7 +3688,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-24"
+   "scheduledDate": "2026-10-23"
   },
   {
    "number": 26,
@@ -3671,7 +3703,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-25"
+   "scheduledDate": "2026-10-24"
   },
   {
    "number": 27,
@@ -3686,7 +3718,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-26"
+   "scheduledDate": "2026-10-25"
   },
   {
    "number": 28,
@@ -3701,7 +3733,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-27"
+   "scheduledDate": "2026-10-26"
   },
   {
    "number": 29,
@@ -3716,7 +3748,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-28"
+   "scheduledDate": "2026-10-27"
   },
   {
    "number": 30,
@@ -3731,7 +3763,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-29"
+   "scheduledDate": "2026-10-28"
   },
   {
    "number": 31,
@@ -3746,7 +3778,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-30"
+   "scheduledDate": "2026-10-29"
   },
   {
    "number": 32,
@@ -3761,7 +3793,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-31"
+   "scheduledDate": "2026-10-30"
   },
   {
    "number": 33,
@@ -3776,7 +3808,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-01"
+   "scheduledDate": "2026-10-31"
   },
   {
    "number": 34,
@@ -3791,7 +3823,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-02"
+   "scheduledDate": "2026-11-01"
   },
   {
    "number": 35,
@@ -3806,10 +3838,25 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-03"
+   "scheduledDate": "2026-11-02"
   },
   {
    "number": 36,
+   "phase": "Business Mgmt",
+   "title": "Revision — Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze)",
+   "objective": "Fast spaced recap of 1 already-solid concepts: Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze).",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-03"
+  },
+  {
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3824,7 +3871,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 37,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3839,7 +3886,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 38,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3854,7 +3901,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 39,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3869,7 +3916,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 40,
+   "number": 41,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3884,7 +3931,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 41,
+   "number": 42,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3899,7 +3946,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 42,
+   "number": 43,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3914,7 +3961,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 43,
+   "number": 44,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3929,7 +3976,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 44,
+   "number": 45,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3944,7 +3991,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 45,
+   "number": 46,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3959,7 +4006,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 46,
+   "number": 47,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3974,7 +4021,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 47,
+   "number": 48,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3989,7 +4036,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 48,
+   "number": 49,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4004,7 +4051,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 49,
+   "number": 50,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4019,7 +4066,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 50,
+   "number": 51,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -26943,11 +26990,12 @@
     "SWOT Analysis — internal vs external classification",
     "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
     "Controlling techniques — Budgetary Control and Standards",
-    "TQM and Kaizen (quality = everyone's job, continuous small improvement)"
+    "TQM and Kaizen (quality = everyone's job, continuous small improvement)",
+    "Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze)"
    ],
-   "total": 17,
-   "solid": 8,
-   "pct": 47,
+   "total": 18,
+   "solid": 9,
+   "pct": 50,
    "formulaCount": 0,
    "questionIds": [
     "Q16"
