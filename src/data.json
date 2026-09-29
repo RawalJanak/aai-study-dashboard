@@ -1,15 +1,15 @@
 {
- "builtAt": "29 Sep 2026, 12:41",
+ "builtAt": "29 Sep 2026, 12:43",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 89,
+  "concepts": 90,
   "solid": 78,
-  "learning": 10,
+  "learning": 11,
   "weak": 1,
   "notStarted": 0,
-  "lessons": 63,
+  "lessons": 64,
   "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
@@ -29,7 +29,7 @@
   },
   {
    "status": "Learning",
-   "n": 10
+   "n": 11
   },
   {
    "status": "Solid",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "89 concepts logged (78 solid+, 1 weak)",
+    "90 concepts logged (78 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 13,
+   "logged": 14,
    "solid": 7,
-   "pct": 54
+   "pct": 50
   },
   {
    "key": "quant",
@@ -2775,6 +2775,38 @@
      }
     ]
    }
+  },
+  {
+   "concept": "SWOT Analysis — internal vs external classification",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Learning",
+   "subject": "business",
+   "evidence": "29 Sep: taught the internal/external x helpful/harmful 2x2 grid, with the CBT trap of misclassifying external factors as internal. Check (rival airport's terminal expansion) — correctly picked Threat, but \"why not Weakness\" reasoning was not given until prompted",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Before making a big decision, look at 4 things: what you're good at (Strengths), what you're bad\nat (Weaknesses) — both about yourself, internal — and what's happening around you that could help\n(Opportunities) or hurt (Threats) — both external, outside your control."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| Quadrant | Internal or External? | Controllable? | Airport example |\n|---|---|---|---|\n| **Strengths** | Internal | Yes | Airport has the highest on-time performance rating in the region |\n| **Weaknesses** | Internal | Yes | Airport has outdated baggage-handling infrastructure |\n| **Opportunities** | External | No (but can be leveraged) | Government announces a tourism policy boosting air travel demand |\n| **Threats** | External | No (but can be mitigated) | A new high-speed rail line launches, competing with short-haul flights |\n\nThe 2x2 grid it forms:\n\n| | Helpful | Harmful |\n|---|---|---|\n| **Internal** | Strengths | Weaknesses |\n| **External** | Opportunities | Threats |"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "A rival airport nearby just completed a massive terminal expansion, potentially pulling away\npassenger traffic. This is a **Threat**, not a Weakness — it's happening outside your own\norganization, entirely outside your control. Weakness only applies to something wrong with YOUR\nown airport (like your own outdated terminal), not a competitor's action."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- The most common mistake: classifying an external factor (competitor moves, government policy,\n  economic shifts) as Strength/Weakness, or an internal factor (staff skill, equipment age) as\n  Opportunity/Threat. Always ask first: is this about MY organization, or the environment around it?\n- A single event can sometimes carry both a Threat and an Opportunity angle (e.g., new aviation\n  regulation could threaten non-compliant airports while being an opportunity for early adopters)\n  — exam questions usually specify which angle to classify."
+     }
+    ]
+   }
   }
  ],
  "errors": [
@@ -3168,7 +3200,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-03"
+   "scheduledDate": "2026-10-02"
   },
   {
    "number": 2,
@@ -3183,7 +3215,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-10-03"
   },
   {
    "number": 3,
@@ -3198,7 +3230,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 4,
@@ -3213,7 +3245,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 5,
@@ -3228,7 +3260,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 6,
@@ -3243,7 +3275,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 7,
@@ -3258,7 +3290,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-08"
   },
   {
    "number": 8,
@@ -3273,7 +3305,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 9,
@@ -3288,7 +3320,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 10,
@@ -3303,7 +3335,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 11,
@@ -3318,7 +3350,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 12,
@@ -3333,7 +3365,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 13,
@@ -3348,7 +3380,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 14,
@@ -3363,7 +3395,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 15,
@@ -3378,7 +3410,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-17"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 16,
@@ -3393,7 +3425,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-18"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 17,
@@ -3408,7 +3440,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-19"
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 18,
@@ -3423,7 +3455,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-20"
+   "scheduledDate": "2026-10-19"
   },
   {
    "number": 19,
@@ -3438,7 +3470,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-21"
+   "scheduledDate": "2026-10-20"
   },
   {
    "number": 20,
@@ -3453,7 +3485,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-22"
+   "scheduledDate": "2026-10-21"
   },
   {
    "number": 21,
@@ -3468,7 +3500,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-23"
+   "scheduledDate": "2026-10-22"
   },
   {
    "number": 22,
@@ -3483,7 +3515,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-24"
+   "scheduledDate": "2026-10-23"
   },
   {
    "number": 23,
@@ -3498,7 +3530,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-25"
+   "scheduledDate": "2026-10-24"
   },
   {
    "number": 24,
@@ -3513,7 +3545,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-26"
+   "scheduledDate": "2026-10-25"
   },
   {
    "number": 25,
@@ -3528,7 +3560,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-27"
+   "scheduledDate": "2026-10-26"
   },
   {
    "number": 26,
@@ -3543,7 +3575,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-28"
+   "scheduledDate": "2026-10-27"
   },
   {
    "number": 27,
@@ -3558,7 +3590,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-29"
+   "scheduledDate": "2026-10-28"
   },
   {
    "number": 28,
@@ -3573,7 +3605,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-30"
+   "scheduledDate": "2026-10-29"
   },
   {
    "number": 29,
@@ -3588,7 +3620,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-31"
+   "scheduledDate": "2026-10-30"
   },
   {
    "number": 30,
@@ -3603,10 +3635,25 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-01"
+   "scheduledDate": "2026-10-31"
   },
   {
    "number": 31,
+   "phase": "Business Mgmt",
+   "title": "SWOT Analysis — internal vs external classification",
+   "objective": "29 Sep: taught the internal/external x helpful/harmful 2x2 grid, with the CBT trap of misclassifying external factors as internal. Check (rival airport's terminal expansion) — correctly picked Threat, but \"why not Weakness\" reasoning was not given until prompted",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-01"
+  },
+  {
+   "number": 32,
    "phase": "Business Mgmt",
    "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
    "objective": "Fast spaced recap of 4 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use.",
@@ -3621,7 +3668,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 32,
+   "number": 33,
    "phase": "Business Mgmt",
    "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed",
    "objective": "Fast spaced recap of 3 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed.",
@@ -3636,7 +3683,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 33,
+   "number": 34,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3651,7 +3698,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 34,
+   "number": 35,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3666,7 +3713,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 35,
+   "number": 36,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3681,7 +3728,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 36,
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3696,7 +3743,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 37,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3711,7 +3758,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 38,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3726,7 +3773,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 39,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3741,7 +3788,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 40,
+   "number": 41,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3756,7 +3803,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 41,
+   "number": 42,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3771,7 +3818,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 42,
+   "number": 43,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3786,7 +3833,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 43,
+   "number": 44,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3801,7 +3848,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 44,
+   "number": 45,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3816,7 +3863,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 45,
+   "number": 46,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3831,7 +3878,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 46,
+   "number": 47,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3846,7 +3893,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 47,
+   "number": 48,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -26766,13 +26813,16 @@
     "Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
     "HR basics — Recruitment vs Selection vs Induction vs Training",
     "Delegation vs Decentralization (authority delegated, responsibility cannot be)",
-    "Decision making — Programmed vs Non-Programmed"
+    "Decision making — Programmed vs Non-Programmed",
+    "SWOT Analysis — internal vs external classification"
    ],
-   "total": 13,
+   "total": 14,
    "solid": 7,
-   "pct": 54,
+   "pct": 50,
    "formulaCount": 0,
-   "questionIds": []
+   "questionIds": [
+    "Q16"
+   ]
   }
  ]
 }
