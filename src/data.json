@@ -1,15 +1,15 @@
 {
- "builtAt": "29 Sep 2026, 12:43",
+ "builtAt": "29 Sep 2026, 12:45",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 90,
+  "concepts": 91,
   "solid": 78,
-  "learning": 11,
+  "learning": 12,
   "weak": 1,
   "notStarted": 0,
-  "lessons": 64,
+  "lessons": 65,
   "errors": 25,
   "errorsOpen": 0,
   "sessions": 22,
@@ -29,7 +29,7 @@
   },
   {
    "status": "Learning",
-   "n": 11
+   "n": 12
   },
   {
    "status": "Solid",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "90 concepts logged (78 solid+, 1 weak)",
+    "91 concepts logged (78 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 14,
+   "logged": 15,
    "solid": 7,
-   "pct": 50
+   "pct": 47
   },
   {
    "key": "quant",
@@ -2807,6 +2807,38 @@
      }
     ]
    }
+  },
+  {
+   "concept": "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Learning",
+   "subject": "business",
+   "evidence": "29 Sep: taught with the \"Place = distribution channel, not literal location\" trap. Check (duty-free pre-order app) — correctly picked Place on the first attempt, reasoning given only after prompted",
+   "lesson": {
+    "sections": [
+     {
+      "key": "simple",
+      "label": "Simple",
+      "text": "Selling anything successfully needs 4 decisions to line up together: what you're offering, what\nyou charge, where people get it, and how they find out about it."
+     },
+     {
+      "key": "technical",
+      "label": "Technical",
+      "text": "| P | Question it answers | Airport example |\n|---|---|---|\n| **Product** | What are we offering? | Airport lounge services, duty-free retail, cargo handling as a \"product\" |\n| **Price** | What do we charge, and how? | Landing fees, parking charges, lounge access pricing |\n| **Place** (Distribution) | Where/how is it made available? | Online pre-booking for parking, physical retail location within terminals |\n| **Promotion** | How do customers find out and get persuaded? | Advertising a new duty-free offer, loyalty programs for frequent flyers |"
+     },
+     {
+      "key": "worked example",
+      "label": "Example",
+      "text": "An airport launches an app allowing passengers to pre-order duty-free items for pickup at the\ngate. The app itself is **Place** — it's the channel through which the product becomes available\nand gets delivered to the customer, not an advertisement persuading them to buy. A separate ad\ncampaign telling people the app exists would be the **Promotion**."
+     },
+     {
+      "key": "traps",
+      "label": "Traps",
+      "text": "- **\"Place\" means distribution/availability channel, NOT necessarily a physical location.** It's\n  frequently misread as literally \"where the store is,\" but it also covers online booking,\n  delivery apps, and partnerships — anything that gets the product to the customer.\n- Don't confuse the channel itself (Place) with the marketing communication about that channel\n  (Promotion) — a booking app is Place; an ad telling people to download it is Promotion."
+     }
+    ]
+   }
   }
  ],
  "errors": [
@@ -3200,7 +3232,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-02"
+   "scheduledDate": "2026-10-01"
   },
   {
    "number": 2,
@@ -3215,7 +3247,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-03"
+   "scheduledDate": "2026-10-02"
   },
   {
    "number": 3,
@@ -3230,7 +3262,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-10-03"
   },
   {
    "number": 4,
@@ -3245,7 +3277,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 5,
@@ -3260,7 +3292,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 6,
@@ -3275,7 +3307,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 7,
@@ -3290,7 +3322,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 8,
@@ -3305,7 +3337,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-08"
   },
   {
    "number": 9,
@@ -3320,7 +3352,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 10,
@@ -3335,7 +3367,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 11,
@@ -3350,7 +3382,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 12,
@@ -3365,7 +3397,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 13,
@@ -3380,7 +3412,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 14,
@@ -3395,7 +3427,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 15,
@@ -3410,7 +3442,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 16,
@@ -3425,7 +3457,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-17"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 17,
@@ -3440,7 +3472,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-18"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 18,
@@ -3455,7 +3487,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-19"
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 19,
@@ -3470,7 +3502,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-20"
+   "scheduledDate": "2026-10-19"
   },
   {
    "number": 20,
@@ -3485,7 +3517,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-21"
+   "scheduledDate": "2026-10-20"
   },
   {
    "number": 21,
@@ -3500,7 +3532,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-22"
+   "scheduledDate": "2026-10-21"
   },
   {
    "number": 22,
@@ -3515,7 +3547,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-23"
+   "scheduledDate": "2026-10-22"
   },
   {
    "number": 23,
@@ -3530,7 +3562,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-24"
+   "scheduledDate": "2026-10-23"
   },
   {
    "number": 24,
@@ -3545,7 +3577,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-25"
+   "scheduledDate": "2026-10-24"
   },
   {
    "number": 25,
@@ -3560,7 +3592,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-26"
+   "scheduledDate": "2026-10-25"
   },
   {
    "number": 26,
@@ -3575,7 +3607,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-27"
+   "scheduledDate": "2026-10-26"
   },
   {
    "number": 27,
@@ -3590,7 +3622,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-28"
+   "scheduledDate": "2026-10-27"
   },
   {
    "number": 28,
@@ -3605,7 +3637,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-29"
+   "scheduledDate": "2026-10-28"
   },
   {
    "number": 29,
@@ -3620,7 +3652,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-30"
+   "scheduledDate": "2026-10-29"
   },
   {
    "number": 30,
@@ -3635,7 +3667,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-31"
+   "scheduledDate": "2026-10-30"
   },
   {
    "number": 31,
@@ -3650,10 +3682,25 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-01"
+   "scheduledDate": "2026-10-31"
   },
   {
    "number": 32,
+   "phase": "Business Mgmt",
+   "title": "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
+   "objective": "29 Sep: taught with the \"Place = distribution channel, not literal location\" trap. Check (duty-free pre-order app) — correctly picked Place on the first attempt, reasoning given only after prompted",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-01"
+  },
+  {
+   "number": 33,
    "phase": "Business Mgmt",
    "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
    "objective": "Fast spaced recap of 4 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use.",
@@ -3668,7 +3715,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 33,
+   "number": 34,
    "phase": "Business Mgmt",
    "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed",
    "objective": "Fast spaced recap of 3 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed.",
@@ -3683,7 +3730,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 34,
+   "number": 35,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3698,7 +3745,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 35,
+   "number": 36,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3713,7 +3760,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 36,
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3728,7 +3775,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 37,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3743,7 +3790,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 38,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3758,7 +3805,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 39,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3773,7 +3820,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 40,
+   "number": 41,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3788,7 +3835,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 41,
+   "number": 42,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3803,7 +3850,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 42,
+   "number": 43,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3818,7 +3865,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 43,
+   "number": 44,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3833,7 +3880,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 44,
+   "number": 45,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3848,7 +3895,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 45,
+   "number": 46,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3863,7 +3910,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 46,
+   "number": 47,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3878,7 +3925,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 47,
+   "number": 48,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3893,7 +3940,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 48,
+   "number": 49,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -26814,11 +26861,12 @@
     "HR basics — Recruitment vs Selection vs Induction vs Training",
     "Delegation vs Decentralization (authority delegated, responsibility cannot be)",
     "Decision making — Programmed vs Non-Programmed",
-    "SWOT Analysis — internal vs external classification"
+    "SWOT Analysis — internal vs external classification",
+    "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)"
    ],
-   "total": 14,
+   "total": 15,
    "solid": 7,
-   "pct": 50,
+   "pct": 47,
    "formulaCount": 0,
    "questionIds": [
     "Q16"
