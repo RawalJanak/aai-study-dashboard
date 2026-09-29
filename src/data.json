@@ -1,13 +1,13 @@
 {
- "builtAt": "29 Sep 2026, 13:00",
+ "builtAt": "29 Sep 2026, 13:04",
  "regClose": "2026-09-07",
  "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
   "concepts": 94,
-  "solid": 80,
+  "solid": 81,
   "learning": 13,
-  "weak": 1,
+  "weak": 0,
   "notStarted": 0,
   "lessons": 68,
   "errors": 25,
@@ -25,7 +25,7 @@
   },
   {
    "status": "Weak",
-   "n": 1
+   "n": 0
   },
   {
    "status": "Learning",
@@ -33,7 +33,7 @@
   },
   {
    "status": "Solid",
-   "n": 80
+   "n": 81
   },
   {
    "status": "Mastered",
@@ -217,7 +217,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "94 concepts logged (80 solid+, 1 weak)",
+    "94 concepts logged (81 solid+, 0 weak)",
     "832 questions banked (98 GK)",
     "25 sessions logged, 11 days active",
     "25 errors logged, 0 currently open"
@@ -229,13 +229,13 @@
     "label": "Part-A general",
     "sub": "~48 marks (40%)",
     "color": "general",
-    "pct": 61,
+    "pct": 62,
     "children": [
      {
       "label": "Reasoning",
       "sub": "15 concepts",
       "status": "Solid",
-      "pct": 82
+      "pct": 85
      },
      {
       "label": "Aptitude",
@@ -429,8 +429,8 @@
    "name": "Reasoning",
    "marks": null,
    "logged": 23,
-   "solid": 22,
-   "pct": 96
+   "solid": 23,
+   "pct": 100
   }
  ],
  "concepts": [
@@ -1432,9 +1432,9 @@
    "concept": "Blood relations — \"only son/daughter\" nested layer",
    "group": "General Intelligence",
    "chapter": "Blood Relations",
-   "status": "Weak",
+   "status": "Solid",
    "subject": "reasoning",
-   "evidence": "N2 retry: answered \"Daughter\" instead of \"Sister\" — jumped to self instead of resolving the inner relation (grandfather's only son = own father) first. 26 Aug retest: 2/3 fresh variants — correct on mother's-only-daughter and grandmother's-only-daughter forms, but missed the same-generation form (\"father's only son\" = speaker himself → should be Daughter) by mechanically reapplying \"sister\" from the earlier fix instead of re-deriving. Genuine misconception, not cleared — needs one more rep distinguishing same-generation vs one-generation-up \"only son/daughter\" phrasing",
+   "evidence": "N2 retry (24 Aug): answered \"Daughter\" instead of \"Sister,\" then 26 Aug retest 2/3 with a fresh same-generation miss. Cleared 21 Sep and reconfirmed 24 Sep: 2/2 fresh variants correct both sessions (uncle vs brother, correctly distinguishing generation-up \"only son/daughter\" from same-generation phrasing) — status was left stale as Weak after the review-queue item was actually cleared and closed out (see Review queue history)",
    "lesson": {
     "sections": [
      {
@@ -3077,7 +3077,7 @@
    "area": "GK — arts & culture pairing",
    "question": "Instrument associated with Hariprasad Chaurasia",
    "misconception": "Swapped pairing — Santoor is Shivkumar Sharma, not Chaurasia",
-   "retry": "not yet retested",
+   "retry": "cleared 1 Sep — correct on fresh variant in the overdue redrill session",
    "open": false
   },
   {
@@ -3085,7 +3085,7 @@
    "area": "GK — aviation (BCAS history)",
    "question": "Year BCAS became independent body under MoCA",
    "misconception": "Confused BCAS's two-step history — 1978 is when it was created as a Cell *under DGCA*; 1987 is when it became *independent* under MoCA. Question asked for independence, answered creation.",
-   "retry": "not yet retested",
+   "retry": "cleared 1 Sep — correct on fresh variant in the overdue redrill session",
    "open": false
   },
   {
@@ -3093,7 +3093,7 @@
    "area": "GK — aviation (weather reports)",
    "question": "Which report is issued off-schedule, between routine observations",
    "misconception": "METAR is the *routine* interval report; SPECI is the off-schedule special one issued when conditions change significantly. Ruled out both real candidates and picked a third report (METAR) that doesn't fit the definition at all.",
-   "retry": "not yet retested",
+   "retry": "cleared 1 Sep — correct on fresh variant in the overdue redrill session",
    "open": false
   },
   {
@@ -3369,21 +3369,6 @@
   {
    "number": 1,
    "phase": "Part-A General",
-   "title": "Blood relations — \"only son/daughter\" nested layer",
-   "objective": "N2 retry: answered \"Daughter\" instead of \"Sister\" — jumped to self instead of resolving the inner relation (grandfather's only son = own father) first. 26 Aug retest: 2/3 fresh variants — correct on mother's-only-daughter and grandmother's-only-daughter forms, but missed the same-generation form (\"father's only son\" = speaker himself → should be Daughter) by mechanically reapplying \"sister\" from the earlier fix instead of re-deriving. Genuine misconception, not cleared — needs one more rep distinguishing same-generation vs one-generation-up \"only son/daughter\" phrasing",
-   "mastery": {
-    "explain": "unrated",
-    "recall": "unrated",
-    "apply": "unrated",
-    "spot_trap": "unrated",
-    "speed": "unrated"
-   },
-   "status": "not_started",
-   "scheduledDate": "2026-09-29"
-  },
-  {
-   "number": 2,
-   "phase": "Part-A General",
    "title": "Revision — Classification (odd one out), Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Classification (odd one out), Venn diagrams (subset/disjoint/overlap), Coding-decoding (word/symbol overlap), Direction sense (net displacement).",
    "mastery": {
@@ -3397,10 +3382,10 @@
    "scheduledDate": "2026-09-30"
   },
   {
-   "number": 3,
+   "number": 2,
    "phase": "Part-A General",
-   "title": "Revision — Ranking / linear order chains, Calendar reasoning (day-of-week shift), Blood relations — simple (one-layer), Blood relations — multi-person family table",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Ranking / linear order chains, Calendar reasoning (day-of-week shift), Blood relations — simple (one-layer), Blood relations — multi-person family table.",
+   "title": "Revision — Ranking / linear order chains, Calendar reasoning (day-of-week shift), Blood relations — simple (one-layer), Blood relations — \"only son/daughter\" nested layer",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Ranking / linear order chains, Calendar reasoning (day-of-week shift), Blood relations — simple (one-layer), Blood relations — \"only son/daughter\" nested layer.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3412,10 +3397,10 @@
    "scheduledDate": "2026-10-01"
   },
   {
-   "number": 4,
+   "number": 3,
    "phase": "Part-A General",
-   "title": "Revision — Sign/number interchange puzzles, Number series — letter/number mismatch, Letter matrix / grid analogy, Number analogy (a:b :: c:?)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Sign/number interchange puzzles, Number series — letter/number mismatch, Letter matrix / grid analogy, Number analogy (a:b :: c:?).",
+   "title": "Revision — Blood relations — multi-person family table, Sign/number interchange puzzles, Number series — letter/number mismatch, Letter matrix / grid analogy",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Blood relations — multi-person family table, Sign/number interchange puzzles, Number series — letter/number mismatch, Letter matrix / grid analogy.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3427,10 +3412,10 @@
    "scheduledDate": "2026-10-02"
   },
   {
-   "number": 5,
+   "number": 4,
    "phase": "Part-A General",
-   "title": "Revision — Arithmetic progression (spacing/intervals), Word analogy (antonym pairs), Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Arithmetic progression (spacing/intervals), Word analogy (antonym pairs), Word formation (anagram), Letter analogy — alphabet mirror (27-n reflection).",
+   "title": "Revision — Number analogy (a:b :: c:?), Arithmetic progression (spacing/intervals), Word analogy (antonym pairs), Word formation (anagram)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Number analogy (a:b :: c:?), Arithmetic progression (spacing/intervals), Word analogy (antonym pairs), Word formation (anagram).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3442,10 +3427,10 @@
    "scheduledDate": "2026-10-03"
   },
   {
-   "number": 6,
+   "number": 5,
    "phase": "Part-A General",
-   "title": "Revision — Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting, Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting, Letter coding — uniform Caesar shift, Digit-equation coding — sum of squares.",
+   "title": "Revision — Letter analogy — alphabet mirror (27-n reflection), Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting, Letter coding — uniform Caesar shift",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Letter analogy — alphabet mirror (27-n reflection), Number analogy — hidden single series (not true A:B::C:D), Word formation from letter-supply counting, Letter coding — uniform Caesar shift.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3457,10 +3442,10 @@
    "scheduledDate": "2026-10-04"
   },
   {
-   "number": 7,
+   "number": 6,
    "phase": "Part-A General",
-   "title": "Revision — Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line, Averages (with prime-number filtering), Direct proportion / unitary method",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line, Averages (with prime-number filtering), Direct proportion / unitary method.",
+   "title": "Revision — Digit-equation coding — sum of squares, Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line, Averages (with prime-number filtering)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Digit-equation coding — sum of squares, Venn diagram — three classes, chain-overlap (not all-mutual), Mirror image across a vertical line, Averages (with prime-number filtering).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3472,10 +3457,10 @@
    "scheduledDate": "2026-10-05"
   },
   {
-   "number": 8,
+   "number": 7,
    "phase": "Part-A General",
-   "title": "Revision — Time and work (multi-stage, who-worked-when), Decimal arithmetic equations, Number series — perfect-square differences, Partnership / profit sharing with staggered entry",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Time and work (multi-stage, who-worked-when), Decimal arithmetic equations, Number series — perfect-square differences, Partnership / profit sharing with staggered entry.",
+   "title": "Revision — Direct proportion / unitary method, Time and work (multi-stage, who-worked-when), Decimal arithmetic equations, Number series — perfect-square differences",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Direct proportion / unitary method, Time and work (multi-stage, who-worked-when), Decimal arithmetic equations, Number series — perfect-square differences.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3487,10 +3472,10 @@
    "scheduledDate": "2026-10-06"
   },
   {
-   "number": 9,
+   "number": 8,
    "phase": "Part-A General",
-   "title": "Revision — Percentage — mixture removal (recompute new total), Simple interest — find Principal from Amount, Relative speed — opposite vs same direction, Mensuration — ratio scaling (linear vs area vs volume)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Percentage — mixture removal (recompute new total), Simple interest — find Principal from Amount, Relative speed — opposite vs same direction, Mensuration — ratio scaling (linear vs area vs volume).",
+   "title": "Revision — Partnership / profit sharing with staggered entry, Percentage — mixture removal (recompute new total), Simple interest — find Principal from Amount, Relative speed — opposite vs same direction",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Partnership / profit sharing with staggered entry, Percentage — mixture removal (recompute new total), Simple interest — find Principal from Amount, Relative speed — opposite vs same direction.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3502,10 +3487,10 @@
    "scheduledDate": "2026-10-07"
   },
   {
-   "number": 10,
+   "number": 9,
    "phase": "Part-A General",
-   "title": "Revision — Ages — ratio and difference, Two-digit number — digit sum/difference/product, Profit % — CP of X articles = SP of Y articles, Percentage equation algebra",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Ages — ratio and difference, Two-digit number — digit sum/difference/product, Profit % — CP of X articles = SP of Y articles, Percentage equation algebra.",
+   "title": "Revision — Mensuration — ratio scaling (linear vs area vs volume), Ages — ratio and difference, Two-digit number — digit sum/difference/product, Profit % — CP of X articles = SP of Y articles",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Mensuration — ratio scaling (linear vs area vs volume), Ages — ratio and difference, Two-digit number — digit sum/difference/product, Profit % — CP of X articles = SP of Y articles.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3517,10 +3502,10 @@
    "scheduledDate": "2026-10-08"
   },
   {
-   "number": 11,
+   "number": 10,
    "phase": "Part-A General",
-   "title": "Revision — LCM/HCF from a ratio, LCM — smallest n-digit multiple, HCF — maximum common measure, Ratio chaining (a:b::b:c via shared-term LCM)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: LCM/HCF from a ratio, LCM — smallest n-digit multiple, HCF — maximum common measure, Ratio chaining (a:b::b:c via shared-term LCM).",
+   "title": "Revision — Percentage equation algebra, LCM/HCF from a ratio, LCM — smallest n-digit multiple, HCF — maximum common measure",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Percentage equation algebra, LCM/HCF from a ratio, LCM — smallest n-digit multiple, HCF — maximum common measure.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3532,10 +3517,10 @@
    "scheduledDate": "2026-10-09"
   },
   {
-   "number": 12,
+   "number": 11,
    "phase": "Part-A General",
-   "title": "Revision — Alligation-style mixture blending (two solutions, weighted fractions), Compound interest — non-annual compounding period conversion, Loss% when SP of n articles = CP of m articles, Boats and streams (downstream/upstream)",
-   "objective": "Fast spaced recap of 4 already-solid concepts: Alligation-style mixture blending (two solutions, weighted fractions), Compound interest — non-annual compounding period conversion, Loss% when SP of n articles = CP of m articles, Boats and streams (downstream/upstream).",
+   "title": "Revision — Ratio chaining (a:b::b:c via shared-term LCM), Alligation-style mixture blending (two solutions, weighted fractions), Compound interest — non-annual compounding period conversion, Loss% when SP of n articles = CP of m articles",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Ratio chaining (a:b::b:c via shared-term LCM), Alligation-style mixture blending (two solutions, weighted fractions), Compound interest — non-annual compounding period conversion, Loss% when SP of n articles = CP of m articles.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3547,10 +3532,10 @@
    "scheduledDate": "2026-10-10"
   },
   {
-   "number": 13,
+   "number": 12,
    "phase": "Part-A General",
-   "title": "Revision — Heights and distances (angle of elevation, two colinear points), Quadratic discriminant — condition for real roots",
-   "objective": "Fast spaced recap of 2 already-solid concepts: Heights and distances (angle of elevation, two colinear points), Quadratic discriminant — condition for real roots.",
+   "title": "Revision — Boats and streams (downstream/upstream), Heights and distances (angle of elevation, two colinear points), Quadratic discriminant — condition for real roots",
+   "objective": "Fast spaced recap of 3 already-solid concepts: Boats and streams (downstream/upstream), Heights and distances (angle of elevation, two colinear points), Quadratic discriminant — condition for real roots.",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3562,7 +3547,7 @@
    "scheduledDate": "2026-10-11"
   },
   {
-   "number": 14,
+   "number": 13,
    "phase": "Physics",
    "title": "Revision — Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), Scalar vs vector (Ch.3 started)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), Scalar vs vector (Ch.3 started).",
@@ -3577,7 +3562,7 @@
    "scheduledDate": "2026-10-12"
   },
   {
-   "number": 15,
+   "number": 14,
    "phase": "Physics",
    "title": "Revision — Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation), Velocity vs acceleration at a turning point (v=0 ≠ a=0)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation), Velocity vs acceleration at a turning point (v=0 ≠ a=0).",
@@ -3592,7 +3577,7 @@
    "scheduledDate": "2026-10-13"
   },
   {
-   "number": 16,
+   "number": 15,
    "phase": "Physics",
    "title": "Revision — Projectile motion (horizontal/vertical independence, time of flight, max height, range)",
    "objective": "Fast spaced recap of 1 already-solid concepts: Projectile motion (horizontal/vertical independence, time of flight, max height, range).",
@@ -3607,7 +3592,7 @@
    "scheduledDate": "2026-10-14"
   },
   {
-   "number": 17,
+   "number": 16,
    "phase": "Maths",
    "title": "Product rule — both factors in each term",
    "objective": "dropped the v in u′v on (2x+1)⁴·x",
@@ -3622,7 +3607,7 @@
    "scheduledDate": "2026-10-15"
   },
   {
-   "number": 18,
+   "number": 17,
    "phase": "Maths",
    "title": "Maxima / minima + 2nd derivative test",
    "objective": "taught twice, worked airport-parking example",
@@ -3637,7 +3622,7 @@
    "scheduledDate": "2026-10-16"
   },
   {
-   "number": 19,
+   "number": 18,
    "phase": "Maths",
    "title": "Simplifying final answers",
    "objective": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
@@ -3652,7 +3637,7 @@
    "scheduledDate": "2026-10-17"
   },
   {
-   "number": 20,
+   "number": 19,
    "phase": "Maths",
    "title": "Integration as antiderivative and area",
    "objective": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
@@ -3667,7 +3652,7 @@
    "scheduledDate": "2026-10-18"
   },
   {
-   "number": 21,
+   "number": 20,
    "phase": "Maths",
    "title": "Revision — Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics",
    "objective": "Fast spaced recap of 4 already-solid concepts: Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics.",
@@ -3682,7 +3667,7 @@
    "scheduledDate": "2026-10-19"
   },
   {
-   "number": 22,
+   "number": 21,
    "phase": "Maths",
    "title": "Revision — Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule",
    "objective": "Fast spaced recap of 4 already-solid concepts: Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule.",
@@ -3697,7 +3682,7 @@
    "scheduledDate": "2026-10-20"
   },
   {
-   "number": 23,
+   "number": 22,
    "phase": "Maths",
    "title": "Revision — Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C).",
@@ -3712,7 +3697,7 @@
    "scheduledDate": "2026-10-21"
   },
   {
-   "number": 24,
+   "number": 23,
    "phase": "Maths",
    "title": "Revision — Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative",
    "objective": "Fast spaced recap of 4 already-solid concepts: Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative.",
@@ -3727,7 +3712,7 @@
    "scheduledDate": "2026-10-22"
   },
   {
-   "number": 25,
+   "number": 24,
    "phase": "Business Mgmt",
    "title": "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
    "objective": "24 Sep: missed first application check (picked Span of Control for a \"route requests through me\" scenario, should be Unity of Command), corrected, cleared 2nd scenario. Only 1 clean rep so far — not yet Solid",
@@ -3742,7 +3727,7 @@
    "scheduledDate": "2026-10-23"
   },
   {
-   "number": 26,
+   "number": 25,
    "phase": "Business Mgmt",
    "title": "Span of Control (headcount one manager can effectively supervise)",
    "objective": "24 Sep: surfaced as the wrong-answer option in the Unity of Command mix-up above; correctly identified on its own dedicated scenario (25 direct reports, no team leads) right after the correction — first exposure, needs a fresh spaced check before Solid",
@@ -3757,7 +3742,7 @@
    "scheduledDate": "2026-10-24"
   },
   {
-   "number": 27,
+   "number": 26,
    "phase": "Business Mgmt",
    "title": "Herzberg's Two-Factor Theory (hygiene vs motivators)",
    "objective": "24 Sep: taught (salary/conditions = hygiene, prevents dissatisfaction only; recognition/growth = motivators, create real drive). Check (uniform+break room won't fix low motivation) answered correctly but reasoning given was just the label restated, not the underlying \"hygiene only cancels dissatisfaction\" logic — needs a deeper-reasoning re-check",
@@ -3772,7 +3757,7 @@
    "scheduledDate": "2026-10-25"
   },
   {
-   "number": 28,
+   "number": 27,
    "phase": "Business Mgmt",
    "title": "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
    "objective": "24 Sep: taught with airport-worker examples per level. Check (temp-contract worker, Safety unmet, would esteem-level recognition help) — both parts (identify level + implication) answered correctly, terse but right",
@@ -3787,7 +3772,7 @@
    "scheduledDate": "2026-10-26"
   },
   {
-   "number": 29,
+   "number": 28,
    "phase": "Business Mgmt",
    "title": "Leadership styles — Autocratic/Democratic/Laissez-Faire",
    "objective": "29 Sep: taught with situational fit (emergency->autocratic, routine planning->democratic, skilled autonomous team->laissez-faire) and the CBT trap (exam tests situational fit, not \"best\" style). Check (gate security breach) — correctly picked Autocratic, but \"why not the others\" reasoning was underdeveloped (just restated the style) until prompted",
@@ -3802,7 +3787,7 @@
    "scheduledDate": "2026-10-27"
   },
   {
-   "number": 30,
+   "number": 29,
    "phase": "Business Mgmt",
    "title": "Strategic management levels — Corporate/Business/Functional",
    "objective": "29 Sep: taught with AAI diversification examples per level. Check (Terminal Ops switching kiosk vendors) — correctly identified Functional-level on the first attempt, reasoning given only after being prompted",
@@ -3817,7 +3802,7 @@
    "scheduledDate": "2026-10-28"
   },
   {
-   "number": 31,
+   "number": 30,
    "phase": "Business Mgmt",
    "title": "SWOT Analysis — internal vs external classification",
    "objective": "29 Sep: taught the internal/external x helpful/harmful 2x2 grid, with the CBT trap of misclassifying external factors as internal. Check (rival airport's terminal expansion) — correctly picked Threat, but \"why not Weakness\" reasoning was not given until prompted",
@@ -3832,7 +3817,7 @@
    "scheduledDate": "2026-10-29"
   },
   {
-   "number": 32,
+   "number": 31,
    "phase": "Business Mgmt",
    "title": "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
    "objective": "29 Sep: taught with the \"Place = distribution channel, not literal location\" trap. Check (duty-free pre-order app) — correctly picked Place on the first attempt, reasoning given only after prompted",
@@ -3847,7 +3832,7 @@
    "scheduledDate": "2026-10-30"
   },
   {
-   "number": 33,
+   "number": 32,
    "phase": "Business Mgmt",
    "title": "TQM and Kaizen (quality = everyone's job, continuous small improvement)",
    "objective": "29 Sep: taught TQM (quality is every employee's responsibility) vs Kaizen (small continuous improvement vs big-bang change). Check (isolated Quality Control Dept, frontline told quality isn't their concern) — missed first attempt (said \"yes\" this reflects TQM), corrected and cleared on retry after being prompted for the missing word (\"everyone's job\")",
@@ -3862,7 +3847,7 @@
    "scheduledDate": "2026-10-31"
   },
   {
-   "number": 34,
+   "number": 33,
    "phase": "Business Mgmt",
    "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
    "objective": "Fast spaced recap of 4 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use.",
@@ -3877,7 +3862,7 @@
    "scheduledDate": "2026-11-01"
   },
   {
-   "number": 35,
+   "number": 34,
    "phase": "Business Mgmt",
    "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards",
    "objective": "Fast spaced recap of 4 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards.",
@@ -3892,7 +3877,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 36,
+   "number": 35,
    "phase": "Business Mgmt",
    "title": "Revision — Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze)",
    "objective": "Fast spaced recap of 1 already-solid concepts: Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze).",
@@ -3907,7 +3892,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 37,
+   "number": 36,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3922,7 +3907,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 38,
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3937,7 +3922,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 39,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3952,7 +3937,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 40,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3967,7 +3952,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 41,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3982,7 +3967,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 42,
+   "number": 41,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3997,7 +3982,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 43,
+   "number": 42,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4012,7 +3997,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 44,
+   "number": 43,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4027,7 +4012,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 45,
+   "number": 44,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4042,7 +4027,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 46,
+   "number": 45,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4057,7 +4042,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 47,
+   "number": 46,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4072,7 +4057,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 48,
+   "number": 47,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4087,7 +4072,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 49,
+   "number": 48,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4102,7 +4087,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 50,
+   "number": 49,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4117,7 +4102,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 51,
+   "number": 50,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -26796,8 +26781,8 @@
     "Blood relations — multi-person family table"
    ],
    "total": 3,
-   "solid": 2,
-   "pct": 67,
+   "solid": 3,
+   "pct": 100,
    "formulaCount": 1,
    "questionIds": []
   },
