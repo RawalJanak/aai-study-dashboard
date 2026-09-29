@@ -19,6 +19,12 @@ const nextConfig: NextConfig = {
   // the user's home directory; without this, Turbopack picks that as the root
   // and warns on every build.
   turbopack: { root: __dirname },
+
+  // Next dev blocks JS/CSS/HMR requests from any origin but localhost by
+  // default. 127.0.0.1 is a different origin to Next even though it's the
+  // same machine, so without this every chunk silently 403s and the page
+  // loads bare unstyled HTML with no interactivity.
+  allowedDevOrigins: ["127.0.0.1", "localhost"],
 };
 
 export default withReticle(nextConfig);

@@ -1,12 +1,12 @@
 {
- "builtAt": "21 Sep 2026, 13:21",
+ "builtAt": "29 Sep 2026, 12:04",
  "regClose": "2026-09-07",
- "daysToClose": -14,
+ "daysToClose": -22,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 78,
-  "solid": 71,
-  "learning": 6,
+  "concepts": 83,
+  "solid": 73,
+  "learning": 9,
   "weak": 1,
   "notStarted": 0,
   "lessons": 50,
@@ -29,11 +29,11 @@
   },
   {
    "status": "Learning",
-   "n": 6
+   "n": 9
   },
   {
    "status": "Solid",
-   "n": 71
+   "n": 73
   },
   {
    "status": "Mastered",
@@ -187,7 +187,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "78 concepts logged (71 solid+, 1 weak)",
+    "83 concepts logged (73 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "22 sessions logged, 8 days active",
     "25 errors logged, 0 currently open"
@@ -366,9 +366,9 @@
    "key": "mathematics",
    "name": "Mathematics",
    "marks": 24,
-   "logged": 20,
-   "solid": 16,
-   "pct": 80
+   "logged": 21,
+   "solid": 17,
+   "pct": 81
   },
   {
    "key": "physics",
@@ -382,9 +382,9 @@
    "key": "business",
    "name": "Business Management",
    "marks": 12,
-   "logged": 2,
-   "solid": 0,
-   "pct": 0
+   "logged": 6,
+   "solid": 1,
+   "pct": 17
   },
   {
    "key": "quant",
@@ -2364,18 +2364,63 @@
    "concept": "Functions of Management (Planning/Organizing/Staffing/Directing/Controlling)",
    "group": "Business Management",
    "chapter": "Business Management",
-   "status": "Learning",
+   "status": "Solid",
    "subject": "business",
-   "evidence": "21 Sep: taught with airport-ops examples per function. Check question (Organizing vs Staffing distinction) answered by tutor for pacing, not yet confirmed independently by Janak — re-check needed",
+   "evidence": "21 Sep taught, 24 Sep retaught with a food-stall + festival-peak-rush running example. Correctly explained Organizing vs Staffing distinction unprompted, in own words, using both examples (\"organizing is creating a structure defining the workflow whereas staffing is the recruitment/selection of right people in that structure\")",
    "lesson": null
   },
   {
-   "concept": "Fayol's 14 Principles of Management",
+   "concept": "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
    "group": "Business Management",
    "chapter": "Business Management",
    "status": "Learning",
    "subject": "business",
-   "evidence": "21 Sep: full table taught, with emphasis on the Unity of Command vs Scalar Chain distinction (most CBT-confused pair — one boss vs the whole chain). Applied check question (airport supervisor example) posed, answer pending",
+   "evidence": "24 Sep: missed first application check (picked Span of Control for a \"route requests through me\" scenario, should be Unity of Command), corrected, cleared 2nd scenario. Only 1 clean rep so far — not yet Solid",
+   "lesson": null
+  },
+  {
+   "concept": "Span of Control (headcount one manager can effectively supervise)",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Learning",
+   "subject": "business",
+   "evidence": "24 Sep: surfaced as the wrong-answer option in the Unity of Command mix-up above; correctly identified on its own dedicated scenario (25 direct reports, no team leads) right after the correction — first exposure, needs a fresh spaced check before Solid",
+   "lesson": null
+  },
+  {
+   "concept": "Herzberg's Two-Factor Theory (hygiene vs motivators)",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Learning",
+   "subject": "business",
+   "evidence": "24 Sep: taught (salary/conditions = hygiene, prevents dissatisfaction only; recognition/growth = motivators, create real drive). Check (uniform+break room won't fix low motivation) answered correctly but reasoning given was just the label restated, not the underlying \"hygiene only cancels dissatisfaction\" logic — needs a deeper-reasoning re-check",
+   "lesson": null
+  },
+  {
+   "concept": "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Learning",
+   "subject": "business",
+   "evidence": "24 Sep: taught with airport-worker examples per level. Check (temp-contract worker, Safety unmet, would esteem-level recognition help) — both parts (identify level + implication) answered correctly, terse but right",
+   "lesson": null
+  },
+  {
+   "concept": "Organizational structures — Functional/Divisional/Matrix",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Solid",
+   "subject": "mathematics",
+   "evidence": "29 Sep: taught with airport terminal examples; explicitly tied Matrix's dual-reporting to violating Unity of Command (Fayol link). Check (3-month project, dual reporting to PM+dept head) — correctly identified both structure (Matrix) and the violated principle (Unity of Command) in one clean pass",
+   "lesson": null
+  },
+  {
+   "concept": "Leadership styles — Autocratic/Democratic/Laissez-Faire",
+   "group": "Business Management",
+   "chapter": "Business Management",
+   "status": "Learning",
+   "subject": "business",
+   "evidence": "29 Sep: taught with situational fit (emergency->autocratic, routine planning->democratic, skilled autonomous team->laissez-faire) and the CBT trap (exam tests situational fit, not \"best\" style). Check (gate security breach) — correctly picked Autocratic, but \"why not the others\" reasoning was underdeveloped (just restated the style) until prompted",
    "lesson": null
   }
  ],
@@ -2770,7 +2815,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 2,
@@ -2785,7 +2830,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 3,
@@ -2800,7 +2845,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 4,
@@ -2815,7 +2860,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 5,
@@ -2830,7 +2875,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-08"
   },
   {
    "number": 6,
@@ -2845,7 +2890,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 7,
@@ -2860,7 +2905,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 8,
@@ -2875,7 +2920,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 9,
@@ -2890,7 +2935,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-17"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 10,
@@ -2905,7 +2950,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-18"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 11,
@@ -2920,7 +2965,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-19"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 12,
@@ -2935,7 +2980,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-20"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 13,
@@ -2950,7 +2995,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-21"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 14,
@@ -2965,7 +3010,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-22"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 15,
@@ -2980,7 +3025,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-23"
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 16,
@@ -2995,7 +3040,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-24"
+   "scheduledDate": "2026-10-19"
   },
   {
    "number": 17,
@@ -3010,7 +3055,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-25"
+   "scheduledDate": "2026-10-20"
   },
   {
    "number": 18,
@@ -3025,7 +3070,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-26"
+   "scheduledDate": "2026-10-21"
   },
   {
    "number": 19,
@@ -3040,7 +3085,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-27"
+   "scheduledDate": "2026-10-22"
   },
   {
    "number": 20,
@@ -3055,7 +3100,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-28"
+   "scheduledDate": "2026-10-23"
   },
   {
    "number": 21,
@@ -3070,7 +3115,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-29"
+   "scheduledDate": "2026-10-24"
   },
   {
    "number": 22,
@@ -3085,7 +3130,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-30"
+   "scheduledDate": "2026-10-25"
   },
   {
    "number": 23,
@@ -3100,7 +3145,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-31"
+   "scheduledDate": "2026-10-26"
   },
   {
    "number": 24,
@@ -3115,13 +3160,88 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-11-01"
+   "scheduledDate": "2026-10-27"
   },
   {
    "number": 25,
+   "phase": "Maths",
+   "title": "Revision — Organizational structures — Functional/Divisional/Matrix",
+   "objective": "Fast spaced recap of 1 already-solid concepts: Organizational structures — Functional/Divisional/Matrix.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-28"
+  },
+  {
+   "number": 26,
    "phase": "Business Mgmt",
-   "title": "Functions of Management (Planning/Organizing/Staffing/Directing/Controlling)",
-   "objective": "21 Sep: taught with airport-ops examples per function. Check question (Organizing vs Staffing distinction) answered by tutor for pacing, not yet confirmed independently by Janak — re-check needed",
+   "title": "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
+   "objective": "24 Sep: missed first application check (picked Span of Control for a \"route requests through me\" scenario, should be Unity of Command), corrected, cleared 2nd scenario. Only 1 clean rep so far — not yet Solid",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-29"
+  },
+  {
+   "number": 27,
+   "phase": "Business Mgmt",
+   "title": "Span of Control (headcount one manager can effectively supervise)",
+   "objective": "24 Sep: surfaced as the wrong-answer option in the Unity of Command mix-up above; correctly identified on its own dedicated scenario (25 direct reports, no team leads) right after the correction — first exposure, needs a fresh spaced check before Solid",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-30"
+  },
+  {
+   "number": 28,
+   "phase": "Business Mgmt",
+   "title": "Herzberg's Two-Factor Theory (hygiene vs motivators)",
+   "objective": "24 Sep: taught (salary/conditions = hygiene, prevents dissatisfaction only; recognition/growth = motivators, create real drive). Check (uniform+break room won't fix low motivation) answered correctly but reasoning given was just the label restated, not the underlying \"hygiene only cancels dissatisfaction\" logic — needs a deeper-reasoning re-check",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-31"
+  },
+  {
+   "number": 29,
+   "phase": "Business Mgmt",
+   "title": "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
+   "objective": "24 Sep: taught with airport-worker examples per level. Check (temp-contract worker, Safety unmet, would esteem-level recognition help) — both parts (identify level + implication) answered correctly, terse but right",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-11-01"
+  },
+  {
+   "number": 30,
+   "phase": "Business Mgmt",
+   "title": "Leadership styles — Autocratic/Democratic/Laissez-Faire",
+   "objective": "29 Sep: taught with situational fit (emergency->autocratic, routine planning->democratic, skilled autonomous team->laissez-faire) and the CBT trap (exam tests situational fit, not \"best\" style). Check (gate security breach) — correctly picked Autocratic, but \"why not the others\" reasoning was underdeveloped (just restated the style) until prompted",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3133,10 +3253,10 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 26,
+   "number": 31,
    "phase": "Business Mgmt",
-   "title": "Fayol's 14 Principles of Management",
-   "objective": "21 Sep: full table taught, with emphasis on the Unity of Command vs Scalar Chain distinction (most CBT-confused pair — one boss vs the whole chain). Applied check question (airport supervisor example) posed, answer pending",
+   "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling)",
+   "objective": "Fast spaced recap of 1 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3148,7 +3268,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 27,
+   "number": 32,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3163,7 +3283,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 28,
+   "number": 33,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3178,7 +3298,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 29,
+   "number": 34,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3193,7 +3313,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 30,
+   "number": 35,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3208,7 +3328,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 31,
+   "number": 36,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3223,7 +3343,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 32,
+   "number": 37,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3238,7 +3358,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 33,
+   "number": 38,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3253,7 +3373,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 34,
+   "number": 39,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3268,7 +3388,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 35,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3283,7 +3403,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 36,
+   "number": 41,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3298,7 +3418,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 37,
+   "number": 42,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3313,7 +3433,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 38,
+   "number": 43,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3328,7 +3448,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 39,
+   "number": 44,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3343,7 +3463,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 40,
+   "number": 45,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3358,7 +3478,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 41,
+   "number": 46,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -3373,7 +3493,32 @@
    "scheduledDate": "2026-11-18"
   }
  ],
- "reviewQueue": [],
+ "reviewQueue": [
+  {
+   "item": "Standard integrals table - spacing check",
+   "rung": 1,
+   "due": "2026-09-24",
+   "note": "Failed cold on 21 Sep's first spaced re-check (\"no idea\" on all 5 basics) despite 7 Sep full recall — full regression, not partial. Re-taught via reverse-differentiation framing + sec/cosec sign-family rule + ln-exception rule; recovered same session incl. chain-rule extensions (e^(2x)/2, sec²(3x)). Shortened interval (3 days, not the next rung) because of the total cold-recall failure — do not advance rung until it survives one real re-check"
+  },
+  {
+   "item": "Instantaneous vs average velocity (constant-velocity case)",
+   "rung": 2,
+   "due": "2026-09-23",
+   "note": "Missed twice (16 Sep) before clearing on 3rd attempt — genuine misconception, not a slip"
+  },
+  {
+   "item": "Acceleration: flat vs sloped v-t line (constant != flat)",
+   "rung": 2,
+   "due": "2026-09-23",
+   "note": "Missed once (16 Sep, free fall) before clearing on retry — watch for \"constant\" being misread as \"flat\" again"
+  },
+  {
+   "item": "Projectile motion — horizontal velocity at peak (not zero)",
+   "rung": 2,
+   "due": "2026-09-23",
+   "note": "Missed once (16 Sep) before clearing on retry — watch for vy=0 bleeding into vx assumption again"
+  }
+ ],
  "examDate": "2026-11-19",
  "questions": [
   {
@@ -26242,11 +26387,28 @@
    "name": "Business Management",
    "concepts": [
     "Functions of Management (Planning/Organizing/Staffing/Directing/Controlling)",
-    "Fayol's 14 Principles of Management"
+    "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
+    "Span of Control (headcount one manager can effectively supervise)",
+    "Herzberg's Two-Factor Theory (hygiene vs motivators)",
+    "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
+    "Leadership styles — Autocratic/Democratic/Laissez-Faire"
    ],
-   "total": 2,
-   "solid": 0,
-   "pct": 0,
+   "total": 6,
+   "solid": 1,
+   "pct": 17,
+   "formulaCount": 0,
+   "questionIds": []
+  },
+  {
+   "slug": "mathematics-business-management",
+   "subject": "mathematics",
+   "name": "Business Management",
+   "concepts": [
+    "Organizational structures — Functional/Divisional/Matrix"
+   ],
+   "total": 1,
+   "solid": 1,
+   "pct": 100,
    "formulaCount": 0,
    "questionIds": []
   }
