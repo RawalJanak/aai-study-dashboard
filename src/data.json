@@ -1,19 +1,19 @@
 {
- "builtAt": "29 Sep 2026, 13:04",
+ "builtAt": "07 Oct 2026, 12:49",
  "regClose": "2026-09-07",
- "daysToClose": -22,
+ "daysToClose": -30,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 94,
-  "solid": 81,
-  "learning": 13,
+  "concepts": 100,
+  "solid": 83,
+  "learning": 17,
   "weak": 0,
   "notStarted": 0,
   "lessons": 68,
-  "errors": 25,
+  "errors": 28,
   "errorsOpen": 0,
-  "sessions": 25,
-  "sessionDays": 11,
+  "sessions": 26,
+  "sessionDays": 12,
   "mocks": 0,
   "graphs": 30,
   "formulas": 50
@@ -29,11 +29,11 @@
   },
   {
    "status": "Learning",
-   "n": 13
+   "n": 17
   },
   {
    "status": "Solid",
-   "n": 81
+   "n": 83
   },
   {
    "status": "Mastered",
@@ -142,9 +142,19 @@
    "other": 1
   },
   {
-   "date": "29 Sep",
+   "date": "7 Oct",
    "total": 1,
    "cumulative": 25,
+   "teach": 0,
+   "revise": 0,
+   "drill": 0,
+   "mock": 0,
+   "other": 1
+  },
+  {
+   "date": "29 Sep",
+   "total": 1,
+   "cumulative": 26,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -217,10 +227,10 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "94 concepts logged (81 solid+, 0 weak)",
+    "100 concepts logged (83 solid+, 0 weak)",
     "832 questions banked (98 GK)",
-    "25 sessions logged, 11 days active",
-    "25 errors logged, 0 currently open"
+    "26 sessions logged, 12 days active",
+    "28 errors logged, 0 currently open"
    ]
   },
   "branches": [
@@ -348,7 +358,7 @@
   "errorBranch": {
    "id": "errors",
    "label": "Error book",
-   "sub": "25 logged, 0 open",
+   "sub": "28 logged, 0 open",
    "color": "errors",
    "pct": 100,
    "children": [
@@ -404,9 +414,9 @@
    "key": "physics",
    "name": "Physics",
    "marks": 24,
-   "logged": 9,
-   "solid": 9,
-   "pct": 100
+   "logged": 15,
+   "solid": 11,
+   "pct": 73
   },
   {
    "key": "business",
@@ -513,6 +523,60 @@
    "status": "Solid",
    "subject": "physics",
    "evidence": "16 Sep: taught from scratch (NCERT Ch.3.9-sourced), worked example u=28m/s/30° cross-checked against a plotted trajectory graph (h=10m, T=2.9s, R=69m all matched). Missed once — said horizontal velocity is zero at the peak (bled vy=0 into vx). Cleared on retry (correctly said horizontal speed same at launch and landing)",
+   "lesson": null
+  },
+  {
+   "concept": "Ohm's law (V=IR)",
+   "group": "Physics",
+   "chapter": "Current Electricity",
+   "status": "Solid",
+   "subject": "physics",
+   "evidence": "7 Oct probe Q1 correct first attempt",
+   "lesson": null
+  },
+  {
+   "concept": "Parallel/series combination (flip 1/R)",
+   "group": "Physics",
+   "chapter": "Current Electricity",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "7 Oct: probe answered 0.5 Ω (unflipped 1/R); cleared on fresh variant 4∥12 = 3 Ω",
+   "lesson": null
+  },
+  {
+   "concept": "Resistance of wire R=ρL/A, stretched-wire n² rule",
+   "group": "Physics",
+   "chapter": "Current Electricity",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "7 Oct: skipped in probe; fresh variant derived A′=A/3 from constant volume → 9R independently, but did not substitute R=5 → 45 Ω",
+   "lesson": null
+  },
+  {
+   "concept": "Electric power — choosing P=VI / I²R / V²/R",
+   "group": "Physics",
+   "chapter": "Current Electricity",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "7 Oct: derived R=V²/P himself, arithmetic slip (40 written as 4); part (b) I=P/V shown by tutor, not attempted",
+   "lesson": null
+  },
+  {
+   "concept": "EMF, internal resistance, terminal voltage",
+   "group": "Physics",
+   "chapter": "Current Electricity",
+   "status": "Solid",
+   "subject": "physics",
+   "evidence": "7 Oct: skipped in probe; fresh variant (12 V, r=2, R=4) → I=2 A and V=8 V both correct",
+   "lesson": null
+  },
+  {
+   "concept": "Drift velocity I=neAv_d (diameter vs area)",
+   "group": "Physics",
+   "chapter": "Current Electricity",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "7 Oct: skipped in probe and in check; diameter-doubled variant (v_d → ¼) shown by tutor, not yet attempted independently",
    "lesson": null
   },
   {
@@ -2969,6 +3033,30 @@
  ],
  "errors": [
   {
+   "date": "7 Oct",
+   "area": "Physics — current electricity (parallel resistors)",
+   "question": "6 Ω ∥ 3 Ω equivalent",
+   "misconception": "Stopped at 1/R = 1/2 and never flipped it. The reciprocal sum gives 1/R, not R. Product-over-sum (R₁R₂/(R₁+R₂)) avoids the flip entirely.",
+   "retry": "cleared same session — 4 Ω ∥ 12 Ω = 3 Ω correct",
+   "open": false
+  },
+  {
+   "date": "7 Oct",
+   "area": "Physics — current electricity (stretched wire)",
+   "question": "5 Ω wire stretched 3×",
+   "misconception": "Derivation perfect (A′=A/3 from constant volume, R′=9R) but never substituted R=5 — CBT options are numbers, not 9R. Last-step slip, not a concept gap.",
+   "retry": "flagged — part of the last-step pattern (see note 16)",
+   "open": false
+  },
+  {
+   "date": "7 Oct",
+   "area": "Physics — current electricity (power rating)",
+   "question": "Resistance of 1000 W, 200 V heater",
+   "misconception": "Derived R=V²/P himself from P=VI + V=IR (correct), then dropped a zero: 40,000/1000 written as 4. Arithmetic slip.",
+   "retry": "flagged — part of the last-step pattern (see note 16)",
+   "open": false
+  },
+  {
    "date": "16 Sep",
    "area": "Physics — projectile motion (horizontal vs vertical velocity at peak)",
    "question": "At maximum height of a projectile, is horizontal velocity zero or still u cos θ?",
@@ -3339,6 +3427,13 @@
    "subject": "business"
   },
   {
+   "date": "7 Oct",
+   "type": "Probe+Teach",
+   "covered": "Physics Class XII started — Current Electricity. Exam date confirmed 26 Oct 2026. Probe 1/6 → formulas-first teach of 7 core formulas → full worked solutions → 4 fresh-variant checks",
+   "outcome": "Parallel flip cleared, terminal voltage correct, stretched wire + power derived correctly but 2 last-step slips (unsubstituted, dropped zero). Drift velocity and P→I not yet attempted independently",
+   "subject": "physics"
+  },
+  {
    "date": "29 Sep",
    "type": "Teach+Drill",
    "covered": "Business Management continued — Communication/Grapevine, Strategic Management levels, Types of Plans, HR basics, Delegation vs Decentralization, Decision Making, SWOT, Marketing Mix, Controlling techniques, TQM/Kaizen, Change Management (Lewin). Full lesson content (tables, worked examples) written for all 18 BM concepts taught so far",
@@ -3379,7 +3474,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-30"
+   "scheduledDate": "2026-09-26"
   },
   {
    "number": 2,
@@ -3394,7 +3489,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-01"
+   "scheduledDate": "2026-09-27"
   },
   {
    "number": 3,
@@ -3409,7 +3504,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-02"
+   "scheduledDate": "2026-09-28"
   },
   {
    "number": 4,
@@ -3424,7 +3519,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-03"
+   "scheduledDate": "2026-09-29"
   },
   {
    "number": 5,
@@ -3439,7 +3534,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-09-30"
   },
   {
    "number": 6,
@@ -3454,7 +3549,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-10-01"
   },
   {
    "number": 7,
@@ -3469,7 +3564,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-10-02"
   },
   {
    "number": 8,
@@ -3484,7 +3579,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-10-03"
   },
   {
    "number": 9,
@@ -3499,7 +3594,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 10,
@@ -3514,7 +3609,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 11,
@@ -3529,7 +3624,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 12,
@@ -3544,10 +3639,70 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 13,
+   "phase": "Physics",
+   "title": "Parallel/series combination (flip 1/R)",
+   "objective": "7 Oct: probe answered 0.5 Ω (unflipped 1/R); cleared on fresh variant 4∥12 = 3 Ω",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-08"
+  },
+  {
+   "number": 14,
+   "phase": "Physics",
+   "title": "Resistance of wire R=ρL/A, stretched-wire n² rule",
+   "objective": "7 Oct: skipped in probe; fresh variant derived A′=A/3 from constant volume → 9R independently, but did not substitute R=5 → 45 Ω",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-09"
+  },
+  {
+   "number": 15,
+   "phase": "Physics",
+   "title": "Electric power — choosing P=VI / I²R / V²/R",
+   "objective": "7 Oct: derived R=V²/P himself, arithmetic slip (40 written as 4); part (b) I=P/V shown by tutor, not attempted",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-10"
+  },
+  {
+   "number": 16,
+   "phase": "Physics",
+   "title": "Drift velocity I=neAv_d (diameter vs area)",
+   "objective": "7 Oct: skipped in probe and in check; diameter-doubled variant (v_d → ¼) shown by tutor, not yet attempted independently",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-11"
+  },
+  {
+   "number": 17,
    "phase": "Physics",
    "title": "Revision — Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), Scalar vs vector (Ch.3 started)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), Scalar vs vector (Ch.3 started).",
@@ -3562,7 +3717,7 @@
    "scheduledDate": "2026-10-12"
   },
   {
-   "number": 14,
+   "number": 18,
    "phase": "Physics",
    "title": "Revision — Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation), Velocity vs acceleration at a turning point (v=0 ≠ a=0)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation), Velocity vs acceleration at a turning point (v=0 ≠ a=0).",
@@ -3577,22 +3732,22 @@
    "scheduledDate": "2026-10-13"
   },
   {
-   "number": 15,
+   "number": 19,
    "phase": "Physics",
-   "title": "Revision — Projectile motion (horizontal/vertical independence, time of flight, max height, range)",
-   "objective": "Fast spaced recap of 1 already-solid concepts: Projectile motion (horizontal/vertical independence, time of flight, max height, range).",
+   "title": "Revision — Projectile motion (horizontal/vertical independence, time of flight, max height, range), Ohm's law (V=IR), EMF, internal resistance, terminal voltage",
+   "objective": "Fast spaced recap of 3 already-solid concepts: Projectile motion (horizontal/vertical independence, time of flight, max height, range), Ohm's law (V=IR), EMF, internal resistance, terminal voltage.",
    "mastery": {
-    "explain": "pass",
-    "recall": "pass",
-    "apply": "pass",
-    "spot_trap": "pass",
-    "speed": "pass"
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
    },
-   "status": "done",
+   "status": "not_started",
    "scheduledDate": "2026-10-14"
   },
   {
-   "number": 16,
+   "number": 20,
    "phase": "Maths",
    "title": "Product rule — both factors in each term",
    "objective": "dropped the v in u′v on (2x+1)⁴·x",
@@ -3607,7 +3762,7 @@
    "scheduledDate": "2026-10-15"
   },
   {
-   "number": 17,
+   "number": 21,
    "phase": "Maths",
    "title": "Maxima / minima + 2nd derivative test",
    "objective": "taught twice, worked airport-parking example",
@@ -3622,7 +3777,7 @@
    "scheduledDate": "2026-10-16"
   },
   {
-   "number": 18,
+   "number": 22,
    "phase": "Maths",
    "title": "Simplifying final answers",
    "objective": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
@@ -3637,7 +3792,7 @@
    "scheduledDate": "2026-10-17"
   },
   {
-   "number": 19,
+   "number": 23,
    "phase": "Maths",
    "title": "Integration as antiderivative and area",
    "objective": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
@@ -3652,7 +3807,7 @@
    "scheduledDate": "2026-10-18"
   },
   {
-   "number": 20,
+   "number": 24,
    "phase": "Maths",
    "title": "Revision — Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics",
    "objective": "Fast spaced recap of 4 already-solid concepts: Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics.",
@@ -3667,7 +3822,7 @@
    "scheduledDate": "2026-10-19"
   },
   {
-   "number": 21,
+   "number": 25,
    "phase": "Maths",
    "title": "Revision — Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule",
    "objective": "Fast spaced recap of 4 already-solid concepts: Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule.",
@@ -3682,7 +3837,7 @@
    "scheduledDate": "2026-10-20"
   },
   {
-   "number": 22,
+   "number": 26,
    "phase": "Maths",
    "title": "Revision — Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C).",
@@ -3697,7 +3852,7 @@
    "scheduledDate": "2026-10-21"
   },
   {
-   "number": 23,
+   "number": 27,
    "phase": "Maths",
    "title": "Revision — Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative",
    "objective": "Fast spaced recap of 4 already-solid concepts: Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative.",
@@ -3712,7 +3867,7 @@
    "scheduledDate": "2026-10-22"
   },
   {
-   "number": 24,
+   "number": 28,
    "phase": "Business Mgmt",
    "title": "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
    "objective": "24 Sep: missed first application check (picked Span of Control for a \"route requests through me\" scenario, should be Unity of Command), corrected, cleared 2nd scenario. Only 1 clean rep so far — not yet Solid",
@@ -3727,7 +3882,7 @@
    "scheduledDate": "2026-10-23"
   },
   {
-   "number": 25,
+   "number": 29,
    "phase": "Business Mgmt",
    "title": "Span of Control (headcount one manager can effectively supervise)",
    "objective": "24 Sep: surfaced as the wrong-answer option in the Unity of Command mix-up above; correctly identified on its own dedicated scenario (25 direct reports, no team leads) right after the correction — first exposure, needs a fresh spaced check before Solid",
@@ -3742,7 +3897,7 @@
    "scheduledDate": "2026-10-24"
   },
   {
-   "number": 26,
+   "number": 30,
    "phase": "Business Mgmt",
    "title": "Herzberg's Two-Factor Theory (hygiene vs motivators)",
    "objective": "24 Sep: taught (salary/conditions = hygiene, prevents dissatisfaction only; recognition/growth = motivators, create real drive). Check (uniform+break room won't fix low motivation) answered correctly but reasoning given was just the label restated, not the underlying \"hygiene only cancels dissatisfaction\" logic — needs a deeper-reasoning re-check",
@@ -3757,7 +3912,7 @@
    "scheduledDate": "2026-10-25"
   },
   {
-   "number": 27,
+   "number": 31,
    "phase": "Business Mgmt",
    "title": "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
    "objective": "24 Sep: taught with airport-worker examples per level. Check (temp-contract worker, Safety unmet, would esteem-level recognition help) — both parts (identify level + implication) answered correctly, terse but right",
@@ -3772,7 +3927,7 @@
    "scheduledDate": "2026-10-26"
   },
   {
-   "number": 28,
+   "number": 32,
    "phase": "Business Mgmt",
    "title": "Leadership styles — Autocratic/Democratic/Laissez-Faire",
    "objective": "29 Sep: taught with situational fit (emergency->autocratic, routine planning->democratic, skilled autonomous team->laissez-faire) and the CBT trap (exam tests situational fit, not \"best\" style). Check (gate security breach) — correctly picked Autocratic, but \"why not the others\" reasoning was underdeveloped (just restated the style) until prompted",
@@ -3787,7 +3942,7 @@
    "scheduledDate": "2026-10-27"
   },
   {
-   "number": 29,
+   "number": 33,
    "phase": "Business Mgmt",
    "title": "Strategic management levels — Corporate/Business/Functional",
    "objective": "29 Sep: taught with AAI diversification examples per level. Check (Terminal Ops switching kiosk vendors) — correctly identified Functional-level on the first attempt, reasoning given only after being prompted",
@@ -3802,7 +3957,7 @@
    "scheduledDate": "2026-10-28"
   },
   {
-   "number": 30,
+   "number": 34,
    "phase": "Business Mgmt",
    "title": "SWOT Analysis — internal vs external classification",
    "objective": "29 Sep: taught the internal/external x helpful/harmful 2x2 grid, with the CBT trap of misclassifying external factors as internal. Check (rival airport's terminal expansion) — correctly picked Threat, but \"why not Weakness\" reasoning was not given until prompted",
@@ -3817,7 +3972,7 @@
    "scheduledDate": "2026-10-29"
   },
   {
-   "number": 31,
+   "number": 35,
    "phase": "Business Mgmt",
    "title": "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
    "objective": "29 Sep: taught with the \"Place = distribution channel, not literal location\" trap. Check (duty-free pre-order app) — correctly picked Place on the first attempt, reasoning given only after prompted",
@@ -3832,7 +3987,7 @@
    "scheduledDate": "2026-10-30"
   },
   {
-   "number": 32,
+   "number": 36,
    "phase": "Business Mgmt",
    "title": "TQM and Kaizen (quality = everyone's job, continuous small improvement)",
    "objective": "29 Sep: taught TQM (quality is every employee's responsibility) vs Kaizen (small continuous improvement vs big-bang change). Check (isolated Quality Control Dept, frontline told quality isn't their concern) — missed first attempt (said \"yes\" this reflects TQM), corrected and cleared on retry after being prompted for the missing word (\"everyone's job\")",
@@ -3847,7 +4002,7 @@
    "scheduledDate": "2026-10-31"
   },
   {
-   "number": 33,
+   "number": 37,
    "phase": "Business Mgmt",
    "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
    "objective": "Fast spaced recap of 4 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use.",
@@ -3862,7 +4017,7 @@
    "scheduledDate": "2026-11-01"
   },
   {
-   "number": 34,
+   "number": 38,
    "phase": "Business Mgmt",
    "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards",
    "objective": "Fast spaced recap of 4 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards.",
@@ -3877,7 +4032,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 35,
+   "number": 39,
    "phase": "Business Mgmt",
    "title": "Revision — Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze)",
    "objective": "Fast spaced recap of 1 already-solid concepts: Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze).",
@@ -3892,7 +4047,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 36,
+   "number": 40,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3907,7 +4062,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 37,
+   "number": 41,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3922,7 +4077,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 38,
+   "number": 42,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3937,7 +4092,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 39,
+   "number": 43,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3952,7 +4107,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 40,
+   "number": 44,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3967,7 +4122,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 41,
+   "number": 45,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3982,7 +4137,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 42,
+   "number": 46,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -3997,7 +4152,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 43,
+   "number": 47,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4012,7 +4167,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 44,
+   "number": 48,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4027,7 +4182,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 45,
+   "number": 49,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4042,7 +4197,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 46,
+   "number": 50,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4057,7 +4212,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 47,
+   "number": 51,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4072,7 +4227,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 48,
+   "number": 52,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4087,7 +4242,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 49,
+   "number": 53,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4102,7 +4257,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 50,
+   "number": 54,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -4118,6 +4273,18 @@
   }
  ],
  "reviewQueue": [
+  {
+   "item": "QNH vs QFE",
+   "rung": 4,
+   "due": "2026-10-05",
+   "note": "3rd miss (26 Aug, 1 Sep, 21 Sep) — mnemonic alone stopped working; cleared 21 Sep via first-principles re-teach (QFE zero = airfield's own pressure dialled in), then 2/2 fresh variants correct. Longer spacing given repeat-clear, but do not fully trust durability yet"
+  },
+  {
+   "item": "Blood relations - same-generation \"only son\" trap",
+   "rung": 3,
+   "due": "2026-09-30",
+   "note": "Cleared 21 Sep on 2 fresh variants (uncle vs brother, correctly distinguishing generation-up from same-generation) — advancing rung, first genuinely clean pass on this trap"
+  },
   {
    "item": "Standard integrals table - spacing check",
    "rung": 1,
@@ -26628,6 +26795,24 @@
    "solid": 4,
    "pct": 100,
    "formulaCount": 6,
+   "questionIds": []
+  },
+  {
+   "slug": "physics-current-electricity",
+   "subject": "physics",
+   "name": "Current Electricity",
+   "concepts": [
+    "Ohm's law (V=IR)",
+    "Parallel/series combination (flip 1/R)",
+    "Resistance of wire R=ρL/A, stretched-wire n² rule",
+    "Electric power — choosing P=VI / I²R / V²/R",
+    "EMF, internal resistance, terminal voltage",
+    "Drift velocity I=neAv_d (diameter vs area)"
+   ],
+   "total": 6,
+   "solid": 2,
+   "pct": 33,
+   "formulaCount": 0,
    "questionIds": []
   },
   {
