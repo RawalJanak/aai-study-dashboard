@@ -1,19 +1,19 @@
 {
- "builtAt": "07 Oct 2026, 13:27",
+ "builtAt": "07 Oct 2026, 14:53",
  "regClose": "2026-09-07",
  "daysToClose": -30,
  "minTrendDays": 3,
  "totals": {
   "concepts": 102,
   "solid": 83,
-  "learning": 18,
-  "weak": 1,
+  "learning": 19,
+  "weak": 0,
   "notStarted": 0,
   "lessons": 68,
-  "errors": 31,
+  "errors": 32,
   "errorsOpen": 0,
-  "sessions": 27,
-  "sessionDays": 12,
+  "sessions": 28,
+  "sessionDays": 13,
   "mocks": 0,
   "graphs": 32,
   "formulas": 50
@@ -25,11 +25,11 @@
   },
   {
    "status": "Weak",
-   "n": 1
+   "n": 0
   },
   {
    "status": "Learning",
-   "n": 18
+   "n": 19
   },
   {
    "status": "Solid",
@@ -142,9 +142,19 @@
    "other": 1
   },
   {
+   "date": "8 Oct",
+   "total": 1,
+   "cumulative": 25,
+   "teach": 0,
+   "revise": 1,
+   "drill": 0,
+   "mock": 0,
+   "other": 0
+  },
+  {
    "date": "7 Oct",
    "total": 2,
-   "cumulative": 26,
+   "cumulative": 27,
    "teach": 0,
    "revise": 0,
    "drill": 1,
@@ -154,7 +164,7 @@
   {
    "date": "29 Sep",
    "total": 1,
-   "cumulative": 27,
+   "cumulative": 28,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -227,10 +237,10 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "102 concepts logged (83 solid+, 1 weak)",
+    "102 concepts logged (83 solid+, 0 weak)",
     "832 questions banked (98 GK)",
-    "27 sessions logged, 12 days active",
-    "31 errors logged, 0 currently open"
+    "28 sessions logged, 13 days active",
+    "32 errors logged, 0 currently open"
    ]
   },
   "branches": [
@@ -358,7 +368,7 @@
   "errorBranch": {
    "id": "errors",
    "label": "Error book",
-   "sub": "31 logged, 0 open",
+   "sub": "32 logged, 0 open",
    "color": "errors",
    "pct": 100,
    "children": [
@@ -538,9 +548,9 @@
    "concept": "Parallel/series combination (flip 1/R)",
    "group": "Physics",
    "chapter": "Current Electricity",
-   "status": "Weak",
+   "status": "Learning",
    "subject": "physics",
-   "evidence": "7 Oct: probe answered 0.5 Ω (unflipped 1/R); cleared on fresh variant 4∥12 = 3 Ω; then missed again in end-of-session drill (3∥6∥9 → picked 11/18) — repeat slip same day",
+   "evidence": "7 Oct: probe answered 0.5 Ω (unflipped 1/R); cleared on fresh variant 4∥12 = 3 Ω; then missed again in end-of-session drill (3∥6∥9 → picked 11/18) — repeat slip same day. 8 Oct redrill: 3∥4∥12 = 3/2 Ω, flipped correctly",
    "lesson": null
   },
   {
@@ -576,7 +586,7 @@
    "chapter": "Current Electricity",
    "status": "Learning",
    "subject": "physics",
-   "evidence": "7 Oct: skipped in probe and in check; diameter-doubled variant (v_d → ¼) shown by tutor, not yet attempted independently",
+   "evidence": "8 Oct redrill: radius ×3 → area 9, v_d → 1/9, both steps correct. 7 Oct: skipped in probe and in check; diameter-doubled variant (v_d → ¼) shown by tutor, not yet attempted independently",
    "lesson": null
   },
   {
@@ -585,7 +595,7 @@
    "chapter": "Current Electricity",
    "status": "Learning",
    "subject": "physics",
-   "evidence": "7 Oct: taught with plotted junction + two-battery loop diagram (graphs/phy_05); check — correctly named charge conservation (KCL) and energy conservation (KVL). Numeric loop problem: 2 misses end of 7 Oct session (1 A for 2 A, 2 A for 3 A), no working shown — Weak until done with written steps",
+   "evidence": "7 Oct: taught with plotted junction + two-battery loop diagram (graphs/phy_05); check — correctly named charge conservation (KCL) and energy conservation (KVL). Numeric loop problem: 2 misses end of 7 Oct session (1 A for 2 A, 2 A for 3 A), no working shown — 8 Oct redrill: 18 V & 6 V opposing, 3 Ω → 4 A, correct with working → Learning",
    "lesson": null
   },
   {
@@ -3051,6 +3061,14 @@
  ],
  "errors": [
   {
+   "date": "8 Oct",
+   "area": "Physics — current electricity (redrill, fresh variants)",
+   "question": "3∥4∥12 Ω; radius ×3 → v_d; 18 V & 6 V opposing, 3 Ω",
+   "misconception": "Clears 7 Oct misses: unflipped 1/R (flipped), drift-velocity inversion (1/9, correct), opposing-battery loop (subtract, correct). Worked lines shown on Q2/Q3.",
+   "retry": "cleared 8 Oct, 3/3 — schedule one more spaced check ~12 Oct",
+   "open": false
+  },
+  {
    "date": "7 Oct",
    "area": "Physics — current electricity (KVL, opposing batteries)",
    "question": "10 V & 4 V opposing, 3 Ω → I? then 20 V & 8 V opposing, 4 Ω → I?",
@@ -3469,6 +3487,13 @@
    "subject": "business"
   },
   {
+   "date": "8 Oct",
+   "type": "Revise",
+   "covered": "Redrill of 7 Oct misses, fresh variants: parallel 3∥4∥12, drift velocity radius ×3, opposing batteries 18 V/6 V",
+   "outcome": "3/3 — all three slips from 7 Oct cleared",
+   "subject": "mathematics"
+  },
+  {
    "date": "7 Oct",
    "type": "Drill",
    "covered": "Current Electricity mixed drill, 6 Qs zero-hint",
@@ -3694,7 +3719,7 @@
    "number": 13,
    "phase": "Physics",
    "title": "Parallel/series combination (flip 1/R)",
-   "objective": "7 Oct: probe answered 0.5 Ω (unflipped 1/R); cleared on fresh variant 4∥12 = 3 Ω; then missed again in end-of-session drill (3∥6∥9 → picked 11/18) — repeat slip same day",
+   "objective": "7 Oct: probe answered 0.5 Ω (unflipped 1/R); cleared on fresh variant 4∥12 = 3 Ω; then missed again in end-of-session drill (3∥6∥9 → picked 11/18) — repeat slip same day. 8 Oct redrill: 3∥4∥12 = 3/2 Ω, flipped correctly",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3739,7 +3764,7 @@
    "number": 16,
    "phase": "Physics",
    "title": "Drift velocity I=neAv_d (diameter vs area)",
-   "objective": "7 Oct: skipped in probe and in check; diameter-doubled variant (v_d → ¼) shown by tutor, not yet attempted independently",
+   "objective": "8 Oct redrill: radius ×3 → area 9, v_d → 1/9, both steps correct. 7 Oct: skipped in probe and in check; diameter-doubled variant (v_d → ¼) shown by tutor, not yet attempted independently",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -3754,7 +3779,7 @@
    "number": 17,
    "phase": "Physics",
    "title": "Kirchhoff's laws — KCL (charge) and KVL (energy), sign convention",
-   "objective": "7 Oct: taught with plotted junction + two-battery loop diagram (graphs/phy_05); check — correctly named charge conservation (KCL) and energy conservation (KVL). Numeric loop problem: 2 misses end of 7 Oct session (1 A for 2 A, 2 A for 3 A), no working shown — Weak until done with written steps",
+   "objective": "7 Oct: taught with plotted junction + two-battery loop diagram (graphs/phy_05); check — correctly named charge conservation (KCL) and energy conservation (KVL). Numeric loop problem: 2 misses end of 7 Oct session (1 A for 2 A, 2 A for 3 A), no working shown — 8 Oct redrill: 18 V & 6 V opposing, 3 Ω → 4 A, correct with working → Learning",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
