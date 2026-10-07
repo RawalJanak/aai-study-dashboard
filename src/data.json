@@ -1,18 +1,18 @@
 {
- "builtAt": "07 Oct 2026, 13:18",
+ "builtAt": "07 Oct 2026, 13:24",
  "regClose": "2026-09-07",
  "daysToClose": -30,
  "minTrendDays": 3,
  "totals": {
   "concepts": 102,
   "solid": 83,
-  "learning": 19,
-  "weak": 0,
+  "learning": 18,
+  "weak": 1,
   "notStarted": 0,
   "lessons": 68,
-  "errors": 28,
+  "errors": 30,
   "errorsOpen": 0,
-  "sessions": 26,
+  "sessions": 27,
   "sessionDays": 12,
   "mocks": 0,
   "graphs": 32,
@@ -25,11 +25,11 @@
   },
   {
    "status": "Weak",
-   "n": 0
+   "n": 1
   },
   {
    "status": "Learning",
-   "n": 19
+   "n": 18
   },
   {
    "status": "Solid",
@@ -143,18 +143,18 @@
   },
   {
    "date": "7 Oct",
-   "total": 1,
-   "cumulative": 25,
+   "total": 2,
+   "cumulative": 26,
    "teach": 0,
    "revise": 0,
-   "drill": 0,
+   "drill": 1,
    "mock": 0,
    "other": 1
   },
   {
    "date": "29 Sep",
    "total": 1,
-   "cumulative": 26,
+   "cumulative": 27,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -227,10 +227,10 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "102 concepts logged (83 solid+, 0 weak)",
+    "102 concepts logged (83 solid+, 1 weak)",
     "832 questions banked (98 GK)",
-    "26 sessions logged, 12 days active",
-    "28 errors logged, 0 currently open"
+    "27 sessions logged, 12 days active",
+    "30 errors logged, 0 currently open"
    ]
   },
   "branches": [
@@ -358,7 +358,7 @@
   "errorBranch": {
    "id": "errors",
    "label": "Error book",
-   "sub": "28 logged, 0 open",
+   "sub": "30 logged, 0 open",
    "color": "errors",
    "pct": 100,
    "children": [
@@ -538,9 +538,9 @@
    "concept": "Parallel/series combination (flip 1/R)",
    "group": "Physics",
    "chapter": "Current Electricity",
-   "status": "Learning",
+   "status": "Weak",
    "subject": "physics",
-   "evidence": "7 Oct: probe answered 0.5 Ω (unflipped 1/R); cleared on fresh variant 4∥12 = 3 Ω",
+   "evidence": "7 Oct: probe answered 0.5 Ω (unflipped 1/R); cleared on fresh variant 4∥12 = 3 Ω; then missed again in end-of-session drill (3∥6∥9 → picked 11/18) — repeat slip same day",
    "lesson": null
   },
   {
@@ -3052,6 +3052,22 @@
  "errors": [
   {
    "date": "7 Oct",
+   "area": "Physics — current electricity (parallel, 3 resistors)",
+   "question": "3 Ω ∥ 6 Ω ∥ 9 Ω (drill Q1)",
+   "misconception": "REPEAT of the same-day unflipped-1/R slip — stopped at 1/R = 11/18 again despite clearing it on 4∥12 earlier. Genuine habit gap, not a one-off. Fix: write \"1/R =\" on every line so the final line forces the flip.",
+   "retry": "not yet retested",
+   "open": false
+  },
+  {
+   "date": "7 Oct",
+   "area": "Physics — current electricity (drift velocity, radius halved)",
+   "question": "Same current, radius halved → v_d? (drill Q4)",
+   "misconception": "Squared correctly (area → ¼) but applied ¼ to v_d instead of inverting (v_d ∝ 1/A). Likely pattern-matched the earlier diameter-doubled → ¼ example. Fix: two steps — area change, then flip; sanity check \"thinner wire → faster electrons\".",
+   "retry": "not yet retested",
+   "open": false
+  },
+  {
+   "date": "7 Oct",
    "area": "Physics — current electricity (parallel resistors)",
    "question": "6 Ω ∥ 3 Ω equivalent",
    "misconception": "Stopped at 1/R = 1/2 and never flipped it. The reciprocal sum gives 1/R, not R. Product-over-sum (R₁R₂/(R₁+R₂)) avoids the flip entirely.",
@@ -3446,6 +3462,13 @@
   },
   {
    "date": "7 Oct",
+   "type": "Drill",
+   "covered": "Current Electricity mixed drill, 6 Qs zero-hint",
+   "outcome": "2/6 — Q2 (cut-and-parallel wire) and Q3 (bulb resistance from rating) correct; Q1 unflipped 1/R (repeat), Q4 drift velocity not inverted; Q5 (KVL opposing batteries) and Q6 (balanced bridge equivalent) skipped",
+   "subject": "mathematics"
+  },
+  {
+   "date": "7 Oct",
    "type": "Probe+Teach",
    "covered": "Physics Class XII started — Current Electricity. Exam date confirmed 26 Oct 2026. Probe 1/6 → formulas-first teach of 7 core formulas → full worked solutions → 4 fresh-variant checks",
    "outcome": "Parallel flip cleared, terminal voltage correct, stretched wire + power derived correctly but 2 last-step slips (unsubstituted, dropped zero). Drift velocity and P→I not yet attempted independently. Continued: Kirchhoff's laws (concept check correct) and Wheatstone bridge (S=30 correct first attempt)",
@@ -3663,7 +3686,7 @@
    "number": 13,
    "phase": "Physics",
    "title": "Parallel/series combination (flip 1/R)",
-   "objective": "7 Oct: probe answered 0.5 Ω (unflipped 1/R); cleared on fresh variant 4∥12 = 3 Ω",
+   "objective": "7 Oct: probe answered 0.5 Ω (unflipped 1/R); cleared on fresh variant 4∥12 = 3 Ω; then missed again in end-of-session drill (3∥6∥9 → picked 11/18) — repeat slip same day",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
