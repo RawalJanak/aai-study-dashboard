@@ -1,22 +1,22 @@
 {
- "builtAt": "07 Oct 2026, 15:26",
+ "builtAt": "07 Oct 2026, 15:43",
  "regClose": "2026-09-07",
  "daysToClose": -30,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 107,
+  "concepts": 111,
   "solid": 86,
-  "learning": 21,
+  "learning": 25,
   "weak": 0,
   "notStarted": 0,
   "lessons": 68,
   "errors": 33,
   "errorsOpen": 0,
-  "sessions": 29,
+  "sessions": 30,
   "sessionDays": 13,
   "mocks": 0,
-  "graphs": 33,
-  "formulas": 113
+  "graphs": 35,
+  "formulas": 118
  },
  "statusBreakdown": [
   {
@@ -29,7 +29,7 @@
   },
   {
    "status": "Learning",
-   "n": 21
+   "n": 25
   },
   {
    "status": "Solid",
@@ -143,9 +143,9 @@
   },
   {
    "date": "8 Oct",
-   "total": 2,
-   "cumulative": 26,
-   "teach": 0,
+   "total": 3,
+   "cumulative": 27,
+   "teach": 1,
    "revise": 1,
    "drill": 0,
    "mock": 0,
@@ -154,7 +154,7 @@
   {
    "date": "7 Oct",
    "total": 2,
-   "cumulative": 28,
+   "cumulative": 29,
    "teach": 0,
    "revise": 0,
    "drill": 1,
@@ -164,7 +164,7 @@
   {
    "date": "29 Sep",
    "total": 1,
-   "cumulative": 29,
+   "cumulative": 30,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -237,9 +237,9 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "107 concepts logged (86 solid+, 0 weak)",
+    "111 concepts logged (86 solid+, 0 weak)",
     "832 questions banked (98 GK)",
-    "29 sessions logged, 13 days active",
+    "30 sessions logged, 13 days active",
     "33 errors logged, 0 currently open"
    ]
   },
@@ -424,9 +424,9 @@
    "key": "physics",
    "name": "Physics",
    "marks": 24,
-   "logged": 22,
+   "logged": 26,
    "solid": 14,
-   "pct": 64
+   "pct": 54
   },
   {
    "key": "business",
@@ -578,6 +578,42 @@
    "status": "Learning",
    "subject": "physics",
    "evidence": "8 Oct: taught (weaker-field-between explanation); not yet tested independently",
+   "lesson": null
+  },
+  {
+   "concept": "Field at centre of a circular loop B = 2π×10^-7 NI/R",
+   "group": "Physics",
+   "chapter": "Moving Charges and Magnetism",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "8 Oct: taught with plotted loop diagram + B-vs-R graph (graphs/phy_08); worked example N=10, I=2, R=0.1 → 4π×10^-5 T. Not yet attempted independently",
+   "lesson": null
+  },
+  {
+   "concept": "Solenoid B = μ0 n I (n = turns per metre, not N)",
+   "group": "Physics",
+   "chapter": "Moving Charges and Magnetism",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "8 Oct: taught with diagram + axis-field graph (graphs/phy_08); G1 (200 turns/0.4 m, 3 A → 6π×10^-4 T) solved by tutor on request, not yet attempted independently",
+   "lesson": null
+  },
+  {
+   "concept": "Torque on a loop τ = NIAB sinθ (θ from the normal)",
+   "group": "Physics",
+   "chapter": "Moving Charges and Magnetism",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "8 Oct: taught with edge-on diagram + τ-vs-θ graph (graphs/phy_09); plane ⟂ B → θ=0 → τ=0 solved by tutor, not yet attempted independently",
+   "lesson": null
+  },
+  {
+   "concept": "Galvanometer → ammeter (shunt) / voltmeter (series R)",
+   "group": "Physics",
+   "chapter": "Moving Charges and Magnetism",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "8 Oct: taught with circuit diagrams (graphs/phy_09); G2 (G=50, Ig=2 mA, 5 V → 2450 Ω) solved by tutor, not yet attempted independently. Trap: convert mA to A first",
    "lesson": null
   },
   {
@@ -3541,6 +3577,13 @@
   },
   {
    "date": "8 Oct",
+   "type": "Teach",
+   "covered": "Magnetism continued: loop centre, solenoid, torque, galvanometer — all taught with 2 diagram sheets (graphs/phy_08, phy_09). G1/G2 solved by tutor at Janak's request (his pattern: learn from worked solution first, then try fresh)",
+   "outcome": "taught, no independent attempt yet",
+   "subject": "mathematics"
+  },
+  {
+   "date": "8 Oct",
    "type": "Teach+Drill",
    "covered": "Moving Charges and Magnetism started: formulas-first, 6 probe Qs solved as a lesson, 3 fresh variants. Also added constants/symbols/prefixes + Current Electricity + Magnetism formula tables to FORMULA_SHEET.md",
    "outcome": "F1 radius/period ✓, F3 force on wire ✓, F2 wire field ✗ (misread r, exponent slip)",
@@ -3608,7 +3651,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-21"
+   "scheduledDate": "2026-09-17"
   },
   {
    "number": 2,
@@ -3623,7 +3666,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-22"
+   "scheduledDate": "2026-09-18"
   },
   {
    "number": 3,
@@ -3638,7 +3681,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-23"
+   "scheduledDate": "2026-09-19"
   },
   {
    "number": 4,
@@ -3653,7 +3696,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-24"
+   "scheduledDate": "2026-09-20"
   },
   {
    "number": 5,
@@ -3668,7 +3711,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-25"
+   "scheduledDate": "2026-09-21"
   },
   {
    "number": 6,
@@ -3683,7 +3726,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-26"
+   "scheduledDate": "2026-09-22"
   },
   {
    "number": 7,
@@ -3698,7 +3741,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-27"
+   "scheduledDate": "2026-09-23"
   },
   {
    "number": 8,
@@ -3713,7 +3756,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-28"
+   "scheduledDate": "2026-09-24"
   },
   {
    "number": 9,
@@ -3728,7 +3771,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-29"
+   "scheduledDate": "2026-09-25"
   },
   {
    "number": 10,
@@ -3743,7 +3786,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-30"
+   "scheduledDate": "2026-09-26"
   },
   {
    "number": 11,
@@ -3758,7 +3801,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-01"
+   "scheduledDate": "2026-09-27"
   },
   {
    "number": 12,
@@ -3773,7 +3816,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-02"
+   "scheduledDate": "2026-09-28"
   },
   {
    "number": 13,
@@ -3788,7 +3831,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-03"
+   "scheduledDate": "2026-09-29"
   },
   {
    "number": 14,
@@ -3803,10 +3846,70 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-09-30"
   },
   {
    "number": 15,
+   "phase": "Physics",
+   "title": "Field at centre of a circular loop B = 2π×10^-7 NI/R",
+   "objective": "8 Oct: taught with plotted loop diagram + B-vs-R graph (graphs/phy_08); worked example N=10, I=2, R=0.1 → 4π×10^-5 T. Not yet attempted independently",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-01"
+  },
+  {
+   "number": 16,
+   "phase": "Physics",
+   "title": "Solenoid B = μ0 n I (n = turns per metre, not N)",
+   "objective": "8 Oct: taught with diagram + axis-field graph (graphs/phy_08); G1 (200 turns/0.4 m, 3 A → 6π×10^-4 T) solved by tutor on request, not yet attempted independently",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-02"
+  },
+  {
+   "number": 17,
+   "phase": "Physics",
+   "title": "Torque on a loop τ = NIAB sinθ (θ from the normal)",
+   "objective": "8 Oct: taught with edge-on diagram + τ-vs-θ graph (graphs/phy_09); plane ⟂ B → θ=0 → τ=0 solved by tutor, not yet attempted independently",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-03"
+  },
+  {
+   "number": 18,
+   "phase": "Physics",
+   "title": "Galvanometer → ammeter (shunt) / voltmeter (series R)",
+   "objective": "8 Oct: taught with circuit diagrams (graphs/phy_09); G2 (G=50, Ig=2 mA, 5 V → 2450 Ω) solved by tutor, not yet attempted independently. Trap: convert mA to A first",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-04"
+  },
+  {
+   "number": 19,
    "phase": "Physics",
    "title": "Parallel/series combination (flip 1/R)",
    "objective": "7 Oct: probe answered 0.5 Ω (unflipped 1/R); cleared on fresh variant 4∥12 = 3 Ω; then missed again in end-of-session drill (3∥6∥9 → picked 11/18) — repeat slip same day. 8 Oct redrill: 3∥4∥12 = 3/2 Ω, flipped correctly",
@@ -3821,7 +3924,7 @@
    "scheduledDate": "2026-10-05"
   },
   {
-   "number": 16,
+   "number": 20,
    "phase": "Physics",
    "title": "Resistance of wire R=ρL/A, stretched-wire n² rule",
    "objective": "7 Oct: skipped in probe; fresh variant derived A′=A/3 from constant volume → 9R independently, but did not substitute R=5 → 45 Ω",
@@ -3836,7 +3939,7 @@
    "scheduledDate": "2026-10-06"
   },
   {
-   "number": 17,
+   "number": 21,
    "phase": "Physics",
    "title": "Electric power — choosing P=VI / I²R / V²/R",
    "objective": "7 Oct: derived R=V²/P himself, arithmetic slip (40 written as 4); part (b) I=P/V shown by tutor, not attempted",
@@ -3851,7 +3954,7 @@
    "scheduledDate": "2026-10-07"
   },
   {
-   "number": 18,
+   "number": 22,
    "phase": "Physics",
    "title": "Drift velocity I=neAv_d (diameter vs area)",
    "objective": "8 Oct redrill: radius ×3 → area 9, v_d → 1/9, both steps correct. 7 Oct: skipped in probe and in check; diameter-doubled variant (v_d → ¼) shown by tutor, not yet attempted independently",
@@ -3866,7 +3969,7 @@
    "scheduledDate": "2026-10-08"
   },
   {
-   "number": 19,
+   "number": 23,
    "phase": "Physics",
    "title": "Kirchhoff's laws — KCL (charge) and KVL (energy), sign convention",
    "objective": "7 Oct: taught with plotted junction + two-battery loop diagram (graphs/phy_05); check — correctly named charge conservation (KCL) and energy conservation (KVL). Numeric loop problem: 2 misses end of 7 Oct session (1 A for 2 A, 2 A for 3 A), no working shown — 8 Oct redrill: 18 V & 6 V opposing, 3 Ω → 4 A, correct with working → Learning",
@@ -3881,7 +3984,7 @@
    "scheduledDate": "2026-10-09"
   },
   {
-   "number": 20,
+   "number": 24,
    "phase": "Physics",
    "title": "Wheatstone bridge — balance P/Q=R/S, remove middle arm, meter bridge",
    "objective": "7 Oct: taught with plotted bridge diagram (graphs/phy_06); check P=10,Q=20,R=15 → S=30 correct first attempt. Balanced-bridge equivalent-resistance trap and meter bridge not yet attempted independently",
@@ -3896,7 +3999,7 @@
    "scheduledDate": "2026-10-10"
   },
   {
-   "number": 21,
+   "number": 25,
    "phase": "Physics",
    "title": "Revision — Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), Scalar vs vector (Ch.3 started)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), Scalar vs vector (Ch.3 started).",
@@ -3911,7 +4014,7 @@
    "scheduledDate": "2026-10-11"
   },
   {
-   "number": 22,
+   "number": 26,
    "phase": "Physics",
    "title": "Revision — Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation), Velocity vs acceleration at a turning point (v=0 ≠ a=0)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation), Velocity vs acceleration at a turning point (v=0 ≠ a=0).",
@@ -3926,7 +4029,7 @@
    "scheduledDate": "2026-10-12"
   },
   {
-   "number": 23,
+   "number": 27,
    "phase": "Physics",
    "title": "Revision — Projectile motion (horizontal/vertical independence, time of flight, max height, range), Magnetic force does no work (F perpendicular to v, W = Fd cos90 = 0, speed constant), Circular motion in B — r = mv/(qB) vs T = 2πm/(qB) (speed changes r, never T), Force on a current-carrying wire F = BIL sinθ",
    "objective": "Fast spaced recap of 4 already-solid concepts: Projectile motion (horizontal/vertical independence, time of flight, max height, range), Magnetic force does no work (F perpendicular to v, W = Fd cos90 = 0, speed constant), Circular motion in B — r = mv/(qB) vs T = 2πm/(qB) (speed changes r, never T), Force on a current-carrying wire F = BIL sinθ.",
@@ -3941,7 +4044,7 @@
    "scheduledDate": "2026-10-13"
   },
   {
-   "number": 24,
+   "number": 28,
    "phase": "Physics",
    "title": "Revision — Ohm's law (V=IR), EMF, internal resistance, terminal voltage",
    "objective": "Fast spaced recap of 2 already-solid concepts: Ohm's law (V=IR), EMF, internal resistance, terminal voltage.",
@@ -3956,7 +4059,7 @@
    "scheduledDate": "2026-10-14"
   },
   {
-   "number": 25,
+   "number": 29,
    "phase": "Maths",
    "title": "Product rule — both factors in each term",
    "objective": "dropped the v in u′v on (2x+1)⁴·x",
@@ -3971,7 +4074,7 @@
    "scheduledDate": "2026-10-15"
   },
   {
-   "number": 26,
+   "number": 30,
    "phase": "Maths",
    "title": "Maxima / minima + 2nd derivative test",
    "objective": "taught twice, worked airport-parking example",
@@ -3986,7 +4089,7 @@
    "scheduledDate": "2026-10-16"
   },
   {
-   "number": 27,
+   "number": 31,
    "phase": "Maths",
    "title": "Simplifying final answers",
    "objective": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
@@ -4001,7 +4104,7 @@
    "scheduledDate": "2026-10-17"
   },
   {
-   "number": 28,
+   "number": 32,
    "phase": "Maths",
    "title": "Integration as antiderivative and area",
    "objective": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
@@ -4016,7 +4119,7 @@
    "scheduledDate": "2026-10-18"
   },
   {
-   "number": 29,
+   "number": 33,
    "phase": "Maths",
    "title": "Revision — Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics",
    "objective": "Fast spaced recap of 4 already-solid concepts: Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics.",
@@ -4031,7 +4134,7 @@
    "scheduledDate": "2026-10-19"
   },
   {
-   "number": 30,
+   "number": 34,
    "phase": "Maths",
    "title": "Revision — Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule",
    "objective": "Fast spaced recap of 4 already-solid concepts: Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule.",
@@ -4046,7 +4149,7 @@
    "scheduledDate": "2026-10-20"
   },
   {
-   "number": 31,
+   "number": 35,
    "phase": "Maths",
    "title": "Revision — Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C).",
@@ -4061,7 +4164,7 @@
    "scheduledDate": "2026-10-21"
   },
   {
-   "number": 32,
+   "number": 36,
    "phase": "Maths",
    "title": "Revision — Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative",
    "objective": "Fast spaced recap of 4 already-solid concepts: Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative.",
@@ -4076,7 +4179,7 @@
    "scheduledDate": "2026-10-22"
   },
   {
-   "number": 33,
+   "number": 37,
    "phase": "Business Mgmt",
    "title": "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
    "objective": "24 Sep: missed first application check (picked Span of Control for a \"route requests through me\" scenario, should be Unity of Command), corrected, cleared 2nd scenario. Only 1 clean rep so far — not yet Solid",
@@ -4091,7 +4194,7 @@
    "scheduledDate": "2026-10-23"
   },
   {
-   "number": 34,
+   "number": 38,
    "phase": "Business Mgmt",
    "title": "Span of Control (headcount one manager can effectively supervise)",
    "objective": "24 Sep: surfaced as the wrong-answer option in the Unity of Command mix-up above; correctly identified on its own dedicated scenario (25 direct reports, no team leads) right after the correction — first exposure, needs a fresh spaced check before Solid",
@@ -4106,7 +4209,7 @@
    "scheduledDate": "2026-10-24"
   },
   {
-   "number": 35,
+   "number": 39,
    "phase": "Business Mgmt",
    "title": "Herzberg's Two-Factor Theory (hygiene vs motivators)",
    "objective": "24 Sep: taught (salary/conditions = hygiene, prevents dissatisfaction only; recognition/growth = motivators, create real drive). Check (uniform+break room won't fix low motivation) answered correctly but reasoning given was just the label restated, not the underlying \"hygiene only cancels dissatisfaction\" logic — needs a deeper-reasoning re-check",
@@ -4121,7 +4224,7 @@
    "scheduledDate": "2026-10-25"
   },
   {
-   "number": 36,
+   "number": 40,
    "phase": "Business Mgmt",
    "title": "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
    "objective": "24 Sep: taught with airport-worker examples per level. Check (temp-contract worker, Safety unmet, would esteem-level recognition help) — both parts (identify level + implication) answered correctly, terse but right",
@@ -4136,7 +4239,7 @@
    "scheduledDate": "2026-10-26"
   },
   {
-   "number": 37,
+   "number": 41,
    "phase": "Business Mgmt",
    "title": "Leadership styles — Autocratic/Democratic/Laissez-Faire",
    "objective": "29 Sep: taught with situational fit (emergency->autocratic, routine planning->democratic, skilled autonomous team->laissez-faire) and the CBT trap (exam tests situational fit, not \"best\" style). Check (gate security breach) — correctly picked Autocratic, but \"why not the others\" reasoning was underdeveloped (just restated the style) until prompted",
@@ -4151,7 +4254,7 @@
    "scheduledDate": "2026-10-27"
   },
   {
-   "number": 38,
+   "number": 42,
    "phase": "Business Mgmt",
    "title": "Strategic management levels — Corporate/Business/Functional",
    "objective": "29 Sep: taught with AAI diversification examples per level. Check (Terminal Ops switching kiosk vendors) — correctly identified Functional-level on the first attempt, reasoning given only after being prompted",
@@ -4166,7 +4269,7 @@
    "scheduledDate": "2026-10-28"
   },
   {
-   "number": 39,
+   "number": 43,
    "phase": "Business Mgmt",
    "title": "SWOT Analysis — internal vs external classification",
    "objective": "29 Sep: taught the internal/external x helpful/harmful 2x2 grid, with the CBT trap of misclassifying external factors as internal. Check (rival airport's terminal expansion) — correctly picked Threat, but \"why not Weakness\" reasoning was not given until prompted",
@@ -4181,7 +4284,7 @@
    "scheduledDate": "2026-10-29"
   },
   {
-   "number": 40,
+   "number": 44,
    "phase": "Business Mgmt",
    "title": "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
    "objective": "29 Sep: taught with the \"Place = distribution channel, not literal location\" trap. Check (duty-free pre-order app) — correctly picked Place on the first attempt, reasoning given only after prompted",
@@ -4196,7 +4299,7 @@
    "scheduledDate": "2026-10-30"
   },
   {
-   "number": 41,
+   "number": 45,
    "phase": "Business Mgmt",
    "title": "TQM and Kaizen (quality = everyone's job, continuous small improvement)",
    "objective": "29 Sep: taught TQM (quality is every employee's responsibility) vs Kaizen (small continuous improvement vs big-bang change). Check (isolated Quality Control Dept, frontline told quality isn't their concern) — missed first attempt (said \"yes\" this reflects TQM), corrected and cleared on retry after being prompted for the missing word (\"everyone's job\")",
@@ -4211,7 +4314,7 @@
    "scheduledDate": "2026-10-31"
   },
   {
-   "number": 42,
+   "number": 46,
    "phase": "Business Mgmt",
    "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
    "objective": "Fast spaced recap of 4 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use.",
@@ -4226,7 +4329,7 @@
    "scheduledDate": "2026-11-01"
   },
   {
-   "number": 43,
+   "number": 47,
    "phase": "Business Mgmt",
    "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards",
    "objective": "Fast spaced recap of 4 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards.",
@@ -4241,7 +4344,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 44,
+   "number": 48,
    "phase": "Business Mgmt",
    "title": "Revision — Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze)",
    "objective": "Fast spaced recap of 1 already-solid concepts: Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze).",
@@ -4256,7 +4359,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 45,
+   "number": 49,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4271,7 +4374,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 46,
+   "number": 50,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4286,7 +4389,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 47,
+   "number": 51,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4301,7 +4404,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 48,
+   "number": 52,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4316,7 +4419,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 49,
+   "number": 53,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4331,7 +4434,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 50,
+   "number": 54,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4346,7 +4449,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 51,
+   "number": 55,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4361,7 +4464,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 52,
+   "number": 56,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4376,7 +4479,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 53,
+   "number": 57,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4391,7 +4494,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 54,
+   "number": 58,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4406,7 +4509,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 55,
+   "number": 59,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4421,7 +4524,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 56,
+   "number": 60,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4436,7 +4539,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 57,
+   "number": 61,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4451,7 +4554,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 58,
+   "number": 62,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4466,7 +4569,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 59,
+   "number": 63,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -27411,6 +27514,41 @@
    "meaning": "Torque on a loop in a field",
    "notes": "Principle of the motor and galvanometer",
    "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "B = 2 pi x 10^-7 N I / R (= mu0 N I / 2R)",
+   "meaning": "Field at centre of a circular loop of N turns, radius R",
+   "notes": "Direction: curl fingers with current, thumb = B. B proportional to 1/R",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "B = mu0 n I, n = N / L",
+   "meaning": "Field inside a long solenoid",
+   "notes": "n is TURNS PER METRE, not total turns. At the end of the solenoid B is half (mu0 n I / 2); outside it is approx 0",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "tau = N I A B sin(theta), theta from the NORMAL",
+   "meaning": "Torque on a current loop",
+   "notes": "Plane parallel to B: tau is maximum. Plane perpendicular to B: tau = 0. If the angle to the PLANE is given, use 90 - that angle",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "Ammeter shunt: S = I_g G / (I - I_g), in PARALLEL",
+   "meaning": "Convert galvanometer to ammeter",
+   "notes": "Tiny resistance. Convert mA to A first",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "Voltmeter: R = V / I_g - G, in SERIES",
+   "meaning": "Convert galvanometer to voltmeter",
+   "notes": "Huge resistance. Result can never be negative — built-in check",
+   "subject": "mathematics"
   }
  ],
  "chapters": [
@@ -27456,12 +27594,16 @@
     "Circular motion in B — r = mv/(qB) vs T = 2πm/(qB) (speed changes r, never T)",
     "Field of a straight wire B = 2×10^-7 I/r",
     "Force on a current-carrying wire F = BIL sinθ",
-    "Parallel wires: same direction attract, opposite repel"
+    "Parallel wires: same direction attract, opposite repel",
+    "Field at centre of a circular loop B = 2π×10^-7 NI/R",
+    "Solenoid B = μ0 n I (n = turns per metre, not N)",
+    "Torque on a loop τ = NIAB sinθ (θ from the normal)",
+    "Galvanometer → ammeter (shunt) / voltmeter (series R)"
    ],
-   "total": 5,
+   "total": 9,
    "solid": 3,
-   "pct": 60,
-   "formulaCount": 8,
+   "pct": 33,
+   "formulaCount": 13,
    "questionIds": []
   },
   {
