@@ -1,12 +1,12 @@
 {
- "builtAt": "07 Oct 2026, 12:49",
+ "builtAt": "07 Oct 2026, 13:18",
  "regClose": "2026-09-07",
  "daysToClose": -30,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 100,
+  "concepts": 102,
   "solid": 83,
-  "learning": 17,
+  "learning": 19,
   "weak": 0,
   "notStarted": 0,
   "lessons": 68,
@@ -15,7 +15,7 @@
   "sessions": 26,
   "sessionDays": 12,
   "mocks": 0,
-  "graphs": 30,
+  "graphs": 32,
   "formulas": 50
  },
  "statusBreakdown": [
@@ -29,7 +29,7 @@
   },
   {
    "status": "Learning",
-   "n": 17
+   "n": 19
   },
   {
    "status": "Solid",
@@ -227,7 +227,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "100 concepts logged (83 solid+, 0 weak)",
+    "102 concepts logged (83 solid+, 0 weak)",
     "832 questions banked (98 GK)",
     "26 sessions logged, 12 days active",
     "28 errors logged, 0 currently open"
@@ -414,9 +414,9 @@
    "key": "physics",
    "name": "Physics",
    "marks": 24,
-   "logged": 15,
+   "logged": 17,
    "solid": 11,
-   "pct": 73
+   "pct": 65
   },
   {
    "key": "business",
@@ -577,6 +577,24 @@
    "status": "Learning",
    "subject": "physics",
    "evidence": "7 Oct: skipped in probe and in check; diameter-doubled variant (v_d → ¼) shown by tutor, not yet attempted independently",
+   "lesson": null
+  },
+  {
+   "concept": "Kirchhoff's laws — KCL (charge) and KVL (energy), sign convention",
+   "group": "Physics",
+   "chapter": "Current Electricity",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "7 Oct: taught with plotted junction + two-battery loop diagram (graphs/phy_05); check — correctly named charge conservation (KCL) and energy conservation (KVL). Numeric loop problem not yet attempted independently",
+   "lesson": null
+  },
+  {
+   "concept": "Wheatstone bridge — balance P/Q=R/S, remove middle arm, meter bridge",
+   "group": "Physics",
+   "chapter": "Current Electricity",
+   "status": "Learning",
+   "subject": "physics",
+   "evidence": "7 Oct: taught with plotted bridge diagram (graphs/phy_06); check P=10,Q=20,R=15 → S=30 correct first attempt. Balanced-bridge equivalent-resistance trap and meter bridge not yet attempted independently",
    "lesson": null
   },
   {
@@ -3430,7 +3448,7 @@
    "date": "7 Oct",
    "type": "Probe+Teach",
    "covered": "Physics Class XII started — Current Electricity. Exam date confirmed 26 Oct 2026. Probe 1/6 → formulas-first teach of 7 core formulas → full worked solutions → 4 fresh-variant checks",
-   "outcome": "Parallel flip cleared, terminal voltage correct, stretched wire + power derived correctly but 2 last-step slips (unsubstituted, dropped zero). Drift velocity and P→I not yet attempted independently",
+   "outcome": "Parallel flip cleared, terminal voltage correct, stretched wire + power derived correctly but 2 last-step slips (unsubstituted, dropped zero). Drift velocity and P→I not yet attempted independently. Continued: Kirchhoff's laws (concept check correct) and Wheatstone bridge (S=30 correct first attempt)",
    "subject": "physics"
   },
   {
@@ -3474,7 +3492,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-26"
+   "scheduledDate": "2026-09-24"
   },
   {
    "number": 2,
@@ -3489,7 +3507,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-27"
+   "scheduledDate": "2026-09-25"
   },
   {
    "number": 3,
@@ -3504,7 +3522,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-28"
+   "scheduledDate": "2026-09-26"
   },
   {
    "number": 4,
@@ -3519,7 +3537,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-29"
+   "scheduledDate": "2026-09-27"
   },
   {
    "number": 5,
@@ -3534,7 +3552,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-30"
+   "scheduledDate": "2026-09-28"
   },
   {
    "number": 6,
@@ -3549,7 +3567,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-01"
+   "scheduledDate": "2026-09-29"
   },
   {
    "number": 7,
@@ -3564,7 +3582,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-02"
+   "scheduledDate": "2026-09-30"
   },
   {
    "number": 8,
@@ -3579,7 +3597,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-03"
+   "scheduledDate": "2026-10-01"
   },
   {
    "number": 9,
@@ -3594,7 +3612,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-10-02"
   },
   {
    "number": 10,
@@ -3609,7 +3627,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-10-03"
   },
   {
    "number": 11,
@@ -3624,7 +3642,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 12,
@@ -3639,7 +3657,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 13,
@@ -3654,7 +3672,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 14,
@@ -3669,7 +3687,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 15,
@@ -3684,7 +3702,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-08"
   },
   {
    "number": 16,
@@ -3699,10 +3717,40 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 17,
+   "phase": "Physics",
+   "title": "Kirchhoff's laws — KCL (charge) and KVL (energy), sign convention",
+   "objective": "7 Oct: taught with plotted junction + two-battery loop diagram (graphs/phy_05); check — correctly named charge conservation (KCL) and energy conservation (KVL). Numeric loop problem not yet attempted independently",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-10"
+  },
+  {
+   "number": 18,
+   "phase": "Physics",
+   "title": "Wheatstone bridge — balance P/Q=R/S, remove middle arm, meter bridge",
+   "objective": "7 Oct: taught with plotted bridge diagram (graphs/phy_06); check P=10,Q=20,R=15 → S=30 correct first attempt. Balanced-bridge equivalent-resistance trap and meter bridge not yet attempted independently",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-11"
+  },
+  {
+   "number": 19,
    "phase": "Physics",
    "title": "Revision — Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), Scalar vs vector (Ch.3 started)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Displacement vs distance, Instantaneous velocity (slope of x-t graph), Acceleration (slope of v-t graph), Scalar vs vector (Ch.3 started).",
@@ -3717,7 +3765,7 @@
    "scheduledDate": "2026-10-12"
   },
   {
-   "number": 18,
+   "number": 20,
    "phase": "Physics",
    "title": "Revision — Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation), Velocity vs acceleration at a turning point (v=0 ≠ a=0)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Vector addition — triangle law, Vector resolution (components, Ax=Acos θ, Ay=Asin θ), 3 kinematic equations (v=u+at, s=ut+½at², v²=u²+2as — switched to school notation 16 Sep at Janak's request, cross-verified identical to NCERT's v0/x notation), Velocity vs acceleration at a turning point (v=0 ≠ a=0).",
@@ -3732,7 +3780,7 @@
    "scheduledDate": "2026-10-13"
   },
   {
-   "number": 19,
+   "number": 21,
    "phase": "Physics",
    "title": "Revision — Projectile motion (horizontal/vertical independence, time of flight, max height, range), Ohm's law (V=IR), EMF, internal resistance, terminal voltage",
    "objective": "Fast spaced recap of 3 already-solid concepts: Projectile motion (horizontal/vertical independence, time of flight, max height, range), Ohm's law (V=IR), EMF, internal resistance, terminal voltage.",
@@ -3747,7 +3795,7 @@
    "scheduledDate": "2026-10-14"
   },
   {
-   "number": 20,
+   "number": 22,
    "phase": "Maths",
    "title": "Product rule — both factors in each term",
    "objective": "dropped the v in u′v on (2x+1)⁴·x",
@@ -3762,7 +3810,7 @@
    "scheduledDate": "2026-10-15"
   },
   {
-   "number": 21,
+   "number": 23,
    "phase": "Maths",
    "title": "Maxima / minima + 2nd derivative test",
    "objective": "taught twice, worked airport-parking example",
@@ -3777,7 +3825,7 @@
    "scheduledDate": "2026-10-16"
   },
   {
-   "number": 22,
+   "number": 24,
    "phase": "Maths",
    "title": "Simplifying final answers",
    "objective": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
@@ -3792,7 +3840,7 @@
    "scheduledDate": "2026-10-17"
   },
   {
-   "number": 23,
+   "number": 25,
    "phase": "Maths",
    "title": "Integration as antiderivative and area",
    "objective": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
@@ -3807,7 +3855,7 @@
    "scheduledDate": "2026-10-18"
   },
   {
-   "number": 24,
+   "number": 26,
    "phase": "Maths",
    "title": "Revision — Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics",
    "objective": "Fast spaced recap of 4 already-solid concepts: Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics.",
@@ -3822,7 +3870,7 @@
    "scheduledDate": "2026-10-19"
   },
   {
-   "number": 25,
+   "number": 27,
    "phase": "Maths",
    "title": "Revision — Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule",
    "objective": "Fast spaced recap of 4 already-solid concepts: Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule.",
@@ -3837,7 +3885,7 @@
    "scheduledDate": "2026-10-20"
   },
   {
-   "number": 26,
+   "number": 28,
    "phase": "Maths",
    "title": "Revision — Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C).",
@@ -3852,7 +3900,7 @@
    "scheduledDate": "2026-10-21"
   },
   {
-   "number": 27,
+   "number": 29,
    "phase": "Maths",
    "title": "Revision — Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative",
    "objective": "Fast spaced recap of 4 already-solid concepts: Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative.",
@@ -3867,7 +3915,7 @@
    "scheduledDate": "2026-10-22"
   },
   {
-   "number": 28,
+   "number": 30,
    "phase": "Business Mgmt",
    "title": "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
    "objective": "24 Sep: missed first application check (picked Span of Control for a \"route requests through me\" scenario, should be Unity of Command), corrected, cleared 2nd scenario. Only 1 clean rep so far — not yet Solid",
@@ -3882,7 +3930,7 @@
    "scheduledDate": "2026-10-23"
   },
   {
-   "number": 29,
+   "number": 31,
    "phase": "Business Mgmt",
    "title": "Span of Control (headcount one manager can effectively supervise)",
    "objective": "24 Sep: surfaced as the wrong-answer option in the Unity of Command mix-up above; correctly identified on its own dedicated scenario (25 direct reports, no team leads) right after the correction — first exposure, needs a fresh spaced check before Solid",
@@ -3897,7 +3945,7 @@
    "scheduledDate": "2026-10-24"
   },
   {
-   "number": 30,
+   "number": 32,
    "phase": "Business Mgmt",
    "title": "Herzberg's Two-Factor Theory (hygiene vs motivators)",
    "objective": "24 Sep: taught (salary/conditions = hygiene, prevents dissatisfaction only; recognition/growth = motivators, create real drive). Check (uniform+break room won't fix low motivation) answered correctly but reasoning given was just the label restated, not the underlying \"hygiene only cancels dissatisfaction\" logic — needs a deeper-reasoning re-check",
@@ -3912,7 +3960,7 @@
    "scheduledDate": "2026-10-25"
   },
   {
-   "number": 31,
+   "number": 33,
    "phase": "Business Mgmt",
    "title": "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
    "objective": "24 Sep: taught with airport-worker examples per level. Check (temp-contract worker, Safety unmet, would esteem-level recognition help) — both parts (identify level + implication) answered correctly, terse but right",
@@ -3927,7 +3975,7 @@
    "scheduledDate": "2026-10-26"
   },
   {
-   "number": 32,
+   "number": 34,
    "phase": "Business Mgmt",
    "title": "Leadership styles — Autocratic/Democratic/Laissez-Faire",
    "objective": "29 Sep: taught with situational fit (emergency->autocratic, routine planning->democratic, skilled autonomous team->laissez-faire) and the CBT trap (exam tests situational fit, not \"best\" style). Check (gate security breach) — correctly picked Autocratic, but \"why not the others\" reasoning was underdeveloped (just restated the style) until prompted",
@@ -3942,7 +3990,7 @@
    "scheduledDate": "2026-10-27"
   },
   {
-   "number": 33,
+   "number": 35,
    "phase": "Business Mgmt",
    "title": "Strategic management levels — Corporate/Business/Functional",
    "objective": "29 Sep: taught with AAI diversification examples per level. Check (Terminal Ops switching kiosk vendors) — correctly identified Functional-level on the first attempt, reasoning given only after being prompted",
@@ -3957,7 +4005,7 @@
    "scheduledDate": "2026-10-28"
   },
   {
-   "number": 34,
+   "number": 36,
    "phase": "Business Mgmt",
    "title": "SWOT Analysis — internal vs external classification",
    "objective": "29 Sep: taught the internal/external x helpful/harmful 2x2 grid, with the CBT trap of misclassifying external factors as internal. Check (rival airport's terminal expansion) — correctly picked Threat, but \"why not Weakness\" reasoning was not given until prompted",
@@ -3972,7 +4020,7 @@
    "scheduledDate": "2026-10-29"
   },
   {
-   "number": 35,
+   "number": 37,
    "phase": "Business Mgmt",
    "title": "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
    "objective": "29 Sep: taught with the \"Place = distribution channel, not literal location\" trap. Check (duty-free pre-order app) — correctly picked Place on the first attempt, reasoning given only after prompted",
@@ -3987,7 +4035,7 @@
    "scheduledDate": "2026-10-30"
   },
   {
-   "number": 36,
+   "number": 38,
    "phase": "Business Mgmt",
    "title": "TQM and Kaizen (quality = everyone's job, continuous small improvement)",
    "objective": "29 Sep: taught TQM (quality is every employee's responsibility) vs Kaizen (small continuous improvement vs big-bang change). Check (isolated Quality Control Dept, frontline told quality isn't their concern) — missed first attempt (said \"yes\" this reflects TQM), corrected and cleared on retry after being prompted for the missing word (\"everyone's job\")",
@@ -4002,7 +4050,7 @@
    "scheduledDate": "2026-10-31"
   },
   {
-   "number": 37,
+   "number": 39,
    "phase": "Business Mgmt",
    "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
    "objective": "Fast spaced recap of 4 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use.",
@@ -4017,7 +4065,7 @@
    "scheduledDate": "2026-11-01"
   },
   {
-   "number": 38,
+   "number": 40,
    "phase": "Business Mgmt",
    "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards",
    "objective": "Fast spaced recap of 4 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards.",
@@ -4032,7 +4080,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 39,
+   "number": 41,
    "phase": "Business Mgmt",
    "title": "Revision — Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze)",
    "objective": "Fast spaced recap of 1 already-solid concepts: Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze).",
@@ -4047,7 +4095,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 40,
+   "number": 42,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4062,7 +4110,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 41,
+   "number": 43,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4077,7 +4125,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 42,
+   "number": 44,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4092,7 +4140,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 43,
+   "number": 45,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4107,7 +4155,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 44,
+   "number": 46,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4122,7 +4170,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 45,
+   "number": 47,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4137,7 +4185,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 46,
+   "number": 48,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4152,7 +4200,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 47,
+   "number": 49,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4167,7 +4215,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 48,
+   "number": 50,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4182,7 +4230,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 49,
+   "number": 51,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4197,7 +4245,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 50,
+   "number": 52,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4212,7 +4260,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 51,
+   "number": 53,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4227,7 +4275,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 52,
+   "number": 54,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4242,7 +4290,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 53,
+   "number": 55,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4257,7 +4305,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 54,
+   "number": 56,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -26807,11 +26855,13 @@
     "Resistance of wire R=ρL/A, stretched-wire n² rule",
     "Electric power — choosing P=VI / I²R / V²/R",
     "EMF, internal resistance, terminal voltage",
-    "Drift velocity I=neAv_d (diameter vs area)"
+    "Drift velocity I=neAv_d (diameter vs area)",
+    "Kirchhoff's laws — KCL (charge) and KVL (energy), sign convention",
+    "Wheatstone bridge — balance P/Q=R/S, remove middle arm, meter bridge"
    ],
-   "total": 6,
+   "total": 8,
    "solid": 2,
-   "pct": 33,
+   "pct": 25,
    "formulaCount": 0,
    "questionIds": []
   },
