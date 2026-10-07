@@ -1,5 +1,5 @@
 {
- "builtAt": "07 Oct 2026, 14:53",
+ "builtAt": "07 Oct 2026, 15:09",
  "regClose": "2026-09-07",
  "daysToClose": -30,
  "minTrendDays": 3,
@@ -15,8 +15,8 @@
   "sessions": 28,
   "sessionDays": 13,
   "mocks": 0,
-  "graphs": 32,
-  "formulas": 50
+  "graphs": 33,
+  "formulas": 113
  },
  "statusBreakdown": [
   {
@@ -26865,6 +26865,447 @@
    "meaning": "Created 1978 as a Cell under DGCA; became independent under MoCA in 1987",
    "notes": "Question may ask for either date — read carefully which milestone is being asked",
    "subject": "aviation"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "g = 9.8 m/s^2",
+   "meaning": "Gravity",
+   "notes": "Many questions say take g = 10 m/s^2 — read the question",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "e = 1.6 x 10^-19 C",
+   "meaning": "Electron (elementary) charge",
+   "notes": "Current, atoms",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "m_e = 9.1 x 10^-31 kg",
+   "meaning": "Electron mass",
+   "notes": "Magnetism, atoms",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "m_p = 1.67 x 10^-27 kg",
+   "meaning": "Proton mass",
+   "notes": "Atoms, nuclei",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "m_n = 1.675 x 10^-27 kg",
+   "meaning": "Neutron mass",
+   "notes": "Nuclei",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "c = 3 x 10^8 m/s",
+   "meaning": "Speed of light",
+   "notes": "Optics, EM waves; c = 1/sqrt(mu0 e0)",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "k = 1/(4 pi e0) = 9 x 10^9 N m^2/C^2",
+   "meaning": "Coulomb constant",
+   "notes": "Electrostatics",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "e0 = 8.85 x 10^-12 C^2/(N m^2)",
+   "meaning": "Permittivity of free space",
+   "notes": "Electrostatics",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "mu0 = 4 pi x 10^-7 T m/A",
+   "meaning": "Permeability of free space",
+   "notes": "Magnetism",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "h = 6.63 x 10^-34 J s",
+   "meaning": "Planck's constant",
+   "notes": "Photoelectric effect, dual nature",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "G = 6.67 x 10^-11 N m^2/kg^2",
+   "meaning": "Gravitational constant",
+   "notes": "Gravitation (Class XI)",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "v_sound = 340 m/s (approx, in air)",
+   "meaning": "Speed of sound",
+   "notes": "Waves",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "1 u = 1.66 x 10^-27 kg = 931.5 MeV/c^2",
+   "meaning": "Atomic mass unit",
+   "notes": "Nuclei",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "1 eV = 1.6 x 10^-19 J",
+   "meaning": "Electron-volt",
+   "notes": "Atoms, photons",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "R = 1.097 x 10^7 m^-1",
+   "meaning": "Rydberg constant",
+   "notes": "Atomic spectra",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Constants",
+   "formula": "a0 = 0.529 A = 5.29 x 10^-11 m",
+   "meaning": "Bohr radius",
+   "notes": "Atoms",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Charge: q, Q",
+   "meaning": "Unit: coulomb (C)",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Current: I",
+   "meaning": "Unit: ampere (A) = C/s",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Voltage / potential: V",
+   "meaning": "Unit: volt (V) = J/C",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "EMF: E",
+   "meaning": "Unit: volt (V)",
+   "notes": "Terminal voltage is less than EMF when current flows",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Resistance: R",
+   "meaning": "Unit: ohm = V/A",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Resistivity: rho",
+   "meaning": "Unit: ohm metre",
+   "notes": "Depends on material and temperature only",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Conductance: G",
+   "meaning": "Unit: siemens (S) = 1/ohm",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Power: P",
+   "meaning": "Unit: watt (W) = J/s",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Energy / work: E, W",
+   "meaning": "Unit: joule (J)",
+   "notes": "Electricity bill: 1 kWh = 3.6 x 10^6 J",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Electric field: E",
+   "meaning": "Unit: N/C = V/m",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Capacitance: C",
+   "meaning": "Unit: farad (F)",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Magnetic field: B",
+   "meaning": "Unit: tesla (T) = N/(A m)",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Magnetic flux: Phi",
+   "meaning": "Unit: weber (Wb) = T m^2",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Inductance: L",
+   "meaning": "Unit: henry (H)",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Frequency: f",
+   "meaning": "Unit: hertz (Hz)",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Torque: tau",
+   "meaning": "Unit: newton metre (N m)",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Drift velocity: v_d",
+   "meaning": "Unit: m/s",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "Physics Symbols and Units",
+   "formula": "Refractive index: n",
+   "meaning": "No unit",
+   "notes": "—",
+   "subject": "physics"
+  },
+  {
+   "group": "SI Prefixes",
+   "formula": "giga (G) = 10^9",
+   "meaning": "1 GHz = 10^9 Hz",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "SI Prefixes",
+   "formula": "mega (M) = 10^6",
+   "meaning": "1 M ohm = 10^6 ohm",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "SI Prefixes",
+   "formula": "kilo (k) = 10^3",
+   "meaning": "1 kV = 10^3 V",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "SI Prefixes",
+   "formula": "milli (m) = 10^-3",
+   "meaning": "1 mA = 10^-3 A",
+   "notes": "Convert to SI BEFORE calculating — a missed prefix is a factor of 10^3 or 10^6",
+   "subject": "mathematics"
+  },
+  {
+   "group": "SI Prefixes",
+   "formula": "micro (mu) = 10^-6",
+   "meaning": "1 uF = 10^-6 F",
+   "notes": "Same trap",
+   "subject": "mathematics"
+  },
+  {
+   "group": "SI Prefixes",
+   "formula": "nano (n) = 10^-9",
+   "meaning": "1 nm = 10^-9 m",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "SI Prefixes",
+   "formula": "pico (p) = 10^-12",
+   "meaning": "1 pF = 10^-12 F",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "SI Prefixes",
+   "formula": "angstrom (A) = 10^-10 m",
+   "meaning": "Atomic sizes",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "I = Q / t",
+   "meaning": "Current = charge per second",
+   "notes": "Unit: ampere = 1 C/s",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "V = IR",
+   "meaning": "Ohm's law",
+   "notes": "Holds at constant temperature. Triangle: V on top, I and R below",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "R = rho L / A",
+   "meaning": "rho=resistivity, L=length, A=cross-section area",
+   "notes": "Stretched wire: volume A x L is constant, so stretching n times gives R' = n^2 R",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "Series: R = R1 + R2 + ...",
+   "meaning": "Same current through each",
+   "notes": "Total is larger than the biggest resistor",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "Parallel: 1/R = 1/R1 + 1/R2 + ...",
+   "meaning": "Same voltage across each",
+   "notes": "The sum gives 1/R, NOT R — FLIP it. Result is smaller than the smallest resistor. Two resistors: R = R1R2/(R1+R2)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "P = VI = I^2 R = V^2 / R",
+   "meaning": "Electric power",
+   "notes": "Rating \"100 W, 220 V\": R = V^2/P = 484 ohm, I = P/V",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "I = E / (R + r)",
+   "meaning": "E=EMF, r=internal resistance, R=external",
+   "notes": "Internal resistance adds to the total",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "V_terminal = E - I r",
+   "meaning": "Voltage that reaches the circuit",
+   "notes": "Equals EMF only when I = 0",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "I = n e A v_d",
+   "meaning": "n=electrons per m^3, A=area, v_d=drift velocity",
+   "notes": "v_d proportional to 1/A: diameter or radius change must be squared FIRST, then inverted",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "Kirchhoff junction rule: sum I_in = sum I_out",
+   "meaning": "Conservation of CHARGE",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "Kirchhoff loop rule: sum of voltage changes around a loop = 0",
+   "meaning": "Conservation of ENERGY",
+   "notes": "Opposing batteries SUBTRACT, aiding batteries ADD. Single loop: I = net EMF / total R",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "Wheatstone bridge balance: P/Q = R/S",
+   "meaning": "P x S = Q x R, no current through galvanometer",
+   "notes": "Balanced: delete the middle resistor, then (series) parallel to (series). CHECK balance first",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Current Electricity",
+   "formula": "Meter bridge: R/S = l/(100 - l)",
+   "meaning": "l = balance length in cm",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "F = q v B sin(theta)",
+   "meaning": "Force on a moving charge",
+   "notes": "Zero if v is along B. Force is perpendicular to v, so it does no work and never changes speed",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "r = m v / (q B)",
+   "meaning": "Radius of circular path",
+   "notes": "Faster or heavier particle makes a bigger circle",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "T = 2 pi m / (q B)",
+   "meaning": "Period of circular motion",
+   "notes": "Independent of speed and radius",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "F = B I L sin(theta)",
+   "meaning": "Force on a current-carrying wire",
+   "notes": "Maximum at 90 degrees",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "B = mu0 I / (2 pi r)",
+   "meaning": "Field of a long straight wire",
+   "notes": "B proportional to 1/r. Right-hand rule: thumb = current, fingers curl = B",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "B = mu0 N I / (2R)",
+   "meaning": "Field at the centre of a circular loop of N turns",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "F/L = mu0 I1 I2 / (2 pi d)",
+   "meaning": "Force per length between parallel wires",
+   "notes": "Same-direction currents attract, opposite repel",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Moving Charges and Magnetism",
+   "formula": "tau = N I A B sin(theta)",
+   "meaning": "Torque on a loop in a field",
+   "notes": "Principle of the motor and galvanometer",
+   "subject": "mathematics"
   }
  ],
  "chapters": [
@@ -26918,7 +27359,7 @@
    "total": 8,
    "solid": 2,
    "pct": 25,
-   "formulaCount": 0,
+   "formulaCount": 13,
    "questionIds": []
   },
   {
