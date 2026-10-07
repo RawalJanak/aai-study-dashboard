@@ -1,5 +1,5 @@
 {
- "builtAt": "07 Oct 2026, 13:24",
+ "builtAt": "07 Oct 2026, 13:27",
  "regClose": "2026-09-07",
  "daysToClose": -30,
  "minTrendDays": 3,
@@ -10,7 +10,7 @@
   "weak": 1,
   "notStarted": 0,
   "lessons": 68,
-  "errors": 30,
+  "errors": 31,
   "errorsOpen": 0,
   "sessions": 27,
   "sessionDays": 12,
@@ -230,7 +230,7 @@
     "102 concepts logged (83 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "27 sessions logged, 12 days active",
-    "30 errors logged, 0 currently open"
+    "31 errors logged, 0 currently open"
    ]
   },
   "branches": [
@@ -358,7 +358,7 @@
   "errorBranch": {
    "id": "errors",
    "label": "Error book",
-   "sub": "30 logged, 0 open",
+   "sub": "31 logged, 0 open",
    "color": "errors",
    "pct": 100,
    "children": [
@@ -585,7 +585,7 @@
    "chapter": "Current Electricity",
    "status": "Learning",
    "subject": "physics",
-   "evidence": "7 Oct: taught with plotted junction + two-battery loop diagram (graphs/phy_05); check — correctly named charge conservation (KCL) and energy conservation (KVL). Numeric loop problem not yet attempted independently",
+   "evidence": "7 Oct: taught with plotted junction + two-battery loop diagram (graphs/phy_05); check — correctly named charge conservation (KCL) and energy conservation (KVL). Numeric loop problem: 2 misses end of 7 Oct session (1 A for 2 A, 2 A for 3 A), no working shown — Weak until done with written steps",
    "lesson": null
   },
   {
@@ -3052,6 +3052,14 @@
  "errors": [
   {
    "date": "7 Oct",
+   "area": "Physics — current electricity (KVL, opposing batteries)",
+   "question": "10 V & 4 V opposing, 3 Ω → I? then 20 V & 8 V opposing, 4 Ω → I?",
+   "misconception": "Two misses in a row on a 2-line problem, no working shown either time despite being asked — cannot tell which step slipped. Late in a long session (fatigue likely). Possibly answered the previous question's answer (2) on the second.",
+   "retry": "not yet retested — redo fresh with written working at session start",
+   "open": false
+  },
+  {
+   "date": "7 Oct",
    "area": "Physics — current electricity (parallel, 3 resistors)",
    "question": "3 Ω ∥ 6 Ω ∥ 9 Ω (drill Q1)",
    "misconception": "REPEAT of the same-day unflipped-1/R slip — stopped at 1/R = 11/18 again despite clearing it on 4∥12 earlier. Genuine habit gap, not a one-off. Fix: write \"1/R =\" on every line so the final line forces the flip.",
@@ -3746,7 +3754,7 @@
    "number": 17,
    "phase": "Physics",
    "title": "Kirchhoff's laws — KCL (charge) and KVL (energy), sign convention",
-   "objective": "7 Oct: taught with plotted junction + two-battery loop diagram (graphs/phy_05); check — correctly named charge conservation (KCL) and energy conservation (KVL). Numeric loop problem not yet attempted independently",
+   "objective": "7 Oct: taught with plotted junction + two-battery loop diagram (graphs/phy_05); check — correctly named charge conservation (KCL) and energy conservation (KVL). Numeric loop problem: 2 misses end of 7 Oct session (1 A for 2 A, 2 A for 3 A), no working shown — Weak until done with written steps",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
