@@ -1,5 +1,5 @@
 {
- "builtAt": "13 Oct 2026, 10:40",
+ "builtAt": "13 Oct 2026, 11:28",
  "regClose": "2026-09-07",
  "daysToClose": -36,
  "minTrendDays": 3,
@@ -15,8 +15,8 @@
   "sessions": 31,
   "sessionDays": 13,
   "mocks": 0,
-  "graphs": 36,
-  "formulas": 135
+  "graphs": 37,
+  "formulas": 145
  },
  "statusBreakdown": [
   {
@@ -27685,6 +27685,76 @@
    "formula": "Vs / Vp = Ns / Np = Ip / Is",
    "meaning": "Ideal transformer",
    "notes": "Step-up: voltage up, current down. Power unchanged",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Probability",
+   "formula": "P(A) = favourable / total",
+   "meaning": "Basic definition, 0 to 1",
+   "notes": "Two dice: total is 6 x 6 = 36, NOT 12",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Probability",
+   "formula": "P(A') = 1 - P(A)",
+   "meaning": "Complement",
+   "notes": "\"At least one\" = 1 - P(none): the fastest route",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Probability",
+   "formula": "P(A or B) = P(A) + P(B) - P(A and B)",
+   "meaning": "Union",
+   "notes": "Subtract the overlap once. Mutually exclusive: overlap = 0",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Probability",
+   "formula": "P(A and B) = P(A) x P(B)",
+   "meaning": "INDEPENDENT events only",
+   "notes": "With replacement = independent. Without replacement = dependent: update the numbers",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Probability",
+   "formula": "P(A and B) = P(A) x P(B given A)",
+   "meaning": "Dependent events",
+   "notes": "Second chance uses the changed counts (e.g. 3/5 then 2/4)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Probability",
+   "formula": "P(A given B) = P(A and B) / P(B)",
+   "meaning": "Conditional probability",
+   "notes": "The group AFTER \"given\" goes on the bottom. P(A given B) is not P(B given A)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Probability",
+   "formula": "Bayes: P(Ei given E) = P(Ei) P(E given Ei) / sum of P(Ej) P(E given Ej)",
+   "meaning": "Reverse conditional probability",
+   "notes": "= (this path) / (all paths that lead to E). Easiest: imagine 1000 trials and count",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Probability",
+   "formula": "P(X = r) = nCr p^r q^(n-r)",
+   "meaning": "Binomial: n trials, p success, q = 1 - p",
+   "notes": "Mean = np, variance = npq",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Probability",
+   "formula": "E(X) = sum of x P(x) ; Var = E(X^2) - [E(X)]^2",
+   "meaning": "Mean and variance of a random variable",
+   "notes": "Square AFTER averaging, not before",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Probability",
+   "formula": "Mutually exclusive is NOT independent",
+   "meaning": "Exclusive events with non-zero probabilities are DEPENDENT",
+   "notes": "Classic trap",
    "subject": "mathematics"
   }
  ],
