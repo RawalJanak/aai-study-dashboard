@@ -1,5 +1,5 @@
 {
- "builtAt": "13 Oct 2026, 11:28",
+ "builtAt": "13 Oct 2026, 12:45",
  "regClose": "2026-09-07",
  "daysToClose": -36,
  "minTrendDays": 3,
@@ -16,7 +16,7 @@
   "sessionDays": 13,
   "mocks": 0,
   "graphs": 37,
-  "formulas": 145
+  "formulas": 154
  },
  "statusBreakdown": [
   {
@@ -27755,6 +27755,69 @@
    "formula": "Mutually exclusive is NOT independent",
    "meaning": "Exclusive events with non-zero probabilities are DEPENDENT",
    "notes": "Classic trap",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Matrices and Determinants",
+   "formula": "(AB)ij = row i of A dot column j of B",
+   "meaning": "Matrix multiplication. (m x n)(n x p) = (m x p)",
+   "notes": "AB is NOT equal to BA. The two inner sizes must match",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Matrices and Determinants",
+   "formula": "2x2 determinant: ad - bc",
+   "meaning": "For [a b; c d]",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Matrices and Determinants",
+   "formula": "3x3 determinant: a(ei - fh) - b(di - fg) + c(dh - eg)",
+   "meaning": "Expand along row 1 with signs + - +",
+   "notes": "The MIDDLE term is minus: the most common slip",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Matrices and Determinants",
+   "formula": "Inverse (2x2): A^-1 = (1/det) [d -b; -c a]",
+   "meaning": "Swap the diagonal, negate the other two, divide by det",
+   "notes": "det = 0 means singular: NO inverse. Verify by checking A x A^-1 = I",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Matrices and Determinants",
+   "formula": "(AB)^T = B^T A^T ; (AB)^-1 = B^-1 A^-1",
+   "meaning": "Order REVERSES",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Matrices and Determinants",
+   "formula": "det(AB) = det(A) det(B) ; det(kA) = k^n det(A)",
+   "meaning": "n x n matrix",
+   "notes": "3x3: det(2A) = 8 det(A), NOT 2 det(A)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Matrices and Determinants",
+   "formula": "Swapping two rows flips the sign of the determinant",
+   "meaning": "Two identical rows: det = 0",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Matrices and Determinants",
+   "formula": "AX = B gives X = A^-1 B",
+   "meaning": "Solving simultaneous equations",
+   "notes": "Multiply A^-1 on the LEFT of B",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Matrices and Determinants",
+   "formula": "Cramer: x = Dx / D, y = Dy / D",
+   "meaning": "Replace the x (or y) column with the constants",
+   "notes": "D not 0: unique solution. D = 0 with Dx, Dy not all 0: no solution. D = Dx = Dy = 0: infinitely many",
    "subject": "mathematics"
   }
  ],
