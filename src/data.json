@@ -1,7 +1,7 @@
 {
- "builtAt": "07 Oct 2026, 15:51",
+ "builtAt": "13 Oct 2026, 10:40",
  "regClose": "2026-09-07",
- "daysToClose": -30,
+ "daysToClose": -36,
  "minTrendDays": 3,
  "totals": {
   "concepts": 111,
@@ -15,8 +15,8 @@
   "sessions": 31,
   "sessionDays": 13,
   "mocks": 0,
-  "graphs": 35,
-  "formulas": 118
+  "graphs": 36,
+  "formulas": 135
  },
  "statusBreakdown": [
   {
@@ -4585,6 +4585,24 @@
   }
  ],
  "reviewQueue": [
+  {
+   "item": "Magnetism redrill: B of straight wire with exponents (fresh numbers, write each power-of-10 step), parallel wires direction",
+   "rung": 1,
+   "due": "2026-10-09",
+   "note": "F2 slipped 8 Oct — exponent handling and reading the given distance"
+  },
+  {
+   "item": "Current Electricity — redrill: flip 1/R, drift velocity inversion, KVL opposing batteries, balanced-bridge equivalent (drill Q1/Q4/Q5/Q6 fresh variants)",
+   "rung": 1,
+   "due": "2026-10-08",
+   "note": "Not yet attempted independently on 7 Oct (tutor solved on request)"
+  },
+  {
+   "item": "Last-step slips (flip 1/R, substitute back, count zeros)",
+   "rung": 1,
+   "due": "2026-10-08",
+   "note": "3 slips in one session on 7 Oct — concept right, final line wrong"
+  },
   {
    "item": "QNH vs QFE",
    "rung": 4,
@@ -27548,6 +27566,125 @@
    "formula": "Voltmeter: R = V / I_g - G, in SERIES",
    "meaning": "Convert galvanometer to voltmeter",
    "notes": "Huge resistance. Result can never be negative — built-in check",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Electromagnetic Induction",
+   "formula": "Phi = B A cos(theta)",
+   "meaning": "Magnetic flux, unit weber (Wb) = T m^2. theta is the angle between B and the NORMAL",
+   "notes": "Flux uses COS, torque uses SIN. Face-on: maximum. Edge-on: zero",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Electromagnetic Induction",
+   "formula": "emf = -N (change in Phi) / (change in t)",
+   "meaning": "Faraday's law",
+   "notes": "EMF = minus the slope of the flux-time graph. Constant flux gives ZERO emf, however large the flux",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Electromagnetic Induction",
+   "formula": "Lenz's law: induced current OPPOSES the change in flux",
+   "meaning": "The minus sign in Faraday's law",
+   "notes": "Comes from conservation of energy. Approaching N pole: near face becomes N and repels",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Electromagnetic Induction",
+   "formula": "emf = B l v",
+   "meaning": "Motional emf, rod moving across a field",
+   "notes": "Rod must cut across the field lines. Moving along B gives zero",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Electromagnetic Induction",
+   "formula": "I = B l v / R ; F = B^2 l^2 v / R ; P = B^2 l^2 v^2 / R",
+   "meaning": "Current, opposing force and power for a rod on rails",
+   "notes": "The force opposes the motion (Lenz)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Electromagnetic Induction",
+   "formula": "emf = -L dI/dt",
+   "meaning": "Self-inductance, L in henry (H)",
+   "notes": "Steady DC gives no back-emf: inductor acts like a wire",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Electromagnetic Induction",
+   "formula": "L = mu0 N^2 A / l",
+   "meaning": "Solenoid inductance",
+   "notes": "N is SQUARED: double the turns gives 4 times L",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Electromagnetic Induction",
+   "formula": "U = (1/2) L I^2",
+   "meaning": "Energy stored in an inductor",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Alternating Current",
+   "formula": "e = e0 sin(omega t), omega = 2 pi f",
+   "meaning": "AC emf",
+   "notes": "India: 50 Hz, so omega = 100 pi",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Alternating Current",
+   "formula": "I_rms = I0 / sqrt(2) = 0.707 I0 (same for V)",
+   "meaning": "RMS value",
+   "notes": "Mains 230 V is rms; peak = 230 x 1.414 = 325 V. rms does not depend on frequency",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Alternating Current",
+   "formula": "X_L = omega L = 2 pi f L",
+   "meaning": "Inductive reactance (ohm)",
+   "notes": "Rises with f. For DC X_L = 0",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Alternating Current",
+   "formula": "X_C = 1 / (omega C)",
+   "meaning": "Capacitive reactance (ohm)",
+   "notes": "Falls with f. A capacitor BLOCKS DC",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Alternating Current",
+   "formula": "Z = sqrt(R^2 + (X_L - X_C)^2)",
+   "meaning": "Series LCR impedance",
+   "notes": "Subtract the reactances BEFORE squaring",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Alternating Current",
+   "formula": "tan(phi) = (X_L - X_C) / R",
+   "meaning": "Phase angle",
+   "notes": "CIVIL: in C, I leads V; in L, V leads I",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Alternating Current",
+   "formula": "omega0 = 1 / sqrt(LC) ; f0 = 1 / (2 pi sqrt(LC))",
+   "meaning": "Resonance (X_L = X_C)",
+   "notes": "At resonance Z = R (minimum), current is maximum",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Alternating Current",
+   "formula": "P = V_rms I_rms cos(phi), cos(phi) = R / Z",
+   "meaning": "Average power, power factor",
+   "notes": "Pure L or pure C: P = 0",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Alternating Current",
+   "formula": "Vs / Vp = Ns / Np = Ip / Is",
+   "meaning": "Ideal transformer",
+   "notes": "Step-up: voltage up, current down. Power unchanged",
    "subject": "mathematics"
   }
  ],
