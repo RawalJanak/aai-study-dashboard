@@ -1,5 +1,5 @@
 {
- "builtAt": "13 Oct 2026, 12:45",
+ "builtAt": "13 Oct 2026, 14:57",
  "regClose": "2026-09-07",
  "daysToClose": -36,
  "minTrendDays": 3,
@@ -15,8 +15,8 @@
   "sessions": 31,
   "sessionDays": 13,
   "mocks": 0,
-  "graphs": 37,
-  "formulas": 154
+  "graphs": 38,
+  "formulas": 171
  },
  "statusBreakdown": [
   {
@@ -27818,6 +27818,125 @@
    "formula": "Cramer: x = Dx / D, y = Dy / D",
    "meaning": "Replace the x (or y) column with the constants",
    "notes": "D not 0: unique solution. D = 0 with Dx, Dy not all 0: no solution. D = Dx = Dy = 0: infinitely many",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Ray Optics",
+   "formula": "n = c / v ; n1 sin i = n2 sin r",
+   "meaning": "Refractive index and Snell's law",
+   "notes": "Angles are measured from the NORMAL, not the surface. Rare to dense: bends toward the normal. Dense to rare: away",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Ray Optics",
+   "formula": "sin C = 1 / n",
+   "meaning": "Critical angle",
+   "notes": "TIR needs: dense to rare AND i greater than C. Glass (1.5): C = 41.8 degrees",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Ray Optics",
+   "formula": "n = real depth / apparent depth",
+   "meaning": "Looking into water from above",
+   "notes": "Apparent depth = real / n. Object looks shallower",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Ray Optics",
+   "formula": "Lens: 1/v - 1/u = 1/f ; m = v/u",
+   "meaning": "Thin lens (Cartesian sign convention)",
+   "notes": "u is ALWAYS negative. Convex f positive, concave f negative. FLIP 1/v to get v. Common denominator first; f stays positive",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Ray Optics",
+   "formula": "Mirror: 1/v + 1/u = 1/f ; m = -v/u ; f = R/2",
+   "meaning": "Spherical mirror",
+   "notes": "Concave f negative, convex f positive. Lens and mirror formulas differ in the SIGN between 1/v and 1/u",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Ray Optics",
+   "formula": "1/f = (n - 1)(1/R1 - 1/R2)",
+   "meaning": "Lens maker's formula",
+   "notes": "Biconvex symmetric: f = R / (2(n - 1)). Use relative n if the lens is in a medium",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Ray Optics",
+   "formula": "P = 1/f (f in METRES), unit dioptre",
+   "meaning": "Power of a lens",
+   "notes": "Combination: P = P1 + P2, equivalently 1/f = 1/f1 + 1/f2",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Ray Optics",
+   "formula": "n = sin((A + dm)/2) / sin(A/2)",
+   "meaning": "Prism, minimum deviation",
+   "notes": "Small angle prism: deviation = (n - 1) A",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Ray Optics",
+   "formula": "Telescope: M = f_o / f_e, length = f_o + f_e",
+   "meaning": "Normal adjustment",
+   "notes": "Microscope: M approx (L / f_o)(D / f_e), D = 25 cm",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Ray Optics",
+   "formula": "Myopia: concave lens. Hypermetropia: convex lens",
+   "meaning": "Eye defects",
+   "notes": "Short-sight = far objects blurred",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Wave Optics",
+   "formula": "In a medium: v = c/n, lambda' = lambda/n, frequency unchanged",
+   "meaning": "Huygens, speed and wavelength change",
+   "notes": "Frequency NEVER changes when light enters a medium",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Wave Optics",
+   "formula": "Path difference = y d / D. Bright: n lambda. Dark: (n - 1/2) lambda",
+   "meaning": "Young's double slit",
+   "notes": "y = distance from the central fringe",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Wave Optics",
+   "formula": "Fringe width: beta = lambda D / d",
+   "meaning": "Same for bright and dark fringes",
+   "notes": "Larger D or lambda, smaller d: wider fringes. In water beta' = beta / n. Convert nm and mm to metres first",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Wave Optics",
+   "formula": "I = I1 + I2 + 2 sqrt(I1 I2) cos(phi) ; Imax / Imin = ((a1 + a2) / (a1 - a2))^2",
+   "meaning": "Interference intensity",
+   "notes": "Intensity is proportional to amplitude SQUARED. Needs coherent sources",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Wave Optics",
+   "formula": "Single slit: first minimum a sin(theta) = lambda ; central maximum width = 2 lambda D / a",
+   "meaning": "Diffraction",
+   "notes": "Narrower slit gives a WIDER pattern. Central maximum is widest and brightest",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Wave Optics",
+   "formula": "Malus: I = I0 cos^2(theta)",
+   "meaning": "Polarisation",
+   "notes": "Unpolarised light through one polaroid: I0/2. Polarisation proves light is transverse",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Wave Optics",
+   "formula": "Brewster: tan(i_p) = n",
+   "meaning": "Polarising angle",
+   "notes": "Reflected ray is fully polarised, perpendicular to the refracted ray",
    "subject": "mathematics"
   }
  ],
