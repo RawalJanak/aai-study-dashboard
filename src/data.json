@@ -1,19 +1,19 @@
 {
- "builtAt": "14 Oct 2026, 16:12",
+ "builtAt": "14 Oct 2026, 16:41",
  "regClose": "2026-09-07",
  "daysToClose": -37,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 125,
-  "solid": 92,
-  "learning": 32,
+  "concepts": 129,
+  "solid": 94,
+  "learning": 34,
   "weak": 1,
   "notStarted": 0,
   "lessons": 68,
   "errors": 34,
   "errorsOpen": 0,
-  "sessions": 31,
-  "sessionDays": 13,
+  "sessions": 32,
+  "sessionDays": 14,
   "mocks": 0,
   "graphs": 43,
   "formulas": 199
@@ -29,11 +29,11 @@
   },
   {
    "status": "Learning",
-   "n": 32
+   "n": 34
   },
   {
    "status": "Solid",
-   "n": 92
+   "n": 94
   },
   {
    "status": "Mastered",
@@ -142,9 +142,19 @@
    "other": 1
   },
   {
+   "date": "14 Oct",
+   "total": 1,
+   "cumulative": 25,
+   "teach": 0,
+   "revise": 0,
+   "drill": 0,
+   "mock": 0,
+   "other": 1
+  },
+  {
    "date": "8 Oct",
    "total": 4,
-   "cumulative": 28,
+   "cumulative": 29,
    "teach": 1,
    "revise": 1,
    "drill": 1,
@@ -154,7 +164,7 @@
   {
    "date": "7 Oct",
    "total": 2,
-   "cumulative": 30,
+   "cumulative": 31,
    "teach": 0,
    "revise": 0,
    "drill": 1,
@@ -164,7 +174,7 @@
   {
    "date": "29 Sep",
    "total": 1,
-   "cumulative": 31,
+   "cumulative": 32,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -237,9 +247,9 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "125 concepts logged (92 solid+, 1 weak)",
+    "129 concepts logged (94 solid+, 1 weak)",
     "832 questions banked (98 GK)",
-    "31 sessions logged, 13 days active",
+    "32 sessions logged, 14 days active",
     "34 errors logged, 0 currently open"
    ]
   },
@@ -440,9 +450,9 @@
    "key": "aviation",
    "name": "Aviation",
    "marks": 12,
-   "logged": 7,
-   "solid": 5,
-   "pct": 71
+   "logged": 11,
+   "solid": 7,
+   "pct": 64
   },
   {
    "key": "quant",
@@ -820,6 +830,42 @@
    "status": "Solid",
    "subject": "aviation",
    "evidence": "14 Oct taught with 2 diagram sheets (graphs/avi_03, avi_04); all 5 checks correct",
+   "lesson": null
+  },
+  {
+   "concept": "Indian airports, IATA vs ICAO codes (V = India, VI/VA/VE/VO = region), NMI and Jewar facts",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Learning",
+   "subject": "aviation",
+   "evidence": "14 Oct taught (166 airports, NMI opened 25 Dec 2025, Jewar inaugurated 28 Mar 2026); 'V=India, I=north' answered correctly",
+   "lesson": null
+  },
+  {
+   "concept": "Aviation weather: METAR vs SPECI, fog under 1000 m, mist 1000-5000 m damp, haze dry",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Solid",
+   "subject": "aviation",
+   "evidence": "14 Oct: SPECI, fog 600 m, mist all correct incl. in mixed quiz",
+   "lesson": null
+  },
+  {
+   "concept": "Altimetry: QNH (altitude above MSL), QFE (zero at airfield), QNE (1013.25)",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Solid",
+   "subject": "aviation",
+   "evidence": "14 Oct: QFE=0 and QNH correct x2, BUT history of 3 prior misses (26 Aug, 1 Sep, 21 Sep) — keep in review queue",
+   "lesson": null
+  },
+  {
+   "concept": "Aviation policy: UDAN (full form AND purpose), Modified UDAN, Digi Yatra",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Learning",
+   "subject": "aviation",
+   "evidence": "14 Oct: gave the full form but not the purpose — third half-answer of the day; read for BOTH parts",
    "lesson": null
   },
   {
@@ -3718,6 +3764,13 @@
    "subject": "business"
   },
   {
+   "date": "14 Oct",
+   "type": "Teach+Quiz",
+   "covered": "Aviation 1 (bodies, airport definitions, runway numbers, ARFF, security, passenger journey, airlines, aircraft makers, aerodynamics, control surfaces, Indian airports, METAR/SPECI, altimetry, policy) with 4 diagram sheets (graphs/avi_01-04). Mixed 8-question quiz",
+   "outcome": "8/8. Three half-answers on two-part questions earlier (BCAS/CISF, Immigration/Customs, UDAN), runway-18 opposite missed once (said 27, answer 36) — all cleared",
+   "subject": "aviation"
+  },
+  {
    "date": "8 Oct",
    "type": "Drill",
    "covered": "Fresh variants after magnetism teach: solenoid H1 ✓, voltmeter H2 ✗ (exponent slip), voltmeter retry ✓",
@@ -3800,7 +3853,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-07"
+   "scheduledDate": "2026-09-05"
   },
   {
    "number": 2,
@@ -3815,7 +3868,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-08"
+   "scheduledDate": "2026-09-06"
   },
   {
    "number": 3,
@@ -3830,7 +3883,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-09"
+   "scheduledDate": "2026-09-07"
   },
   {
    "number": 4,
@@ -3845,7 +3898,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-10"
+   "scheduledDate": "2026-09-08"
   },
   {
    "number": 5,
@@ -3860,7 +3913,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-11"
+   "scheduledDate": "2026-09-09"
   },
   {
    "number": 6,
@@ -3875,7 +3928,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-12"
+   "scheduledDate": "2026-09-10"
   },
   {
    "number": 7,
@@ -3890,7 +3943,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-13"
+   "scheduledDate": "2026-09-11"
   },
   {
    "number": 8,
@@ -3905,7 +3958,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-14"
+   "scheduledDate": "2026-09-12"
   },
   {
    "number": 9,
@@ -3920,7 +3973,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-15"
+   "scheduledDate": "2026-09-13"
   },
   {
    "number": 10,
@@ -3935,7 +3988,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-16"
+   "scheduledDate": "2026-09-14"
   },
   {
    "number": 11,
@@ -3950,7 +4003,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-17"
+   "scheduledDate": "2026-09-15"
   },
   {
    "number": 12,
@@ -3965,7 +4018,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-18"
+   "scheduledDate": "2026-09-16"
   },
   {
    "number": 13,
@@ -3980,7 +4033,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-19"
+   "scheduledDate": "2026-09-17"
   },
   {
    "number": 14,
@@ -3995,7 +4048,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-20"
+   "scheduledDate": "2026-09-18"
   },
   {
    "number": 15,
@@ -4010,7 +4063,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-21"
+   "scheduledDate": "2026-09-19"
   },
   {
    "number": 16,
@@ -4025,7 +4078,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-22"
+   "scheduledDate": "2026-09-20"
   },
   {
    "number": 17,
@@ -4040,7 +4093,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-23"
+   "scheduledDate": "2026-09-21"
   },
   {
    "number": 18,
@@ -4055,7 +4108,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-24"
+   "scheduledDate": "2026-09-22"
   },
   {
    "number": 19,
@@ -4070,7 +4123,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-25"
+   "scheduledDate": "2026-09-23"
   },
   {
    "number": 20,
@@ -4085,7 +4138,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-26"
+   "scheduledDate": "2026-09-24"
   },
   {
    "number": 21,
@@ -4100,7 +4153,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-27"
+   "scheduledDate": "2026-09-25"
   },
   {
    "number": 22,
@@ -4115,7 +4168,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-28"
+   "scheduledDate": "2026-09-26"
   },
   {
    "number": 23,
@@ -4130,7 +4183,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-29"
+   "scheduledDate": "2026-09-27"
   },
   {
    "number": 24,
@@ -4145,7 +4198,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-09-30"
+   "scheduledDate": "2026-09-28"
   },
   {
    "number": 25,
@@ -4160,7 +4213,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-01"
+   "scheduledDate": "2026-09-29"
   },
   {
    "number": 26,
@@ -4175,7 +4228,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-02"
+   "scheduledDate": "2026-09-30"
   },
   {
    "number": 27,
@@ -4190,7 +4243,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-03"
+   "scheduledDate": "2026-10-01"
   },
   {
    "number": 28,
@@ -4205,7 +4258,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-10-02"
   },
   {
    "number": 29,
@@ -4220,7 +4273,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-10-03"
   },
   {
    "number": 30,
@@ -4235,7 +4288,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 31,
@@ -4250,7 +4303,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 32,
@@ -4265,7 +4318,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 33,
@@ -4280,7 +4333,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 34,
@@ -4295,7 +4348,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-08"
   },
   {
    "number": 35,
@@ -4310,7 +4363,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 36,
@@ -4325,7 +4378,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 37,
@@ -4340,7 +4393,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 38,
@@ -4355,7 +4408,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 39,
@@ -4370,7 +4423,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 40,
@@ -4385,7 +4438,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 41,
@@ -4400,7 +4453,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-17"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 42,
@@ -4415,7 +4468,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-18"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 43,
@@ -4430,7 +4483,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-19"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 44,
@@ -4445,10 +4498,40 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-20"
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 45,
+   "phase": "Aviation",
+   "title": "Indian airports, IATA vs ICAO codes (V = India, VI/VA/VE/VO = region), NMI and Jewar facts",
+   "objective": "14 Oct taught (166 airports, NMI opened 25 Dec 2025, Jewar inaugurated 28 Mar 2026); 'V=India, I=north' answered correctly",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-19"
+  },
+  {
+   "number": 46,
+   "phase": "Aviation",
+   "title": "Aviation policy: UDAN (full form AND purpose), Modified UDAN, Digi Yatra",
+   "objective": "14 Oct: gave the full form but not the purpose — third half-answer of the day; read for BOTH parts",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-20"
+  },
+  {
+   "number": 47,
    "phase": "Aviation",
    "title": "Revision — Aviation bodies: ICAO, IATA, ACI, MoCA, DGCA, BCAS, AERA, AAI, AAIB (regulator vs operator vs trade body), Runway numbering (heading / 10, opposite = +/-18), ARFF and airport security: 3-minute response, category by largest aircraft, BCAS rules vs CISF enforcement, Airlines in India, aircraft makers (Airbus, Boeing, ATR turboprop, HAL)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Aviation bodies: ICAO, IATA, ACI, MoCA, DGCA, BCAS, AERA, AAI, AAIB (regulator vs operator vs trade body), Runway numbering (heading / 10, opposite = +/-18), ARFF and airport security: 3-minute response, category by largest aircraft, BCAS rules vs CISF enforcement, Airlines in India, aircraft makers (Airbus, Boeing, ATR turboprop, HAL).",
@@ -4463,10 +4546,10 @@
    "scheduledDate": "2026-10-21"
   },
   {
-   "number": 46,
+   "number": 48,
    "phase": "Aviation",
-   "title": "Revision — Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw",
-   "objective": "Fast spaced recap of 1 already-solid concepts: Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw.",
+   "title": "Revision — Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw, Aviation weather: METAR vs SPECI, fog under 1000 m, mist 1000-5000 m damp, haze dry, Altimetry: QNH (altitude above MSL), QFE (zero at airfield), QNE (1013.25)",
+   "objective": "Fast spaced recap of 3 already-solid concepts: Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw, Aviation weather: METAR vs SPECI, fog under 1000 m, mist 1000-5000 m damp, haze dry, Altimetry: QNH (altitude above MSL), QFE (zero at airfield), QNE (1013.25).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -4478,7 +4561,7 @@
    "scheduledDate": "2026-10-22"
   },
   {
-   "number": 47,
+   "number": 49,
    "phase": "Business Mgmt",
    "title": "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
    "objective": "24 Sep: missed first application check (picked Span of Control for a \"route requests through me\" scenario, should be Unity of Command), corrected, cleared 2nd scenario. Only 1 clean rep so far — not yet Solid",
@@ -4493,7 +4576,7 @@
    "scheduledDate": "2026-10-23"
   },
   {
-   "number": 48,
+   "number": 50,
    "phase": "Business Mgmt",
    "title": "Span of Control (headcount one manager can effectively supervise)",
    "objective": "24 Sep: surfaced as the wrong-answer option in the Unity of Command mix-up above; correctly identified on its own dedicated scenario (25 direct reports, no team leads) right after the correction — first exposure, needs a fresh spaced check before Solid",
@@ -4508,7 +4591,7 @@
    "scheduledDate": "2026-10-24"
   },
   {
-   "number": 49,
+   "number": 51,
    "phase": "Business Mgmt",
    "title": "Herzberg's Two-Factor Theory (hygiene vs motivators)",
    "objective": "24 Sep: taught (salary/conditions = hygiene, prevents dissatisfaction only; recognition/growth = motivators, create real drive). Check (uniform+break room won't fix low motivation) answered correctly but reasoning given was just the label restated, not the underlying \"hygiene only cancels dissatisfaction\" logic — needs a deeper-reasoning re-check",
@@ -4523,7 +4606,7 @@
    "scheduledDate": "2026-10-25"
   },
   {
-   "number": 50,
+   "number": 52,
    "phase": "Business Mgmt",
    "title": "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
    "objective": "24 Sep: taught with airport-worker examples per level. Check (temp-contract worker, Safety unmet, would esteem-level recognition help) — both parts (identify level + implication) answered correctly, terse but right",
@@ -4538,7 +4621,7 @@
    "scheduledDate": "2026-10-26"
   },
   {
-   "number": 51,
+   "number": 53,
    "phase": "Business Mgmt",
    "title": "Leadership styles — Autocratic/Democratic/Laissez-Faire",
    "objective": "29 Sep: taught with situational fit (emergency->autocratic, routine planning->democratic, skilled autonomous team->laissez-faire) and the CBT trap (exam tests situational fit, not \"best\" style). Check (gate security breach) — correctly picked Autocratic, but \"why not the others\" reasoning was underdeveloped (just restated the style) until prompted",
@@ -4553,7 +4636,7 @@
    "scheduledDate": "2026-10-27"
   },
   {
-   "number": 52,
+   "number": 54,
    "phase": "Business Mgmt",
    "title": "Strategic management levels — Corporate/Business/Functional",
    "objective": "29 Sep: taught with AAI diversification examples per level. Check (Terminal Ops switching kiosk vendors) — correctly identified Functional-level on the first attempt, reasoning given only after being prompted",
@@ -4568,7 +4651,7 @@
    "scheduledDate": "2026-10-28"
   },
   {
-   "number": 53,
+   "number": 55,
    "phase": "Business Mgmt",
    "title": "SWOT Analysis — internal vs external classification",
    "objective": "29 Sep: taught the internal/external x helpful/harmful 2x2 grid, with the CBT trap of misclassifying external factors as internal. Check (rival airport's terminal expansion) — correctly picked Threat, but \"why not Weakness\" reasoning was not given until prompted",
@@ -4583,7 +4666,7 @@
    "scheduledDate": "2026-10-29"
   },
   {
-   "number": 54,
+   "number": 56,
    "phase": "Business Mgmt",
    "title": "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
    "objective": "29 Sep: taught with the \"Place = distribution channel, not literal location\" trap. Check (duty-free pre-order app) — correctly picked Place on the first attempt, reasoning given only after prompted",
@@ -4598,7 +4681,7 @@
    "scheduledDate": "2026-10-30"
   },
   {
-   "number": 55,
+   "number": 57,
    "phase": "Business Mgmt",
    "title": "TQM and Kaizen (quality = everyone's job, continuous small improvement)",
    "objective": "29 Sep: taught TQM (quality is every employee's responsibility) vs Kaizen (small continuous improvement vs big-bang change). Check (isolated Quality Control Dept, frontline told quality isn't their concern) — missed first attempt (said \"yes\" this reflects TQM), corrected and cleared on retry after being prompted for the missing word (\"everyone's job\")",
@@ -4613,7 +4696,7 @@
    "scheduledDate": "2026-10-31"
   },
   {
-   "number": 56,
+   "number": 58,
    "phase": "Business Mgmt",
    "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
    "objective": "Fast spaced recap of 4 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use.",
@@ -4628,7 +4711,7 @@
    "scheduledDate": "2026-11-01"
   },
   {
-   "number": 57,
+   "number": 59,
    "phase": "Business Mgmt",
    "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards",
    "objective": "Fast spaced recap of 4 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards.",
@@ -4643,7 +4726,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 58,
+   "number": 60,
    "phase": "Business Mgmt",
    "title": "Revision — Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze)",
    "objective": "Fast spaced recap of 1 already-solid concepts: Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze).",
@@ -4658,7 +4741,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 59,
+   "number": 61,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4673,7 +4756,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 60,
+   "number": 62,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4688,7 +4771,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 61,
+   "number": 63,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4703,7 +4786,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 62,
+   "number": 64,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4718,7 +4801,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 63,
+   "number": 65,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4733,7 +4816,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 64,
+   "number": 66,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4748,7 +4831,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 65,
+   "number": 67,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4763,7 +4846,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 66,
+   "number": 68,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4778,7 +4861,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 67,
+   "number": 69,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4793,7 +4876,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 68,
+   "number": 70,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4808,7 +4891,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 69,
+   "number": 71,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4823,7 +4906,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 70,
+   "number": 72,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4838,7 +4921,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 71,
+   "number": 73,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4853,7 +4936,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 72,
+   "number": 74,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4868,7 +4951,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 73,
+   "number": 75,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -28612,11 +28695,15 @@
     "ARFF and airport security: 3-minute response, category by largest aircraft, BCAS rules vs CISF enforcement",
     "Passenger journey and agencies (Immigration/Customs/APHO)",
     "Airlines in India, aircraft makers (Airbus, Boeing, ATR turboprop, HAL)",
-    "Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw"
+    "Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw",
+    "Indian airports, IATA vs ICAO codes (V = India, VI/VA/VE/VO = region), NMI and Jewar facts",
+    "Aviation weather: METAR vs SPECI, fog under 1000 m, mist 1000-5000 m damp, haze dry",
+    "Altimetry: QNH (altitude above MSL), QFE (zero at airfield), QNE (1013.25)",
+    "Aviation policy: UDAN (full form AND purpose), Modified UDAN, Digi Yatra"
    ],
-   "total": 7,
-   "solid": 5,
-   "pct": 71,
+   "total": 11,
+   "solid": 7,
+   "pct": 64,
    "formulaCount": 0,
    "questionIds": [
     "Q1",
