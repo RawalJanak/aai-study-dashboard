@@ -1,12 +1,12 @@
 {
- "builtAt": "14 Oct 2026, 15:48",
+ "builtAt": "14 Oct 2026, 16:12",
  "regClose": "2026-09-07",
  "daysToClose": -37,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 118,
-  "solid": 87,
-  "learning": 30,
+  "concepts": 125,
+  "solid": 92,
+  "learning": 32,
   "weak": 1,
   "notStarted": 0,
   "lessons": 68,
@@ -15,8 +15,8 @@
   "sessions": 31,
   "sessionDays": 13,
   "mocks": 0,
-  "graphs": 39,
-  "formulas": 183
+  "graphs": 43,
+  "formulas": 199
  },
  "statusBreakdown": [
   {
@@ -29,11 +29,11 @@
   },
   {
    "status": "Learning",
-   "n": 30
+   "n": 32
   },
   {
    "status": "Solid",
-   "n": 87
+   "n": 92
   },
   {
    "status": "Mastered",
@@ -237,7 +237,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "118 concepts logged (87 solid+, 1 weak)",
+    "125 concepts logged (92 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "31 sessions logged, 13 days active",
     "34 errors logged, 0 currently open"
@@ -435,6 +435,14 @@
    "logged": 18,
    "solid": 9,
    "pct": 50
+  },
+  {
+   "key": "aviation",
+   "name": "Aviation",
+   "marks": 12,
+   "logged": 7,
+   "solid": 5,
+   "pct": 71
   },
   {
    "key": "quant",
@@ -749,6 +757,69 @@
    "status": "Weak",
    "subject": "mathematics",
    "evidence": "13 Oct taught with graph sheet (graphs/mod_01); KE_max check (1.63 eV) and 4-question recall check NOT attempted by Janak. FLAGGED 14 Oct for later re-teach/recall.",
+   "lesson": null
+  },
+  {
+   "concept": "Aviation bodies: ICAO, IATA, ACI, MoCA, DGCA, BCAS, AERA, AAI, AAIB (regulator vs operator vs trade body)",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Solid",
+   "subject": "aviation",
+   "evidence": "14 Oct: AERA tariffs and IATA-not-a-regulator correct first attempt",
+   "lesson": null
+  },
+  {
+   "concept": "Airport definitions: aerodrome, runway, taxiway, apron, stand, airside/landside, aircraft vs aeroplane",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Learning",
+   "subject": "aviation",
+   "evidence": "14 Oct taught with layout diagram (graphs/avi_01); no independent check yet",
+   "lesson": null
+  },
+  {
+   "concept": "Runway numbering (heading / 10, opposite = +/-18)",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Solid",
+   "subject": "aviation",
+   "evidence": "14 Oct: missed first (said 27 for opposite of 18; answer 36), cleared on 2 fresh variants (06 to 24, 31 to 13)",
+   "lesson": null
+  },
+  {
+   "concept": "ARFF and airport security: 3-minute response, category by largest aircraft, BCAS rules vs CISF enforcement",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Solid",
+   "subject": "aviation",
+   "evidence": "14 Oct: BCAS/CISF and Customs/Immigration each answered half the first time (missed the second part), cleared on retry — read for BOTH parts",
+   "lesson": null
+  },
+  {
+   "concept": "Passenger journey and agencies (Immigration/Customs/APHO)",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Learning",
+   "subject": "aviation",
+   "evidence": "14 Oct taught with flow diagram (graphs/avi_02)",
+   "lesson": null
+  },
+  {
+   "concept": "Airlines in India, aircraft makers (Airbus, Boeing, ATR turboprop, HAL)",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Solid",
+   "subject": "aviation",
+   "evidence": "14 Oct: IndiGo largest, ATR turboprops correct",
+   "lesson": null
+  },
+  {
+   "concept": "Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Solid",
+   "subject": "aviation",
+   "evidence": "14 Oct taught with 2 diagram sheets (graphs/avi_03, avi_04); all 5 checks correct",
    "lesson": null
   },
   {
@@ -3729,7 +3800,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-11"
+   "scheduledDate": "2026-09-07"
   },
   {
    "number": 2,
@@ -3744,7 +3815,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-12"
+   "scheduledDate": "2026-09-08"
   },
   {
    "number": 3,
@@ -3759,7 +3830,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-13"
+   "scheduledDate": "2026-09-09"
   },
   {
    "number": 4,
@@ -3774,7 +3845,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-14"
+   "scheduledDate": "2026-09-10"
   },
   {
    "number": 5,
@@ -3789,7 +3860,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-15"
+   "scheduledDate": "2026-09-11"
   },
   {
    "number": 6,
@@ -3804,7 +3875,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-16"
+   "scheduledDate": "2026-09-12"
   },
   {
    "number": 7,
@@ -3819,7 +3890,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-17"
+   "scheduledDate": "2026-09-13"
   },
   {
    "number": 8,
@@ -3834,7 +3905,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-18"
+   "scheduledDate": "2026-09-14"
   },
   {
    "number": 9,
@@ -3849,7 +3920,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-19"
+   "scheduledDate": "2026-09-15"
   },
   {
    "number": 10,
@@ -3864,7 +3935,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-20"
+   "scheduledDate": "2026-09-16"
   },
   {
    "number": 11,
@@ -3879,7 +3950,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-21"
+   "scheduledDate": "2026-09-17"
   },
   {
    "number": 12,
@@ -3894,7 +3965,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-22"
+   "scheduledDate": "2026-09-18"
   },
   {
    "number": 13,
@@ -3909,7 +3980,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-23"
+   "scheduledDate": "2026-09-19"
   },
   {
    "number": 14,
@@ -3924,7 +3995,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-24"
+   "scheduledDate": "2026-09-20"
   },
   {
    "number": 15,
@@ -3939,7 +4010,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-25"
+   "scheduledDate": "2026-09-21"
   },
   {
    "number": 16,
@@ -3954,7 +4025,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-26"
+   "scheduledDate": "2026-09-22"
   },
   {
    "number": 17,
@@ -3969,7 +4040,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-27"
+   "scheduledDate": "2026-09-23"
   },
   {
    "number": 18,
@@ -3984,7 +4055,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-28"
+   "scheduledDate": "2026-09-24"
   },
   {
    "number": 19,
@@ -3999,7 +4070,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-29"
+   "scheduledDate": "2026-09-25"
   },
   {
    "number": 20,
@@ -4014,7 +4085,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-30"
+   "scheduledDate": "2026-09-26"
   },
   {
    "number": 21,
@@ -4029,7 +4100,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-01"
+   "scheduledDate": "2026-09-27"
   },
   {
    "number": 22,
@@ -4044,7 +4115,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-02"
+   "scheduledDate": "2026-09-28"
   },
   {
    "number": 23,
@@ -4059,7 +4130,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-03"
+   "scheduledDate": "2026-09-29"
   },
   {
    "number": 24,
@@ -4074,7 +4145,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-09-30"
   },
   {
    "number": 25,
@@ -4089,7 +4160,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-10-01"
   },
   {
    "number": 26,
@@ -4104,7 +4175,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-10-02"
   },
   {
    "number": 27,
@@ -4119,7 +4190,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-10-03"
   },
   {
    "number": 28,
@@ -4134,7 +4205,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 29,
@@ -4149,7 +4220,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 30,
@@ -4164,7 +4235,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 31,
@@ -4179,7 +4250,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 32,
@@ -4194,7 +4265,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-08"
   },
   {
    "number": 33,
@@ -4209,7 +4280,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-09"
   },
   {
    "number": 34,
@@ -4224,7 +4295,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-10"
   },
   {
    "number": 35,
@@ -4239,7 +4310,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-15"
+   "scheduledDate": "2026-10-11"
   },
   {
    "number": 36,
@@ -4254,7 +4325,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-16"
+   "scheduledDate": "2026-10-12"
   },
   {
    "number": 37,
@@ -4269,7 +4340,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-17"
+   "scheduledDate": "2026-10-13"
   },
   {
    "number": 38,
@@ -4284,7 +4355,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-18"
+   "scheduledDate": "2026-10-14"
   },
   {
    "number": 39,
@@ -4299,7 +4370,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-19"
+   "scheduledDate": "2026-10-15"
   },
   {
    "number": 40,
@@ -4314,7 +4385,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-20"
+   "scheduledDate": "2026-10-16"
   },
   {
    "number": 41,
@@ -4329,7 +4400,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-21"
+   "scheduledDate": "2026-10-17"
   },
   {
    "number": 42,
@@ -4344,10 +4415,70 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-22"
+   "scheduledDate": "2026-10-18"
   },
   {
    "number": 43,
+   "phase": "Aviation",
+   "title": "Airport definitions: aerodrome, runway, taxiway, apron, stand, airside/landside, aircraft vs aeroplane",
+   "objective": "14 Oct taught with layout diagram (graphs/avi_01); no independent check yet",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-19"
+  },
+  {
+   "number": 44,
+   "phase": "Aviation",
+   "title": "Passenger journey and agencies (Immigration/Customs/APHO)",
+   "objective": "14 Oct taught with flow diagram (graphs/avi_02)",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-20"
+  },
+  {
+   "number": 45,
+   "phase": "Aviation",
+   "title": "Revision — Aviation bodies: ICAO, IATA, ACI, MoCA, DGCA, BCAS, AERA, AAI, AAIB (regulator vs operator vs trade body), Runway numbering (heading / 10, opposite = +/-18), ARFF and airport security: 3-minute response, category by largest aircraft, BCAS rules vs CISF enforcement, Airlines in India, aircraft makers (Airbus, Boeing, ATR turboprop, HAL)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Aviation bodies: ICAO, IATA, ACI, MoCA, DGCA, BCAS, AERA, AAI, AAIB (regulator vs operator vs trade body), Runway numbering (heading / 10, opposite = +/-18), ARFF and airport security: 3-minute response, category by largest aircraft, BCAS rules vs CISF enforcement, Airlines in India, aircraft makers (Airbus, Boeing, ATR turboprop, HAL).",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-21"
+  },
+  {
+   "number": 46,
+   "phase": "Aviation",
+   "title": "Revision — Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw",
+   "objective": "Fast spaced recap of 1 already-solid concepts: Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-22"
+  },
+  {
+   "number": 47,
    "phase": "Business Mgmt",
    "title": "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
    "objective": "24 Sep: missed first application check (picked Span of Control for a \"route requests through me\" scenario, should be Unity of Command), corrected, cleared 2nd scenario. Only 1 clean rep so far — not yet Solid",
@@ -4362,7 +4493,7 @@
    "scheduledDate": "2026-10-23"
   },
   {
-   "number": 44,
+   "number": 48,
    "phase": "Business Mgmt",
    "title": "Span of Control (headcount one manager can effectively supervise)",
    "objective": "24 Sep: surfaced as the wrong-answer option in the Unity of Command mix-up above; correctly identified on its own dedicated scenario (25 direct reports, no team leads) right after the correction — first exposure, needs a fresh spaced check before Solid",
@@ -4377,7 +4508,7 @@
    "scheduledDate": "2026-10-24"
   },
   {
-   "number": 45,
+   "number": 49,
    "phase": "Business Mgmt",
    "title": "Herzberg's Two-Factor Theory (hygiene vs motivators)",
    "objective": "24 Sep: taught (salary/conditions = hygiene, prevents dissatisfaction only; recognition/growth = motivators, create real drive). Check (uniform+break room won't fix low motivation) answered correctly but reasoning given was just the label restated, not the underlying \"hygiene only cancels dissatisfaction\" logic — needs a deeper-reasoning re-check",
@@ -4392,7 +4523,7 @@
    "scheduledDate": "2026-10-25"
   },
   {
-   "number": 46,
+   "number": 50,
    "phase": "Business Mgmt",
    "title": "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
    "objective": "24 Sep: taught with airport-worker examples per level. Check (temp-contract worker, Safety unmet, would esteem-level recognition help) — both parts (identify level + implication) answered correctly, terse but right",
@@ -4407,7 +4538,7 @@
    "scheduledDate": "2026-10-26"
   },
   {
-   "number": 47,
+   "number": 51,
    "phase": "Business Mgmt",
    "title": "Leadership styles — Autocratic/Democratic/Laissez-Faire",
    "objective": "29 Sep: taught with situational fit (emergency->autocratic, routine planning->democratic, skilled autonomous team->laissez-faire) and the CBT trap (exam tests situational fit, not \"best\" style). Check (gate security breach) — correctly picked Autocratic, but \"why not the others\" reasoning was underdeveloped (just restated the style) until prompted",
@@ -4422,7 +4553,7 @@
    "scheduledDate": "2026-10-27"
   },
   {
-   "number": 48,
+   "number": 52,
    "phase": "Business Mgmt",
    "title": "Strategic management levels — Corporate/Business/Functional",
    "objective": "29 Sep: taught with AAI diversification examples per level. Check (Terminal Ops switching kiosk vendors) — correctly identified Functional-level on the first attempt, reasoning given only after being prompted",
@@ -4437,7 +4568,7 @@
    "scheduledDate": "2026-10-28"
   },
   {
-   "number": 49,
+   "number": 53,
    "phase": "Business Mgmt",
    "title": "SWOT Analysis — internal vs external classification",
    "objective": "29 Sep: taught the internal/external x helpful/harmful 2x2 grid, with the CBT trap of misclassifying external factors as internal. Check (rival airport's terminal expansion) — correctly picked Threat, but \"why not Weakness\" reasoning was not given until prompted",
@@ -4452,7 +4583,7 @@
    "scheduledDate": "2026-10-29"
   },
   {
-   "number": 50,
+   "number": 54,
    "phase": "Business Mgmt",
    "title": "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
    "objective": "29 Sep: taught with the \"Place = distribution channel, not literal location\" trap. Check (duty-free pre-order app) — correctly picked Place on the first attempt, reasoning given only after prompted",
@@ -4467,7 +4598,7 @@
    "scheduledDate": "2026-10-30"
   },
   {
-   "number": 51,
+   "number": 55,
    "phase": "Business Mgmt",
    "title": "TQM and Kaizen (quality = everyone's job, continuous small improvement)",
    "objective": "29 Sep: taught TQM (quality is every employee's responsibility) vs Kaizen (small continuous improvement vs big-bang change). Check (isolated Quality Control Dept, frontline told quality isn't their concern) — missed first attempt (said \"yes\" this reflects TQM), corrected and cleared on retry after being prompted for the missing word (\"everyone's job\")",
@@ -4482,7 +4613,7 @@
    "scheduledDate": "2026-10-31"
   },
   {
-   "number": 52,
+   "number": 56,
    "phase": "Business Mgmt",
    "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
    "objective": "Fast spaced recap of 4 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use.",
@@ -4497,7 +4628,7 @@
    "scheduledDate": "2026-11-01"
   },
   {
-   "number": 53,
+   "number": 57,
    "phase": "Business Mgmt",
    "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards",
    "objective": "Fast spaced recap of 4 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards.",
@@ -4512,7 +4643,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 54,
+   "number": 58,
    "phase": "Business Mgmt",
    "title": "Revision — Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze)",
    "objective": "Fast spaced recap of 1 already-solid concepts: Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze).",
@@ -4527,7 +4658,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 55,
+   "number": 59,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4542,7 +4673,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 56,
+   "number": 60,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4557,7 +4688,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 57,
+   "number": 61,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4572,7 +4703,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 58,
+   "number": 62,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4587,7 +4718,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 59,
+   "number": 63,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4602,7 +4733,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 60,
+   "number": 64,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4617,7 +4748,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 61,
+   "number": 65,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4632,7 +4763,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 62,
+   "number": 66,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4647,7 +4778,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 63,
+   "number": 67,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4662,7 +4793,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 64,
+   "number": 68,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4677,7 +4808,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 65,
+   "number": 69,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4692,7 +4823,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 66,
+   "number": 70,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4707,7 +4838,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 67,
+   "number": 71,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4722,7 +4853,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 68,
+   "number": 72,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4737,7 +4868,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 69,
+   "number": 73,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -28190,6 +28321,118 @@
    "meaning": "Decay types",
    "notes": "—",
    "subject": "mathematics"
+  },
+  {
+   "group": "Aviation Bodies and Airport Basics",
+   "formula": "ICAO = UN agency, sets global standards (SARPs), HQ Montreal",
+   "meaning": "Does NOT operate airlines or airports",
+   "notes": "IATA and ACI are trade bodies (airlines, airports), NOT regulators",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation Bodies and Airport Basics",
+   "formula": "DGCA = safety regulator (licences, airworthiness, airline approvals)",
+   "meaning": "Under MoCA",
+   "notes": "Regulators: DGCA, BCAS, AERA. They do not run airports",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation Bodies and Airport Basics",
+   "formula": "BCAS = security regulator (writes the rules) ; CISF = carries them out at the gate",
+   "meaning": "BCAS under MoCA",
+   "notes": "BCAS makes the rules, CISF enforces them. Read the question for BOTH parts",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation Bodies and Airport Basics",
+   "formula": "AERA = economic regulator, sets airport charges and tariffs",
+   "meaning": "Act 2008, body formed 2009",
+   "notes": "Money and tariffs",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation Bodies and Airport Basics",
+   "formula": "AAI = builds, owns and manages airports AND provides air traffic control",
+   "meaning": "AAI Act 1994",
+   "notes": "Private JV airports (Delhi, Mumbai, Hyderabad, Bengaluru, Cochin) still answer to DGCA, BCAS, AERA",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation Bodies and Airport Basics",
+   "formula": "India: 166 operational airports (Rajya Sabha reply, 3 Aug 2026)",
+   "meaning": "Current fact, verified",
+   "notes": "Counts differ by source: 164 to 166",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation Bodies and Airport Basics",
+   "formula": "Aerodrome = any defined area; airport = aerodrome with passenger/cargo facilities",
+   "meaning": "Definitions",
+   "notes": "Aircraft includes balloons and helicopters; aeroplane = powered fixed-wing only",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation Bodies and Airport Basics",
+   "formula": "Runway number = magnetic heading / 10 ; opposite end = number +/- 18",
+   "meaning": "09 = east, 18 = south, 27 = west, 36 = north",
+   "notes": "09 pairs with 27, 18 pairs with 36. Parallel runways add L, C, R",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation Bodies and Airport Basics",
+   "formula": "ARFF response time: 3 minutes (ICAO objective), ideally 2 minutes",
+   "meaning": "Rescue and fire fighting",
+   "notes": "Category 1 to 10 depends on the LARGEST aircraft regularly using the airport, not on passenger numbers",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation Bodies and Airport Basics",
+   "formula": "PESC = pre-embarkation security check ; SHA = security hold area",
+   "meaning": "CISF does the checking",
+   "notes": "Immigration = people (passports), Customs = goods, Health (APHO) = disease",
+   "subject": "aviation"
+  },
+  {
+   "group": "Aviation Bodies and Airport Basics",
+   "formula": "Domestic share Aug 2026 (DGCA): IndiGo ~65%, Air India Group ~26.7%, Akasa ~5.5%, SpiceJet ~1.2%",
+   "meaning": "Current fact, verified",
+   "notes": "ATR makes turboprops (regional routes); Airbus and Boeing make the big jets",
+   "subject": "aviation"
+  },
+  {
+   "group": "Basic Aerodynamics",
+   "formula": "Level flight: lift = weight, thrust = drag",
+   "meaning": "The four forces",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Basic Aerodynamics",
+   "formula": "L = (1/2) rho v^2 S C_L",
+   "meaning": "Lift formula",
+   "notes": "More speed, wing area or angle of attack gives more lift",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Basic Aerodynamics",
+   "formula": "A stall happens at a critical ANGLE of attack (about 15 to 18 degrees), not at a particular speed",
+   "meaning": "Airflow separates and lift collapses",
+   "notes": "Stall is about angle, not speed",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Basic Aerodynamics",
+   "formula": "Ailerons = ROLL (longitudinal axis), elevator = PITCH (lateral axis), rudder = YAW (vertical axis)",
+   "meaning": "Control surfaces",
+   "notes": "Ailerons move in OPPOSITE directions. Elevator up = tail down = nose UP",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Basic Aerodynamics",
+   "formula": "Flaps and slats: more lift at low speed. Spoilers: reduce lift, add drag",
+   "meaning": "High-lift and drag devices",
+   "notes": "Flaps do not steer",
+   "subject": "mathematics"
   }
  ],
  "chapters": [
@@ -28357,6 +28600,40 @@
    "pct": 0,
    "formulaCount": 0,
    "questionIds": []
+  },
+  {
+   "slug": "aviation-aviation-gk",
+   "subject": "aviation",
+   "name": "Aviation GK",
+   "concepts": [
+    "Aviation bodies: ICAO, IATA, ACI, MoCA, DGCA, BCAS, AERA, AAI, AAIB (regulator vs operator vs trade body)",
+    "Airport definitions: aerodrome, runway, taxiway, apron, stand, airside/landside, aircraft vs aeroplane",
+    "Runway numbering (heading / 10, opposite = +/-18)",
+    "ARFF and airport security: 3-minute response, category by largest aircraft, BCAS rules vs CISF enforcement",
+    "Passenger journey and agencies (Immigration/Customs/APHO)",
+    "Airlines in India, aircraft makers (Airbus, Boeing, ATR turboprop, HAL)",
+    "Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw"
+   ],
+   "total": 7,
+   "solid": 5,
+   "pct": 71,
+   "formulaCount": 0,
+   "questionIds": [
+    "Q1",
+    "Q3",
+    "Q4",
+    "Q6",
+    "Q7",
+    "Q8",
+    "Q9",
+    "Q10",
+    "Q11",
+    "Q12",
+    "Q13",
+    "Q14",
+    "Q46",
+    "Q47"
+   ]
   },
   {
    "slug": "mathematics-differentiation",
