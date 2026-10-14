@@ -1,13 +1,13 @@
 {
- "builtAt": "13 Oct 2026, 14:57",
+ "builtAt": "14 Oct 2026, 15:48",
  "regClose": "2026-09-07",
- "daysToClose": -36,
+ "daysToClose": -37,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 111,
+  "concepts": 118,
   "solid": 87,
-  "learning": 24,
-  "weak": 0,
+  "learning": 30,
+  "weak": 1,
   "notStarted": 0,
   "lessons": 68,
   "errors": 34,
@@ -15,8 +15,8 @@
   "sessions": 31,
   "sessionDays": 13,
   "mocks": 0,
-  "graphs": 38,
-  "formulas": 171
+  "graphs": 39,
+  "formulas": 183
  },
  "statusBreakdown": [
   {
@@ -25,11 +25,11 @@
   },
   {
    "status": "Weak",
-   "n": 0
+   "n": 1
   },
   {
    "status": "Learning",
-   "n": 24
+   "n": 30
   },
   {
    "status": "Solid",
@@ -237,7 +237,7 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "111 concepts logged (87 solid+, 0 weak)",
+    "118 concepts logged (87 solid+, 1 weak)",
     "832 questions banked (98 GK)",
     "31 sessions logged, 13 days active",
     "34 errors logged, 0 currently open"
@@ -416,9 +416,9 @@
    "key": "mathematics",
    "name": "Mathematics",
    "marks": 24,
-   "logged": 20,
+   "logged": 27,
    "solid": 16,
-   "pct": 80
+   "pct": 59
   },
   {
    "key": "physics",
@@ -686,6 +686,69 @@
    "status": "Learning",
    "subject": "physics",
    "evidence": "7 Oct: taught with plotted bridge diagram (graphs/phy_06); check P=10,Q=20,R=15 → S=30 correct first attempt. Balanced-bridge equivalent-resistance trap and meter bridge not yet attempted independently",
+   "lesson": null
+  },
+  {
+   "concept": "Flux, Faraday, Lenz, motional EMF, self-inductance",
+   "group": "Physics and Maths blocks taught 13-14 Oct (formulas-first fast pass, 14 Oct)",
+   "chapter": "Electromagnetic Induction",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "13 Oct taught with diagram sheet (graphs/phy_10); two checks (flat flux → EMF 0; ε = Blv = 0.4 V) not attempted by Janak",
+   "lesson": null
+  },
+  {
+   "concept": "AC: rms, reactance, impedance, resonance, transformer",
+   "group": "Physics and Maths blocks taught 13-14 Oct (formulas-first fast pass, 14 Oct)",
+   "chapter": "Alternating Current",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "13 Oct taught; rms check solved by tutor (7.07 A)",
+   "lesson": null
+  },
+  {
+   "concept": "Probability: complement, OR, independent, conditional, Bayes, binomial",
+   "group": "Physics and Maths blocks taught 13-14 Oct (formulas-first fast pass, 14 Oct)",
+   "chapter": "Probability",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "13 Oct: at-least-one 15/16 correct; dependent draw 2/15 correct with working; Bayes factory 7/19 correct (self-corrected from 12/19)",
+   "lesson": null
+  },
+  {
+   "concept": "Matrices: multiplication, determinant, inverse, Cramer",
+   "group": "Physics and Maths blocks taught 13-14 Oct (formulas-first fast pass, 14 Oct)",
+   "chapter": "Matrices and Determinants",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "13 Oct: det=5 and inverse (1/5)[4 -1;-3 2] correct; Cramer D=1,Dx=1,Dy=2 correct",
+   "lesson": null
+  },
+  {
+   "concept": "Ray optics: Snell, TIR, lens formula, mirror, depth",
+   "group": "Physics and Maths blocks taught 13-14 Oct (formulas-first fast pass, 14 Oct)",
+   "chapter": "Ray Optics",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "13 Oct: lens v=30,m=-1/2 reached after one arithmetic slip; f=15,u=-30 → v=30,m=-1 correct (sign slips in the written line)",
+   "lesson": null
+  },
+  {
+   "concept": "Wave optics: YDSE, diffraction, polarisation",
+   "group": "Physics and Maths blocks taught 13-14 Oct (formulas-first fast pass, 14 Oct)",
+   "chapter": "Wave Optics",
+   "status": "Learning",
+   "subject": "mathematics",
+   "evidence": "13 Oct: fringe width 2.4 mm correct, exponents clean",
+   "lesson": null
+  },
+  {
+   "concept": "Photoelectric effect, de Broglie, Bohr, nuclei",
+   "group": "Physics and Maths blocks taught 13-14 Oct (formulas-first fast pass, 14 Oct)",
+   "chapter": "Modern Physics",
+   "status": "Weak",
+   "subject": "mathematics",
+   "evidence": "13 Oct taught with graph sheet (graphs/mod_01); KE_max check (1.63 eV) and 4-question recall check NOT attempted by Janak. FLAGGED 14 Oct for later re-teach/recall.",
    "lesson": null
   },
   {
@@ -3666,7 +3729,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-18"
+   "scheduledDate": "2026-09-11"
   },
   {
    "number": 2,
@@ -3681,7 +3744,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-19"
+   "scheduledDate": "2026-09-12"
   },
   {
    "number": 3,
@@ -3696,7 +3759,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-20"
+   "scheduledDate": "2026-09-13"
   },
   {
    "number": 4,
@@ -3711,7 +3774,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-21"
+   "scheduledDate": "2026-09-14"
   },
   {
    "number": 5,
@@ -3726,7 +3789,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-22"
+   "scheduledDate": "2026-09-15"
   },
   {
    "number": 6,
@@ -3741,7 +3804,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-23"
+   "scheduledDate": "2026-09-16"
   },
   {
    "number": 7,
@@ -3756,7 +3819,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-24"
+   "scheduledDate": "2026-09-17"
   },
   {
    "number": 8,
@@ -3771,7 +3834,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-25"
+   "scheduledDate": "2026-09-18"
   },
   {
    "number": 9,
@@ -3786,7 +3849,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-26"
+   "scheduledDate": "2026-09-19"
   },
   {
    "number": 10,
@@ -3801,7 +3864,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-27"
+   "scheduledDate": "2026-09-20"
   },
   {
    "number": 11,
@@ -3816,7 +3879,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-28"
+   "scheduledDate": "2026-09-21"
   },
   {
    "number": 12,
@@ -3831,7 +3894,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-29"
+   "scheduledDate": "2026-09-22"
   },
   {
    "number": 13,
@@ -3846,7 +3909,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-09-30"
+   "scheduledDate": "2026-09-23"
   },
   {
    "number": 14,
@@ -3861,7 +3924,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-01"
+   "scheduledDate": "2026-09-24"
   },
   {
    "number": 15,
@@ -3876,7 +3939,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-02"
+   "scheduledDate": "2026-09-25"
   },
   {
    "number": 16,
@@ -3891,7 +3954,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-03"
+   "scheduledDate": "2026-09-26"
   },
   {
    "number": 17,
@@ -3906,7 +3969,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-04"
+   "scheduledDate": "2026-09-27"
   },
   {
    "number": 18,
@@ -3921,7 +3984,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-05"
+   "scheduledDate": "2026-09-28"
   },
   {
    "number": 19,
@@ -3936,7 +3999,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-06"
+   "scheduledDate": "2026-09-29"
   },
   {
    "number": 20,
@@ -3951,7 +4014,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-07"
+   "scheduledDate": "2026-09-30"
   },
   {
    "number": 21,
@@ -3966,7 +4029,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-08"
+   "scheduledDate": "2026-10-01"
   },
   {
    "number": 22,
@@ -3981,7 +4044,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-09"
+   "scheduledDate": "2026-10-02"
   },
   {
    "number": 23,
@@ -3996,7 +4059,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-10"
+   "scheduledDate": "2026-10-03"
   },
   {
    "number": 24,
@@ -4011,7 +4074,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-11"
+   "scheduledDate": "2026-10-04"
   },
   {
    "number": 25,
@@ -4026,7 +4089,7 @@
     "speed": "pass"
    },
    "status": "done",
-   "scheduledDate": "2026-10-12"
+   "scheduledDate": "2026-10-05"
   },
   {
    "number": 26,
@@ -4041,7 +4104,7 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-13"
+   "scheduledDate": "2026-10-06"
   },
   {
    "number": 27,
@@ -4056,10 +4119,115 @@
     "speed": "unrated"
    },
    "status": "not_started",
-   "scheduledDate": "2026-10-14"
+   "scheduledDate": "2026-10-07"
   },
   {
    "number": 28,
+   "phase": "Maths",
+   "title": "Flux, Faraday, Lenz, motional EMF, self-inductance",
+   "objective": "13 Oct taught with diagram sheet (graphs/phy_10); two checks (flat flux → EMF 0; ε = Blv = 0.4 V) not attempted by Janak",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-08"
+  },
+  {
+   "number": 29,
+   "phase": "Maths",
+   "title": "AC: rms, reactance, impedance, resonance, transformer",
+   "objective": "13 Oct taught; rms check solved by tutor (7.07 A)",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-09"
+  },
+  {
+   "number": 30,
+   "phase": "Maths",
+   "title": "Probability: complement, OR, independent, conditional, Bayes, binomial",
+   "objective": "13 Oct: at-least-one 15/16 correct; dependent draw 2/15 correct with working; Bayes factory 7/19 correct (self-corrected from 12/19)",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-10"
+  },
+  {
+   "number": 31,
+   "phase": "Maths",
+   "title": "Matrices: multiplication, determinant, inverse, Cramer",
+   "objective": "13 Oct: det=5 and inverse (1/5)[4 -1;-3 2] correct; Cramer D=1,Dx=1,Dy=2 correct",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-11"
+  },
+  {
+   "number": 32,
+   "phase": "Maths",
+   "title": "Ray optics: Snell, TIR, lens formula, mirror, depth",
+   "objective": "13 Oct: lens v=30,m=-1/2 reached after one arithmetic slip; f=15,u=-30 → v=30,m=-1 correct (sign slips in the written line)",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-12"
+  },
+  {
+   "number": 33,
+   "phase": "Maths",
+   "title": "Wave optics: YDSE, diffraction, polarisation",
+   "objective": "13 Oct: fringe width 2.4 mm correct, exponents clean",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-13"
+  },
+  {
+   "number": 34,
+   "phase": "Maths",
+   "title": "Photoelectric effect, de Broglie, Bohr, nuclei",
+   "objective": "13 Oct taught with graph sheet (graphs/mod_01); KE_max check (1.63 eV) and 4-question recall check NOT attempted by Janak. FLAGGED 14 Oct for later re-teach/recall.",
+   "mastery": {
+    "explain": "unrated",
+    "recall": "unrated",
+    "apply": "unrated",
+    "spot_trap": "unrated",
+    "speed": "unrated"
+   },
+   "status": "not_started",
+   "scheduledDate": "2026-10-14"
+  },
+  {
+   "number": 35,
    "phase": "Maths",
    "title": "Product rule — both factors in each term",
    "objective": "dropped the v in u′v on (2x+1)⁴·x",
@@ -4074,7 +4242,7 @@
    "scheduledDate": "2026-10-15"
   },
   {
-   "number": 29,
+   "number": 36,
    "phase": "Maths",
    "title": "Maxima / minima + 2nd derivative test",
    "objective": "taught twice, worked airport-parking example",
@@ -4089,7 +4257,7 @@
    "scheduledDate": "2026-10-16"
   },
   {
-   "number": 30,
+   "number": 37,
    "phase": "Maths",
    "title": "Simplifying final answers",
    "objective": "left 4/4x unsimplified once, then simplified ln(7x) correctly",
@@ -4104,7 +4272,7 @@
    "scheduledDate": "2026-10-17"
   },
   {
-   "number": 31,
+   "number": 38,
    "phase": "Maths",
    "title": "Integration as antiderivative and area",
    "objective": "taught 18 Aug with graphs; area under y=x verified against triangle geometry",
@@ -4119,7 +4287,7 @@
    "scheduledDate": "2026-10-18"
   },
   {
-   "number": 32,
+   "number": 39,
    "phase": "Maths",
    "title": "Revision — Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics",
    "objective": "Fast spaced recap of 4 already-solid concepts: Derivative as rate of change / slope, Power rule, Standard derivatives (sin, cos, eˣ, ln), Chain rule — mechanics.",
@@ -4134,7 +4302,7 @@
    "scheduledDate": "2026-10-19"
   },
   {
-   "number": 33,
+   "number": 40,
    "phase": "Maths",
    "title": "Revision — Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule",
    "objective": "Fast spaced recap of 4 already-solid concepts: Chain rule — \"inside stays unchanged\", Chain rule — multiply not add, Roots as fractional powers, Product rule.",
@@ -4149,7 +4317,7 @@
    "scheduledDate": "2026-10-20"
   },
   {
-   "number": 34,
+   "number": 41,
    "phase": "Maths",
    "title": "Revision — Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C)",
    "objective": "Fast spaced recap of 4 already-solid concepts: Quotient rule — mechanics, Quotient rule — sign and order, Power rule for integration, The constant of integration (+C).",
@@ -4164,7 +4332,7 @@
    "scheduledDate": "2026-10-21"
   },
   {
-   "number": 35,
+   "number": 42,
    "phase": "Maths",
    "title": "Revision — Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative",
    "objective": "Fast spaced recap of 4 already-solid concepts: Integrating a bare constant (treat c as c·x^0), Standard integrals, Definite integrals, Signed area - below the axis counts negative.",
@@ -4179,7 +4347,7 @@
    "scheduledDate": "2026-10-22"
   },
   {
-   "number": 36,
+   "number": 43,
    "phase": "Business Mgmt",
    "title": "Fayol's 14 Principles — Unity of Command vs Scalar Chain",
    "objective": "24 Sep: missed first application check (picked Span of Control for a \"route requests through me\" scenario, should be Unity of Command), corrected, cleared 2nd scenario. Only 1 clean rep so far — not yet Solid",
@@ -4194,7 +4362,7 @@
    "scheduledDate": "2026-10-23"
   },
   {
-   "number": 37,
+   "number": 44,
    "phase": "Business Mgmt",
    "title": "Span of Control (headcount one manager can effectively supervise)",
    "objective": "24 Sep: surfaced as the wrong-answer option in the Unity of Command mix-up above; correctly identified on its own dedicated scenario (25 direct reports, no team leads) right after the correction — first exposure, needs a fresh spaced check before Solid",
@@ -4209,7 +4377,7 @@
    "scheduledDate": "2026-10-24"
   },
   {
-   "number": 38,
+   "number": 45,
    "phase": "Business Mgmt",
    "title": "Herzberg's Two-Factor Theory (hygiene vs motivators)",
    "objective": "24 Sep: taught (salary/conditions = hygiene, prevents dissatisfaction only; recognition/growth = motivators, create real drive). Check (uniform+break room won't fix low motivation) answered correctly but reasoning given was just the label restated, not the underlying \"hygiene only cancels dissatisfaction\" logic — needs a deeper-reasoning re-check",
@@ -4224,7 +4392,7 @@
    "scheduledDate": "2026-10-25"
   },
   {
-   "number": 39,
+   "number": 46,
    "phase": "Business Mgmt",
    "title": "Maslow's Hierarchy of Needs (5 levels, lower must be met first)",
    "objective": "24 Sep: taught with airport-worker examples per level. Check (temp-contract worker, Safety unmet, would esteem-level recognition help) — both parts (identify level + implication) answered correctly, terse but right",
@@ -4239,7 +4407,7 @@
    "scheduledDate": "2026-10-26"
   },
   {
-   "number": 40,
+   "number": 47,
    "phase": "Business Mgmt",
    "title": "Leadership styles — Autocratic/Democratic/Laissez-Faire",
    "objective": "29 Sep: taught with situational fit (emergency->autocratic, routine planning->democratic, skilled autonomous team->laissez-faire) and the CBT trap (exam tests situational fit, not \"best\" style). Check (gate security breach) — correctly picked Autocratic, but \"why not the others\" reasoning was underdeveloped (just restated the style) until prompted",
@@ -4254,7 +4422,7 @@
    "scheduledDate": "2026-10-27"
   },
   {
-   "number": 41,
+   "number": 48,
    "phase": "Business Mgmt",
    "title": "Strategic management levels — Corporate/Business/Functional",
    "objective": "29 Sep: taught with AAI diversification examples per level. Check (Terminal Ops switching kiosk vendors) — correctly identified Functional-level on the first attempt, reasoning given only after being prompted",
@@ -4269,7 +4437,7 @@
    "scheduledDate": "2026-10-28"
   },
   {
-   "number": 42,
+   "number": 49,
    "phase": "Business Mgmt",
    "title": "SWOT Analysis — internal vs external classification",
    "objective": "29 Sep: taught the internal/external x helpful/harmful 2x2 grid, with the CBT trap of misclassifying external factors as internal. Check (rival airport's terminal expansion) — correctly picked Threat, but \"why not Weakness\" reasoning was not given until prompted",
@@ -4284,7 +4452,7 @@
    "scheduledDate": "2026-10-29"
   },
   {
-   "number": 43,
+   "number": 50,
    "phase": "Business Mgmt",
    "title": "Marketing Mix — the 4 Ps (Product/Price/Place/Promotion)",
    "objective": "29 Sep: taught with the \"Place = distribution channel, not literal location\" trap. Check (duty-free pre-order app) — correctly picked Place on the first attempt, reasoning given only after prompted",
@@ -4299,7 +4467,7 @@
    "scheduledDate": "2026-10-30"
   },
   {
-   "number": 44,
+   "number": 51,
    "phase": "Business Mgmt",
    "title": "TQM and Kaizen (quality = everyone's job, continuous small improvement)",
    "objective": "29 Sep: taught TQM (quality is every employee's responsibility) vs Kaizen (small continuous improvement vs big-bang change). Check (isolated Quality Control Dept, frontline told quality isn't their concern) — missed first attempt (said \"yes\" this reflects TQM), corrected and cleared on retry after being prompted for the missing word (\"everyone's job\")",
@@ -4314,7 +4482,7 @@
    "scheduledDate": "2026-10-31"
   },
   {
-   "number": 45,
+   "number": 52,
    "phase": "Business Mgmt",
    "title": "Revision — Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use",
    "objective": "Fast spaced recap of 4 already-solid concepts: Functions of Management (Planning/Organizing/Staffing/Directing/Controlling), Organizational structures — Functional/Divisional/Matrix, Communication — formal networks and the grapevine, Types of plans — Strategic/Tactical/Operational and Standing/Single-use.",
@@ -4329,7 +4497,7 @@
    "scheduledDate": "2026-11-01"
   },
   {
-   "number": 46,
+   "number": 53,
    "phase": "Business Mgmt",
    "title": "Revision — HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards",
    "objective": "Fast spaced recap of 4 already-solid concepts: HR basics — Recruitment vs Selection vs Induction vs Training, Delegation vs Decentralization (authority delegated, responsibility cannot be), Decision making — Programmed vs Non-Programmed, Controlling techniques — Budgetary Control and Standards.",
@@ -4344,7 +4512,7 @@
    "scheduledDate": "2026-11-02"
   },
   {
-   "number": 47,
+   "number": 54,
    "phase": "Business Mgmt",
    "title": "Revision — Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze)",
    "objective": "Fast spaced recap of 1 already-solid concepts: Change Management — Lewin's 3-Step Model (Unfreeze/Change/Refreeze).",
@@ -4359,7 +4527,7 @@
    "scheduledDate": "2026-11-03"
   },
   {
-   "number": 48,
+   "number": 55,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 1",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4374,7 +4542,7 @@
    "scheduledDate": "2026-11-04"
   },
   {
-   "number": 49,
+   "number": 56,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 2",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4389,7 +4557,7 @@
    "scheduledDate": "2026-11-05"
   },
   {
-   "number": 50,
+   "number": 57,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 3",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4404,7 +4572,7 @@
    "scheduledDate": "2026-11-06"
   },
   {
-   "number": 51,
+   "number": 58,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 4",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4419,7 +4587,7 @@
    "scheduledDate": "2026-11-07"
   },
   {
-   "number": 52,
+   "number": 59,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 5",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4434,7 +4602,7 @@
    "scheduledDate": "2026-11-08"
   },
   {
-   "number": 53,
+   "number": 60,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 6",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4449,7 +4617,7 @@
    "scheduledDate": "2026-11-09"
   },
   {
-   "number": 54,
+   "number": 61,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 7",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4464,7 +4632,7 @@
    "scheduledDate": "2026-11-10"
   },
   {
-   "number": 55,
+   "number": 62,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 8",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4479,7 +4647,7 @@
    "scheduledDate": "2026-11-11"
   },
   {
-   "number": 56,
+   "number": 63,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 9",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4494,7 +4662,7 @@
    "scheduledDate": "2026-11-12"
   },
   {
-   "number": 57,
+   "number": 64,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 10",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4509,7 +4677,7 @@
    "scheduledDate": "2026-11-13"
   },
   {
-   "number": 58,
+   "number": 65,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 11",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4524,7 +4692,7 @@
    "scheduledDate": "2026-11-14"
   },
   {
-   "number": 59,
+   "number": 66,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 12",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4539,7 +4707,7 @@
    "scheduledDate": "2026-11-15"
   },
   {
-   "number": 60,
+   "number": 67,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 13",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4554,7 +4722,7 @@
    "scheduledDate": "2026-11-16"
   },
   {
-   "number": 61,
+   "number": 68,
    "phase": "Consolidation/Mock",
    "title": "Consolidation 14",
    "objective": "Timed sectional test, section-wise accuracy and speed report.",
@@ -4569,7 +4737,7 @@
    "scheduledDate": "2026-11-17"
   },
   {
-   "number": 62,
+   "number": 69,
    "phase": "Consolidation/Mock",
    "title": "Full mock — 120Q/120min",
    "objective": "Full 120-question, 120-minute mock under real exam conditions.",
@@ -27938,6 +28106,90 @@
    "meaning": "Polarising angle",
    "notes": "Reflected ray is fully polarised, perpendicular to the refracted ray",
    "subject": "mathematics"
+  },
+  {
+   "group": "Dual Nature and Photoelectric Effect",
+   "formula": "E = h nu ; E (eV) = 1240 / lambda (nm)",
+   "meaning": "Photon energy",
+   "notes": "1240 is in eV nm: keep the wavelength in nm",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Dual Nature and Photoelectric Effect",
+   "formula": "KE_max = h nu - phi, phi = h nu0, e V0 = KE_max",
+   "meaning": "Einstein's photoelectric equation",
+   "notes": "phi = work function (minimum energy to escape)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Dual Nature and Photoelectric Effect",
+   "formula": "Brighter light: more electrons, SAME KE_max",
+   "meaning": "Intensity vs frequency",
+   "notes": "Higher frequency raises KE_max. Below threshold nu0: no emission however bright",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Dual Nature and Photoelectric Effect",
+   "formula": "V0 against nu is a straight line, slope = h / e, x-intercept = nu0",
+   "meaning": "Photoelectric graph",
+   "notes": "Slope is the SAME for every metal",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Dual Nature and Photoelectric Effect",
+   "formula": "lambda = h / (m v) = h / p ; electron through V volts: lambda = 1.227 / sqrt(V) nm",
+   "meaning": "de Broglie wavelength",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Atoms and Nuclei",
+   "formula": "E_n = -13.6 / n^2 eV ; r_n = 0.529 n^2 angstrom",
+   "meaning": "Bohr hydrogen atom",
+   "notes": "Higher n: bigger orbit, LESS negative energy",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Atoms and Nuclei",
+   "formula": "photon energy = E_initial - E_final ; 1/lambda = R (1/n1^2 - 1/n2^2)",
+   "meaning": "Spectral lines, R = 1.097 x 10^7 per m",
+   "notes": "Lyman (to n=1) ultraviolet; Balmer (to n=2) visible; Paschen (to n=3) infrared",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Atoms and Nuclei",
+   "formula": "N = N0 (1/2)^(t/T)",
+   "meaning": "Radioactive decay",
+   "notes": "Count the number of half-lives first",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Atoms and Nuclei",
+   "formula": "T = 0.693 / lambda ; mean life = 1 / lambda ; activity A = lambda N",
+   "meaning": "Decay constant",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Atoms and Nuclei",
+   "formula": "Binding energy = (mass defect) x 931.5 MeV ; mass defect = Z mp + (A - Z) mn - M",
+   "meaning": "Nuclear binding energy",
+   "notes": "BE per nucleon peaks near iron (about 8.8 MeV)",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Atoms and Nuclei",
+   "formula": "R = R0 A^(1/3), R0 = 1.2 fm",
+   "meaning": "Nuclear radius",
+   "notes": "All nuclei have the same density",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Atoms and Nuclei",
+   "formula": "alpha: A-4, Z-2 ; beta-minus: Z+1, A same ; gamma: no change",
+   "meaning": "Decay types",
+   "notes": "—",
+   "subject": "mathematics"
   }
  ],
  "chapters": [
@@ -28013,6 +28265,97 @@
    "solid": 2,
    "pct": 25,
    "formulaCount": 13,
+   "questionIds": []
+  },
+  {
+   "slug": "mathematics-electromagnetic-induction",
+   "subject": "mathematics",
+   "name": "Electromagnetic Induction",
+   "concepts": [
+    "Flux, Faraday, Lenz, motional EMF, self-inductance"
+   ],
+   "total": 1,
+   "solid": 0,
+   "pct": 0,
+   "formulaCount": 8,
+   "questionIds": []
+  },
+  {
+   "slug": "mathematics-alternating-current",
+   "subject": "mathematics",
+   "name": "Alternating Current",
+   "concepts": [
+    "AC: rms, reactance, impedance, resonance, transformer"
+   ],
+   "total": 1,
+   "solid": 0,
+   "pct": 0,
+   "formulaCount": 9,
+   "questionIds": []
+  },
+  {
+   "slug": "mathematics-probability",
+   "subject": "mathematics",
+   "name": "Probability",
+   "concepts": [
+    "Probability: complement, OR, independent, conditional, Bayes, binomial"
+   ],
+   "total": 1,
+   "solid": 0,
+   "pct": 0,
+   "formulaCount": 10,
+   "questionIds": []
+  },
+  {
+   "slug": "mathematics-matrices-and-determinants",
+   "subject": "mathematics",
+   "name": "Matrices and Determinants",
+   "concepts": [
+    "Matrices: multiplication, determinant, inverse, Cramer"
+   ],
+   "total": 1,
+   "solid": 0,
+   "pct": 0,
+   "formulaCount": 9,
+   "questionIds": []
+  },
+  {
+   "slug": "mathematics-ray-optics",
+   "subject": "mathematics",
+   "name": "Ray Optics",
+   "concepts": [
+    "Ray optics: Snell, TIR, lens formula, mirror, depth"
+   ],
+   "total": 1,
+   "solid": 0,
+   "pct": 0,
+   "formulaCount": 10,
+   "questionIds": []
+  },
+  {
+   "slug": "mathematics-wave-optics",
+   "subject": "mathematics",
+   "name": "Wave Optics",
+   "concepts": [
+    "Wave optics: YDSE, diffraction, polarisation"
+   ],
+   "total": 1,
+   "solid": 0,
+   "pct": 0,
+   "formulaCount": 7,
+   "questionIds": []
+  },
+  {
+   "slug": "mathematics-modern-physics",
+   "subject": "mathematics",
+   "name": "Modern Physics",
+   "concepts": [
+    "Photoelectric effect, de Broglie, Bohr, nuclei"
+   ],
+   "total": 1,
+   "solid": 0,
+   "pct": 0,
+   "formulaCount": 0,
    "questionIds": []
   },
   {
