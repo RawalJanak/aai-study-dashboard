@@ -1,5 +1,5 @@
 {
- "builtAt": "22 Oct 2026, 14:22",
+ "builtAt": "22 Oct 2026, 18:02",
  "regClose": "2026-09-07",
  "daysToClose": -45,
  "minTrendDays": 3,
@@ -10,13 +10,13 @@
   "weak": 1,
   "notStarted": 0,
   "lessons": 68,
-  "errors": 41,
-  "errorsOpen": 1,
-  "sessions": 35,
+  "errors": 46,
+  "errorsOpen": 3,
+  "sessions": 38,
   "sessionDays": 15,
-  "mocks": 0,
+  "mocks": 2,
   "graphs": 44,
-  "formulas": 199
+  "formulas": 209
  },
  "statusBreakdown": [
   {
@@ -143,18 +143,18 @@
   },
   {
    "date": "22 Oct",
-   "total": 3,
-   "cumulative": 27,
+   "total": 6,
+   "cumulative": 30,
    "teach": 0,
    "revise": 0,
    "drill": 0,
-   "mock": 0,
-   "other": 3
+   "mock": 2,
+   "other": 4
   },
   {
    "date": "14 Oct",
    "total": 1,
-   "cumulative": 28,
+   "cumulative": 31,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -164,7 +164,7 @@
   {
    "date": "8 Oct",
    "total": 4,
-   "cumulative": 32,
+   "cumulative": 35,
    "teach": 1,
    "revise": 1,
    "drill": 1,
@@ -174,7 +174,7 @@
   {
    "date": "7 Oct",
    "total": 2,
-   "cumulative": 34,
+   "cumulative": 37,
    "teach": 0,
    "revise": 0,
    "drill": 1,
@@ -184,7 +184,7 @@
   {
    "date": "29 Sep",
    "total": 1,
-   "cumulative": 35,
+   "cumulative": 38,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -259,8 +259,8 @@
    "stats": [
     "130 concepts logged (95 solid+, 1 weak)",
     "832 questions banked (98 GK)",
-    "35 sessions logged, 15 days active",
-    "41 errors logged, 1 currently open"
+    "38 sessions logged, 15 days active",
+    "46 errors logged, 3 currently open"
    ]
   },
   "branches": [
@@ -388,9 +388,9 @@
   "errorBranch": {
    "id": "errors",
    "label": "Error book",
-   "sub": "41 logged, 1 open",
+   "sub": "46 logged, 3 open",
    "color": "errors",
-   "pct": 98,
+   "pct": 93,
    "children": [
     {
      "label": "Multiply, never add — step 4 of the chain rule.",
@@ -3342,6 +3342,46 @@
  "errors": [
   {
    "date": "22 Oct",
+   "area": "Mock 2 — Maths slips",
+   "question": "Matrix AB, P(A given B), integral of cos 2x, distance (1,2)-(4,6), area under y=x, sin^-1(1/2)",
+   "misconception": "4 are TAUGHT topics missed: order of matrix multiplication (AB not BA), conditional probability denominator, dividing by the inner coefficient, forgetting sqrt in distance. 2 untaught (area, inverse trig).",
+   "retry": "Maths repair block 23 Oct",
+   "open": false
+  },
+  {
+   "date": "22 Oct",
+   "area": "Mock 2 — Physics",
+   "question": "Coulomb force, motional emf, critical angle, EM spectrum",
+   "misconception": "Coulomb and EM spectrum untaught; sin C = 1/n and emf = Blv are TAUGHT.",
+   "retry": "repair 23 Oct",
+   "open": false
+  },
+  {
+   "date": "22 Oct",
+   "area": "Mock 2 — GK/English/Reasoning",
+   "question": "Tropic of Cancer states, Kuchipudi, Jnanpith, spelling, passive voice, ranking",
+   "misconception": "4 answered in under 20 s: rushed. Ranking: forgot +1 in total - rank + 1.",
+   "retry": "verify habit",
+   "open": false
+  },
+  {
+   "date": "22 Oct",
+   "area": "GK — arts (textile ↔ state)",
+   "question": "Bagh print belongs to which state",
+   "misconception": "Picked the state famous for OTHER prints (Bandhani/Patola/Ajrakh). Bagh = village in Dhar, MP. Hook: bagh = tiger, MP = Tiger State.",
+   "retry": "re-check pending",
+   "open": true
+  },
+  {
+   "date": "22 Oct",
+   "area": "GK — monuments ↔ deity",
+   "question": "Elephanta Caves dedicated to",
+   "misconception": "Neighbouring site trap: Ajanta = Buddhist, Elephanta = Shiva (3-faced Trimurti), Ellora = mixed.",
+   "retry": "re-check pending",
+   "open": true
+  },
+  {
+   "date": "22 Oct",
    "area": "GK — current affairs (two-part)",
    "question": "Repo rate and RBI Governor after Oct 2026 policy",
    "misconception": "Rate right but picked the PREVIOUS Governor (Das, to Dec 2024). Same half-answer pattern as BCAS/CISF.",
@@ -3837,6 +3877,27 @@
    "covered": "Business Management started from scratch — Functions of Management, Fayol (Unity of Command vs Scalar Chain vs Span of Control), Herzberg's Two-Factor Theory, Maslow's Hierarchy, Organizational Structures, Leadership Styles",
    "outcome": "Functions of Management and Org Structures reached Solid; Fayol distinctions, Herzberg, Maslow, Leadership all cleared one check each (Learning, need spaced re-checks)",
    "subject": "business"
+  },
+  {
+   "date": "22 Oct",
+   "type": "Mock",
+   "covered": "Mock 3 built from 40 REAL past-paper questions (AAI AO 2018 S1 + 2016) with a Hint button on every question: https://claude.ai/artifact/CXhx1JDBpFXDQeeRqoDH6t , local mock_papers\\mock3_room.html. Janak's reason: he cannot recall which formula goes with which question. Mocks 1 and 2 results are synced to the db; full breakdown given in chat",
+   "outcome": "ready to take",
+   "subject": "mathematics"
+  },
+  {
+   "date": "22 Oct",
+   "type": "Mock",
+   "covered": "Mock 1 scored 26/40 (65%). Mock 2 built (40 new questions, whole syllabus, no repeats vs Mock 1): https://claude.ai/artifact/Jyu1fKX8ceZvKh3YE1sCGb , local AAI\\mock_papers\\mock2_room.html",
+   "outcome": "Mock 2 ready",
+   "subject": "mathematics"
+  },
+  {
+   "date": "22 Oct",
+   "type": "Build",
+   "covered": "Mock 1 test room built as a live CBT dashboard (40 Qs, 80 min, 2:00 guide per question, live score calculator, Learn/Exam modes, full explanations). Local copy AAI\\mock_papers\\mock1_room.html, published artifact https://claude.ai/artifact/StsrkmnkpAVpSWCacezrmt",
+   "outcome": "ready to take",
+   "subject": "mathematics"
   },
   {
    "date": "22 Oct",
@@ -28617,6 +28678,76 @@
    "formula": "Flaps and slats: more lift at low speed. Spoilers: reduce lift, add drag",
    "meaning": "High-lift and drag devices",
    "notes": "Flaps do not steer",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Maths Shortcuts (real-paper level)",
+   "formula": "Parabola y^2 = 4ax: line y = mx + c touches when c = a/m",
+   "meaning": "Tangency condition (hook: C = A over M). For x^2 = 4ay: c = -a m^2",
+   "notes": "Rewrite the line as y = mx + c first. m and c must have the SAME sign for y^2 = 4ax",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Maths Shortcuts (real-paper level)",
+   "formula": "Tangent at (x1, y1) to y^2 = 4ax: y y1 = 2a (x + x1)",
+   "meaning": "T = 0 rule: y^2 -> y y1, x -> (x + x1)/2",
+   "notes": "—",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Maths Shortcuts (real-paper level)",
+   "formula": "Bayes: P(cause given result) = this branch / ALL branches",
+   "meaning": "Use whole-number weights (3,4,3 and 2,3,1 gives 6,12,3, total 21)",
+   "notes": "Posteriors of all causes add to 1",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Maths Shortcuts (real-paper level)",
+   "formula": "Factorial remainder: find the kill point, smallest k with n divides k!",
+   "meaning": "n = 4, 8, 12, 24 -> 4! ; n = 6 -> 3! ; n = 5, 10, 15 -> 5! ; n = 9, 16 -> 6! ; n = 25, 100 -> 10!",
+   "notes": "Terms from the kill point onward vanish; sum only the earlier terms",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Maths Shortcuts (real-paper level)",
+   "formula": "Binomial (A x^p + B x^q)^n, target power t: r = (n p - t) / (p - q)",
+   "meaning": "Coefficient = C(n,r) A^(n-r) B^r",
+   "notes": "Sign (-1)^r if the second term is negative. C(n,r) = C(n,n-r). Constant term: t = 0",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Maths Shortcuts (real-paper level)",
+   "formula": "Sum of (a + n d) r^n (n from 0) = a/(1 - r) + d r/(1 - r)^2",
+   "meaning": "Arithmetico-geometric series",
+   "notes": "1 + 2x + 3x^2 + ... = 1/(1 - x)^2",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Maths Shortcuts (real-paper level)",
+   "formula": "tan^-1 a + tan^-1 b = tan^-1((a + b)/(1 - ab)) ; 2 tan^-1 x = tan^-1(2x/(1 - x^2))",
+   "meaning": "Convert everything to tan^-1. Triples 3-4-5, 5-12-13, 8-15-17, 7-24-25",
+   "notes": "tan^-1(1/2) = 26.6 deg, tan^-1(1/3) = 18.4 deg, tan^-1(1/7) = 8.1 deg. tan^-1 x + tan^-1(1/x) = pi/2",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Maths Shortcuts (real-paper level)",
+   "formula": "For even f: integral from -a to a of f(x)/(1 + k^x) dx = integral from 0 to a of f(x) dx",
+   "meaning": "King property: delete 1 + k^x and halve the plain integral",
+   "notes": "Odd f over symmetric range = 0. Integral 0 to pi/2 of sin^n/(sin^n + cos^n) = pi/4",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Maths Shortcuts (real-paper level)",
+   "formula": "Limit at infinity: deg top > deg bottom -> infinity ; equal -> ratio of leading coefficients ; less -> 0",
+   "meaning": "\"Polynomial ratio minus (ax + b) tends to 0\": do long division, the quotient is ax + b",
+   "notes": "Combine into one fraction and kill the highest power's coefficient",
+   "subject": "mathematics"
+  },
+  {
+   "group": "Maths Shortcuts (real-paper level)",
+   "formula": "MCQ tricks",
+   "meaning": "Back-substitute options; special values x = 0, 1, -1; range and sign checks; formula first then numbers",
+   "notes": "Re-read what is asked: union or intersection, km/h or m/s",
    "subject": "mathematics"
   }
  ],
