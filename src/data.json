@@ -1,5 +1,5 @@
 {
- "builtAt": "22 Oct 2026, 12:15",
+ "builtAt": "22 Oct 2026, 12:44",
  "regClose": "2026-09-07",
  "daysToClose": -45,
  "minTrendDays": 3,
@@ -10,9 +10,9 @@
   "weak": 1,
   "notStarted": 0,
   "lessons": 68,
-  "errors": 36,
-  "errorsOpen": 0,
-  "sessions": 33,
+  "errors": 41,
+  "errorsOpen": 1,
+  "sessions": 34,
   "sessionDays": 15,
   "mocks": 0,
   "graphs": 43,
@@ -143,18 +143,18 @@
   },
   {
    "date": "22 Oct",
-   "total": 1,
-   "cumulative": 25,
+   "total": 2,
+   "cumulative": 26,
    "teach": 0,
    "revise": 0,
    "drill": 0,
    "mock": 0,
-   "other": 1
+   "other": 2
   },
   {
    "date": "14 Oct",
    "total": 1,
-   "cumulative": 26,
+   "cumulative": 27,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -164,7 +164,7 @@
   {
    "date": "8 Oct",
    "total": 4,
-   "cumulative": 30,
+   "cumulative": 31,
    "teach": 1,
    "revise": 1,
    "drill": 1,
@@ -174,7 +174,7 @@
   {
    "date": "7 Oct",
    "total": 2,
-   "cumulative": 32,
+   "cumulative": 33,
    "teach": 0,
    "revise": 0,
    "drill": 1,
@@ -184,7 +184,7 @@
   {
    "date": "29 Sep",
    "total": 1,
-   "cumulative": 33,
+   "cumulative": 34,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -259,8 +259,8 @@
    "stats": [
     "129 concepts logged (94 solid+, 1 weak)",
     "832 questions banked (98 GK)",
-    "33 sessions logged, 15 days active",
-    "36 errors logged, 0 currently open"
+    "34 sessions logged, 15 days active",
+    "41 errors logged, 1 currently open"
    ]
   },
   "branches": [
@@ -388,9 +388,9 @@
   "errorBranch": {
    "id": "errors",
    "label": "Error book",
-   "sub": "36 logged, 0 open",
+   "sub": "41 logged, 1 open",
    "color": "errors",
-   "pct": 100,
+   "pct": 98,
    "children": [
     {
      "label": "Multiply, never add — step 4 of the chain rule.",
@@ -3333,6 +3333,46 @@
  "errors": [
   {
    "date": "22 Oct",
+   "area": "GK — current affairs (two-part)",
+   "question": "Repo rate and RBI Governor after Oct 2026 policy",
+   "misconception": "Rate right but picked the PREVIOUS Governor (Das, to Dec 2024). Same half-answer pattern as BCAS/CISF.",
+   "retry": "cleared on re-check (Malhotra)",
+   "open": false
+  },
+  {
+   "date": "22 Oct",
+   "area": "GK — aviation officeholders",
+   "question": "DGCA Director General",
+   "misconception": "Neighbouring post: Nirwan is the BCAS DG.",
+   "retry": "cleared (Vir Vikram)",
+   "open": false
+  },
+  {
+   "date": "22 Oct",
+   "area": "GK — Nobel 2026 Economics",
+   "question": "Who won Economics 2026",
+   "misconception": "Attached a prior-year winner, then a name from the wrong CATEGORY (Pillay = Peace). Fix: memorise name + what they did.",
+   "retry": "re-check pending",
+   "open": true
+  },
+  {
+   "date": "22 Oct",
+   "area": "GK — space",
+   "question": "First Indian on the ISS",
+   "misconception": "First in SPACE (Sharma 1984) vs first on the ISS (Shukla 2025).",
+   "retry": "cleared (Shukla)",
+   "open": false
+  },
+  {
+   "date": "22 Oct",
+   "area": "GK — awards",
+   "question": "Padma Vibhushan 2026 recipient",
+   "misconception": "Mammootty is Padma Bhushan. Tier order: Vibhushan > Bhushan > Shri.",
+   "retry": "cleared (Bhushan)",
+   "open": false
+  },
+  {
+   "date": "22 Oct",
    "area": "GK — modern history (reformers)",
    "question": "Brahmo Samaj was founded by?",
    "misconception": "Mixed up reformer-organisation pairs: Roy = Brahmo Samaj (1828); Vivekananda = Ramakrishna Mission (1897).",
@@ -3788,6 +3828,13 @@
    "covered": "Business Management started from scratch — Functions of Management, Fayol (Unity of Command vs Scalar Chain vs Span of Control), Herzberg's Two-Factor Theory, Maslow's Hierarchy, Organizational Structures, Leadership Styles",
    "outcome": "Functions of Management and Org Structures reached Solid; Fayol distinctions, Herzberg, Maslow, Leadership all cleared one check each (Learning, need spaced re-checks)",
    "subject": "business"
+  },
+  {
+   "date": "22 Oct",
+   "type": "Teach+Quiz",
+   "covered": "Current affairs: live-verified master sheet (officeholders, sports, indices, awards, Nobel 2026 vs official site, international events); 15-question quiz 10/15, re-check 4/5",
+   "outcome": "Look-alike-option misses; patterns logged",
+   "subject": "mathematics"
   },
   {
    "date": "22 Oct",
