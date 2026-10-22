@@ -1,7 +1,7 @@
 {
- "builtAt": "14 Oct 2026, 16:41",
+ "builtAt": "22 Oct 2026, 12:15",
  "regClose": "2026-09-07",
- "daysToClose": -37,
+ "daysToClose": -45,
  "minTrendDays": 3,
  "totals": {
   "concepts": 129,
@@ -10,10 +10,10 @@
   "weak": 1,
   "notStarted": 0,
   "lessons": 68,
-  "errors": 34,
+  "errors": 36,
   "errorsOpen": 0,
-  "sessions": 32,
-  "sessionDays": 14,
+  "sessions": 33,
+  "sessionDays": 15,
   "mocks": 0,
   "graphs": 43,
   "formulas": 199
@@ -142,7 +142,7 @@
    "other": 1
   },
   {
-   "date": "14 Oct",
+   "date": "22 Oct",
    "total": 1,
    "cumulative": 25,
    "teach": 0,
@@ -152,9 +152,19 @@
    "other": 1
   },
   {
+   "date": "14 Oct",
+   "total": 1,
+   "cumulative": 26,
+   "teach": 0,
+   "revise": 0,
+   "drill": 0,
+   "mock": 0,
+   "other": 1
+  },
+  {
    "date": "8 Oct",
    "total": 4,
-   "cumulative": 29,
+   "cumulative": 30,
    "teach": 1,
    "revise": 1,
    "drill": 1,
@@ -164,7 +174,7 @@
   {
    "date": "7 Oct",
    "total": 2,
-   "cumulative": 31,
+   "cumulative": 32,
    "teach": 0,
    "revise": 0,
    "drill": 1,
@@ -174,7 +184,7 @@
   {
    "date": "29 Sep",
    "total": 1,
-   "cumulative": 32,
+   "cumulative": 33,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -249,8 +259,8 @@
    "stats": [
     "129 concepts logged (94 solid+, 1 weak)",
     "832 questions banked (98 GK)",
-    "32 sessions logged, 14 days active",
-    "34 errors logged, 0 currently open"
+    "33 sessions logged, 15 days active",
+    "36 errors logged, 0 currently open"
    ]
   },
   "branches": [
@@ -259,7 +269,7 @@
     "label": "Part-A general",
     "sub": "~48 marks (40%)",
     "color": "general",
-    "pct": 62,
+    "pct": 64,
     "children": [
      {
       "label": "Reasoning",
@@ -283,13 +293,13 @@
       "label": "GK",
       "sub": "98 questions, 19 categories",
       "status": "Learning",
-      "pct": 33,
+      "pct": 40,
       "detail": [
        "Polity — President/PM/Governor structure — Learning",
-       "Polity — Parliament (Lok Sabha/Rajya Sabha, sessions, bills) — Not started",
+       "Polity — Parliament (Lok Sabha/Rajya Sabha, sessions, bills) — Solid",
        "Polity — Constitution (schedules, articles, amendments, fundamental rights/duties) — Learning",
-       "Polity — Judiciary (SC/HC structure, appointments) — Not started",
-       "History — Ancient & Medieval — Not started",
+       "Polity — Judiciary (SC/HC structure, appointments) — Learning",
+       "History — Ancient & Medieval — Taught (22 Oct) — LOW PRIORITY",
        "History — Modern (freedom movement, key dates/leaders) — Learning",
        "Geography — India (states/capitals/rivers/mountains) — Learning",
        "Geography — Census facts (2011, densities, literacy, sex ratio) — Learning",
@@ -378,7 +388,7 @@
   "errorBranch": {
    "id": "errors",
    "label": "Error book",
-   "sub": "34 logged, 0 open",
+   "sub": "36 logged, 0 open",
    "color": "errors",
    "pct": 100,
    "children": [
@@ -3322,6 +3332,22 @@
  ],
  "errors": [
   {
+   "date": "22 Oct",
+   "area": "GK — modern history (reformers)",
+   "question": "Brahmo Samaj was founded by?",
+   "misconception": "Mixed up reformer-organisation pairs: Roy = Brahmo Samaj (1828); Vivekananda = Ramakrishna Mission (1897).",
+   "retry": "not yet retested",
+   "open": false
+  },
+  {
+   "date": "22 Oct",
+   "area": "GK — polity (Articles)",
+   "question": "Article 123 deals with?",
+   "misconception": "Swapped 123 (ordinance power) with 356 (President's Rule). Hook: 123 = quick law as easy as 1-2-3; 356 = Centre takes over a state.",
+   "retry": "not yet retested",
+   "open": false
+  },
+  {
    "date": "8 Oct",
    "area": "Physics — galvanometer to voltmeter (exponent slip)",
    "question": "G=20 Ω, Ig=5 mA, 10 V → R? (H2)",
@@ -3762,6 +3788,13 @@
    "covered": "Business Management started from scratch — Functions of Management, Fayol (Unity of Command vs Scalar Chain vs Span of Control), Herzberg's Two-Factor Theory, Maslow's Hierarchy, Organizational Structures, Leadership Styles",
    "outcome": "Functions of Management and Org Structures reached Solid; Fayol distinctions, Herzberg, Maslow, Leadership all cleared one check each (Learning, need spaced re-checks)",
    "subject": "business"
+  },
+  {
+   "date": "22 Oct",
+   "type": "Teach+Quiz",
+   "covered": "GK: Parliament (6/6), Judiciary taught, history pair-quiz (8/10). Past-paper audit showed history is 3 of 98 GK questions, so history was retaught in person-policy pair format (Doctrine of Lapse, Permanent Settlement, Subsidiary Alliance explained with stories and hooks). Misses: Brahmo Samaj (said Vivekananda), Article 123 (said President's Rule)",
+   "outcome": "8/10",
+   "subject": "gk"
   },
   {
    "date": "14 Oct",
@@ -4968,6 +5001,18 @@
  ],
  "reviewQueue": [
   {
+   "item": "Aviation 1 recheck (bodies, runway numbers, BCAS vs CISF both parts, control surfaces) — fresh variants, answer BOTH parts",
+   "rung": 1,
+   "due": "2026-10-15",
+   "note": "Taught 14 Oct; half-answers cost marks twice"
+  },
+  {
+   "item": "FLAGGED 14 Oct: Modern Physics (photoelectric, Bohr, nuclei) — recall check + KE_max problem not attempted; do first thing on the next study day",
+   "rung": 1,
+   "due": "2026-10-15",
+   "note": "Taught 13 Oct with graph sheet, no independent attempt. Janak asked to flag it for later"
+  },
+  {
    "item": "Magnetism redrill: B of straight wire with exponents (fresh numbers, write each power-of-10 step), parallel wires direction",
    "rung": 1,
    "due": "2026-10-09",
@@ -5014,12 +5059,6 @@
    "rung": 2,
    "due": "2026-09-23",
    "note": "Missed once (16 Sep, free fall) before clearing on retry — watch for \"constant\" being misread as \"flat\" again"
-  },
-  {
-   "item": "Projectile motion — horizontal velocity at peak (not zero)",
-   "rung": 2,
-   "due": "2026-09-23",
-   "note": "Missed once (16 Sep) before clearing on retry — watch for vy=0 bleeding into vx assumption again"
   }
  ],
  "examDate": "2026-11-19",
