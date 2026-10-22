@@ -1,21 +1,21 @@
 {
- "builtAt": "22 Oct 2026, 12:44",
+ "builtAt": "22 Oct 2026, 14:22",
  "regClose": "2026-09-07",
  "daysToClose": -45,
  "minTrendDays": 3,
  "totals": {
-  "concepts": 129,
-  "solid": 94,
+  "concepts": 130,
+  "solid": 95,
   "learning": 34,
   "weak": 1,
   "notStarted": 0,
   "lessons": 68,
   "errors": 41,
   "errorsOpen": 1,
-  "sessions": 34,
+  "sessions": 35,
   "sessionDays": 15,
   "mocks": 0,
-  "graphs": 43,
+  "graphs": 44,
   "formulas": 199
  },
  "statusBreakdown": [
@@ -33,7 +33,7 @@
   },
   {
    "status": "Solid",
-   "n": 94
+   "n": 95
   },
   {
    "status": "Mastered",
@@ -143,18 +143,18 @@
   },
   {
    "date": "22 Oct",
-   "total": 2,
-   "cumulative": 26,
+   "total": 3,
+   "cumulative": 27,
    "teach": 0,
    "revise": 0,
    "drill": 0,
    "mock": 0,
-   "other": 2
+   "other": 3
   },
   {
    "date": "14 Oct",
    "total": 1,
-   "cumulative": 27,
+   "cumulative": 28,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -164,7 +164,7 @@
   {
    "date": "8 Oct",
    "total": 4,
-   "cumulative": 31,
+   "cumulative": 32,
    "teach": 1,
    "revise": 1,
    "drill": 1,
@@ -174,7 +174,7 @@
   {
    "date": "7 Oct",
    "total": 2,
-   "cumulative": 33,
+   "cumulative": 34,
    "teach": 0,
    "revise": 0,
    "drill": 1,
@@ -184,7 +184,7 @@
   {
    "date": "29 Sep",
    "total": 1,
-   "cumulative": 34,
+   "cumulative": 35,
    "teach": 0,
    "revise": 0,
    "drill": 0,
@@ -257,9 +257,9 @@
    "subtitle": "Study Map",
    "overallPct": 55,
    "stats": [
-    "129 concepts logged (94 solid+, 1 weak)",
+    "130 concepts logged (95 solid+, 1 weak)",
     "832 questions banked (98 GK)",
-    "34 sessions logged, 15 days active",
+    "35 sessions logged, 15 days active",
     "41 errors logged, 1 currently open"
    ]
   },
@@ -460,9 +460,9 @@
    "key": "aviation",
    "name": "Aviation",
    "marks": 12,
-   "logged": 11,
-   "solid": 7,
-   "pct": 64
+   "logged": 12,
+   "solid": 8,
+   "pct": 67
   },
   {
    "key": "quant",
@@ -876,6 +876,15 @@
    "status": "Learning",
    "subject": "aviation",
    "evidence": "14 Oct: gave the full form but not the purpose — third half-answer of the day; read for BOTH parts",
+   "lesson": null
+  },
+  {
+   "concept": "FAA/AI/IAF abbreviations; ATC vs ATS vs ATM (nested); ATC units (Tower, Approach, Area); India's 4 FIRs; aircraft categories (fixed/rotary, piston/turboprop/jet, Combi/Freighter/QC, wake classes L-M-H-J)",
+   "group": "Aviation GK",
+   "chapter": "Aviation GK",
+   "status": "Solid",
+   "subject": "aviation",
+   "evidence": "22 Oct (Aviation 1b): taught with diagram (graphs/avi_05); 6/6 on MCQ check. Aviation syllabus list now fully covered.",
    "lesson": null
   },
   {
@@ -3832,6 +3841,13 @@
   {
    "date": "22 Oct",
    "type": "Teach+Quiz",
+   "covered": "Aviation 1b (FAA/AI/IAF, ATC/ATS/ATM, aircraft categories) — 6/6 MCQ. Aviation syllabus list complete",
+   "outcome": "6/6",
+   "subject": "aviation"
+  },
+  {
+   "date": "22 Oct",
+   "type": "Teach+Quiz",
    "covered": "Current affairs: live-verified master sheet (officeholders, sports, indices, awards, Nobel 2026 vs official site, international events); 15-question quiz 10/15, re-check 4/5",
    "outcome": "Look-alike-option misses; patterns logged",
    "subject": "mathematics"
@@ -4628,8 +4644,8 @@
   {
    "number": 48,
    "phase": "Aviation",
-   "title": "Revision — Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw, Aviation weather: METAR vs SPECI, fog under 1000 m, mist 1000-5000 m damp, haze dry, Altimetry: QNH (altitude above MSL), QFE (zero at airfield), QNE (1013.25)",
-   "objective": "Fast spaced recap of 3 already-solid concepts: Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw, Aviation weather: METAR vs SPECI, fog under 1000 m, mist 1000-5000 m damp, haze dry, Altimetry: QNH (altitude above MSL), QFE (zero at airfield), QNE (1013.25).",
+   "title": "Revision — Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw, Aviation weather: METAR vs SPECI, fog under 1000 m, mist 1000-5000 m damp, haze dry, Altimetry: QNH (altitude above MSL), QFE (zero at airfield), QNE (1013.25), FAA/AI/IAF abbreviations; ATC vs ATS vs ATM (nested); ATC units (Tower, Approach, Area); India's 4 FIRs; aircraft categories (fixed/rotary, piston/turboprop/jet, Combi/Freighter/QC, wake classes L-M-H-J)",
+   "objective": "Fast spaced recap of 4 already-solid concepts: Aerodynamics: four forces, stall is angle not speed, ailerons roll / elevator pitch / rudder yaw, Aviation weather: METAR vs SPECI, fog under 1000 m, mist 1000-5000 m damp, haze dry, Altimetry: QNH (altitude above MSL), QFE (zero at airfield), QNE (1013.25), FAA/AI/IAF abbreviations; ATC vs ATS vs ATM (nested); ATC units (Tower, Approach, Area); India's 4 FIRs; aircraft categories (fixed/rotary, piston/turboprop/jet, Combi/Freighter/QC, wake classes L-M-H-J).",
    "mastery": {
     "explain": "unrated",
     "recall": "unrated",
@@ -28785,11 +28801,12 @@
     "Indian airports, IATA vs ICAO codes (V = India, VI/VA/VE/VO = region), NMI and Jewar facts",
     "Aviation weather: METAR vs SPECI, fog under 1000 m, mist 1000-5000 m damp, haze dry",
     "Altimetry: QNH (altitude above MSL), QFE (zero at airfield), QNE (1013.25)",
-    "Aviation policy: UDAN (full form AND purpose), Modified UDAN, Digi Yatra"
+    "Aviation policy: UDAN (full form AND purpose), Modified UDAN, Digi Yatra",
+    "FAA/AI/IAF abbreviations; ATC vs ATS vs ATM (nested); ATC units (Tower, Approach, Area); India's 4 FIRs; aircraft categories (fixed/rotary, piston/turboprop/jet, Combi/Freighter/QC, wake classes L-M-H-J)"
    ],
-   "total": 11,
-   "solid": 7,
-   "pct": 64,
+   "total": 12,
+   "solid": 8,
+   "pct": 67,
    "formulaCount": 0,
    "questionIds": [
     "Q1",
